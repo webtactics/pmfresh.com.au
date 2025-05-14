@@ -1,12 +1,12 @@
 ---
 layout: layouts/grid-home.njk
-title: Gloucester Thunderbolts Swimming Club
+title: Quality food. Fresh thinking.
 subtitle: 
 class: home
-date: 2025-02-06
-description: Gloucester Thunderbolts Swimming Club (GTSC) provides opportunities for swimmers of all levels to improve their swimming, have fun, and to achieve personal goals.
+date: 2025-05-14
+description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
 metadata:
-  title: Gloucester Thunderbolts Swimming Club
+  title: Quality food. Fresh thinking.
 permalink: /
 
 ---
