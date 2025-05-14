@@ -5,8 +5,6 @@ subtitle:
 class: home
 date: 2025-05-14
 description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
-metadata:
-  title: Quality food. Fresh thinking.
 permalink: /
 
 ---
