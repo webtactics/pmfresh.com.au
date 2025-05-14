@@ -1,0 +1,32 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+<div class="grid-3x1">
+
+<div class="contentleft">
+    <div class="titlebox fade-in appear">
+       <h1 class="heading-text">{{ title }}</h1>
+    </div>
+	{{ content | safe }}
+</div>
+
+
+<aside class="sidebar">
+    <div class="sidebarbox">
+       <h2 class="heading-text">2024-25 Season Club Night Results</h2>
+	{% set postslist = collections['2024-25-Season']  -%} 
+	{% include "components/postslist-results-sidebar.njk" %}
+    </div>
+</aside>
+
+</div>
+	</main>
+</div>
+
+{% endblock %}
+
+

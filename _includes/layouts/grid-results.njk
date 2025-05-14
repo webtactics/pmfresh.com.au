@@ -1,0 +1,89 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content results">
+
+
+        <div class="titlebox fade-in appear">
+       <h1 class="heading-text">{{ title }}</h1>
+        </div>
+	{{ content | safe }}
+
+
+{# 2024-25 Season Club Night Results #}
+<div class="two-colum-wrapper">	
+   <h2 id="2024-25" class="heading-text">2024-25 Season Results</h2>
+<div class="resultswrapper">
+	{%- set postslist = collections['2024-25-Results']  -%} 
+	{% include "components/postslist-results-small.njk" %}
+</div>
+</div>
+<div class="eightypercentborder3rem"></div>
+{# end 2024-25 Season Club Night Results #}
+
+{# 2023-24 Season Club Night Results #}
+<div class="two-colum-wrapper">	
+  <h2 id="2023-24" class="heading-text">2023-24 Season Club Night Results</h2>
+<div class="resultswrapper">
+	{% set postslist = collections['2023-24-Results-GTSC']  -%} 
+	{% include "components/postslist-results-small.njk" %}
+</div>
+</div>
+<div class="eightypercentborder3rem"></div>
+{# 2023-24 Season Club Night Results #}
+
+{# 2022-23 Season Club Night Results #}
+<div class="two-colum-wrapper">	
+  <h2 id="2022-23" class="heading-text">2022-23 Season Club Night Results</h2>
+<div class="resultswrapper">
+	{% set postslist = collections['2022-23-Results-GTSC']  %} 
+	{% include "components/postslist-results-small.njk" %}
+</div>
+</div>
+<div class="eightypercentborder3rem"></div>
+{# end 2022-23 Season Club Night Results #}
+
+{# 2021-22 Season Club Night Results #}
+<div class="two-colum-wrapper">	
+  <h2 id="2021-22" class="heading-text">2021-22 Season Club Night Results</h2>
+<div class="resultswrapper">
+	{% set postslist = collections['2021-22-Results-GTSC'] | reverse -%} 
+	{% include "components/postslist-results-small.njk" %}
+</div>
+</div>
+<div class="eightypercentborder3rem"></div>
+{# end 2021-22 Season Club Night Results #}
+
+{# 2020-21 Season Club Night Results #}
+<div class="two-colum-wrapper">	
+  <h2 id="2020_21" class="heading-text">2020-21 Season Club Night Results</h2>
+<div class="resultswrapper">
+	{% set postslist = collections['2020-21-Results-GTSC'] | reverse -%} 
+	{% include "components/postslist-results-small.njk" %}
+</div>
+</div>
+{# end 2020-21 Season Club Night Results #}
+
+	</main>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

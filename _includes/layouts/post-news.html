@@ -1,0 +1,52 @@
+---
+layout: layouts/grid-default.njk
+section: post
+---
+
+
+
+<div class="detailwrapper">
+  <article>
+    <div class="grid-2">
+
+<div class="item postdetail">
+
+<div class="detailcontent">{{ content | safe }}</div>
+
+<div class="eventdate">
+  <p><strong>Event Date :</strong> {{ eventdate.day }} {{ eventdate.month }}, {{ eventdate.year }}</p>
+</div>
+
+<div class="time"><p><strong>Time :</strong> {{ time }}</p></div>
+
+<div class="where"><p><strong>Where :</strong> {{ where }}</p></div>
+
+<div class="map"><p><strong>Map Shortcode :</strong> <a href="{{ map }}" title="{{ title }}">{{ map }}</a></p></div>
+
+{% if club %}<p><strong>Hosting Club :</strong> <a href="{{ clubURL }}" title="Hosting Club : {{ title }}" alt="Hosting Club : {{ title }}" target="_blank">{{ club }}</a></p>{% endif %}
+
+{% if meetflyerpdf %}<p><strong>Event Flyer: </strong><a href="{{ meetflyerpdf }}" title="{{ title }} Flyer" alt="{{ title }} Flyer" target="_blank">{{ subtitle }} Flyer</a></p>{% endif %}
+
+{% if entrylink %}<p><strong>Entry: </strong><a href="{{ entrylink }}" title="{{ title }} entry" alt="{{ title }} entry" target="_blank">{{ subtitle }} entry</a></p>{% endif %}
+
+
+
+
+ 
+
+
+
+
+
+
+</div>
+
+<div class="sidebarwrapper">
+
+<a href="{{ post.url | url }}" ><img src="{{ image }}/tr:w-400,h-400" alt="{{ title }}" title="{{ title }}" width="400px" height="auto" class="postlistimg"></a>
+</div>
+
+</div>
+
+</article>
+</div>

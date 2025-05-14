@@ -1,0 +1,50 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+{% block bodyclass %}<body class="about {{ class }} " >
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>{% endblock %}
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+<div class="grid-2x1">
+
+<div class="twothirds">
+    <div class="titlebox fade-in appear"><h1 class="heading-text">{{ title }}</h1></div>
+	{{ content | safe }}
+</div>
+
+<div class="onethird">
+	<div class="fbswrapper">
+		<div class="fb-page" data-href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" data-tabs="timeline" data-width="500px" data-height="500px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+			<blockquote cite="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub">Gloucester Thunderbolts Swimming Club</a>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+
+
+<div class="eightypercentborder"></div>
+<div class="resultswrapper">
+      <h2 class="heading-text">2024-25 Season GTSC Events</h2>
+	{% set postslist = collections['2024-25-Season-GTSC'] | reverse %} 
+	{% include "components/postslist-events.njk" %}
+</div>
+<div class="linkwrapper"><a class="resultspdf" href="/events/" title="2024-25 Season Events" alt="2024-25 Season Events">For all Event Listings &gt;</a></div>
+
+
+
+	</main>
+</div>
+
+{% endblock %}
+
+

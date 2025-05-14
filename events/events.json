@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-events.njk",
+    "permalink": "events/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+     "Event"
+    ]
+  }
+  

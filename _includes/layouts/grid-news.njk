@@ -1,0 +1,58 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+{% block bodyclass %}<body class="news {{ class }} " >
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>{% endblock %}
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+
+
+
+<div class="grid-2x1">
+
+	<div class="twothirds">
+   		<div class="titlebox fade-in appear">
+       		<h1 class="heading-text">{{ title }}</h1>
+    	</div>
+		{{ content | safe }}
+		<div class="resultswrapper top fade-in appear">
+		{% set postslist = collections['News-hero'] | reverse  %} 
+		{% include "components/postslist-news-2-wide.njk" %}
+		</div>
+	</div>
+
+	<div class="onethird">
+		<div class="fbswrapper">
+			<div class="fb-page" data-href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" data-tabs="timeline" data-width="500px" data-height="730px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+			<blockquote cite="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub">Gloucester Thunderbolts Swimming Club</a>
+			</blockquote>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+<div class="resultswrapper top2rem fade-in appear">
+		{% set postslist = collections['News-body'] | reverse  %} 
+		{% include "components/postslist-news-4-wide.njk" %}
+		</div>
+
+
+
+
+
+
+	</main>
+</div>
+{% endblock %}
+
+
+

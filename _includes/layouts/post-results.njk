@@ -1,0 +1,39 @@
+---
+layout: layouts/grid-default.njk
+section: post
+---
+
+
+ <div class="grid-2-columns-3x1">
+ <div class="detailwrapper">
+<article>
+
+
+<div class="item blogdetail">
+<div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-800" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
+
+<div class="detailcontent">{{ content | safe }}</div>
+
+
+
+{% if tags %}
+  <div class="tag"><h4>Tags</h4>
+  <ul>
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
+   <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
+  {%- endif -%}
+{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+   
+</div>
+</article>
+</div>
+
+</div>
+

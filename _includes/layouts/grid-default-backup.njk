@@ -1,0 +1,145 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+{% include "components/grid-head.njk" %}
+
+	
+{% block bodyclass %}<body class="internal {{ class }} " >{% endblock %}
+
+{% block offcanvas %}
+<nav class="offcanvas">
+<div class="close-nav-wrapper">
+<button class="close-nav">Close Menu X</button>
+</div>
+
+<div id="menu_vert">
+
+<div class="mobilemenu">
+ {% include "components/grid-nav-side.njk" %}
+</div>
+
+<div class="grid-2-small">
+<div class="smalltextwrapper">
+<h3>Follow us @</h3>
+</div>
+<div class="mobilewrapper">
+	<ul class="infoboxmobile">
+		<li><a class="social-icon" title="Follow us on Facebook" href="https://www.facebook.com/GloucesterThunderboltsSwimmingClub" target="_blank">
+			<svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669c1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+		</li>
+		
+
+	</ul>
+</div>
+</div>
+
+</div>
+
+</nav>
+{% endblock %}
+
+
+{% block header %}
+<header id="header" class="topbar headerwrapper">
+
+<div class="hamburger">
+	<div class="toggle-nav" aria-label="Toggle Navigation">
+			<span class="hamburger-icon"></span>
+	</div>
+</div>
+
+<div class="logo">
+	<a href="/" title="Return to the homepage | Gloucester Thunderbolts Swimming Club" id="logo">
+		<img src="https://ik.imagekit.io/webtactics/GTSC/assets/gtsc-logo-blue-500x341_t8kU6BPHt.png" alt="Gloucester Thunderbolts Swimming Club" title="Gloucester Thunderbolts Swimming Club" height="auto" width="500px">
+	</a>
+</div>
+
+<div class="navwrapper">
+
+	<div class="navrightside hide-for-scroll hide-for-small">
+
+		<div class="navrightsidetopline hide-for-small">
+			<div class="hide-for-small">
+        	 <a class="swimcentral hide-for-small" href="https://swimcentral.swimming.org.au/" title="Swim Central - Swimming Australia" target="_blank">Swim Central External Link</a>
+			</div>
+		</div>
+
+		<div class="navrightsidebottomline hide-for-small">
+			<nav class="navbar hide-for-small">
+				{% include "components/grid-nav-top.njk" %}
+			</nav>
+		</div>
+
+	</div>
+</div>
+
+</header>
+{% endblock %}
+
+
+{% block headerspace %}
+	<div class="headerspace {{ title }}"></div>
+{% endblock %}
+
+
+
+{% block hero %}
+{% include "components/grid-hero.njk" %}
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+        <div class="titlebox fade-in appear">
+       <h1 class="heading-text">{{ title }}</h1>
+        </div>
+	{{ content | safe }}
+	</main>
+</div>
+{% endblock %}
+
+{% block content2 %}{% endblock %}
+{% block content3 %}{% endblock %}
+
+{% block footer %}
+<footer class="footernavwrapper"> 
+<div class="footernav">  
+
+
+	<div class="footerlogo hide-for-small">
+		<a href="/" title="Return to the homepage | Gloucester Thunderbolts Swimming Club" id="logo-footer">
+			<img src="https://ik.imagekit.io/webtactics/GTSC/assets/gtsc-logo-blue-500x341_t8kU6BPHt.png" alt="Gloucester Thunderbolts Swimming Club" title="Gloucester Thunderbolts Swimming Club" height="137px" width="200px">
+		</a>
+	</div>
+
+<div class="footerrightside">
+
+	<div class="footerrightsidetopline">
+		<div class="grid-4-footer">
+			<div><a class="footer-link" href="/contact/" title="Contact Gloucester Thunderbolts Swimming Club">Contact</a></div>
+			<div><a class="footer-link" href="/swim-central/" title="Swim Central Links">Swim Central</a></div>
+			<div><a class="footer-link" href="/events/" title="Events @  Gloucester Thunderbolts Swimming Club">Events</a></div>
+			<div><a class="footer-link" href="/about/" title="About Gloucester Thunderbolts Swimming Club">About</a></div>
+		</div>
+	</div>
+
+<div class="footerrightsidebottomline">
+	<p>Copyright {{ helpers.currentYear() }} </p>		
+</div>
+
+</div>
+	
+</div>
+</footer>
+{% endblock %}
+
+
+
+
+
+{% include "components/grid-js.njk" %}
+
+</body>
+</html>

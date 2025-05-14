@@ -1,0 +1,44 @@
+<section class="resultssum" >
+	{% for post in postslist | reverse %}
+<summary class="grid-150x1fr resultssummarysmall">
+
+
+{% if post.data.rain %}
+<div class="resultssumsmallimage">
+<img src="{{ post.data.image }}/tr:w-150,h-150" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="150px" height="auto" class="postlistimg">
+</div>
+
+<div class="resultssumsmallcontent">
+<div class="postsumtitle">
+<h4>{{ post.data.subtitle }}</h4>
+</div>
+<div class="postsumdatesmall">
+<p>{{ post.data.eventdate.day }} {{ post.data.eventdate.month }}, {{ post.data.eventdate.year }}</p>
+</div>
+<div class="cancelled">
+<h4>Rained off.</h4>
+</div>
+</div>
+{% else %}
+
+
+			
+<div class="resultssumsmallimage">
+<a href="{{ post.data.results }}" target="_blank"><img src="{{ post.data.image }}/tr:w-150,h-150" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="150px" height="auto" class="postlistimg"></a>
+</div>
+
+<div class="resultssumsmallcontent">
+<div class="postsumtitle">
+<h4><a href="{{ post.data.results }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"target="_blank">{{ post.data.subtitle }}</a></h4>
+</div>
+<div class="postsumdatesmall">
+<p>{{ post.data.eventdate.day }} {{ post.data.eventdate.month }}, {{ post.data.eventdate.year }}</p>
+</div>
+<a class="resultspdfsmall" href="{{ post.data.results }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" target="_blank">Results Pdf &gt;</a>
+</div>				
+{% endif %}
+
+</summary>
+		
+	{% endfor %}
+</section>

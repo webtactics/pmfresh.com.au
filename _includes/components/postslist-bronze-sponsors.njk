@@ -1,0 +1,20 @@
+<section class="grid-5-columns eventsum" >
+	{% for post in postslist | sort(attribute="data.title") %}
+<summary class="eventsummary">
+
+{% if post.data.image %}
+<div class="bronzesponsorsumimage">
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-300,h-300" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="300px" height="auto" class="postlistimg"></a>
+</div>
+{% endif %}
+
+
+<div class="sumtitle">
+<h3 class="bronze sum-title"><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" >{{ post.data.title }}</a></h3>
+</div>
+		
+
+</summary>
+		
+	{% endfor %}
+</section>

@@ -1,0 +1,30 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+
+{% block content %} 
+
+<main class="detailcontent">  
+ <div class="grid-2-columns-2x1">
+
+ <div class="detailwrapper">
+{{ content | safe }}
+</div>
+<div class="sidebarwrapper">
+<aside>
+<h3>GTSC Results:</h3>
+	{% set postslist = collections['2024-25-Results-GTSC'] | limit(3) -%} 
+{% include "components/postslist-sidebar.njk" %}
+</aside>
+</div>
+
+ </div>
+
+ {% include "components/global/usefullinks.html" %}
+</main>
+{% endblock %}
+
+
+

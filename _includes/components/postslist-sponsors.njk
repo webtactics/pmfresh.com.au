@@ -1,0 +1,20 @@
+<section class="grid-3-columns eventsum" >
+	{% for post in postslist %}
+<summary class="eventsummary">
+
+{% if post.data.logo %}
+<div class="goldsponsorsumimage">
+<a href="{{ post.url | url }}" target="_blank"><img src="{{ post.data.logo }}/tr:w-400,h-400" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="auto" class="postlistimg"></a>
+</div>
+{% endif %}
+
+<div class="sumtitle">
+<h3 class="sum-title"><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" target="_blank" >{{ post.data.title }}</a></h3>
+</div>
+
+			
+
+</summary>
+		
+	{% endfor %}
+</section>

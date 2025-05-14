@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-results.njk",
+    "permalink": "records/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "records"
+    ]
+  }
+  

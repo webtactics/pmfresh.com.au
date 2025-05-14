@@ -1,0 +1,36 @@
+<section class="resultssum" >
+	{% for post in postslist %}
+<summary class="grid-150x1fr resultssummarysmall">
+
+
+
+{% if post.data.clubimage %}
+
+<div class="resultssumsmallimage">
+<a href="{{ post.url | url }}" ><img src="{{ post.data.clubimage }}/tr:w-150,h-150" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="150px" height="auto" class="postlistimg"></a>
+</div>
+
+{% else %}
+<div class="resultssumsmallimage">
+<a href="{{ post.url | url }}" ><img src="{{ post.data.image }}/tr:w-150,h-150" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="150px" height="auto" class="postlistimg"></a>
+</div>
+
+{% endif %}
+
+
+<div class="resultssumsmallcontent">
+<div class="postsumtitle">
+<h4><a class="eventtitle" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >{{ post.data.subtitle }}</a></h4>
+</div>
+<div class="postsumdatesmall">
+<p>{{ post.data.eventdate.day }} {{ post.data.eventdate.month }}, {{ post.data.eventdate.year }}</p>
+</div>
+<a class="resultspdfsmall" href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}"  >Event Details &gt;</a>
+</div>				
+
+
+</summary>
+		
+	{% endfor %}
+</section>
+
