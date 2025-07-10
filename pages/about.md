@@ -1,6 +1,6 @@
 ---
 layout: layouts/grid-about.njk
-title: Who We Are.
+title: About Us.
 description: 
 section: about
 class: about
@@ -15,7 +15,7 @@ eleventyNavigation:
 
 
 
-
+<h2>Who We Are.</h2>
 
 Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry. We specialise in creating and producing fresh ingredients, ready-to-eat salads and fresh convenience foods.
 
