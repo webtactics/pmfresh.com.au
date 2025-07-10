@@ -950,8 +950,7 @@ grid-template-rows: var(--headerheight);
   .fourhundred {width:400px;}
   
 .topbar {
-    position: fixed;
-    background-color: var(--primarydark);
+ 
     width: 100%;
     padding: 0;
     top: 0px;
@@ -967,7 +966,7 @@ grid-template-rows: var(--headerheight);
   
   
   .topbar.scrolled {
-    background-color: var(--primarydark);
+  
     -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
