@@ -1,13 +1,13 @@
 ---
 layout: layouts/grid-about.njk
-title: About the Gloucester Thunderbolts Swimming Club
+title: Who We Are.
 description: 
 section: about
 class: about
 date: 2024-10-23
 permalink: /about/
 metadata:
-  title: About the Gloucester Thunderbolts Swimming Club
+  title: About PMFresh - Who We Are.
 eleventyNavigation:
   key: About
   order: 1
@@ -15,13 +15,14 @@ eleventyNavigation:
 
 
 
-## Gloucester Thunderbolts Swimming Club (GTSC) is a small community club providing opportunities for swimmers of all levels to improve their swimming and achieve personal goals. 
 
-We are a family oriented club offering a friendly and relaxed environment for all swimmers, both young and old. Racing is against swimmers of similar ability, not age, and the focus is on improving your own best time.
 
-Gloucester Thunderbolts Swimming Club runs from mid Oct till early April on Thursday evenings at 6.00pm at the Gloucester Pool Complex. 
+Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry. We specialise in creating and producing fresh ingredients, ready-to-eat salads and fresh convenience foods.
 
-All ages and abilities are welcome.
+Our approach is to ensure the highest quality food standards across everything we do and within our four manufacturing facilities across Australia.
+
+Our people are key to our success with more than 1000 employees nationally proudly servicing retail, foodservice and QSR markets.
+
 
 
 
