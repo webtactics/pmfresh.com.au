@@ -1097,7 +1097,7 @@ grid-template-rows: var(--headerheight);
     
    }
 
-   .logo img:hover {background: transparent;}
+   a.logolink:hover, .logo img:hover {background: transparent;}
 
 .hamburger {
   display: flex;
