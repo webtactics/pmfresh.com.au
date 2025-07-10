@@ -2,7 +2,7 @@
   --primary: #73b72b;
     --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
-  --primarydark: hsla(211,58%,43%,1);
+  --primarydark: #00b2c2;;
   --text: #4A4A4A;
   --darkblue: hsla(204, 96%, 18%, 1);
   --darkblue40: hsla(204deg, 96%, 18%, 0.4);
@@ -2434,7 +2434,7 @@ font-size:1rem;
  color: var(--white);
 
   background: var(--primary);
-  border: 3px solid var(--primarydark);
+  border: 3px solid var(--primary);
   border-radius: 20px;
   text-decoration: none;
 }
@@ -2447,7 +2447,7 @@ font-size:1rem;
  color: var(--white);
 
   background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
-  border: 3px solid var(--primary);
+  border: 3px solid var(--primarydark);
   border-radius: 20px;
   text-decoration: none;
 }
