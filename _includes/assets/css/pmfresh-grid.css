@@ -1075,7 +1075,9 @@ grid-template-rows: var(--headerheight);
 
 
 
-
+a img:hover {
+  background: transparent;
+}
 
 
 
