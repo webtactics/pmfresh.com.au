@@ -2425,27 +2425,30 @@ select {
 .fbswrapper {margin:0 auto;align-items: center;text-align: center;}
   
 
-a.swimcentral {
+a.tradelogin {
     display: inline-flex;
     align-items: center;
 font-size:1rem;
   margin: 0;
   padding: 1px 40px;
  color: var(--white);
-  background-color: var(--darkblue);
-  border:2px solid var(--white);
+
+  background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
+  
   border-radius: 20px;
   text-decoration: none;
 }
-a.swimcentral:hover {
+a.tradelogin:hover {
     display: inline-flex;
     align-items: center;
 font-size:1rem;
   margin: 0;
   padding: 1px 40px;
- color: var(--darkblue);
+background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-color: var(--white);
-  border:2px solid var(--darkblue);
+ 
   border-radius: 20px;
   text-decoration: none;
 }
