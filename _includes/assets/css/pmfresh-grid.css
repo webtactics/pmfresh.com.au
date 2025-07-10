@@ -1657,8 +1657,8 @@ span.title-bar-title {display:block;text-indent:34px;padding:0;}
 
 
 .toggle-nav:hover {
-  background-color: var(--primarydark);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--primarydark);
 }
 
 .button {
