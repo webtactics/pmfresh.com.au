@@ -1,7 +1,9 @@
 :root {
-  --primary: hsla(211,50%,53%,1);
+  --primary: #73b72b;
+    --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
   --primarydark: hsla(211,58%,43%,1);
+  --text: #4A4A4A;
   --darkblue: hsla(204, 96%, 18%, 1);
   --darkblue40: hsla(204deg, 96%, 18%, 0.4);
   --primarybutton: #B11112;
@@ -15,7 +17,7 @@
 	--red: #ED1C24;
   --pink: #FDDFCF;
   --lightpink: hsla(20.87, 92%, 90.2%, 0.34);
-  --text: #6A6A6A;
+
   --black: hsla(0,0%,0%,1);
   --black20: hsla(0,0%,0%,0.2);
   --black40: hsla(0,0%,0%,0.4);
@@ -1157,9 +1159,12 @@ grid-template-rows: var(--headerheight);
 /* footer layout */
 
 .footernavwrapper {
-  background-color: var(--white);
-  border-top: 1rem solid var(--primary);
-  padding:1rem 0;
+background: var(--primary);
+  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
+  padding: 0 15px;
   }
 
   @media (max-width: 1050px) {
