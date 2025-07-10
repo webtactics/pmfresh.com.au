@@ -270,8 +270,8 @@ color: var(--primary);
   transition: all 0.6s;}
 a:hover {
 
-background: var(--primary);
-background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
+background: var(--white);
+
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
