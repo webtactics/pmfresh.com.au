@@ -716,7 +716,9 @@ svg {
 }
 
 svg:hover {
-  color : var(--primary);
+ background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 span.search-icon svg {
