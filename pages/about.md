@@ -15,13 +15,14 @@ eleventyNavigation:
 
 
 
-<h2>Who We Are.</h2>
-
-Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry. We specialise in creating and producing fresh ingredients, ready-to-eat salads and fresh convenience foods.
-
-Our approach is to ensure the highest quality food standards across everything we do and within our four manufacturing facilities across Australia.
-
-Our people are key to our success with more than 1000 employees nationally proudly servicing retail, foodservice and QSR markets.
+<div class="text">
+   <h2>Who We Are.</h2>
+      <div class="indent">
+        <p>Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry. We specialise in creating and producing fresh ingredients, ready-to-eat salads and fresh convenience foods.</p>
+        <p>Our approach is to ensure the highest quality food standards across everything we do and within our four manufacturing facilities across Australia.</p>
+        <p>Our people are key to our success with more than 1000 employees nationally proudly servicing retail, foodservice and QSR markets.</p>
+      </div>
+</div>
 
 
 
