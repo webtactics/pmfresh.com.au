@@ -531,8 +531,8 @@ background-color: var(--primary); font-weight: bold;}
     font-style: normal;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: var(--white);
-    background: var(--primarydark);
+    color: var(--text);
+    background: var(--white);
     -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
@@ -543,7 +543,7 @@ background-color: var(--primary); font-weight: bold;}
 .navbar ul.navbar-menu li.active-class  a {
 
 
- font-size: 1.1rem;
+
 background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -552,8 +552,10 @@ background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1
 
 .navbar  .navbar-menu  li  a:hover,
 .navbar  .navbar-menu > li  a:focus {
-background: var(--primary);
+
 background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
