@@ -1096,7 +1096,7 @@ grid-template-rows: var(--headerheight);
     max-width:103px;
     
    }
-.logo img:hover, .scrolled .logo img:hover, .logo:hover {
+.logo a img:hover, .scrolled .logo a img:hover, .logo a:hover {
   {background: transparent;}
 
 .hamburger {
