@@ -940,7 +940,7 @@ grid-template-rows: var(--headerheight);
     -ms-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;
-    background-color: var(--darkblue);
+    background-color: var(--white);
   }
 
   .scrolled .hamburger  {
@@ -1075,9 +1075,6 @@ grid-template-rows: var(--headerheight);
 
 
 
-a img:hover {
-  background: transparent;
-}
 
 
 
@@ -1099,8 +1096,7 @@ a img:hover {
     max-width:103px;
     
    }
-.logo a img:hover, .scrolled .logo a img:hover, .logo a:hover {
-  {background: transparent;}
+
 
 .hamburger {
   display: flex;
@@ -1640,8 +1636,8 @@ white-space: wrap;
     width: 40px;
     height: 4px;
     margin:0px;
-    background: var(--white);
-    box-shadow: 0 12px 0 0 var(--white), 0 24px 0 0 var(--white);
+    background: var(--primary);
+    box-shadow: 0 12px 0 0 var(--primary), 0 24px 0 0 var(--primary);
     -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
