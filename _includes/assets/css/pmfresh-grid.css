@@ -712,7 +712,7 @@ ul.navbar-menu li ul.second-level li a {
 
 /* end second level */
 svg {
-  color : var(--white);
+  color : var(--primary);
 }
 
 svg:hover {
