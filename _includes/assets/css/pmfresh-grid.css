@@ -1597,7 +1597,7 @@ white-space: wrap;
   -o-transition: all 0.6s;
   transition: all 0.6s;
   z-index: 3;
-  padding:20px;
+  padding:10px;
  }
 
  .scrolled .toggle-nav {
