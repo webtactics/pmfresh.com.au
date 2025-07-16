@@ -423,8 +423,8 @@ ul.off-canvas-list, ul.second {
 
 ul.off-canvas-list li a {
   display: block;
-  color: var(--white);
-  background: var(--primary);
+  color: var(--text);
+  background: var(--white);
  padding: 0.5rem;
   border-bottom: 1px solid var(--lightgrey);
   transition: background 300ms ease;
@@ -445,21 +445,37 @@ ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
 }
 
 ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.menuactive > a {
-  color: var(--primary);
-  background-color: var(--white); font-weight: bold;}
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
   ul.off-canvas-list > li.menuparent.menuactive > a.menuparent.menuactive {
-    color: var(--primary);
-    background-color: var(--white); font-weight: bold;}
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
 
   ul.off-canvas-list > li.parent > a {
-    color: var(--primary);
-    background-color: var(--black); font-weight: bold;}
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 ul.off-canvas-list > li.parent > a:hover {
-color: var(--white);
-background-color: var(--primary); font-weight: bold;}
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
 
   ul.off-canvas-list li ul.second li a {
     display: block;
