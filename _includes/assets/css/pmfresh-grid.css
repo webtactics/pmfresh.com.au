@@ -652,14 +652,17 @@ ul.navbar-menu li ul.second-level li a {
 
   ul.navbar-menu li ul.second-level li a:hover {
     display: block;
-    border-bottom: 1px solid var(--lightgrey);
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: var(--primary);
+    background-color: var(--red);
+    width: 100%;
     text-align: left;
     text-decoration: none;
+    border-bottom: 1px solid var(--lightgrey);
     transition: background 300ms ease;
 
-    background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
   }
 
 
@@ -668,23 +671,24 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--primary);
-    background-color: var(--white);
+    background-color: var(--red);
     width: 100%;
     text-align: left;
     text-decoration: none;
     border-bottom: 1px solid var(--lightgrey);
-    text-transform:capitalize;
     transition: background 300ms ease;
   }
 
   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover {
     display: block;
-    border-bottom: 1px solid var(--lightgrey);
+    padding: 0 1rem;
+    font-size: 1rem;
     color: var(--primary);
-     background-color: var(--white);
+    background-color: var(--black);
+    width: 100%;
     text-align: left;
     text-decoration: none;
-    text-transform:capitalize;
+    border-bottom: 1px solid var(--lightgrey);
     transition: background 300ms ease;
   }
 
@@ -705,12 +709,14 @@ ul.navbar-menu li ul.second-level li a {
 
   .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
     display: block;
-    border-bottom: 1px solid var(--lightgrey);
-    color: var(--white);
-    background-color: var(--red);
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: var(--primary);
+    background-color: var(--pink);
+    width: 100%;
     text-align: left;
     text-decoration: none;
-    text-transform:uppercase;
+    border-bottom: 1px solid var(--lightgrey);
     transition: background 300ms ease;
   }
 
