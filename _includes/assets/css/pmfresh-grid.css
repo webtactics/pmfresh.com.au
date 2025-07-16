@@ -622,14 +622,16 @@ ul.second-level {
     visibility: hidden;
     opacity: 0;
     width: 14rem;
+   
   }
   
   
   ul.navbar-menu li ul.second-level a {
-  text-transform:capitalize;
+  text-transform:none;
     line-height:50px;
     font-size: 1rem;
     padding:0 1rem;
+     background-color: var(--white);
    }
 
 
