@@ -374,7 +374,7 @@ color: var(--black);
   align-items: center;
   height: 4rem;
   line-height: 4rem;
-  background: var(--darkblue);
+background: var(--primary);
   color: var(--white);
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   font-weight:400;
@@ -386,7 +386,7 @@ line-height:4rem;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-background: var(--darkblue);
+background: var(--primary);
 
 }
 
@@ -1701,9 +1701,9 @@ button.close-nav {
   font-size: 1.3rem;
   color: var(--white);
   cursor: pointer;
-  background-color: var(--darkblue);
+  background-color: var(--primary);
   border-width: 0.1rem;
-  border-color: var(--darkblue);
+  border-color: var(--primary);
   padding: 0.5rem 2rem;
   text-decoration:none;
   width:100%;
@@ -1712,7 +1712,7 @@ button.close-nav:hover, button.close-nav:focus, .button.close-nav:hover, .button
   background-color: var(--white);
   color: var(--primary);
   border-width: 0.1rem;
-  border-color: var(--darkblue);
+  border-color:  var(--primary);
 }
 
 button.blogdetail, .button.blogdetail {margin:0;}
