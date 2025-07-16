@@ -479,8 +479,8 @@ ul.off-canvas-list > li.parent > a:hover {
 
   ul.off-canvas-list li ul.second li a {
     display: block;
-    color: var(--white);
-    background: var(--primary);
+    color: var(--text);
+    background: var(--white);
    padding: 0.4rem 1.5rem;
     border-bottom: 1px solid var(--primarylight);
     transition: background 300ms ease;
