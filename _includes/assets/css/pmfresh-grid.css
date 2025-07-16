@@ -622,7 +622,7 @@ ul.second-level {
     visibility: hidden;
     opacity: 0;
     width: 14rem;
-   
+     background: var(--white);
   }
   
   
@@ -643,6 +643,7 @@ ul.navbar-menu li ul.second-level li a {
     font-size: 1rem;
     color: var(--primary);
     background-color: var(--white);
+      background: var(--white);
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -671,7 +672,7 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--primary);
-    background-color: var(--red);
+     background: var(--white);
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -684,7 +685,8 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--primary);
-    background-color: var(--black);
+ 
+      background: var(--white);
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -698,7 +700,8 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--white);
-    background-color: var(--black);
+  
+      background: var(--white);
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -712,7 +715,8 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--primary);
-    background-color: var(--pink);
+  
+      background: var(--white);
     width: 100%;
     text-align: left;
     text-decoration: none;
