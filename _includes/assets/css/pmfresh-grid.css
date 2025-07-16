@@ -1633,7 +1633,7 @@ white-space: wrap;
   content: "";
   display:block;
   position:fixed;
-    width: 40px;
+    width: 30px;
     height: 4px;
     margin:0px;
     background: var(--primary);
