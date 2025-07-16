@@ -707,7 +707,7 @@ ul.navbar-menu li ul.second-level li a {
     text-align: left;
     text-decoration: none;
     border-bottom: 1px solid var(--lightgrey);
-    text-transform:uppercase;
+    text-transform:none;
     transition: background 300ms ease;
   }
 
