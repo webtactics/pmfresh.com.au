@@ -692,7 +692,7 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--black);
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -705,7 +705,7 @@ ul.navbar-menu li ul.second-level li a {
     display: block;
     border-bottom: 1px solid var(--lightgrey);
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--red);
     text-align: left;
     text-decoration: none;
     text-transform:uppercase;
