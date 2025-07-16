@@ -684,13 +684,15 @@ ul.navbar-menu li ul.second-level li a {
     display: block;
     padding: 0 1rem;
     font-size: 1rem;
-    color: var(--primary);
- 
-      background: var(--white);
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      
     width: 100%;
     text-align: left;
     text-decoration: none;
     border-bottom: 1px solid var(--lightgrey);
+    text-transform:none;
     transition: background 300ms ease;
   }
 
