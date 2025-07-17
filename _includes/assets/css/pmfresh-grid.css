@@ -2459,7 +2459,7 @@ font-size:1rem;
   text-decoration: none;
 }
 
-.scrolled a.tradelogin {display:none;}
+.scrolled a.tradelogin {display:none;  transition: all 0.2s ease-in-out;}
 
 .resultssummary, .eventsummary {margin: 0;}
 
