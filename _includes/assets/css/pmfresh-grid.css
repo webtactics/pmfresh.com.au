@@ -2444,6 +2444,7 @@ font-size:1rem;
   border: 3px solid var(--primary);
   border-radius: 20px;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 a.tradelogin:hover {
     display: inline-flex;
@@ -2457,6 +2458,7 @@ font-size:1rem;
   border: 3px solid var(--primarydark);
   border-radius: 20px;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .scrolled a.tradelogin {display:none;  transition: all 0.2s ease-in-out;}
