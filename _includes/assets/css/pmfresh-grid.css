@@ -1720,8 +1720,8 @@ li.hide { display: none;}
 /* homepage hero */
 
 .hero {
-  height: 40svh;
-  height: 40vh;
+  height: 100svh;
+  height: 100vh;
   width: 100%;
   position:relative;
   top: 0;
