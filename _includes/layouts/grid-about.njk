@@ -1,9 +1,12 @@
 {% extends "layouts/grid-default.njk" %}
 
 
-{% block bodyclass %}<body class="about {{ class }} " >
-	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>{% endblock %}
+{% block bodyclass %}<body class="about {{ class }}" >{% endblock %}
+
+
+{% block hero %}
+{% include "components/grid-hero.njk" %}
+{% endblock %}	
 
 
 {% block content %}

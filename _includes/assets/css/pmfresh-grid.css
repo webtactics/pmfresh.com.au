@@ -1772,6 +1772,33 @@ z-index: 0;
 }
 
 
+div.triangle {
+  width:100%;
+  overflow:hidden;
+}
+div.triangle {
+  animation: 10s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
 
 .content.herobox {
   position: relative;
