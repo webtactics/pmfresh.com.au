@@ -1,7 +1,7 @@
 {
-  "name": "pmfresh.com.au/",
+  "name": "pmfresh.com.au",
   "version": "1.0.4",
-  "description": "A simple website for Gloucester Thunderbolts Swimming Club",
+  "description": "A simple website for PMFresh",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
