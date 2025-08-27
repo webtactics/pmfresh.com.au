@@ -53,6 +53,12 @@
   --grid-auto-fill-4-min-col-size: 250px;
 
 --animation-duration: 0.4s;
+
+--animation-delay: 0.6s;
+--animation-delay-fast: 0.3s;
+--nav-height:54px;
+
+--nav-height-scrolled:44px;
 }
   
   
@@ -263,20 +269,20 @@ a img {border: 0;}
 a {
 
 color: var(--primary);
--webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;}
+-webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);}
 a:hover {
 
 background: var(--white);
 
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;}
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);}
 
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
@@ -877,6 +883,9 @@ ul.infoboxmobile a {
   height: var(--mobilenavheight);
   width: 100%;
   z-index: 6;
+  padding: 0;
+  top: 0px;
+  border-bottom: 1px solid var(--lightgrey);
 }
 
 
@@ -910,21 +919,21 @@ grid-template-columns: 100px 400px 1fr 1rem;
 grid-template-areas:
 "hamburger logo navwrapper fourhundred";
 grid-template-rows: var(--headerheight);
--webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+-webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
  } 
 
  .headerwrapper.scrolled {
 
   grid-template-rows: var(--navbottomheight); 
-  -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
    } 
 
    .hamburger {
@@ -932,11 +941,11 @@ grid-template-rows: var(--headerheight);
     justify-content: center;
     align-items: center;
     height: var(--headerheight);
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
     background-color: var(--white);
   }
 
@@ -945,11 +954,11 @@ grid-template-rows: var(--headerheight);
     justify-content: center;
     align-items: center;
     height: var(--navbottomheight); 
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
   
   }
 
@@ -957,28 +966,27 @@ grid-template-rows: var(--headerheight);
   
 .topbar {
  
-    width: 100%;
-    padding: 0;
-    top: 0px;
-    z-index: 3;
-    -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+
+    -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   height: var(--headerheight);
+    border-bottom: 1px solid var(--white);
   }
   
   
   
   .topbar.scrolled {
   
-    -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   height: var(--navbottomheight); 
+   border-bottom: 1px solid var(--lightgrey);
   }
 }
 
@@ -992,11 +1000,11 @@ grid-template-rows: var(--headerheight);
     "navrightside";
     grid-template-rows: var(--headerheight);
     z-index: 2;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
    } 
 
 .scrolled  .navwrapper {
@@ -1005,11 +1013,11 @@ grid-template-rows: var(--headerheight);
       grid-template-areas:
         "navrightside";
         grid-template-rows: var(--navbottomheight); 
-        -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+        -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
    } 
   
    @media (min-width: 1025px) and (max-width: 1500px) {
@@ -1033,40 +1041,40 @@ grid-template-rows: var(--headerheight);
   height: var(--headerheight);
   justify-content:flex-start;
   align-items: flex-start;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   padding: 10px 0 10px var(--navbottomheight); 
   z-index:6;
 }
 
  .scrolled .logo {
     height: var(--navbottomheight); 
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
       padding: 5px 0 5px var(--navbottomheight); 
  }
 
 
   .logo img {max-width:236px;aspect-ratio: 466 / 158;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
     height: 100%;
   }
 .scrolled .logo img {max-width:148px;aspect-ratio: 466 / 158;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   height: 100%;
   }
 
@@ -1100,11 +1108,11 @@ grid-template-rows: var(--headerheight);
   justify-content: center;
   align-items: center;
   height: 74px;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
 }
 
 }
@@ -1113,11 +1121,11 @@ grid-template-rows: var(--headerheight);
   display: flex;
   height: var(--headerheight);
   flex-direction: column;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
 }
 
  .scrolled .navrightside {
@@ -1125,11 +1133,11 @@ grid-template-rows: var(--headerheight);
   height: var(--navbottomheight); 
 
   flex-direction: column;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
  }
 
 .navrightsidetopline {display:flex;
@@ -1137,20 +1145,20 @@ grid-template-rows: var(--headerheight);
     justify-content: flex-end;
     text-align: right;
   height: var(--navtopheight);
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   padding:0;
  }
 
 .scrolled .navrightsidetopline {text-align: right;height:0px;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   padding:0;
  }
 
@@ -1547,7 +1555,7 @@ white-space: wrap;
   height: 100%;
   background-color: var(--white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  transition: left 0.3s ease-in-out;
+  transition: left var(--animation-delay-fast) ease-in-out;
   z-index: 7;
 }
 
@@ -1558,7 +1566,7 @@ white-space: wrap;
   left: -350px;
   width: 80vw;
   max-width: 300px;
-  transition: left 0.3s ease-in-out;
+  transition: left var(--animation-delay-fast) ease-in-out;
 
 }}
 
@@ -1589,11 +1597,11 @@ white-space: wrap;
   border: none;
   width: 60px;
   height: 54px;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
   z-index: 3;
   padding:10px;
  }
@@ -1630,11 +1638,11 @@ white-space: wrap;
     margin:0px;
     background: var(--primary);
     box-shadow: 0 12px 0 0 var(--primary), 0 24px 0 0 var(--primary);
-    -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+    -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
 }
 
 
