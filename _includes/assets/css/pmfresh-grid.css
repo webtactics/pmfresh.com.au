@@ -1712,7 +1712,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
 li.hide { display: none;}
 
 .tradelogin {display: block;}
-a.tradelogin  {display: block;font-weight; 600;color: var(--primary);text-decoration: none;border:none;}
+a.tradelogin  {display: block;font-weight: 600;color: var(--primary);text-decoration: none;border:none;}
 a.tradelogin:hover {color: var(--black);text-decoration: none;border:none;}
 
 /* homepage hero */
