@@ -33,6 +33,5 @@
   },
   "dependencies": {
     "eleventy-plugin-metagen": "^1.8.3"
-
   }
 }
