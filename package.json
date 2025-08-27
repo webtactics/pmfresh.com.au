@@ -32,7 +32,6 @@
     "uglify-js": "^3.17.4"
   },
   "dependencies": {
-    "@netlify/blobs": "^10.0.8",
     "eleventy-plugin-metagen": "^1.8.3"
   }
 }
