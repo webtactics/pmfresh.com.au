@@ -1715,6 +1715,9 @@ li.hide { display: none;}
 a.tradelogin  {display: block;font-weight: 600;color: var(--primary);text-decoration: none;border:none;}
 a.tradelogin:hover {color: var(--black);text-decoration: none;border:none;}
 
+
+.scrolled a.tradelogin, .scrolled a.tradelogin:hover {color: var(--white);text-decoration: none;border:none;}
+
 /* homepage hero */
 
 .hero {
