@@ -671,7 +671,7 @@ ul.navbar-menu li ul.second-level li a {
     width: 100%;
     text-align: left;
     text-decoration: none;
-    border-bottom: 1px solid var(--lightgrey);
+    border-bottom: 1px solid var(--red);
     transition: background 300ms ease;
   }
   .navbar ul.navbar-menu li.active-class  ul.second-level li a {
@@ -683,7 +683,7 @@ ul.navbar-menu li ul.second-level li a {
     width: 100%;
     text-align: left;
     text-decoration: none;
-    border-bottom: 1px solid var(--lightgrey);
+    border-bottom: 1px solid var(--primary);
     transition: background 300ms ease;
   }
   ul.navbar-menu li ul.second-level li a:hover,   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover,   .navbar ul.navbar-menu li  ul.second-level li.active-class a,  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
