@@ -315,6 +315,7 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
 .h2, h2 {
   font-size: 2.5rem;
   font-size: clamp(1.75rem, 2vw + 1.5rem, 2rem);
+
 }
 
 
@@ -322,6 +323,26 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
   font-size: 2rem;
   font-size: clamp(1.5rem, 2vw + 1.5rem, 1.75rem);
   line-height: 1.1;
+  color: var(--black);
+}
+
+.h3 a, h3 a {
+  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw + 1.5rem, 1.75rem);
+  line-height: 1.1;
+  color: var(--black);
+}
+
+.h3 a:hover, h3 a:hover {
+text-decoration: none;
+  color: var(--primary);
+  background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background: linear-gradient(to right, #73B72B , #00B2C2);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .h4, h4 {
