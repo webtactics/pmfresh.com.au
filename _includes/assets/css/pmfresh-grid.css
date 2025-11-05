@@ -1438,7 +1438,7 @@ h1.bronze.heading-text { background-color: var(--bronze);}
       text-transform: capitalize;
       background-color: var(--primary);
       margin-bottom: 4rem;
-      padding: 1rem;
+      padding: 0;
       display: inline-block;
      
     }
