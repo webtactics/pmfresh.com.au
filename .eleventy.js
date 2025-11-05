@@ -63,10 +63,16 @@ module.exports = function (eleventyConfig) {
 
 
       // limit filter for arrays
-      eleventyConfig.addFilter("limit", function (arr, limit) {
-        return arr.slice(0, limit);
-      });
-  
+eleventyConfig.addFilter("limit", function (arr, limit) {
+  if (!Array.isArray(arr)) {
+    return [];
+  }
+  return arr.slice(0, limit);
+});
+
+
+
+
 
 
 
