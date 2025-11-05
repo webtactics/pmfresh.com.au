@@ -84,8 +84,8 @@ module.exports = function (eleventyConfig) {
       return content;
     });
 
-  // Metagen plugin
-  eleventyConfig.addPlugin(metagen);
+ 
+
 
   // Layout aliases
   eleventyConfig.addLayoutAlias("default", "layouts/grid-default.njk");
