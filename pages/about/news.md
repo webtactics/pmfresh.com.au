@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-7x4.njk
+layout: layouts/grid-news.njk
 title: News
 class: about news
 description: The Latest News - Primo Moraitis Fresh
