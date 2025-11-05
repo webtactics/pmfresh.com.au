@@ -1,26 +1,26 @@
 ---
 layout: layouts/grid-contact.njk
-title: Contact Gloucester Thunderbolts Swimming Club
+title: Contact Primo Moraitis Fresh
 class: contact
-description: How to contact Gloucester Thunderbolts Swimming Club
+description: How to contact Primo Moraitis Fresh
 section: contact
 date: 2024-10-31
 metadata:
-  title: Contact  Gloucester Thunderbolts Swimming Club
+  title: Contact Primo Moraitis Fresh
 permalink: /contact/
 eleventyNavigation:
   key: Contact
-  order: 4
+  order: 5
 ---
 
-<h3>Gloucester Thunderbolts Swimming Club runs from mid Oct until early April on Thursday evenings at 6.00pm at the Gloucester Pool Complex.</h3>
-
-<h4>All ages and abilities are welcome.</h4>
-
-
-
-
-<p><strong>For more information please contact the club via email @ <a href="mailto:gloucesterthunderboltsswimclub@outlook.com">gloucesterthunderboltsswimclub@outlook.com</a>, or use the form below.</strong></p>
+<div class="text">
+   <h2>Say Hello</h2>
+      <div class="indent">
+<p>For information about our products, services or stockists;</p>
+<p>Call us on <strong>1800 725 237</strong></p>
+<p>Email <strong>feedback@pmfresh.com.au </strong></p>
+      </div>
+</div>
 
 
 
