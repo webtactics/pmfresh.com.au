@@ -3,7 +3,6 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const metagen = require('eleventy-plugin-metagen');
 const redirectsPlugin = require('eleventy-plugin-redirects');
 
 module.exports = function (eleventyConfig) {
