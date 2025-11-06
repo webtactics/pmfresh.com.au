@@ -8,6 +8,7 @@ sidebar: true
 
 date: 2025-10-01
 permalink: /products/freshly-prepared-vegetables/
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/our-products_sNno-UQxs.jpg
 eleventyNavigation:
   key: Freshly Prepared Vegetables
   parent: Products
