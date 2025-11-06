@@ -174,6 +174,25 @@
 }
 
 
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%); /* Start completely off-screen to the left */
+    opacity: 0; /* Optional: Start with element invisible */
+  }
+  to {
+    transform: translateX(0); /* End at its natural position */
+    opacity: 1; /* Optional: End with element fully visible */
+  }
+}
+
+.Slide-in-left {
+  animation-name: slideInFromLeft; /* Name of the keyframe animation */
+  animation-duration: 1s; /* How long the animation takes */
+  animation-timing-function: ease-out; /* How the animation progresses (e.g., starts fast, slows down) */
+  animation-fill-mode: forwards; /* Ensures the element stays in its final state after animation */
+  /* Other animation properties can be added here, like animation-delay, animation-iteration-count, etc. */
+}
+
  
 /* Box sizing rules */
 *, *::before, *::after {
