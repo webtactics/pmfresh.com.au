@@ -179,12 +179,12 @@
 
 .Slide-in-left {
   animation-name: slideInFromLeft; /* Name of the keyframe animation */
-  animation-duration: 2s; /* How long the animation takes */
+  animation-duration: 1.6s; /* How long the animation takes */
   animation-timing-function: ease-out; /* How the animation progresses (e.g., starts fast, slows down) */
   animation-fill-mode: forwards; /* Ensures the element stays in its final state after animation */
   /* Other animation properties can be added here, like animation-delay, animation-iteration-count, etc. */
   height: 100vh;
-  width: 45vw;
+  width: 40vw;
 }
 .Slide-in-left h2 {
   color: var(--white);
@@ -212,7 +212,7 @@
 .herotitlebox {
 position: relative;
 margin: 0 auto 0 0;
-max-width:90%;
+max-width:86%;
 }
 
 
