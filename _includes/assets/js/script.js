@@ -48,13 +48,13 @@ navObserver.observe(scrollWatcher)
 
 
 const faders = document.querySelectorAll(".fade-in");
-const sliders = document.querySelectorAll(".slide-in");
+const sliders = document.querySelectorAll(".from-left");
 
 
 
 const appearOptions = {
   threshold: 0,
-  rootMargin: "0px 0px -200px 0px"
+  rootMargin: "0px 0px -100px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver(function(
