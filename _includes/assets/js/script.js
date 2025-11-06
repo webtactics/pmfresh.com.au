@@ -63,10 +63,7 @@ navObserver.observe(scrollWatcher)
 if (entry.isIntersecting) {
                 // Element is in view, add the desired class
                 entry.target.classList.add('appear');
-            } else {
-                // Element is out of view, remove the class
-                entry.target.classList.remove('appear');
-            }
+            } 
 
     });
   },
