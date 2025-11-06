@@ -6,7 +6,7 @@ section: about
 class: about
 date: 2024-10-23
 permalink: /about/
-image: https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg
+image: 
 metadata:
   title: About PMFresh - Who We Are.
 eleventyNavigation:
