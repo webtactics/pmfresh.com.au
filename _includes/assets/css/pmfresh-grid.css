@@ -255,8 +255,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--primarydark);
   scroll-padding-top: var(--navbottomheight); 
+  background: var(--primary);
+  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
 }
 
 
