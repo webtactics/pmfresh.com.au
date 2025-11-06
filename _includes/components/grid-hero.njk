@@ -1,10 +1,17 @@
 <section class="sliderbox">
  
 <div class="hero hide-for-print">     
-<picture>
-<img aria-hidden="true"  decoding="async" src="{% if image %}{{ image }}?tr=w-1920,h-1080{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-1920,h-1080{% endif %}" alt="{{ title }}" title="{{ title }}"  width="1920" height="1080">
-</picture>
 
+
+
+<picture>
+    <!-- Mobile Image -->
+    <source media="(max-width: 600px)" srcset="{% if image %}{{ image }}?tr=w-600,h-400{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-600,h-400{% endif %}">
+    <!-- Desktop Image -->
+    <source media="(min-width: 601px)" srcset="{% if image %}{{ image }}?tr=w-1920,h-1080{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-1920,h-1080{% endif %}">
+    <!-- Fallback Image -->
+    <img aria-hidden="true" loading="lazy" decoding="async" src="{% if image %}{{ image }}?tr=w-1920,h-1080{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-1920,h-1080{% endif %}" alt="{{ title }}" title="{{ title }}" width="1920" height="1080">
+</picture>
 
 <div class="Slide-in-left">
 <img src="https://ik.imagekit.io/webtactics/pmfresh/assets/home-top-triangle_91yvOGIu4.png?updatedAt=1762408274128">
