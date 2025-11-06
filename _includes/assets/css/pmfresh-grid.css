@@ -186,7 +186,14 @@
   height: 100vh;
   width: 50%;
 }
-
+.Slide-in-left h2 {
+  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 2vw + 1.5rem, 2.5rem);
+  line-height: 1.1;
+  color: var(--black);
+  background: var(--white);
+  padding: 40vh 2rem;
+}
  
 /* Box sizing rules */
 *, *::before, *::after {
