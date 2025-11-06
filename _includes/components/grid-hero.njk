@@ -2,14 +2,14 @@
  
 <div class="hero hide-for-print">     
 <picture>
-<source media="(max-width: 600px)" srcset="/static/assets/Green-Leaves-1920x1080.jpg">
-<source media="(min-width: 601px)" srcset="/static/assets/Green-Leaves-1920x1080.jpg">
-<img aria-hidden="true"  decoding="async" src="/static/assets/Green-Leaves-1920x1080.jpg" alt="Gloucester Thunderbolts Swimming Club" title="Gloucester Thunderbolts Swimming Club"  width="1920" height="1080">
+<source media="(max-width: 600px)" srcset="{% if image %}{{ image }}?tr=w-600,h-400{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-600,h-400{% endif %}">
+<source media="(min-width: 601px)" srcset="{% if image %}{{ image }}?tr=w-1200,h-800{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-1200,h-800{% endif %}">
+<img aria-hidden="true"  decoding="async" src="{% if image %}{{ image }}?tr=w-1920,h-1080{% else %}https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves-1920x1080_79IdKtsOD.jpg/tr:w-1920,h-1080{% endif %}" alt="{{ title }}" title="{{ title }}"  width="1920" height="1080">
 </picture>
 
 
 <div class="Slide-in-left">
-<img src="https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/home-top-triangle.png">
+<img src="https://ik.imagekit.io/webtactics/pmfresh/assets/home-top-triangle_91yvOGIu4.png?updatedAt=1762408274128">
 <h2>{{ title }}</h2>    
 </div>
 
