@@ -3,7 +3,7 @@ layout: layouts/grid-7x4.njk
 title: Our Philosophy
 class: about our-philosophy
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
-
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
 eventssidebar: true
 
 date: 2025-07-16
