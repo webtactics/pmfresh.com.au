@@ -3,7 +3,7 @@ layout: layouts/grid-news.njk
 title: News
 class: about news
 description: The Latest News - Primo Moraitis Fresh
-
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/careers-cta-banner-1920x879_UIecPUJsz.jpg
 eventssidebar: true
 
 date: 2025-07-16
