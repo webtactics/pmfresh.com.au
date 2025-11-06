@@ -190,9 +190,20 @@
   font-size: 2.5rem;
   font-size: clamp(1.75rem, 2vw + 1.5rem, 2.5rem);
   line-height: 1.1;
-  color: var(--black);
-  background: var(--white);
-  padding: 40vh 2rem;
+  color: var(--white);
+  background: transparent;
+  padding: 80vh 0 0 0;
+}
+
+.Slide-in-left h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 40px;
+  top: 22px;
+  width: 89px;
+  height: 8px;
+  background-color: var(--white);
 }
  
 /* Box sizing rules */
