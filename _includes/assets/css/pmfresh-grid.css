@@ -202,10 +202,10 @@
   content: "";
   display: block;
   position: absolute;
-  left: 40px;
-  top: 82vh;
-  width: 89px;
-  height: 8px;
+  left: 3rem;
+  top: 83vh;
+  width: 5rem;
+  height: 0.5rem;
   background-color: var(--white);
 }
  
