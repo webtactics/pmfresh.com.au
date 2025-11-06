@@ -190,7 +190,7 @@
   animation-duration: 1s; /* How long the animation takes */
   animation-timing-function: ease-out; /* How the animation progresses (e.g., starts fast, slows down) */
   animation-fill-mode: forwards; /* Ensures the element stays in its final state after animation */
-  animation-delay: 50ms;
+  animation-delay: 2s;
   /* Other animation properties can be added here, like animation-delay, animation-iteration-count, etc. */
   height: 100vh;
   width: 50%;
