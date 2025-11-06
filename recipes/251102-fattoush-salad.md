@@ -11,7 +11,7 @@ serves: 4
 tags:
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fattoush-salad_bY8mtfqg2.jpg?updatedAt=1762318135752
+image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fattoush-salad_bY8mtfqg2.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 

@@ -13,7 +13,7 @@ serves: 4
 tags:
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/spinach-ricotta-and-lemon-pasta-shells_pL7gvBeowr.jpg?updatedAt=1762318136561
+image: https://ik.imagekit.io/webtactics/pmfresh/recipes/spinach-ricotta-and-lemon-pasta-shells_pL7gvBeowr.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 

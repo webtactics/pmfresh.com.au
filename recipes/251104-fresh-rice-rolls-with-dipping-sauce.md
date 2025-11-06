@@ -14,7 +14,7 @@ makes: 12
 tags:
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fresh-rice-rolls-with-dipping-sauce_GAuoIMz_a.jpg?updatedAt=1762318136148
+image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fresh-rice-rolls-with-dipping-sauce_GAuoIMz_a.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 

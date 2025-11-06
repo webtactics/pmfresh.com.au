@@ -13,7 +13,7 @@ serves: 4
 tags:
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/potato-cauliflower-and-broccoli-bake_J0QC-Virwn.jpg?updatedAt=1762318136497
+image: https://ik.imagekit.io/webtactics/pmfresh/recipes/potato-cauliflower-and-broccoli-bake_J0QC-Virwn.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 

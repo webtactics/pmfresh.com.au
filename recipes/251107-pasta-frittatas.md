@@ -13,7 +13,7 @@ serves: 6
 tags:
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/pasta-frittatas_unA8AoEKQ.jpg?updatedAt=1762318136461 
+image: https://ik.imagekit.io/webtactics/pmfresh/recipes/pasta-frittatas_unA8AoEKQ.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 

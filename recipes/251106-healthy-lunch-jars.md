@@ -13,7 +13,7 @@ serves: 4
 tags:
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/healthy-lunch-jars_Lqf5SaTKLY.jpg?updatedAt=1762318136456
+image: https://ik.imagekit.io/webtactics/pmfresh/recipes/healthy-lunch-jars_Lqf5SaTKLY.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 
