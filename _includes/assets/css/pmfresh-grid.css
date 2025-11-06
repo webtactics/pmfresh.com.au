@@ -209,6 +209,17 @@
   background-color: var(--white);
 }
  
+.herotitlebox {
+position: relative;
+margin: 0 auto 0 0;
+max-width:80%;
+background-color: #B11112;
+}
+
+
+
+
+
 /* Box sizing rules */
 *, *::before, *::after {
   box-sizing: border-box;
