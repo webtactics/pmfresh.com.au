@@ -5,6 +5,7 @@ description: Discover our wide range of delicious, fresh, conveniently prepared 
 section: suppliers
 class: suppliers
 date: 2024-10-23
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/suppliers-1920x945_jIZzhg0Zr.jpg
 permalink: /suppliers/
 metadata:
   title: Our Suppliers.
