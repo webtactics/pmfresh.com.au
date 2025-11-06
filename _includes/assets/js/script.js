@@ -45,7 +45,7 @@ navObserver.observe(scrollWatcher)
 
   const faders = document.querySelectorAll(".fade-in");
   const sliders = document.querySelectorAll(".slide-in");
-
+const faders = document.querySelectorAll(".from-left");
 
 
   const appearOptions = {
