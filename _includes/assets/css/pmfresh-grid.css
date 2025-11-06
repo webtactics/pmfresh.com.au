@@ -187,14 +187,14 @@
   width: 60vw;
 }
 .Slide-in-left h2 {
-  color: #FFFFFF;
+  color: var(--white);
   font-weight: 700;
-  font-size: 65px;
-  line-height: 57px;
+  font-size: 4rem;
+  line-height: 4rem;
   position: relative;
   z-index: 10;
   letter-spacing: -1px;
-  padding: 80vh 0 72px 153px;
+  padding: 80vh 0 0 180px;
 }
 
 
@@ -203,7 +203,7 @@
   display: block;
   position: absolute;
   left: 40px;
-  top: 80vh;
+  top: 82vh;
   width: 89px;
   height: 8px;
   background-color: var(--white);
