@@ -1041,7 +1041,7 @@ ul.infoboxmobile a {
 @media (min-width: 1500px) {  
   .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 400px 1fr 400px;
+  grid-template-columns: 100px 300px 1fr 400px;
   grid-template-areas:
 "hamburger logo navwrapper fourhundred";
   }
@@ -1053,7 +1053,7 @@ ul.infoboxmobile a {
 
 .headerwrapper {
 display: grid;
-grid-template-columns: 100px 400px 1fr 1rem;
+grid-template-columns: 100px 300px 1fr 1rem;
 grid-template-areas:
 "hamburger logo navwrapper fourhundred";
 grid-template-rows: var(--headerheight);
@@ -1184,7 +1184,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var(--animation-delay);
   -o-transition: all var(--animation-delay);
   transition: all var(--animation-delay);
-  padding: 10px 0 10px var(--navbottomheight); 
+  padding: 10px 0; 
   z-index:6;
 }
 
@@ -1195,7 +1195,7 @@ grid-template-rows: var(--headerheight);
     -ms-transition: all var(--animation-delay);
     -o-transition: all var(--animation-delay);
     transition: all var(--animation-delay);
-      padding: 5px 0 5px var(--navbottomheight); 
+      padding: 5px 0; 
  }
 
 
