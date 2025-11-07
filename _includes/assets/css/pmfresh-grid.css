@@ -1,6 +1,6 @@
 :root {
   --primary: #73b72b;
-    --primaryright: #00b2c2;
+  --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
   --primarydark: #00b2c2;;
   --text: #4A4A4A;
@@ -699,7 +699,7 @@ ul.off-canvas-list > li.parent > a:hover {
 /* Top-level */
 .navbar ul.navbar-menu  li  a {
     display: inline-block;
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     font-style: normal;
@@ -804,7 +804,9 @@ ul.second-level {
      background: var(--white);
   }
   
-  
+
+
+
   ul.navbar-menu li ul.second-level a {
   text-transform:none;
     line-height:50px;
@@ -857,7 +859,19 @@ ul.navbar-menu li ul.second-level li a {
 
   }
 
+  @media (max-width: 1300px) {
+ul.second-level {
+    width: 10rem;
+  }
 
+    ul.navbar-menu li ul.second-level a {
+  text-transform:none;
+    line-height:50px;
+    font-size: 0.9rem;
+    padding:0 0.5rem;
+     background-color: var(--white);
+   }
+}
 
 /* end second level */
 svg {
