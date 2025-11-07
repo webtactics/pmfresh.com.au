@@ -932,39 +932,20 @@ span.search-icon svg:hover {
   height:2.2rem;
 
 }
-.sponsordetail svg {
-  color : var(--primary);
-}
-.sponsordetail  svg:hover {
-  color : var(--black);
-}
-.sponsordetail .gold svg {
-  color : var(--gold);
-}
-.sponsordetail  .gold svg:hover {
-  color : var(--darkgold);
-}
-.sponsordetail .silver svg {
-  color : var(--silver);
-}
-.sponsordetail  .silver svg:hover {
-  color : var(--darksilver);
-}
-.sponsordetail .bronze svg {
-  color : var(--bronze);
-}
-.sponsordetail  .bronze svg:hover {
-  color : var(--darkbronze);
-}
+
 .infoboxmobile svg {
   color : var(--white);
 }
+.infoboxtopbar svg {
+  color : var(--primary);
+}
 
-.infoboxmobile svg:hover {
+
+.infoboxmobile svg:hover, .infoboxtopbar svg:hover {
   color : var(--black);
 }
 
-ul.infobox, ul.infoboxmobile, ul.sponsordetail {
+ul.infobox, ul.infoboxmobile, ul.infoboxtopbar  {
   list-style: none;
   margin: 0;
   margin-block-start: 0;
