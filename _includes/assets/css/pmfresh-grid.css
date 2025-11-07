@@ -840,7 +840,9 @@ ul.second-level {
 
 
 ul.navbar-menu li ul.second-level li a {
-    display: block;
+      display: flex;
+  align-items: center;
+  justify-content: flex-start;
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--text);
@@ -852,7 +854,9 @@ ul.navbar-menu li ul.second-level li a {
     transition: background 300ms ease;
   }
   .navbar ul.navbar-menu li.active-class  ul.second-level li a {
-    display: block;
+       display: flex;
+  align-items: center;
+  justify-content: flex-start;
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--primary);
@@ -864,7 +868,9 @@ ul.navbar-menu li ul.second-level li a {
     transition: background 300ms ease;
   }
   ul.navbar-menu li ul.second-level li a:hover,   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover,   .navbar ul.navbar-menu li  ul.second-level li.active-class a,  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
-    display: block;
+     display: flex;
+  align-items: center;
+  justify-content: flex-start;
     padding: 0 1rem;
     font-size: 1rem;
     background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
