@@ -956,15 +956,11 @@ ul.infobox, ul.infoboxmobile, ul.infoboxtopbar  {
  
 }
 
-ul.infobox li, ul.infoboxmobile li {
+ul.infobox li, ul.infoboxmobile li, ul.infoboxtopbar li {
   float: right;
- 
+
 }
-ul.sponsordetail li {
-  float: left;
-  padding:0 1rem 0 0;
- 
-}
+
 
 
 @media (max-width: 1024px) {
