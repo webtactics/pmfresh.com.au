@@ -910,6 +910,9 @@ span.search-icon svg:hover {
   color : var(--primary);
 }
 
+.scrolled .infoboxtopbar svg, .scrolled .infoboxtopbar svg:hover {
+  color : var(--white);height:0;
+}
 
 .infoboxmobile svg:hover, .infoboxtopbar svg:hover {
   color : var(--black);
