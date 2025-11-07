@@ -256,7 +256,7 @@
     position: absolute;
     right:0;
   top: 0;
-  object-fit:contain;
+  object-fit:fill;
   text-align: right;
   margin: 0 0 auto;
 }
