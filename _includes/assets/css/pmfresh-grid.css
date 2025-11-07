@@ -620,7 +620,7 @@ ul.off-canvas-list > li.parent > a:hover {
     padding: 0 2rem;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .navbar-menu a {
     padding: 0 1rem;
   }
@@ -651,7 +651,7 @@ ul.off-canvas-list > li.parent > a:hover {
 
 @media (max-width: 1600px) {
  .navbar ul.navbar-menu  li  a {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 }
 
