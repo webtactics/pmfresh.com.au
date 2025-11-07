@@ -824,10 +824,11 @@ ul.second-level {
 
   ul.navbar-menu li ul.second-level a {
   text-transform:none;
-    line-height:50px;
+    line-height:1.2rem;
     font-size: 1rem;
     padding:0 1rem;
      background-color: var(--white);
+     height:3.25rem;
    }
 
 
