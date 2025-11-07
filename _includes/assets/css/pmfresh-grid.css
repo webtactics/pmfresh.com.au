@@ -243,9 +243,9 @@
   bottom: 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
 .Slide-in-left {
-  width: 480vw;
+  width: 48vw;
     }
   }
 
