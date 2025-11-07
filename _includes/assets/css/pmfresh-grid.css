@@ -649,7 +649,17 @@ ul.off-canvas-list > li.parent > a:hover {
   transition: all .3s;
 }
 
+@media (max-width: 1600px) {
+ .navbar ul.navbar-menu  li  a {
+    font-size: 1.15rem;
+  }
+}
 
+@media (max-width: 1200px) {
+ .navbar ul.navbar-menu  li  a {
+    font-size: 1rem;
+  }
+}
 
 .navbar  .navbar-menu  li  a:hover,
 .navbar  .navbar-menu > li  a:focus,
