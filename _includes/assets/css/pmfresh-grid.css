@@ -831,6 +831,9 @@ ul.second-level {
     padding:0 1rem;
      background-color: var(--white);
      height:3.25rem;
+     display: flex;
+  align-items: center;
+  justify-content: flex-start;
    }
 
 
