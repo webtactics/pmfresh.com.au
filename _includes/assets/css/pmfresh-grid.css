@@ -634,8 +634,8 @@ ul.off-canvas-list > li.parent > a:hover {
 .navbar ul.navbar-menu  li  a {
     display: inline-block;
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 600;
-    font-size: 1.375rem;
+    font-weight: 500;
+    font-size: 1.35rem;
     font-style: normal;
     letter-spacing: 1px;
     text-transform: none;

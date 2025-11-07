@@ -2,9 +2,10 @@
 layout: layouts/grid-about.njk
 title: Range of Products.
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/our-products_sNno-UQxs.jpg
 section: products
 class: products
-date: 2024-10-23
+date: 2025-11-07
 permalink: /products/
 metadata:
   title: Our Range of Products.

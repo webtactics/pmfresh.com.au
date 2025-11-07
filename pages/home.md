@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-home.njk
+layout: layouts/grid-default.njk
 title: Quality food. Fresh thinking.
 subtitle: 
 class: home
