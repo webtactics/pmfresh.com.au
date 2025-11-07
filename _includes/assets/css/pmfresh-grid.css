@@ -687,7 +687,7 @@ ul.off-canvas-list > li.parent > a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 0 0 3rem;
+  padding: 0 0 0 4rem;
   text-decoration: none;
   background: transparent;
   line-height: var(--navbottomheight);
@@ -720,9 +720,9 @@ ul.off-canvas-list > li.parent > a:hover {
     display: inline-block;
     font-family: 'ProximaNova', sans-serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-style: normal;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     text-transform: none;
     color: var(--text);
     background: var(--white);
@@ -735,13 +735,13 @@ ul.off-canvas-list > li.parent > a:hover {
 
 @media (max-width: 1600px) {
  .navbar ul.navbar-menu  li  a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 1200px) {
  .navbar ul.navbar-menu  li  a {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
@@ -761,6 +761,7 @@ background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1
 .navbar-menu {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-menu,
