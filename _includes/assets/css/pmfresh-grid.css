@@ -693,27 +693,7 @@ ul.off-canvas-list > li.parent > a:hover {
   line-height: var(--navbottomheight);
 }
 
-@media (max-width: 1800px) {
-  .navbar-menu a {
-     padding: 0 0 0 3rem;
-  }
-}
-@media (max-width: 1500px) {
-  .navbar-menu a {
-     padding: 0 0 0 3rem;
-  }
-}
-@media (max-width: 1200px) {
-  .navbar-menu a {
-    padding: 0 0 0 2rem;
-  }
-}
 
-@media (max-width: 1100px) {
-  .navbar-menu a {
-     padding: 0 0 0 1rem;
-  }
-}
 
 /* Top-level */
 .navbar ul.navbar-menu  li  a {
@@ -733,17 +713,7 @@ ul.off-canvas-list > li.parent > a:hover {
   transition: all .3s;
 }
 
-@media (max-width: 1600px) {
- .navbar ul.navbar-menu  li  a {
-    font-size: 1.2rem;
-  }
-}
 
-@media (max-width: 1200px) {
- .navbar ul.navbar-menu  li  a {
-    font-size: 1rem;
-  }
-}
 
 .navbar  .navbar-menu  li  a:hover,
 .navbar  .navbar-menu > li  a:focus,
