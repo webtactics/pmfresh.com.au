@@ -1723,7 +1723,9 @@ white-space: wrap;
 
 
 .toggle-nav {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 5px auto;
   font-size: 1rem;
   font-weight: 400;
