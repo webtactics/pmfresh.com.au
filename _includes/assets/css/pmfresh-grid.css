@@ -1231,7 +1231,7 @@ grid-template-rows: var(--headerheight);
     display: block;
     height: 100%;
     width : 100%;
-    max-width:103px;
+    max-height:60px;
     
    }
 
