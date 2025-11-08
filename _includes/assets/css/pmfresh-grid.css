@@ -285,6 +285,24 @@
   height: 0.5rem;
   background-color: var(--white);
 }
+
+
+@media (max-width: 600px) {
+.Slide-in-left h2 {
+  padding: 60vh 0 0 6rem;
+
+    }
+
+  .Slide-in-left h2::before {
+  left: 1rem;
+  top: 83vh;
+  width: 3rem;
+  height: 0.5rem;
+
+  }
+}
+
+
  
 .herotitlebox {
 position: relative;
