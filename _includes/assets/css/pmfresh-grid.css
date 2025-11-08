@@ -1198,8 +1198,8 @@ grid-template-rows: var(--headerheight);
 .logo {
   display: flex;
   height: var(--headerheight);
-  justify-content:flex-start;
-  align-items: flex-start;
+  justify-content:flex-end;
+  align-items: center;
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
