@@ -1008,7 +1008,7 @@ ul.infoboxmobile a {
 .fourhundred { grid-area: fourhundred; }
 
 
-
+  .fourhundred {width:0.5rem;}
 
 .topbar, .topbar.scrolled {
   position: fixed;
