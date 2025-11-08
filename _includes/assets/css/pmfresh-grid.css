@@ -245,7 +245,7 @@
 
 @media (max-width: 1500px) {
 .Slide-in-left {
-  width: 48vw;
+  width: 46vw;
     }
   }
 
@@ -288,6 +288,12 @@
 
 
 @media (max-width: 600px) {
+  
+.Slide-in-left {
+  width: 100vw;
+  min-width: 100%;
+}
+
 .Slide-in-left h2 {
   padding: 60vh 0 0 5rem;
 
