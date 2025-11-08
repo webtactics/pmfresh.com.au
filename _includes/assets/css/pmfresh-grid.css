@@ -695,8 +695,7 @@ ul.off-canvas-list > li.parent > a:hover {
 
 @media (max-width: 1150px) {
 .navbar-menu a {
-  padding: 0 0 0 3rem;
-
+  padding: 0 0 0 2rem;
 }
 }
 
