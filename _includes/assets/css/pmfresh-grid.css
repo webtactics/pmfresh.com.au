@@ -1097,7 +1097,7 @@ grid-template-rows: var(--headerheight);
 
    .hamburger {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: var(--headerheight);
     -webkit-transition: all var(--animation-delay);
@@ -1110,7 +1110,7 @@ grid-template-rows: var(--headerheight);
 
   .scrolled .hamburger  {
     display: flex;
-    justify-content: center;
+       justify-content: flex-start;
     align-items: center;
     height: var(--navbottomheight); 
     -webkit-transition: all var(--animation-delay);
@@ -1264,7 +1264,7 @@ grid-template-rows: var(--headerheight);
 
 .hamburger {
   display: flex;
-  justify-content: center;
+    justify-content: flex-start;
   align-items: center;
   height: 74px;
   -webkit-transition: all var(--animation-delay);
@@ -1769,7 +1769,9 @@ white-space: wrap;
 
 .hamburger-icon:before {
   content: "";
-  display:block;
+   display: flex;
+  justify-content: center;
+  align-items: center;
   position:fixed;
     width: 30px;
     height: 4px;
