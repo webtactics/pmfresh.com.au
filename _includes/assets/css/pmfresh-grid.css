@@ -1725,15 +1725,13 @@ white-space: wrap;
 
 
 .toggle-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: block;
   margin: 5px auto;
   font-size: 1rem;
   font-weight: 400;
-  color: white;
+  color: #fff;
   cursor: pointer;
-  background: transparent;
+  background: 0 0;
   border: none;
   width: 60px;
   height: 54px;
@@ -1743,8 +1741,8 @@ white-space: wrap;
   -o-transition: all var(--animation-delay);
   transition: all var(--animation-delay);
   z-index: 3;
-  padding:10px;
- }
+  padding: 10px;
+}
 
  .scrolled .toggle-nav {
 
@@ -1769,16 +1767,16 @@ white-space: wrap;
 }
 
 
-.hamburger-icon:before {
+.hamburger-icon::before {
   content: "";
-   display: flex;
-  position:fixed;
-    width: 30px;
-    height: 4px;
-    margin:0px;
-    background: var(--primary);
-    box-shadow: 0 12px 0 0 var(--primary), 0 24px 0 0 var(--primary);
-    -webkit-transition: all var(--animation-delay);
+  display: block;
+  position: fixed;
+  width: 30px;
+  height: 4px;
+  margin: 0;
+  background: var(--primary);
+  box-shadow: 0 12px 0 0 var(--primary),0 24px 0 0 var(--primary);
+  -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
   -o-transition: all var(--animation-delay);
