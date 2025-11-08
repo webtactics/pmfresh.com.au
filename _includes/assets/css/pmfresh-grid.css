@@ -1310,7 +1310,7 @@ grid-template-rows: var(--headerheight);
   padding:0;
  }
 
-.scrolled .navrightsidetopline {text-align: right;height:0px;
+.scrolled .navrightsidetopline {display:block;text-align: right;height:0px;
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
