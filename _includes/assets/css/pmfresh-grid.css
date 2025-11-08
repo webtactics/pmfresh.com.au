@@ -1070,13 +1070,24 @@ ul.infoboxmobile a {
 
 }
 
+@media (min-width: 1300px) {  
+  .headerwrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 300px 1fr 400px;
+  grid-template-areas:
+"hamburger fourhundredleft logo navwrapper fourhundred";
+  }
+
+
+}
+
 @media (min-width: 1025px) {  
 
 .headerwrapper {
 display: grid;
-grid-template-columns: 100px 200px 300px 1fr 0.5rem;
+grid-template-columns: 100px  300px 1fr 0.5rem;
 grid-template-areas:
-"hamburger fourhundredleft logo navwrapper fourhundred";
+"hamburger logo navwrapper fourhundred";
 grid-template-rows: var(--headerheight);
 -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
