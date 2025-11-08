@@ -1088,11 +1088,20 @@ grid-template-rows: var(--headerheight);
 @media (min-width: 1500px) {  
   .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 400px 300px 1fr 400px;
+  grid-template-columns: 100px 200px 300px 1fr 400px;
   grid-template-areas:
 "hamburger fourhundredleft logo navwrapper fourhundred";
   }
 
+}
+
+@media (min-width: 1921px) {  
+  .headerwrapper {
+  display: grid;
+  grid-template-columns: 100px 400px 300px 1fr 400px;
+  grid-template-areas:
+"hamburger fourhundredleft logo navwrapper fourhundred";
+  }
 
 }
 
