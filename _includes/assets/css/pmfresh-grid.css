@@ -1059,27 +1059,6 @@ ul.infoboxmobile a {
     z-index: 3;
 }  
 
-@media (min-width: 1500px) {  
-  .headerwrapper {
-  display: grid;
-  grid-template-columns: 100px 400px 300px 1fr 400px;
-  grid-template-areas:
-"hamburger fourhundredleft logo navwrapper fourhundred";
-  }
-
-
-}
-
-@media (min-width: 1300px) {  
-  .headerwrapper {
-  display: grid;
-  grid-template-columns: 100px 100px 300px 1fr 400px;
-  grid-template-areas:
-"hamburger fourhundredleft logo navwrapper fourhundred";
-  }
-
-
-}
 
 @media (min-width: 1025px) {  
 
@@ -1095,6 +1074,27 @@ grid-template-rows: var(--headerheight);
   -o-transition: all var(--animation-delay);
   transition: all var(--animation-delay);
  } 
+
+
+ @media (min-width: 1300px) {  
+  .headerwrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 300px 1fr 400px;
+  grid-template-areas:
+"hamburger fourhundredleft logo navwrapper fourhundred";
+  }
+}
+
+@media (min-width: 1500px) {  
+  .headerwrapper {
+  display: grid;
+  grid-template-columns: 100px 400px 300px 1fr 400px;
+  grid-template-areas:
+"hamburger fourhundredleft logo navwrapper fourhundred";
+  }
+
+
+}
 
  .headerwrapper.scrolled {
 
