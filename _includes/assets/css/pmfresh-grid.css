@@ -267,10 +267,10 @@
   color: var(--white);
   font-weight: 700;
   font-size: 3.5rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
   position: relative;
   z-index: 10;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   padding: 80vh 0 0 8rem;
 }
 
