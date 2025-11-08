@@ -289,12 +289,12 @@
 
 @media (max-width: 600px) {
 .Slide-in-left h2 {
-  padding: 60vh 0 0 6rem;
+  padding: 60vh 0 0 5rem;
 
     }
 
   .Slide-in-left h2::before {
-  left: 1.5rem;
+  left: 1rem;
   top: 63vh;
   width: 3rem;
   height: 0.5rem;
