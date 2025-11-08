@@ -1278,8 +1278,6 @@ grid-template-rows: var(--headerheight);
   
 .navrightside {
   display: flex;
-    justify-content: flex-end;
-  align-items: center;
   height: var(--headerheight);
   flex-direction: column;
   -webkit-transition: all var(--animation-delay);
@@ -1301,18 +1299,19 @@ grid-template-rows: var(--headerheight);
   transition: all var(--animation-delay);
  }
 
-.navrightsidetopline {display:flex;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: right;
+.navrightsidetopline {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
   height: var(--navtopheight);
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
   -o-transition: all var(--animation-delay);
   transition: all var(--animation-delay);
-  padding:0;
- }
+  padding: 0;
+}
 
 .scrolled .navrightsidetopline {display:block;text-align: right;height:0px;
   -webkit-transition: all var(--animation-delay);
