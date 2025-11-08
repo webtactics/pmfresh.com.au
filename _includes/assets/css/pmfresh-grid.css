@@ -1074,7 +1074,7 @@ ul.infoboxmobile a {
 
 .headerwrapper {
 display: grid;
-grid-template-columns: 100px 300px 200px 1fr 0.5rem;
+grid-template-columns: 100px 200px 300px 1fr 0.5rem;
 grid-template-areas:
 "hamburger fourhundredleft logo navwrapper fourhundred";
 grid-template-rows: var(--headerheight);
@@ -1198,7 +1198,7 @@ grid-template-rows: var(--headerheight);
 .logo {
   display: flex;
   height: var(--headerheight);
-  justify-content:flex-end;
+  justify-content:flex-start;
   align-items: center;
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
