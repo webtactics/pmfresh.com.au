@@ -288,7 +288,7 @@
 
 
 @media (max-width: 600px) {
-  
+
 .Slide-in-left {
   width: 100vw;
   min-width: 100%;
@@ -1226,7 +1226,7 @@ grid-template-rows: var(--headerheight);
     transition: all var(--animation-delay);
     height: 100%;
   }
-.scrolled .logo img {max-height:50px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-width:148px;aspect-ratio: 466 / 158;
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
