@@ -1772,8 +1772,6 @@ white-space: wrap;
 .hamburger-icon:before {
   content: "";
    display: flex;
-  justify-content:flex-start;
-  align-items: center;
   position:fixed;
     width: 30px;
     height: 4px;
