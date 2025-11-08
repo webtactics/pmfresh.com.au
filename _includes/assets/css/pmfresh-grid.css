@@ -1202,7 +1202,7 @@ grid-template-rows: var(--headerheight);
     transition: all var(--animation-delay);
     height: 100%;
   }
-.scrolled .logo img {max-width:148px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-height:50px;aspect-ratio: 466 / 158;
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
   -ms-transition: all var(--animation-delay);
@@ -1223,7 +1223,7 @@ grid-template-rows: var(--headerheight);
   height: auto;
   justify-content:flex-end;
   align-items: flex-start;
-  padding: 0 1rem;
+
   
   }
 
@@ -1231,7 +1231,7 @@ grid-template-rows: var(--headerheight);
     display: block;
     height: 100%;
     width : 100%;
-    max-height:60px;
+    max-height:50px;
     
    }
 
