@@ -1031,10 +1031,10 @@ ul.infoboxmobile a {
 .navbottomline { grid-area: navbottomline; }
 .navbottomlinewrapper { grid-area: navbottomlinewrapper; }
 .footernav { grid-area: footernav; }
-.fourhundred { grid-area: fourhundred; }
-.fourhundredleft { grid-area: fourhundredleft; }
+.topnavpadright { grid-area: topnavpadright; }
 
-  .fourhundred {width:0.5rem;}
+
+  .topnavpadright {width:0.5rem;}
 
 .topbar, .topbar.scrolled {
   position: fixed;
@@ -1066,7 +1066,7 @@ ul.infoboxmobile a {
 display: grid;
 grid-template-columns: 100px  300px 1fr 0.5rem;
 grid-template-areas:
-"hamburger logo navwrapper fourhundred";
+"hamburger logo navwrapper topnavpadright";
 grid-template-rows: var(--headerheight);
 -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
@@ -1081,16 +1081,16 @@ grid-template-rows: var(--headerheight);
   display: grid;
   grid-template-columns: 100px 300px 1fr 100px;
   grid-template-areas:
-"hamburger  logo navwrapper fourhundred";
+"hamburger  logo navwrapper topnavpadright";
   }
 }
 
 @media (min-width: 1500px) {  
   .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 200px 300px 1fr 300px;
+  grid-template-columns: 100px 300px 1fr 300px;
   grid-template-areas:
-"hamburger fourhundredleft logo navwrapper fourhundred";
+"hamburger logo navwrapper topnavpadright";
   }
 
 }
@@ -1098,9 +1098,9 @@ grid-template-rows: var(--headerheight);
 @media (min-width: 1921px) {  
   .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 400px 300px 1fr 400px;
+  grid-template-columns: 100px 300px 1fr 400px;
   grid-template-areas:
-"hamburger fourhundredleft logo navwrapper fourhundred";
+"hamburger logo navwrapper topnavpadright";
   }
 
 }
@@ -1141,7 +1141,7 @@ grid-template-rows: var(--headerheight);
   
   }
 
-  .fourhundred {width:400px;}
+  .topnavpadright {width:400px;}
   
 .topbar {
  
