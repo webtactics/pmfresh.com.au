@@ -926,15 +926,17 @@ span.search-icon svg:hover {
   color : var(--white);
 }
 .infoboxtopbar svg {
+  color : var(--black);
+}
+
+
+
+.infoboxmobile svg:hover, .infoboxtopbar svg:hover {
   color : var(--primary);
 }
 
 .scrolled .infoboxtopbar svg, .scrolled .infoboxtopbar svg:hover {
   color : var(--white);
-}
-
-.infoboxmobile svg:hover, .infoboxtopbar svg:hover {
-  color : var(--black);
 }
 
 ul.infobox, ul.infoboxmobile, ul.infoboxtopbar  {
