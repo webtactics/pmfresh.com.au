@@ -1724,7 +1724,7 @@ white-space: wrap;
 
 .toggle-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 5px auto;
   font-size: 1rem;
