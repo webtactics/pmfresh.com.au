@@ -514,16 +514,7 @@ color: var(--black);
 .scrolled .hide-for-scrolled {display: none;}
 
 
-@media (min-width: 1025px) {
-  .hide-for-large {
-    display: none;
-    }
-  }
-@media (max-width: 1024px) {
-  .hide-for-small {
-    display: none;
-    }
-  }
+
 
 /* topnav layout */
 
@@ -2978,83 +2969,7 @@ a.resultspdfsmall:hover {
   transition: background-color .6s,text-decoration-color .6s;
 }
 
-a.goldsponsorwebsite {
-  color: var(--white);
-  background-color: var(--gold);
-  font-size:var(--h3sum);
-  border: none;
-  padding: 0.25rem 2rem;
-  white-space: wrap;
-  text-decoration-thickness: 0.4rem;
-  text-decoration-style: dotted;
-  text-decoration-color: var(--gold);
-  text-underline-offset: 1rem;
-  transition: background-color .6s,text-decoration-color .6s;
-}
 
-
-a.goldsponsorwebsite:hover {
-  background-color: var(--darkgold);
-  color: var(--white);
-  border: none;
-  text-decoration-thickness: 0.4rem;
-  text-decoration-style: solid;
-  text-decoration-color: var(--darkgold);
-  text-underline-offset: 1rem;
-  transition: background-color .6s,text-decoration-color .6s;
-  }
-
-  a.silversponsorwebsite {
-    color: var(--white);
-    background-color: var(--silver);
-    font-size:var(--h3sum);
-    border: none;
-    padding: 0.25rem 2rem;
-    white-space: wrap;
-    text-decoration-thickness: 0.4rem;
-    text-decoration-style: dotted;
-    text-decoration-color: var(--silver);
-    text-underline-offset: 1rem;
-    transition: background-color .6s,text-decoration-color .6s;
-  }
-  
-  
-  a.silversponsorwebsite:hover {
-    background-color: var(--darksilver);
-    color: var(--white);
-    border: none;
-    text-decoration-thickness: 0.4rem;
-    text-decoration-style: solid;
-    text-decoration-color: var(--darksilver);
-    text-underline-offset: 1rem;
-    transition: background-color .6s,text-decoration-color .6s;
-    }
-
-    a.bronzesponsorwebsite {
-      color: var(--white);
-      background-color: var(--bronze);
-      font-size:var(--h3sum);
-      border: none;
-      padding: 0.25rem 2rem;
-      white-space: wrap;
-      text-decoration-thickness: 0.4rem;
-      text-decoration-style: dotted;
-      text-decoration-color: var(--bronze);
-      text-underline-offset: 1rem;
-      transition: background-color .6s,text-decoration-color .6s;
-    }
-    
-    
-    a.bronzesponsorwebsite:hover {
-      background-color: var(--darkbronze);
-      color: var(--white);
-      border: none;
-      text-decoration-thickness: 0.4rem;
-      text-decoration-style: solid;
-      text-decoration-color: var(--darkbronze);
-      text-underline-offset: 1rem;
-      transition: background-color .6s,text-decoration-color .6s;
-      }
 @media (max-width: 1025px) {
   a.recordspdfsmall, a.resultspdfsmall, h4.results-title, h4.results-title a, h3.results-title, h3.results-title a, h3.event-title, h3.event-title a {
     white-space: normal;
@@ -3331,3 +3246,17 @@ textarea
   clear: both;
   width:100%;
 }
+
+/* Bottom */
+
+
+@media (min-width: 1025px) {
+  .hide-for-large {
+    display: none;
+    }
+  }
+@media (max-width: 1024px) {
+  .hide-for-small {
+    display: none;
+    }
+  }
