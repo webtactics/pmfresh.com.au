@@ -1079,7 +1079,7 @@ grid-template-rows: var(--headerheight);
  @media (min-width: 1300px) {  
   .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 300px 1fr 100px;
+  grid-template-columns: 100px 300px 1fr 0.5rem;
   grid-template-areas:
 "hamburger  logo navwrapper topnavpadright";
   }
