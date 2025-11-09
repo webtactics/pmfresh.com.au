@@ -1199,21 +1199,13 @@ grid-template-rows: var(--headerheight);
     transition: all var(--animation-delay);
    } 
   
-   @media (min-width: 1025px) and (max-width: 1500px) {
+ 
  
    .navwrapper {
     margin: 0 0 0 auto;
     }
 
-  }
-
-  @media (min-width: 1501px) {  
-    .navwrapper {
-      margin: 0 auto;
-      min-width:1000px;
-     }
  
-   }
 
 .logo {
   display: flex;
