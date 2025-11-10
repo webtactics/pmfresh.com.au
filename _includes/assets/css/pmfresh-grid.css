@@ -904,8 +904,17 @@ ul.infobox li {
   align-items: center;
   cursor: pointer;
   padding: 0 0 0 2rem;
+  background: var(--white);
 }
-
+.infobox > li > a.tradelogin {
+  display: flex;
+  height: var(--navtopheight);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+  background: var(--white);
+}
 
 .mobilemenu {padding:0;}
 
