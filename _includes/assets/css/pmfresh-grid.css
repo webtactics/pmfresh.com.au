@@ -563,7 +563,7 @@ color: var(--black);
   width: 100%;
 z-index: 3;}
 
-@media (min-width: 1300px) {  
+@media (max-width: 1300px) {  
 .headerwrapper {
 display: grid;
  grid-template-columns: 100px 1fr 1rem;
