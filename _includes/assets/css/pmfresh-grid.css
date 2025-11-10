@@ -752,7 +752,7 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:236px;aspect-ratio: 466 / 158;
+  .logo img {max-width:466px;aspect-ratio: 466 / 158;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -760,7 +760,7 @@ grid-template-rows: var(--headerheight);
     transition: all 0.6s;
     height:auto;
   }
-.scrolled .logo img {max-width:148px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-width:250px;aspect-ratio: 466 / 158;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
