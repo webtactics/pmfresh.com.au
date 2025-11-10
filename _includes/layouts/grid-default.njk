@@ -1,8 +1,8 @@
 <!doctype html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
-
+{% block headclass %}
 {% include "components/grid-head.njk" %}
-
+{% endblock %}
 	
 {% block bodyclass %}<body class="internal {{ class }} " >{% endblock %}
 
