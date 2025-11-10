@@ -566,9 +566,9 @@ z-index: 3;}
 @media (min-width: 1300px) {  
 .headerwrapper {
 display: grid;
- grid-template-columns: 100px 1fr;
-grid-template-areas:
-"hamburger navwrapper";
+ grid-template-columns: 100px 1fr 1rem;
+  grid-template-areas:
+"hamburger navwrapper pad100";
 grid-template-rows: var(--headerheight);
 -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -580,9 +580,9 @@ grid-template-rows: var(--headerheight);
 
  .headerwrapper.scrolled {
   display: grid;
- grid-template-columns: 100px 1fr;
+ grid-template-columns: 100px 1fr 1rem;
   grid-template-areas:
-"hamburger navwrapper";
+"hamburger navwrapper pad100";
   grid-template-rows: var(--navbottomheight); 
   -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -596,9 +596,9 @@ grid-template-rows: var(--headerheight);
 @media (min-width: 1025px) {  
 .headerwrapper {
 display: grid;
- grid-template-columns: 100px 1fr;
-grid-template-areas:
-"hamburger navwrapper";
+ grid-template-columns: 100px 1fr 1rem;
+  grid-template-areas:
+"hamburger navwrapper pad100";
 grid-template-rows: var(--headerheight);
 -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -610,9 +610,9 @@ grid-template-rows: var(--headerheight);
 
  .headerwrapper.scrolled {
   display: grid;
- grid-template-columns: 100px 1fr;
-grid-template-areas:
-"hamburger navwrapper";
+ grid-template-columns: 100px 1fr 1rem;
+  grid-template-areas:
+"hamburger navwrapper pad100";
   grid-template-rows: var(--navbottomheight); 
   -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
