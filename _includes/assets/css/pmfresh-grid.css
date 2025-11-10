@@ -683,14 +683,27 @@ grid-template-rows: var(--headerheight);
     transition: all 0.6s;
    } 
    @media (max-width: 1500px) { 
-
-    .navwrapper {
-
+.navwrapper {
         margin: 0;
-        max-width: 900px;
+        width: 100%;
+        max-width: 1200px;
     }
   }
 
+   @media (max-width: 1300px) { 
+.navwrapper {
+        margin: 0;
+        width: 100%;
+        max-width: 1100px;
+    }
+  }
+   @media (max-width: 1100px) { 
+.navwrapper {
+        margin: 0;
+        width: 100%;
+        max-width: 800px;
+    }
+  }
 
    @media (max-width: 1024px) { 
 
