@@ -848,6 +848,9 @@ transition: all 1s;}
  }
 
 .navrightsidetopline {text-align: right;
+  display: flex;
+    justify-content:flex-end;
+  align-items: center;
   height: var(--navtopheight);
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -858,6 +861,7 @@ transition: all 1s;}
  }
 
 .scrolled .navrightsidetopline {text-align: right;height:0px;
+    display:  none;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
