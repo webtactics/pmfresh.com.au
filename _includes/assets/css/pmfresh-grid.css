@@ -545,13 +545,13 @@ color: var(--black);
 .navbottomline { grid-area: navbottomline; }
 .navbottomlinewrapper { grid-area: navbottomlinewrapper; }
 .search-wrapper { grid-area: search-wrapper; }
-
+.pad100 { grid-area: pad100; }
 
 .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 100px 1fr 100px;
   grid-template-areas:
-  "hamburger navwrapper";
+  "hamburger navwrapper pad100";
     grid-template-rows: var(--mobilenavheight);
     z-index: 3;
 }  
@@ -568,9 +568,9 @@ z-index: 3;}
 @media (min-width: 1025px) {  
 .headerwrapper {
 display: grid;
- grid-template-columns: 100px 1fr;
+ grid-template-columns: 100px 1fr 100px;
 grid-template-areas:
- "hamburger navwrapper";
+"hamburger navwrapper pad100";
 grid-template-rows: var(--headerheight);
 -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -582,9 +582,9 @@ grid-template-rows: var(--headerheight);
 
  .headerwrapper.scrolled {
   display: grid;
- grid-template-columns: 100px 1fr;
+ grid-template-columns: 100px 1fr 100px;
   grid-template-areas:
- "hamburger navwrapper";
+"hamburger navwrapper pad100";
   grid-template-rows: var(--navbottomheight); 
   -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -676,6 +676,7 @@ grid-template-rows: var(--headerheight);
       grid-template-areas:
         "logo navrightside";
         grid-template-rows: var(--navbottomheight); 
+          margin: 0 auto;
         -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -684,7 +685,7 @@ grid-template-rows: var(--headerheight);
    } 
    @media (max-width: 1500px) { 
 .navwrapper {
-        margin: 0;
+          margin: 0 auto;
         width: 100%;
         max-width: 1200px;
     }
@@ -692,18 +693,12 @@ grid-template-rows: var(--headerheight);
 
    @media (max-width: 1300px) { 
 .navwrapper {
-        margin: 0;
+         margin: 0 auto;
         width: 100%;
-        max-width: 1100px;
+        max-width: 100%;
     }
   }
-   @media (max-width: 1100px) { 
-.navwrapper {
-        margin: 0;
-        width: 100%;
-        max-width: 800px;
-    }
-  }
+
 
    @media (max-width: 1024px) { 
 
@@ -716,7 +711,7 @@ grid-template-rows: var(--headerheight);
         margin: 0;
         z-index: 2;
         width: 100%;
-        max-width: 520px;
+         max-width: 100%;
         margin: 0;
    
        } 
@@ -730,7 +725,7 @@ grid-template-rows: var(--headerheight);
         margin: 0;
         z-index: 2;
         width: 100%;
-        max-width: 520px;
+         max-width: 100%;
    
        } 
 
