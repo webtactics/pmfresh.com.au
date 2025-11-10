@@ -861,7 +861,9 @@ transition: all 1s;}
  }
 
 .scrolled .navrightsidetopline {text-align: right;height:0px;
-    display:  none;
+  display: flex;
+    justify-content:flex-end;
+  align-items: center;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
