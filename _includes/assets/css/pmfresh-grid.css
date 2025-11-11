@@ -1645,7 +1645,7 @@ white-space: wrap;
 }
 
 
-span.title-bar-title {display:block;text-indent:34px;padding:0;}
+span.title-bar-title {display:block;text-indent:34px;padding:0;color: var(--white);}
 
 
 
