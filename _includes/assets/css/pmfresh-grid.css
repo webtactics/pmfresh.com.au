@@ -1689,8 +1689,24 @@ white-space: wrap;
 
 span.title-bar-title {display:block;text-indent:34px;padding:0;color: var(--white);}
 
-
-
+ @media screen and (max-width: 1025px) {
+.hamburger-icon::before {
+  content: "";
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 30px;
+  height: 4px;
+  margin: 0;
+  background: var(--black);
+  box-shadow: 0 12px 0 0 var(--black),0 24px 0 0 var(--black);
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
+}
+ }
 
 .toggle-nav:focus {
   outline: none;
