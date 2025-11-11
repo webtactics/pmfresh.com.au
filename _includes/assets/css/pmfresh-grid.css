@@ -914,6 +914,18 @@ grid-row-gap: 0px;
   align-items: center;
  }
 
+
+
+@media screen and (max-width: 1024px) {
+
+  .navrightside, .navrightsidetopline, .navrightsidebottomline {
+  display: none;
+}
+}
+
+
+
+
 ul.infobox, ul.infoboxmobile {
   list-style: none;
   margin: 0;
