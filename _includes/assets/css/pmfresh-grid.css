@@ -1331,7 +1331,12 @@ ul.navbar-menu li ul.second-level li a {
   -webkit-text-fill-color: var(--text) !important;
 }
 
+.navbar ul.navbar-menu li.active-class ul.second-level li a:hover {
 
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
