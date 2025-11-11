@@ -1267,7 +1267,7 @@ ul.second-level {
     line-height:1rem;
     font-size: 1rem;
     padding:0 1rem;
-   background-color: var(--white);
+   background-color: var(--white) !important;
    color: var(--text);
      height:3rem;
      display: flex;
@@ -1285,7 +1285,7 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--text);
-    background: var(--white);
+    background: var(--white) !important;
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -1300,7 +1300,7 @@ ul.navbar-menu li ul.second-level li a {
     padding: 0 1rem;
     font-size: 1rem;
     color: var(--primary);
-    background: var(--white);
+    background: var(--white) !important;
     width: 100%;
     text-align: left;
     text-decoration: none;
@@ -1313,11 +1313,11 @@ ul.navbar-menu li ul.second-level li a {
 
   .navbar ul.navbar-menu li.active-class  a ul.second-level li a  {
     color: var(--text);
-    background-color: var(--white);
+    background-color: var(--white) !important;
 }
 .navbar ul.navbar-menu li.active-class ul.second-level li a  {
      color: var(--text);
-    background-color: var(--white);
+    background-color: var(--white) !important;
 
 }
 
