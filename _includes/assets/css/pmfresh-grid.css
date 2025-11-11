@@ -1008,7 +1008,6 @@ text-decoration: none;
   align-items: center;
   height: 4rem;
   line-height: 4rem;
-
   color: var(--white);
   font-weight:400;
 }
@@ -1019,20 +1018,19 @@ line-height:4rem;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-
+z-index: 10;
 
 }
 
 .offcanvas .smalltextwrapper h3 {padding-left: 0.5rem;font-size:1.3rem;
   color: var(--white);
   text-align: left;
-  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   font-weight:400;
 font-style: normal;
   height: 4rem ;
   line-height: 4rem;
   margin: 0 0 2px 0;
-  background: transparent;
+  background: var(--primary);
  }
 
 
