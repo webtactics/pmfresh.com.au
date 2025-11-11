@@ -947,19 +947,17 @@ ul.infobox li, ul.infoboxmobile li {
   background: var(--white);
 }
 
-a.tradelogin  {font-size:1rem;font-weight:600;color: var(--primary);border:none;
-text-decoration-thickness: 0.4rem;
-  text-decoration-style: dotted;
-  text-decoration-color: var(--primary);
-  text-underline-offset: 1rem;
-  transition: background-color .6s,text-decoration-color .6s;}
+a.tradelogin  {font-size:1rem;font-weight:600;color: var(--primary);
+text-decoration: none;
+  border-bottom: 3px solid var(--primary);
+  background-color: var(--white);
+  transition: all var(--transitionquick) ease-in-out;}
 
-a.tradelogin:hover {color: var(--black);border:none;
-text-decoration-thickness: 0.4rem;
-  text-decoration-style: solid;
-  text-decoration-color: var(--black);
-  text-underline-offset: 1rem;
-  transition: background-color .6s,text-decoration-color .6s;} 
+a.tradelogin:hover {color: var(--black);
+text-decoration: none;
+  border-bottom: 3px solid var(--black);
+  background-color: var(--white);
+  transition: all var(--transitionquick) ease-in-out;} 
 
 .mobilemenu {padding:0;}
 
