@@ -1263,11 +1263,11 @@ ul.second-level {
 
   ul.navbar-menu li ul.second-level a {
   text-transform:none;
-    line-height:1.2rem;
+    line-height:1rem;
     font-size: 1rem;
     padding:0 1rem;
      background-color: var(--white);
-     height:3.25rem;
+     height:3rem;
      display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1291,7 +1291,7 @@ ul.navbar-menu li ul.second-level li a {
     transition: background 300ms ease;
   }
   .navbar ul.navbar-menu li.active-class  ul.second-level li a {
-       display: flex;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
     padding: 0 1rem;
