@@ -1008,8 +1008,9 @@ text-decoration: none;
   align-items: center;
   height: 4rem;
   line-height: 4rem;
-  color: var(--white);
+  color: var(--primary);
   font-weight:400;
+   background: var(--white);
 }
 
 .mobilewrapper {
@@ -1019,18 +1020,19 @@ display: flex;
 justify-content: flex-end;
 align-items: center;
 z-index: 10;
+ background: var(--white);
 
 }
 
 .offcanvas .smalltextwrapper h3 {padding-left: 0.5rem;font-size:1.3rem;
-  color: var(--white);
+  color: var(--primary);
   text-align: left;
   font-weight:400;
 font-style: normal;
   height: 4rem ;
   line-height: 4rem;
   margin: 0 0 2px 0;
-  background: var(--primary);
+  background: var(--white);
  }
 
 
