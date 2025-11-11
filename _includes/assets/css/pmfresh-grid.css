@@ -1314,7 +1314,7 @@ ul.navbar-menu li ul.second-level li a {
 
   .navbar ul.navbar-menu li.active-class  a ul.second-level li a  {
      color: var(--text);
-    background: var(--white);
+    background-color: var(--white);
 }
 .navbar ul.navbar-menu li.active-class ul.second-level li a  {
    display: flex;
