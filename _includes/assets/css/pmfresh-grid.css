@@ -1436,7 +1436,16 @@ svg:hover {
   background: none !important;
   color: var(--text) !important;
 }
-
+/* 2) Reset any inherited gradient clipping / text-fill for submenu anchors so
+   they render normal text by default (this prevents parent rules from "bleeding") */
+.navbar ul.navbar-menu li ul.second-level li a,
+.navbar ul.navbar-menu li ul.second-level li a:link,
+.navbar ul.navbar-menu li ul.second-level li a:visited {
+  background: var(--white) !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: var(--text) !important;
+  color: var(--text) !important;
+}
 
 
 /* end topnav */
