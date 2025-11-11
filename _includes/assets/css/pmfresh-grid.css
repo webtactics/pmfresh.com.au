@@ -1183,12 +1183,13 @@ ul.off-canvas-list > li.parent > a:hover {
 
 .navbar  .navbar-menu  li  a:hover,
 .navbar  .navbar-menu > li  a:focus,
-.navbar ul.navbar-menu li.active-class  {
+.navbar ul.navbar-menu li.active-class  a {
 background-color: var(--white);
 background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 
@@ -1309,6 +1310,12 @@ ul.navbar-menu li ul.second-level li a {
 
 
   }
+
+
+  .navbar ul.navbar-menu li.active-class  a ul.second-level li a  {
+     color: var(--text);
+    background: var(--white);
+}
 
   @media (max-width: 1300px) {
 ul.second-level {
