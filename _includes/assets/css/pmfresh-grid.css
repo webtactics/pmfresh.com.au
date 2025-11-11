@@ -1293,7 +1293,7 @@ ul.navbar-menu li ul.second-level li a {
     transition: background 300ms ease;
   }
 
-  ul.navbar-menu li ul.second-level li a:hover,   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover,   .navbar ul.navbar-menu li  ul.second-level li.active-class a,  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
+  ul.navbar-menu li ul.second-level li a:hover {
      display: flex;
   align-items: center;
   justify-content: flex-start;
