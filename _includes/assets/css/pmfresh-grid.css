@@ -1256,7 +1256,7 @@ ul.second-level {
     visibility: hidden;
     opacity: 0;
     width: 14rem;
-   
+    background-color: var(--white);
   }
   
 
@@ -1267,7 +1267,8 @@ ul.second-level {
     line-height:1rem;
     font-size: 1rem;
     padding:0 1rem;
-  
+   background-color: var(--white);
+   color: var(--text);
      height:3rem;
      display: flex;
   align-items: center;
@@ -1317,20 +1318,9 @@ ul.navbar-menu li ul.second-level li a {
     background-color: var(--white);
 }
 .navbar ul.navbar-menu li.active-class ul.second-level li a  {
-   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-    padding: 0 1rem;
-    font-size: 1rem;
-    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    width: 100%;
-    text-align: left;
-    text-decoration: none;
-    border-bottom: 1px solid var(--primary);
-    text-transform:none;
-    transition: background 300ms ease;
+     color: var(--text);
+    background-color: var(--white);
+
 }
 
 
