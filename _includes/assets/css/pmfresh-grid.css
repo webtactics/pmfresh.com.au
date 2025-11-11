@@ -848,39 +848,29 @@ grid-row-gap: 0px;
 
 
 .navrightside {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: var(--navtopheight) var(--navbottomheight);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-grid-template-areas:
-"navrightsidetopline navrightsidebottomline";
-height: var(--headerheight);
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  display: flex;
+  height: var(--headerheight);
+  flex-direction: column;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
 }
 
  .scrolled .navrightside {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: var(--navbottomheight);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-grid-template-areas:
-"navrightsidebottomline";
+  display: flex;
   height: var(--navbottomheight); 
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  flex-direction: column;
+  -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
+  background-color: var(--white);
  }
 
 .navrightsidetopline {
-  grid-area: 1 / 1 / 2 / 2; 
   text-align: right;
   display: flex;
     justify-content:flex-end;
@@ -891,7 +881,7 @@ grid-template-areas:
   -ms-transition: all 0.6s;
   -o-transition: all 0.6s;
   transition: all 0.6s;
-  padding:8px 0 0 0;
+  padding:8px 0;
  }
 
 .scrolled .navrightsidetopline {text-align: right;height:0px;
@@ -905,14 +895,14 @@ grid-template-areas:
   transition: all 0.6s;
   padding:0;
   z-index: -10;
+    background: var(--white);
  }
 
 
 
 .navrightsidebottomline {
-  grid-area: 2 / 1 / 3 / 2;
-  text-align: right;height: 
-  var(--navbottomheight); 
+  text-align: right;
+  height: var(--navbottomheight); 
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
