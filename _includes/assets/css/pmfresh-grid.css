@@ -1317,8 +1317,20 @@ ul.navbar-menu li ul.second-level li a {
     background: var(--white);
 }
 .navbar ul.navbar-menu li.active-class ul.second-level li a  {
-     color: var(--text);
-    background: var(--white);
+   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+    padding: 0 1rem;
+    font-size: 1rem;
+    background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary);
+    text-transform:none;
+    transition: background 300ms ease;
 }
 
 
@@ -1329,7 +1341,6 @@ ul.second-level {
 
     ul.navbar-menu li ul.second-level a {
   text-transform:none;
-
     font-size: 0.9rem;
     padding:0 0.5rem;
      background-color: var(--white);
