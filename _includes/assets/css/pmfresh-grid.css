@@ -918,7 +918,7 @@ grid-row-gap: 0px;
 
 @media screen and (max-width: 1024px) {
 
-  .navrightside, .navrightsidetopline, .navrightsidebottomline {
+  .navrightside, .navrightsidetopline, .navrightsidebottomline, .scrolled .navrightsidetopline, .scrolled .navrightsidebottomline {
   display: none;
 }
 }
