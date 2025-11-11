@@ -1008,7 +1008,7 @@ text-decoration: none;
   align-items: center;
   height: 4rem;
   line-height: 4rem;
-background: var(--primary);
+
   color: var(--white);
   font-weight:400;
 }
@@ -1019,7 +1019,7 @@ line-height:4rem;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-background: var(--primary);
+
 
 }
 
@@ -1034,18 +1034,7 @@ font-style: normal;
   margin: 0 0 2px 0;
   background: transparent;
  }
-.offcanvas .mobilesearch h3  {padding-left: 0.5rem;font-size:1.3rem;
-  color: var(--black);
-  text-align: left;
-  background: var(--white);
- font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-  font-weight:400;
-font-style: normal;
-  height: 2rem ;
-  line-height: 2rem;
-  margin: 0 0 2px 0;
- }
-.mobilesearch {padding:1rem 0;}
+
 
 ul.off-canvas-list, ul.second {
   list-style-type: none;
