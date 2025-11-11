@@ -1256,7 +1256,7 @@ ul.second-level {
     visibility: hidden;
     opacity: 0;
     width: 14rem;
-     background: var(--white);
+   
   }
   
 
@@ -1267,7 +1267,7 @@ ul.second-level {
     line-height:1rem;
     font-size: 1rem;
     padding:0 1rem;
-     background-color: var(--white);
+  
      height:3rem;
      display: flex;
   align-items: center;
