@@ -971,7 +971,6 @@ text-decoration-thickness: 0.4rem;
   line-height: 4rem;
 background: var(--primary);
   color: var(--white);
-  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   font-weight:400;
 }
 
@@ -1824,6 +1823,12 @@ padding: 3rem 1rem;}
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
+.grid-2-mobilenav {
+  grid-template-columns: 2fr 3fr;
+  gap: 0;
+}
+
+
 .grid-2-news {
   grid-template-columns: 3fr 2fr;
   gap: 3rem;
