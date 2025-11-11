@@ -1292,20 +1292,7 @@ ul.navbar-menu li ul.second-level li a {
     border-bottom: 1px solid var(--primary);
     transition: background 300ms ease;
   }
-  .navbar ul.navbar-menu li.active-class  ul.second-level li a {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-    padding: 0 1rem;
-    font-size: 1rem;
-    color: var(--primary);
-     background: var(--white);
-    width: 100%;
-    text-align: left;
-    text-decoration: none;
-    border-bottom: 1px solid var(--primary);
-    transition: background 300ms ease;
-  }
+
   ul.navbar-menu li ul.second-level li a:hover,   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover,   .navbar ul.navbar-menu li  ul.second-level li.active-class a,  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
      display: flex;
   align-items: center;
