@@ -703,7 +703,7 @@ grid-template-rows: var(--headerheight);
       grid-template-columns:1fr;
       grid-template-areas:
         "logo";
-        grid-template-rows: 74px;
+        grid-template-rows: var(--mobilenavheight);
         margin: 0;
         z-index: 2;
         width: 100%;
@@ -717,13 +717,41 @@ grid-template-rows: var(--headerheight);
       grid-template-columns:1fr;
       grid-template-areas:
         "logo";
-        grid-template-rows: 74px;
+      grid-template-rows: var(--mobilenavheight);
         margin: 0;
         z-index: 2;
         width: 100%;
          max-width: 100%;
    
        } 
+
+
+   .hamburger {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: var(--mobilenavheight);
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
+    background-color: var(--white);
+  }
+
+  .scrolled .hamburger  {
+    display: flex;
+       justify-content: flex-start;
+    align-items: center;
+    height: var(--mobilenavheight);
+    -webkit-transition: all var(--animation-delay);
+    -moz-transition: all var(--animation-delay);
+    -ms-transition: all var(--animation-delay);
+    -o-transition: all var(--animation-delay);
+    transition: all var(--animation-delay);
+  
+  }
+
 
       }
 
