@@ -1438,6 +1438,20 @@ svg:hover {
 }
 
 
+/* When any child is active, mark parent link as active too */
+.navbar ul.navbar-menu li ul.second-level li.menuactive,
+.navbar ul.navbar-menu li ul.second-level li.active-class,
+.navbar ul.navbar-menu li ul.second-level li.current {
+  /* mark the parent container as having an active child */
+}
+
+.navbar ul.navbar-menu li:has(ul.second-level li.menuactive a),
+.navbar ul.navbar-menu li:has(ul.second-level li.active-class a),
+.navbar ul.navbar-menu li:has(ul.second-level li.current a) > a {
+  background: linear-gradient(90deg,#73b72b 0,#00b2c2 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
 
 /* end topnav */
 
