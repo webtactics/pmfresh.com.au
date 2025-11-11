@@ -935,7 +935,7 @@ ul.infobox li, ul.infoboxmobile li {
   align-items: center;
   cursor: pointer;
   padding: 0 0 0 1rem;
-  background: var(--white);
+
 }
 .infobox > li > a.tradelogin {
   display: flex;
