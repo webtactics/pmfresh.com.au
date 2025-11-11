@@ -1289,18 +1289,21 @@ ul.navbar-menu li ul.second-level li a {
   }
 
   ul.navbar-menu li ul.second-level li a:hover {
-       display: flex;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
     padding: 0 1rem;
     font-size: 1rem;
-    color: var(--primary);
-    background: var(--white) !important;
     width: 100%;
     text-align: left;
     text-decoration: none;
     border-bottom: 1px solid var(--primary);
     transition: background 300ms ease;
+  text-transform:none;
+    line-height:1rem;
+     height:3rem;
+    background: var(--white) !important;
+  color: var(--primary) !important;
   -webkit-background-clip: border-box !important;
   -webkit-text-fill-color: var(--primary) !important;
 
