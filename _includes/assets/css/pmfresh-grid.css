@@ -1317,7 +1317,7 @@ ul.navbar-menu li ul.second-level li a {
   -webkit-text-fill-color: var(--text) !important;
 }
 
-  .navbar ul.navbar-menu li.active-class  a ul.second-level li a:hover  {
+  .navbar ul.navbar-menu li.active-class  a ul.second-level li a:hover,  .navbar ul.navbar-menu li  a ul.second-level li.active-class a, .navbar ul.navbar-menu li  a ul.second-level li.active-class a:hover {
     background: var(--white) !important;
   color: var(--primary) !important;
   -webkit-background-clip: border-box !important;
