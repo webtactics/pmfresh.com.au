@@ -2278,17 +2278,14 @@ select {
   margin: 1rem 0;
 }
 .emailbgrowleftbottom {
-  display: flex;
-   align-items: flex-end;
-   justify-content: center;
+
 }
 
 .emailbgrowright {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
 }
-
 .hidden, .emailhidden {
   display: none;
 }
