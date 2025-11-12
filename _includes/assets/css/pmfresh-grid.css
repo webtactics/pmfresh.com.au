@@ -1617,12 +1617,11 @@ white-space: wrap;
 
 .toggle-nav {
   display: block;
-  margin: 5px auto;
+  margin: 0 auto;
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
   cursor: pointer;
-  background: 0 0;
   border: none;
   width: 54px;
   height: 54px;
