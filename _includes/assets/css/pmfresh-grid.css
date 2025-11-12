@@ -2285,6 +2285,7 @@ select {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  padding-bottom:1rem;
 }
 .hidden, .emailhidden {
   display: none;
