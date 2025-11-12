@@ -1624,7 +1624,7 @@ white-space: wrap;
   cursor: pointer;
   background: 0 0;
   border: none;
-  width: 60px;
+  width: 54px;
   height: 54px;
   -webkit-transition: all var(--animation-delay);
   -moz-transition: all var(--animation-delay);
