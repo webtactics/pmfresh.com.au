@@ -2277,11 +2277,16 @@ select {
 .emailbgrowlefttop {
   margin: 1rem 0;
 }
-.emailbgrowleftbottom,
+.emailbgrowleftbottom {
+  display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
 .emailbgrowright {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .hidden, .emailhidden {
