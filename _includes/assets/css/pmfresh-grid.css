@@ -2284,6 +2284,10 @@ select {
   justify-content: flex-end;
 }
 
+.hidden, .emailhidden {
+  display: none;
+}
+
 .custom-field input.emailbginput {
   outline: 1px solid var(--white);
 }
