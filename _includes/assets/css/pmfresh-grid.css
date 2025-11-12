@@ -1675,6 +1675,15 @@ white-space: wrap;
   transition: all var(--animation-delay);
 }
 
+.hamburger:hover .hamburger-icon::before {
+  background: var(--primary);
+  box-shadow: 0 12px 0 0 var(--primary),0 24px 0 0 var(--primary);
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+}
 
 span.title-bar-title {display:block;text-indent:34px;padding:0;color: var(--white);}
 
