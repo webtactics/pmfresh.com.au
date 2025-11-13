@@ -941,7 +941,7 @@ grid-row-gap: 0px;
 
 
 
-ul.infobox, ul.infoboxmobile {
+ul.infobox, ul.infoboxmobile, ul.infoboxfooter {
   list-style: none;
   margin: 0;
   margin-block-start: 0;
@@ -951,11 +951,11 @@ ul.infobox, ul.infoboxmobile {
   padding-inline-start: 0;
 }
 
-ul.infobox li, ul.infoboxmobile li {
+ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   float: right;
 }
 
-.infobox > li > a.social-icon, .infoboxmobile > li > a.social-icon {
+.infobox > li > a.social-icon, .infoboxmobile > li > a.social-icon, .infoboxfooter > li > a.social-icon {
   display: flex;
   height: var(--navtopheight);
   justify-content: center;
