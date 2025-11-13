@@ -2295,7 +2295,6 @@ select {
   height: 40px;
 }
 h3.emailboxh3 {
-color: var(--primary);
   font-weight: 700;
   font-size: 2rem;
   line-height: 2rem;
@@ -2303,6 +2302,15 @@ color: var(--primary);
   z-index: 10;
   letter-spacing: -2px;
   padding: 0 0 0 5rem;
+  text-decoration: none;
+  color: var(--primary);
+  background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background: linear-gradient(to right, #73B72B , #00B2C2);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
