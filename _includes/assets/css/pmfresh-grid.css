@@ -1443,6 +1443,10 @@ svg:hover {
   clear: right;
 }
 
+p #copyright {
+  color: var(--white);
+}
+
 .infoboxfooter > li > a.social-icon svg {
 color : var(--white);
 }
