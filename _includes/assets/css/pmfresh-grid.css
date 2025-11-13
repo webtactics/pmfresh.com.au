@@ -1422,6 +1422,7 @@ svg:hover {
 
  .footer-menu li a:hover, .footer-menu li.current-menu-item a, .footer-menu li.current-menu-parent a {
   color: var(--text);
+  background-color: transparent;
 }
 
 
