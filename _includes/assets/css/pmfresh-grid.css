@@ -2323,7 +2323,7 @@ color: var(--white);
 h3.emailboxh3::before {
   content: "";
   display: block;
-  position: relative;
+  position: absolute;
   left: 1rem;
 top: 1rem;
   width: 2rem;
