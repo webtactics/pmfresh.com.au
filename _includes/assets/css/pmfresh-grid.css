@@ -1963,10 +1963,7 @@ padding: 3rem 1rem;}
   margin-bottom:2rem;
 }
 
-.grid-committee {
-  grid-template-columns: 1fr 2fr;
-  gap: 1rem;
-}
+
 
 
 .grid-2 {
