@@ -1388,6 +1388,7 @@ svg:hover {
 
 #get-in-touch-button:hover {
   color: var(--text);
+  background-color: transparent;
 }
 
 .footer-nav {
