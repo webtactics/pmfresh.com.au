@@ -1997,6 +1997,7 @@ padding: 3rem 1rem;}
 .grid-2 {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  min-height:500px;
 }
 .grid-2-mobilenav {
   grid-template-columns: 2fr 3fr;
