@@ -1387,8 +1387,32 @@ svg:hover {
 }
 
 #get-in-touch-button:hover {
-  color: (var(--text);
+  color: var(--text);
 }
+
+.footer-nav {
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.footer-menu {
+  list-style: none;
+  padding-left: 75px;
+  position: relative;
+}
+
+.footer-menu::before {
+  content: "";
+  display: block;
+  width: 66px;
+  height: 5px;
+  background-color: var(--white);
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
 
   @media (max-width: 1050px) {
 
