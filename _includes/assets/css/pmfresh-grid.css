@@ -2313,6 +2313,7 @@ h3.emailboxh3 {
     background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 2;
 
 }
 
@@ -2325,12 +2326,13 @@ top: 0.75rem;
   width: 3rem;
   height: .35rem;
   background-color: var(--white);
+   z-index: 2;
+
 }
 
 .newslettertitlebg {
 background-color: rgba(0,0,0,0.30);
-width:auto;
-max-width:500px;
+z-index: 1;
 }
 
 
