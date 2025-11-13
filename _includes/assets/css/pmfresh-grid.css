@@ -2307,15 +2307,26 @@ select {
   font-size: 14px;
   height: 40px;
 }
-h3.emailboxh3 h3 {}
+h3.emailboxh3 h3 {
+color: var(--white);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  position: relative;
+  z-index: 10;
+  letter-spacing: -2px;
+  padding: 0 0 0 4rem;
+
+
+}
 
 h3.emailboxh3::before {
   content: "";
   display: block;
   position: relative;
-  left: 2rem;
+  left: 1rem;
 top: 1rem;
-  width: 4rem;
+  width: 2rem;
   height: .5rem;
   background-color: var(--white);
 }
