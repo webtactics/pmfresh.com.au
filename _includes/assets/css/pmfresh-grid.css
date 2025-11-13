@@ -1426,7 +1426,6 @@ svg:hover {
   background-color: transparent;
 }
 
-
 .loaded *, .loaded {
   -moz-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
