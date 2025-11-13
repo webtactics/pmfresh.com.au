@@ -1523,9 +1523,9 @@ color : var(--white);
   margin: 0 auto;
   padding: 6rem 0;
   width: calc(100vw - 1rem);
-  max-width: 1280px;
+  max-width: 1440px;
   background-color: var(--white);
-  min-height: 100px;
+  min-height: 300px;
 }
 
 .content.secondblock {
