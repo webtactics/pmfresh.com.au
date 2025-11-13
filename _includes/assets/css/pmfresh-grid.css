@@ -1443,8 +1443,14 @@ svg:hover {
   clear: right;
 }
 
+.infoboxfooter > li > a.social-icon svg {
+color : var(--white);
+}
 
-
+.infoboxfooter > li > a.social-icon svg:hover {
+  color : var(--black);
+  background-color: transparent;
+}
 
 
   @media (max-width: 1050px) {
