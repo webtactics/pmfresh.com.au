@@ -2329,8 +2329,8 @@ top: 0.75rem;
 
 .newslettertitlebg {
 background-color: rgba(0,0,0,0.30);
-width:auto
-
+width:auto;
+max-width:500px;
 }
 
 
