@@ -1433,7 +1433,7 @@ svg:hover {
 }
 
 
-#copyright {
+.copyright {
   float: right;
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -1442,7 +1442,7 @@ svg:hover {
   clear: right;
 }
 
-p #copyright {
+p.copyright {
   color: var(--white);
 }
 
