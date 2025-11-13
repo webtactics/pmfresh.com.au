@@ -2307,9 +2307,9 @@ select {
   font-size: 14px;
   height: 40px;
 }
-.emailboxh3 h3 {}
+h3.emailboxh3 h3 {}
 
-.emailboxh3 h3::before {
+h3.emailboxh3::before {
   content: "";
   display: block;
   position: relative;
