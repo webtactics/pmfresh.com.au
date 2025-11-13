@@ -1374,7 +1374,7 @@ svg:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-  
+      flex-direction: column; /* This stacks the items vertically */
 }
 
 #get-in-touch-button {
