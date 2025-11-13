@@ -1926,7 +1926,7 @@ z-index: 0;
   z-index: 1;
   overflow: hidden;
   display:flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
