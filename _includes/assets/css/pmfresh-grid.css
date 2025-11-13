@@ -1917,14 +1917,9 @@ z-index: 0;
 }
 
 .right-image {
-  position: absolute;
-  right: 0;
-  transform: translateY(-50%);
-  max-width: 50%;
   height: auto;
   max-height: 500px;
   z-index: 1;
-  overflow: hidden;
   display:flex;
   justify-content: flex-start;
   align-items: flex-start;
