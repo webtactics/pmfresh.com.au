@@ -1902,6 +1902,20 @@ z-index: 0;
 
 /* sliding images */
 
+.left-image {
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+  max-width: 50%;
+  height: auto;
+  max-height: 500px;
+  z-index: 1;
+  overflow: hidden;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
 .right-image {
   position: absolute;
   right: 0;
