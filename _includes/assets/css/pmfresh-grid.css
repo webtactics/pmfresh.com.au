@@ -2303,7 +2303,7 @@ h3.emailboxh3 {
   position: relative;
   z-index: 10;
   letter-spacing: -2px;
-  padding: 0 0 0 5rem;
+  padding: 0 0 0 4rem;
   text-decoration: none;
   color: var(--primary);
   background: -webkit-linear-gradient(left, #73B72B , #00B2C2);
@@ -2322,8 +2322,8 @@ h3.emailboxh3::before {
   position: absolute;
   left: 0rem;
 top: 0.75rem;
-  width: 4rem;
-  height: .4rem;
+  width: 3rem;
+  height: .35rem;
   background-color: var(--white);
 }
 /* Gallery
