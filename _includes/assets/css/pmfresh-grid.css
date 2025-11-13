@@ -1910,7 +1910,7 @@ z-index: 0;
   height: auto;
   max-height: 500px;
   z-index: 1;
-  overflow: visible;
+  overflow: hidden;
   display:flex;
   justify-content: flex-end;
   align-items: flex-start;
