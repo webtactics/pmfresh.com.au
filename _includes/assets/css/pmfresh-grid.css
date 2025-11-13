@@ -1370,10 +1370,10 @@ svg:hover {
   padding: 40px 0 53px 0;
    } 
 
-.footer {
+.footerleft {
     display: flex;
-    justify-content: flex-end;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
   
 }
 
@@ -1412,8 +1412,24 @@ svg:hover {
   left: 0;
   top: 9px;
 }
+.footer-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+ .footer-menu li a:hover, .footer-menu li.current-menu-item a, .footer-menu li.current-menu-parent a {
+  color: var(--text);
+}
 
 
+.loaded *, .loaded {
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
   @media (max-width: 1050px) {
 
    
