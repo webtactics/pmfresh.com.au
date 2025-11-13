@@ -1956,10 +1956,13 @@ padding: 3rem 1rem;}
 }
 
 
-.grid-5x2-columns {
-  grid-template-columns: 5fr 2fr;gap: 2rem;
-max-width: 600px;}
 
+
+.grid-5-2-columns {
+  grid-template-columns: 5fr 2fr;
+  gap: 2rem;
+  max-width: 600px;
+}
 
 .grid-2-columns {
   grid-template-columns: repeat(2, 1fr);
@@ -2018,7 +2021,7 @@ max-width: 600px;}
 
 
 
-  .grid-4-columns.resultssum {
+  .grid-4-columns.resultssum { 
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   
@@ -2065,7 +2068,10 @@ max-width: 600px;}
     gap: 1rem;
   }
 
-
+.grid-5-2-columns {
+      grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
 
 
 
@@ -2254,11 +2260,7 @@ select {
   background-color: transparent;
   min-height: 300px;
 }
-.grid-5-2-columns {
-  grid-template-columns: 5fr 2fr;
-  gap: 2rem;
-  max-width: 600px;
-}
+
 
 
 .emailbgrowlefttop {
