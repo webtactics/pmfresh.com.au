@@ -2327,7 +2327,7 @@ top: 0.75rem;
   background-color: var(--white);
 }
 
-#newsletter {
+.newslettertitlebg {
 background-color: rgba(0,0,0,0.90);
 }
 
