@@ -1521,7 +1521,7 @@ color : var(--white);
 
 .content {
   margin: 0 auto;
-  padding: 6rem 0;
+  padding: 3rem 0;
   width: calc(100vw - 1rem);
   max-width: 1440px;
   background-color: var(--white);
