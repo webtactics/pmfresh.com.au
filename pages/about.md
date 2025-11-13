@@ -18,7 +18,7 @@ eleventyNavigation:
 
 
 <div class="text">
-   <h2>Who We Are.</h2>
+    <div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
       <div class="indent">
         <p>Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry. We specialise in creating and producing fresh ingredients, ready-to-eat salads and fresh convenience foods.</p>
         <p>Our approach is to ensure the highest quality food standards across everything we do and within our four manufacturing facilities across Australia.</p>
