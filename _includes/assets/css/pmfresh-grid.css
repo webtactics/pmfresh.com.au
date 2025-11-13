@@ -2307,6 +2307,18 @@ select {
   font-size: 14px;
   height: 40px;
 }
+.emailboxh3 h3 {}
+
+.emailboxh3 h3::before {
+  content: "";
+  display: block;
+  position: relative;
+  left: 2rem;
+top: 1rem;
+  width: 4rem;
+  height: .5rem;
+  background-color: var(--white);
+}
 /* Gallery
 ------------------------------------------------- */
 
