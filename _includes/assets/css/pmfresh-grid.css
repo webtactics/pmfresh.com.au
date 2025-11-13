@@ -1432,6 +1432,21 @@ svg:hover {
   -webkit-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
 }
+
+
+#copyright {
+  float: right;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+  margin-top: 1.25rem;
+  clear: right;
+}
+
+
+
+
+
   @media (max-width: 1050px) {
 
    
