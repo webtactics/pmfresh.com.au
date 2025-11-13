@@ -1,7 +1,8 @@
 ---
 layout: layouts/grid-about.njk
 title: About Us.
-description: 
+subtitle: Who We Are.
+description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
 section: about
 class: about
 date: 2024-10-23
