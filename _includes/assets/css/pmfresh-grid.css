@@ -2324,7 +2324,7 @@ h3.emailboxh3::before {
 top: 0.75rem;
   width: 4rem;
   height: .4rem;
-  background-color: var(--primary);
+  background-color: var(--white);
 }
 /* Gallery
 ------------------------------------------------- */
