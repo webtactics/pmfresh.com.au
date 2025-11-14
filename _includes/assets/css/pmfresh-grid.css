@@ -476,28 +476,7 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
   padding: 0 0 1.5rem 0;
 }
 
-.content .indent {
-  position: relative;
-  padding-left: 7rem;
-}
 
-.content .indent::before {
-  content: "";
-  width: 5.5rem;
-  height: 0.5rem;
-  display: block;
-  background: transparent url(/static/img/assets/rectangle.svg) no-repeat left top;
-    background-size: auto;
-  background-size: 5.5rem 0.5rem;
-  position: absolute;
-  left: 0;
-  top: 0.4rem;
-}
-.content-left, .content-right {
-min-height: 500px;
-margin-bottom: 3rem;
-
-}
 
 
 .h3, h3 {
@@ -1955,6 +1934,34 @@ z-index: 0;
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+
+.content .indent {
+  position: relative;
+  padding-left: 7rem;
+}
+
+.content .indent::before {
+  content: "";
+  width: 5.5rem;
+  height: 0.5rem;
+  display: block;
+  background: transparent url(https://ik.imagekit.io/webtactics/pmfresh/assets/rectangle_IuEasM-q3.svg?updatedAt=1763079970435) no-repeat left top;
+    background-size: auto;
+  background-size: 5.5rem 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+}
+.content-left, .content-right {
+min-height: 500px;
+margin-bottom: 3rem;
+
+}
+
+
+
+
 
 
 .contentwrapper {
