@@ -1933,18 +1933,20 @@ margin-bottom: 5rem;
 }
 
 .left-image {
+  position: relative;
   height: auto;
   max-height: 500px;
-  z-index: 1;
+  z-index: 10;
   display:flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
 .right-image {
+  position: relative;
   height: auto;
   max-height: 500px;
-  z-index: 1;
+  z-index: 10;
   display:flex;
   justify-content: flex-end;
   align-items: flex-start;
