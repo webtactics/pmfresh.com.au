@@ -1918,7 +1918,7 @@ margin-bottom: 5rem;
 
 }
 
-.left-image {
+.left-image-side {
   position: absolute;
   left: 0;
   transform: translateY(-100%);
@@ -1927,6 +1927,15 @@ margin-bottom: 5rem;
   max-height: 500px;
   z-index: 1;
   overflow: hidden;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.left-image {
+  height: auto;
+  max-height: 500px;
+  z-index: 1;
   display:flex;
   justify-content: flex-end;
   align-items: flex-start;
