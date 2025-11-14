@@ -1531,7 +1531,7 @@ color : var(--white);
 
 .content {
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 5rem 0;
   width: calc(100vw - 1rem);
   max-width: 1440px;
   background-color: var(--white);
@@ -1915,8 +1915,8 @@ z-index: 0;
 .left-image {
   position: absolute;
   left: 0;
-  transform: translateY(-50%);
-  max-width: 50%;
+  transform: translateY(-100%);
+  max-width: 100%;
   height: auto;
   max-height: 500px;
   z-index: 1;
