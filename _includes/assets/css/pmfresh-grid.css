@@ -2048,7 +2048,11 @@ padding: 3rem 1rem;}
   gap: 4rem;
   min-height:500px;
 }
-
+.grid-3x2 {
+  grid-template-columns: 3fr 2fr;
+  gap: 4rem;
+  min-height:500px;
+}
 
 
 .grid-2-mobilenav {
