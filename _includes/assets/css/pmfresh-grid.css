@@ -1937,7 +1937,7 @@ margin-bottom: 5rem;
   max-height: 500px;
   z-index: 1;
   display:flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
@@ -1946,7 +1946,7 @@ margin-bottom: 5rem;
   max-height: 500px;
   z-index: 1;
   display:flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: flex-start;
 }
 .left-image img, .right-image img {
