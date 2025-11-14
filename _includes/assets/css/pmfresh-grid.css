@@ -1949,7 +1949,12 @@ margin-bottom: 5rem;
   justify-content: flex-start;
   align-items: flex-start;
 }
-
+.left-image img, .right-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  z-index: 1;
+}
 
 .content .indent {
   position: relative;
@@ -2045,12 +2050,12 @@ padding: 3rem 1rem;}
 }
 .grid-2x3 {
   grid-template-columns: 2fr 3fr;
-  gap: 4rem;
+  gap: 5rem;
   min-height:500px;
 }
 .grid-3x2 {
   grid-template-columns: 3fr 2fr;
-  gap: 4rem;
+  gap: 5rem;
   min-height:500px;
 }
 
