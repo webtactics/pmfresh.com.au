@@ -182,10 +182,10 @@
 
  <div class="right-cta slide-in from-right">
         <div class="inner">
-                        <h3>Our Philosophy.</h3>
+                        <h3>{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}</h3>
           <div class="indent">
                                 <p>We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.</p>
-								<h4><a href"/about/our-philosophy/">Learn more.</a></h4>
+								<div class="linkwrapper"><a class="resultspdf" href="/events/" title="{{ ctatitle }}" alt="{{ ctatitle }}">Learn more &gt;</a></div>
             </div>
         
         </div>        
