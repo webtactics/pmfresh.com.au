@@ -1183,10 +1183,8 @@ ul.off-canvas-list > li.parent > a:hover {
 .navbar  .navbar-menu  li  a:hover,
 .navbar  .navbar-menu > li  a:focus,
 ul.navbar-menu li.active-class  a {
-background-color: var(--white);
-background: linear-gradient(90deg, rgba(115, 183, 43, 1) 0%, rgba(0, 178, 194, 1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--primary);
+  background: var(--white);
 }
 
 
@@ -1281,8 +1279,7 @@ ul.navbar-menu li ul.second-level li a {
      height:3rem;
     background: var(--white);
   color: var(--text);
-  -webkit-background-clip: border-box;
-  -webkit-text-fill-color: var(--text);
+  background: var(--white);
 
 
   }
@@ -1301,26 +1298,20 @@ ul.navbar-menu li ul.second-level li a {
   text-transform:none;
     line-height:1rem;
      height:3rem;
-    background: var(--white);
   color: var(--primary);
-  -webkit-background-clip: border-box;
-  -webkit-text-fill-color: var(--primary);
+  background: var(--white);
 
   }
 
 
   .navbar ul.navbar-menu li.active-class  a ul.second-level li a  {
-  background: var(--white) !important;
-  color: var(--text) !important;
-  -webkit-background-clip: border-box !important;
-  -webkit-text-fill-color: var(--text) !important;
+ color: var(--primary);
+  background: var(--white);
 }
 
   .navbar ul.navbar-menu li.active-class  a ul.second-level li a:hover,  .navbar ul.navbar-menu li  a ul.second-level li.active-class a, .navbar ul.navbar-menu li  a ul.second-level li.active-class a:hover {
-    background: var(--white) !important;
-  color: var(--primary) !important;
-  -webkit-background-clip: border-box !important;
-  -webkit-text-fill-color: var(--primary) !important;
+ color: var(--primary);
+  background: var(--white);
 }
 
 
