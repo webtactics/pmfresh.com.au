@@ -1009,24 +1009,26 @@ text-decoration: none;
  a.tradelogin  {
   color: var(--white);
   background-color: var(--black);
-  font-size: var(--h3sum);
+   font-size:1.2rem;
   border: none;
   border-radius: 16px;
-  padding: .25rem 2rem;
+  padding: .4rem 1rem;
   white-space: wrap;
   transition: background-color var(--transitionquick);
   text-decoration: none;
+  line-height: 1;
 }
 a.tradelogin:hover {
   color: var(--white);
   background-color: var(--primary);
-  font-size: var(--h3sum);
+ font-size:1.2rem;
   border: none;
   border-radius: 16px;
-  padding: .25rem 2rem;
+   padding: .4rem 1rem;
   white-space: wrap;
   transition: background-color var(--transitionquick);
     text-decoration: none;
+    line-height: 1;
 }
 
 .mobilemenu {padding:0;}
