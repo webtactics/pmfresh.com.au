@@ -2426,7 +2426,11 @@ select {
   display:flex;
   justify-content: flex-end;
   align-items: flex-start;
+
+}
+.right-cta .inner {
   background-color: var(--red);
+  padding:4rem 0;
 }
 
 /* Newsletter sign-up
