@@ -2065,6 +2065,8 @@ select {
   left: 0;
   background-color: transparent;
   min-height: 500px;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 
