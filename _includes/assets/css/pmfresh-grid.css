@@ -1623,7 +1623,7 @@ white-space: wrap;
 .padtop2rem {padding-top: 2rem;}
 .padtop3rem {padding-top: 3rem;}
 
-.linkwrapper  {padding-top: 3rem;}
+.linkwrapper  {padding: 2rem 0;}
 
 .white {color: var(--white);}
 .red {color: var(--red);}
@@ -2097,7 +2097,7 @@ select {
 
 a.resultspdf {
   color: var(--white);
-  background-color: var(--darkblue);
+  background-color: var(--black);
   font-size: var(--h3sum);
   border: none;
   padding: .25rem 2rem;
@@ -2115,7 +2115,7 @@ a.resultspdf:hover {
   border: none;
   text-decoration-thickness: 0.4rem;
   text-decoration-style: solid;
-  text-decoration-color: var(--darkblue);
+  text-decoration-color: var(--black);
   text-underline-offset: 1rem;
   transition: background-color .6s,text-decoration-color .6s;
 }
