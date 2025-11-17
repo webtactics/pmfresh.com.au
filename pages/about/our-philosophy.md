@@ -1,6 +1,13 @@
 ---
 layout: layouts/grid-7x4.njk
 title: Our Philosophy
+subtitle: Welcome to fresh thinking.
+
+ctatitle: News.
+ctatext: Keep up to date with the latest news.
+ctalink: /about/news/
+
+
 class: about our-philosophy
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
