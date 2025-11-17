@@ -188,8 +188,8 @@
 				</div>
 
 				<div class="indent">
-					<p>We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.</p>
-					<div class="linkwrapper"><a class="resultspdf" href="/events/" title="{{ ctatitle }}" alt="{{ ctatitle }}">Learn more &gt;</a></div>
+					<p>{% if ctatext %}{{ ctatext }}{% else %}We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.{% endif %}</p>
+					<div class="linkwrapper"><a class="resultspdf" href="{% if ctalink %}{{ ctalink }}{% else %}/about/our-philosophy/{% endif %}" title="{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}" alt="{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}">Learn more &gt;</a></div>
 				</div>
 			</div>
 		
