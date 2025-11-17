@@ -174,7 +174,7 @@
 {% block content3 %}{% endblock %}
 
 {% block ctacontent %}
-<div class="section cta-content" style="background: url(https://www.pmfresh.com.au/wp-content/uploads/2018/02/about-us-cta-banner.jpg) no-repeat center center;width:100%; background-size:cover;">
+<div class="section cta-content" style="background: url({% if ctaimage %}{{ ctaimage }}{% else %}https://www.pmfresh.com.au/wp-content/uploads/2018/02/about-us-cta-banner.jpg{% endif %}) no-repeat center center;width:100%; background-size:cover;">
 
 <div class="content ctabgcontainer">
 	

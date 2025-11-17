@@ -6,7 +6,7 @@ subtitle: Welcome to fresh thinking.
 ctatitle: News.
 ctatext: Keep up to date with the latest news.
 ctalink: /about/news/
-
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/careers-cta-banner-1920x879_UIecPUJsz.jpg?tr=w-1920,h-950
 
 class: about our-philosophy
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
