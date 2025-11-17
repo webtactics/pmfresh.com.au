@@ -548,8 +548,7 @@ color: var(--black);
 .navbottomlinewrapper { grid-area: navbottomlinewrapper; }
 .search-wrapper { grid-area: search-wrapper; }
 .pad100 { grid-area: pad100; }
-.content-left {grid-area: content-left;}
-.content-right {grid-area: content-right;}
+
 
 .headerwrapper {
   display: grid;
