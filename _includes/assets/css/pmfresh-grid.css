@@ -2094,9 +2094,10 @@ select {
 
 }
 .right-cta .inner {
-  background-color: var(--red);
+  background-color: var(--white20);
   padding:2rem 3rem 2rem 1rem;
   max-width: 400px;
+  background: transparent url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 }
 
 
