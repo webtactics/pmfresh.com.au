@@ -2083,7 +2083,7 @@ select {
   display:flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255,255,255,.87) url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
+
 
 
 }
@@ -2092,7 +2092,7 @@ select {
   padding:2rem 2rem 2rem 1rem;
   width: calc(100vw - 4rem);
   max-width: 800px;
-background: rgba(255,255,255,0.87);
+  background: rgba(255,255,255,.87) url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 }
 
 
