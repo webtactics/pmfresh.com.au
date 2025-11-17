@@ -2094,6 +2094,7 @@ select {
 .right-cta .inner {
   background-color: var(--red);
   padding:4rem 0;
+  max-width: 400px;
 }
 
 
