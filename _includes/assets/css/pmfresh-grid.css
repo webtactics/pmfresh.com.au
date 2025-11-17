@@ -985,7 +985,7 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   margin: 0 2rem 0 0;
 }
 
-.infobox > li > a.tradelogin:hover {  background-color: var(--black);}
+.infobox > li > a.tradelogin:hover {  background-color: var(--primary);}
 
 
     a.newslettersign  {
@@ -1015,6 +1015,7 @@ text-decoration: none;
   padding: .25rem 2rem;
   white-space: wrap;
   transition: background-color var(--transitionquick);
+  text-decoration: none;
 }
 a.tradelogin:hover {
   color: var(--white);
@@ -1025,6 +1026,7 @@ a.tradelogin:hover {
   padding: .25rem 2rem;
   white-space: wrap;
   transition: background-color var(--transitionquick);
+    text-decoration: none;
 }
 
 .mobilemenu {padding:0;}
