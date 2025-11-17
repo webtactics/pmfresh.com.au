@@ -997,7 +997,7 @@ text-decoration: none;
   border-bottom: 3px solid var(--black);
   background-color: var(--white);
   transition: all var(--transitionquick) ease-in-out;
-  padding:0;
+  padding:0 0.5rem;
 }
 
 a.newslettersign:hover {
@@ -1005,7 +1005,9 @@ color: var(--black);
 text-decoration: none;
 border-bottom: 3px dotted var(--darkgreen);
 background-color: var(--white);
-transition: all var(--transitionquick) ease-in-out;} 
+transition: all var(--transitionquick) ease-in-out;
+padding:0 0.5rem;
+}
 
  a.tradelogin  {
   font-size:1.1rem;
