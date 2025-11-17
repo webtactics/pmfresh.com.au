@@ -1,6 +1,8 @@
 ---
 layout: layouts/grid-about.njk
 title: Range of Products.
+subtitle: Supplying to the catering and food service industries.
+ctatitle: What’s in Season.
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 image: https://ik.imagekit.io/webtactics/pmfresh/pages/our-products_sNno-UQxs.jpg
 section: products
