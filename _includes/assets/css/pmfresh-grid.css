@@ -2083,7 +2083,7 @@ select {
   display:flex;
   justify-content: center;
   align-items: center;
-  background: transparent url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
+  background: rgba(255,255,255,.87); url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 
 }
 .right-cta .inner {
