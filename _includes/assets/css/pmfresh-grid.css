@@ -2107,11 +2107,10 @@ select {
 
 }
 .right-cta .inner {
-  background-color: var(--white20);
-  padding:2rem 2rem 1rem 1.5rem;
-  width: calc(100vw - 4rem);
+  padding:2rem 1.5rem 1rem 1.5rem;
+  width: calc(100vw - 1rem);
   max-width: 800px;
-  background: var(--white70) url(/static/img/assets/cta-triangle-89x100.png) no-repeat right bottom;
+  background: var(--white70);
 }
 
  h3.cta-title {
