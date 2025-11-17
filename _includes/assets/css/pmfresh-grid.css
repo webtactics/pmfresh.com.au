@@ -551,7 +551,7 @@ color: var(--black);
 
 .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 60px 1fr 1px;
   grid-template-areas:
   "hamburger navwrapper pad100";
     grid-template-rows: var(--mobilenavheight);
@@ -561,7 +561,7 @@ color: var(--black);
 .topbar, .topbar.scrolled  {
   position: fixed;
   background-color:var(--white);
-  height:74px;
+  height:var(--mobilenavheight);
   width: 100%;
 z-index: 3;}
 
@@ -728,7 +728,7 @@ grid-template-rows: var(--headerheight);
 
    .hamburger {
     display: flex;
-    justify-content: center;
+      justify-content: flex-start;
     align-items: center;
     height: var(--mobilenavheight);
     -webkit-transition: all var(--animation-delay);
@@ -741,7 +741,7 @@ grid-template-rows: var(--headerheight);
 
   .scrolled .hamburger  {
     display: flex;
-       justify-content: center;
+       justify-content: flex-start;
     align-items: center;
     height: var(--mobilenavheight);
     -webkit-transition: all var(--animation-delay);
