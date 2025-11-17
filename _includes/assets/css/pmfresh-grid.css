@@ -985,7 +985,9 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   cursor: pointer;
   margin: 0 2rem 0 0;
 }
-
+.infobox > li > a.newslettersign {
+  margin: 0 3rem 0 0;
+}
 
 a.newslettersign  {
   font-size:1.1rem;
