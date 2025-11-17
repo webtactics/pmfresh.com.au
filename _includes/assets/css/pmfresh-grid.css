@@ -1995,7 +1995,7 @@ min-height: 500px;
 
 .content .indent {
   position: relative;
-  padding-left: 4rem;
+  padding-left: 3.5rem;
 }
 
 .content .indent::before {
