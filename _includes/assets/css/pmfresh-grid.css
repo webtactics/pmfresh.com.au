@@ -1782,7 +1782,7 @@ span.title-bar-title {display:block;text-indent:34px;padding:0;color: var(--whit
 .hamburger-icon::before {
   content: "";
      display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   width: 30px;
   height: 4px;
@@ -2020,7 +2020,7 @@ margin:0 auto;
 padding: 6rem 0;}
 
 .content2 {text-align:right ;}
-.why-changs .content2 {text-align:left;}
+
 
 @media (max-width: 1024px) { 
   
