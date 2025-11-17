@@ -1007,9 +1007,9 @@ transition: all var(--transitionquick) ease-in-out;}
  a.tradelogin  {
   color: var(--white);
   background-color: var(--black);
-   font-size:1.2rem;
+   font-size:1rem;
   border: none;
-  border-radius: 16px;
+  border-radius: 8px;
   padding: .4rem 1rem;
   white-space: wrap;
   transition: background-color var(--transitionquick);
@@ -1019,9 +1019,9 @@ transition: all var(--transitionquick) ease-in-out;}
 a.tradelogin:hover {
   color: var(--white);
   background-color: var(--primary);
- font-size:1.2rem;
+ font-size:1rem;
   border: none;
-  border-radius: 16px;
+  border-radius: 8px;
    padding: .4rem 1rem;
   white-space: wrap;
   transition: background-color var(--transitionquick);
