@@ -2095,6 +2095,16 @@ select {
   background: rgba(255,255,255,.87) url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 }
 
+ h3.cta-title {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: var(--black);
+  padding: 0 0 1.5rem 0;
+}
+
+
+
 a.resultspdf {
   color: var(--white);
   background-color: var(--black);
