@@ -2358,6 +2358,7 @@ grid-template-columns: 2fr 1fr;gap: 3rem;}
 
 .pad5rem  {padding: 2.5rem 0;}
 .pad5remboth  {padding: 5rem 0;}
+.pad5rembothwhitebg {padding: 5rem 0;  background-color:var(--white);}
 
 
 
