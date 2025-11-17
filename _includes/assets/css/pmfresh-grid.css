@@ -985,11 +985,9 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   margin: 0 2rem 0 0;
 }
 
-.infobox > li > a.tradelogin:hover {  background-color: var(--primary);}
 
-
-    a.newslettersign  {
-  font-size:1.2rem;
+a.newslettersign  {
+  font-size:1.1rem;
   font-weight:400;
   color: var(--primary);
 text-decoration: none;
@@ -1000,11 +998,11 @@ text-decoration: none;
 }
 
 a.newslettersign:hover {
-  color: var(--white);
+color: var(--white);
 text-decoration: none;
-  border-bottom: 3px dotted var(--red);
-  background-color: var(--black);
-  transition: all var(--transitionquick) ease-in-out;} 
+border-bottom: 3px dotted var(--red);
+background-color: var(--white);
+transition: all var(--transitionquick) ease-in-out;} 
 
  a.tradelogin  {
   color: var(--white);
