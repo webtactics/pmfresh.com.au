@@ -2066,19 +2066,11 @@ select {
 }
 
 
-.cta-content .Slide-in-left img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right:0;
-  bottom: 0;
-  object-fit:fill;
-  text-align: right;
-  margin: 0 0 auto;
-}
-
 .content.ctabgcontainer {
-   background-color: transparent;
+  background-color: transparent;
+  width: calc(100vw - 1rem);
+  max-width: 1440px;
+  margin:0 auto;
 }
 
 
@@ -2089,16 +2081,16 @@ select {
   max-height: 500px;
   z-index: 10;
   display:flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   background: transparent url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 
 }
 .right-cta .inner {
   background-color: var(--white20);
   padding:2rem 2rem 2rem 1rem;
-  width: 80%;
-  max-width: 450px;
+  width: calc(100vw - 4rem);
+  max-width: 800px;
 background: rgba(255,255,255,0.87);
 }
 
