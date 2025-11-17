@@ -987,10 +987,11 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
 
 .infobox > li > a.tradelogin:hover {  background-color: var(--black);}
 
-a.tradelogin  {
+
+    a.newslettersign  {
   font-size:1.2rem;
-  font-weight:600;
-  color: var(--black);
+  font-weight:400;
+  color: var(--primary);
 text-decoration: none;
   border-bottom: 3px solid var(--black);
   background-color: var(--white);
@@ -998,36 +999,32 @@ text-decoration: none;
   padding:0;
 }
 
-a.tradelogin:hover {
+a.newslettersign:hover {
   color: var(--white);
 text-decoration: none;
   border-bottom: 3px dotted var(--red);
   background-color: var(--black);
   transition: all var(--transitionquick) ease-in-out;} 
 
-  a.newslettersign  {
+ a.tradelogin  {
   color: var(--white);
   background-color: var(--black);
   font-size: var(--h3sum);
   border: none;
+  border-radius: 16px;
   padding: .25rem 2rem;
   white-space: wrap;
-  text-decoration-thickness: 0.4rem;
-  text-decoration-style: dotted;
-  text-decoration-color: var(--primary);
-  text-underline-offset: 1rem;
-  transition: background-color var(--transitionquick),text-decoration-color var(--transitionquick);
+  transition: background-color var(--transitionquick);
 }
-
-a.newslettersign:hover {
-  background-color: var(--primary);
+a.tradelogin:hover {
   color: var(--white);
+  background-color: var(--primary);
+  font-size: var(--h3sum);
   border: none;
-  text-decoration-thickness: 0.4rem;
-  text-decoration-style: solid;
-  text-decoration-color: var(--black);
-  text-underline-offset: 1rem;
-  transition: background-color var(--transitionquick),text-decoration-color var(--transitionquick);
+  border-radius: 16px;
+  padding: .25rem 2rem;
+  white-space: wrap;
+  transition: background-color var(--transitionquick);
 }
 
 .mobilemenu {padding:0;}
