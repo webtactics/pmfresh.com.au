@@ -2058,10 +2058,10 @@ select {
 .cta-content {
   padding: 4rem 0;
   width: 100%;
-  position:relative;
+  position:fixed;
   top: 0;
   left: 0;
-  background-color: var(--white);
+  background-color: transparent;
   min-height: 500px;
 }
 
