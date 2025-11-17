@@ -993,10 +993,10 @@ text-decoration: none;
   background-color: var(--white);
   transition: all var(--transitionquick) ease-in-out;}
 
-a.tradelogin:hover {color: var(--primary);
+a.tradelogin:hover {color: var(--white);
 text-decoration: none;
-  border-bottom: 3px dotted var(--black);
-  background-color: var(--white);
+  border-bottom: 3px dotted var(--red);
+  background-color: var(--black);
   transition: all var(--transitionquick) ease-in-out;} 
 
   a.newslettersign  {font-size:1.2rem;font-weight:600;color: var(--primary);
