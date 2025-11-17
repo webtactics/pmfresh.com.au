@@ -1001,17 +1001,30 @@ text-decoration: none;
   background-color: var(--black);
   transition: all var(--transitionquick) ease-in-out;} 
 
-  a.newslettersign  {font-size:1.2rem;font-weight:600;color: var(--primary);
-text-decoration: none;
-  border-bottom: 3px dotted var(--primary);
-  background-color: var(--white);
-  transition: all var(--transitionquick) ease-in-out;}
+  a.newslettersign  {
+  color: var(--white);
+  background-color: var(--black);
+  font-size: var(--h3sum);
+  border: none;
+  padding: .25rem 2rem;
+  white-space: wrap;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--primary);
+  text-underline-offset: 1rem;
+  transition: background-color var(--transitionquick),text-decoration-color var(--transitionquick);
+}
 
-a.newslettersign:hover {color: var(--black);
-text-decoration: none;
-  border-bottom: 3px solid var(--black);
-  background-color: var(--white);
-  transition: all var(--transitionquick) ease-in-out;} 
+a.newslettersign:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-style: solid;
+  text-decoration-color: var(--black);
+  text-underline-offset: 1rem;
+  transition: background-color var(--transitionquick),text-decoration-color var(--transitionquick);
+}
 
 .mobilemenu {padding:0;}
 
