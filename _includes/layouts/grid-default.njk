@@ -176,20 +176,26 @@
 {% block ctacontent %}
 <div class="section cta-content" style="background: url(https://www.pmfresh.com.au/wp-content/uploads/2018/02/about-us-cta-banner.jpg) no-repeat center center;width:100%; background-size:cover;">
 
-		<div class="content ctabgcontainer">
-		</div>
+	<div class="content ctabgcontainer">
+	</div>
 
 
 <div class="right-cta slide-in from-right">
     <div class="inner">
-        <h3>{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}</h3>
-          	<div class="indent">
-                <p>We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.</p>
+
+		<div class="text">
+			<div class="titlebox fade-in">
+				 <h3 class="cta-title">{% if ctatitle %}{{ ctatitle }}{% else %}Our Philosophy.{% endif %}</h3>
+			</div>
+
+			<div class="indent">
+				<p>We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.</p>
 				<div class="linkwrapper"><a class="resultspdf" href="/events/" title="{{ ctatitle }}" alt="{{ ctatitle }}">Learn more &gt;</a></div>
-            </div>
+			</div>
+		</div>
+
 	</div>        
 </div> 
-
 
 </div>
 
