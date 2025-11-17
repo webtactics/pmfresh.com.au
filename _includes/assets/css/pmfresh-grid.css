@@ -983,19 +983,23 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   align-items: center;
   cursor: pointer;
   margin: 0 2rem 0 0;
-  padding:0;
-  background: var(--white);
 }
 
 .infobox > li > a.tradelogin:hover {  background-color: var(--black);}
 
-a.tradelogin  {font-size:1.2rem;font-weight:600;color: var(--black);
+a.tradelogin  {
+  font-size:1.2rem;
+  font-weight:600;
+  color: var(--black);
 text-decoration: none;
   border-bottom: 3px solid var(--black);
   background-color: var(--white);
-  transition: all var(--transitionquick) ease-in-out;}
+  transition: all var(--transitionquick) ease-in-out;
+  padding:0;
+}
 
-a.tradelogin:hover {color: var(--white);
+a.tradelogin:hover {
+  color: var(--white);
 text-decoration: none;
   border-bottom: 3px dotted var(--red);
   background-color: var(--black);
