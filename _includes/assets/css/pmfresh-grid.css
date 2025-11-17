@@ -2408,6 +2408,27 @@ select {
   width: 100%;
 }
 
+/* CTA section
+------------------------------------------------- */
+
+.cta-content {
+  padding: 4rem 0;
+  width: 100vw;
+  background-color: var(--white);
+  min-height: 500px;
+}
+
+.right-cta {
+  position: relative;
+  height: auto;
+  max-height: 500px;
+  z-index: 10;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: var(--red);
+}
+
 /* Newsletter sign-up
 ------------------------------------------------- */
 .content.emailbgcontainer {
