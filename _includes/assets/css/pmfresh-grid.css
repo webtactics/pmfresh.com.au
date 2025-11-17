@@ -2,7 +2,8 @@
   --primary: #73b72b;
   --primaryright: #00b2c2;
   --primarylight: hsla(211,50%,53%,0.6);
-  --primarydark: #00b2c2;;
+  --primarydark: #00b2c2;
+  --darkgreen: #047E47;
   --text: #4A4A4A;
   --darkblue: hsla(204, 96%, 18%, 1);
   --darkblue40: hsla(204deg, 96%, 18%, 0.4);
@@ -1000,7 +1001,7 @@ text-decoration: none;
 a.newslettersign:hover {
 color: var(--black);
 text-decoration: none;
-border-bottom: 3px dotted var(--primary);
+border-bottom: 3px dotted var(--darkgreen);
 background-color: var(--white);
 transition: all var(--transitionquick) ease-in-out;} 
 
