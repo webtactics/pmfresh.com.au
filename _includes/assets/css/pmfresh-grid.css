@@ -28,7 +28,7 @@
   --black80: hsla(0,0%,0%,0.8);
   --mattblack: hsla(214,12%,11%,0.95);
   --green: hsla(144, 80%, 22%, 1);
-
+  --lightgreen: hsla(144, 80%, 22%, 0.4);
   --gold: hsl(43, 74.4%, 49%);
   --darkgold: hsl(43, 88.7%, 38.2%);
 
@@ -1020,8 +1020,8 @@ text-decoration: none;
 a.tradelogin:hover {
 color: var(--primary);
 text-decoration: none;
-border-bottom: 4px dotted var(--black);
-  background-color: var(--white);
+border-bottom: 4px solid var(--black);
+background-color: var(--lightgreen);
 transition: all var(--transitionquick) ease-in-out;} 
 
 .mobilemenu {padding:0;}
