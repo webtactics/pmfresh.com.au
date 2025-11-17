@@ -2091,7 +2091,7 @@ select {
   display:flex;
   justify-content: flex-end;
   align-items: flex-start;
-    background: transparent url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
+  background: transparent url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 
 }
 .right-cta .inner {
