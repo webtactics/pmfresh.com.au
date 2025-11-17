@@ -1581,13 +1581,6 @@ color : var(--white);
 
 
 
-
-
-
-
-
-
-
 .container p a {
   line-height: inherit;
   color: var(--primarydark);
@@ -2064,10 +2057,29 @@ select {
 
 .cta-content {
   padding: 4rem 0;
-  width: 100vw;
+  width: 100%;
+  position:relative;
+  top: 0;
+  left: 0;
   background-color: var(--white);
   min-height: 500px;
 }
+
+
+.cta-content .Slide-in-left img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right:0;
+  bottom: 0;
+  object-fit:fill;
+  text-align: right;
+  margin: 0 0 auto;
+}
+
+
+
+
 
 .right-cta {
   position: relative;
@@ -2084,16 +2096,6 @@ select {
   padding:4rem 0;
 }
 
-.cta-content .Slide-in-left img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right:0;
-  bottom: 0;
-  object-fit:fill;
-  text-align: right;
-  margin: 0 0 auto;
-}
 
 
 /* Newsletter sign-up
