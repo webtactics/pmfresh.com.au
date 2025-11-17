@@ -2092,7 +2092,7 @@ select {
   padding:2rem 2rem 1rem 1.5rem;
   width: calc(100vw - 4rem);
   max-width: 800px;
-  background: var(--white70) url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
+  background: var(--white80) url(https://www.pmfresh.com.au/wp-content/themes/pmfresh/images/cta-triangle.png) no-repeat right bottom;
 }
 
  h3.cta-title {
