@@ -11,6 +11,8 @@ date: 2025-10-01
 permalink: /products/whats-in-season/
 image: https://ik.imagekit.io/webtactics/pmfresh/pages/freshly-prepared-vegetables_GK5YSDVAH.jpg
 
+rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
+
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
 ctalink: /who-we-serve/
