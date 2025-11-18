@@ -1,6 +1,7 @@
 ---
 layout: layouts/grid-about.njk
 title: Who We Serve.
+subtitle: Supplying to the catering and food service industries.
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 
 date: 2025-10-01
@@ -24,13 +25,11 @@ eleventyNavigation:
 
 
 
-<div class="text">
-   <h2>Supplying to the catering and food service industries.</h2>
-      <div class="indent">
 
 
-<p>Our range also includes products specifically produced for restaurants, catering and a variety of food businesses. 
-                    </p><p>All our products are freshly prepared with a quality focus.</p>
+
+<p>Our range also includes products specifically produced for restaurants, catering and a variety of food businesses.</p>
+<p>All our products are freshly prepared with a quality focus.</p>
                     <p>We prepare the freshest product to save you valuable time and resources. Premium quality, bulk packaged, prepared, salads, vegetables, sauces and soups or the Food Service industry.</p>
                     <p>Choose from our comprehensive range of favourites and selected premium products.</p>
                     <p>Our factories are run to the strictest food and processing standards.</p>
