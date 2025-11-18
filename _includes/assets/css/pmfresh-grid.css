@@ -1919,11 +1919,9 @@ min-height: 10px;
   align-items:center;
   justify-content: center;
 }
- .content-image-rightwrapper {
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  min-height:500px;
+.content-image-right {
+padding-top:4rem;
+  height: 600px;  
 }
 
 
