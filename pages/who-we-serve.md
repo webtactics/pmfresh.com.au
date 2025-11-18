@@ -2,9 +2,18 @@
 layout: layouts/grid-about.njk
 title: Who We Serve.
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
+
+date: 2025-10-01
+image: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
+
+ctatitle: 
+ctatext:
+ctalink:
+ctaimage:
+
+
 section: who-we-serve
 class: who-we-serve
-date: 2024-10-23
 permalink: /who-we-serve/
 metadata:
   title: Who We Serve.
@@ -18,11 +27,16 @@ eleventyNavigation:
 <div class="text">
    <h2>Supplying to the catering and food service industries.</h2>
       <div class="indent">
-   <p>Our wide-range of products and services include creating products specifically for restaurants, various food and catering businesses. All our products are freshly prepared with a focus on quality and convenience. We do the work and help you save on time and valuable resource.</p>
-<p>Our offering includes premium, bulk-packaged, prepared salads, vegetables, sauces and soups for our clients in the Food Service Industry. Our factories adhere to the strictest food processing standards and we currently service a number of major food service and catering businesses including Health Procurement VIC, Spotless/Alliance Catering, Virgin Airlines, Qantas Airways, Alpha Flight Services and Puma Petroleum.</p>
-<p>Discover our comprehensive range of products or talk to us about tailoring a range to suit your menu requirements.</p>
-      </div>
-</div>
+
+
+<p>Our range also includes products specifically produced for restaurants, catering and a variety of food businesses. 
+                    </p><p>All our products are freshly prepared with a quality focus.</p>
+                    <p>We prepare the freshest product to save you valuable time and resources. Premium quality, bulk packaged, prepared, salads, vegetables, sauces and soups or the Food Service industry.</p>
+                    <p>Choose from our comprehensive range of favourites and selected premium products.</p>
+                    <p>Our factories are run to the strictest food and processing standards.</p>
+                    <p>We currently service a number of major food service and catering businesses including <strong>Health Procurement VIC, Spotless/Alliance Catering, Virgin Airlines, Qantas Airways, Alpha Flight Services and Puma Petroleum.</strong></p>
+                    <p>Talk to us about tailoring a range to suit your menu requirements.</p>
+                    <p><strong>Call sales and service 1800 725 237</strong></p>
 
 
 
