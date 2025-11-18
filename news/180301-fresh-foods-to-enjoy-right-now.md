@@ -18,10 +18,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/news/news-image-1-1281x522_cW-X
 
 ---
 
-<h2>Fresh foods to enjoy right now.</h2>
-<div class="indent">
-                    <p>After a long hot summer, autumn offers us really large array of quality fresh vegetables. And growing conditions for many vegetables improves as the humidity decreases.</p>
+<p>After a long hot summer, autumn offers us really large array of quality fresh vegetables. And growing conditions for many vegetables improves as the humidity decreases.</p>
 <p>Pumpkins are at their best so enjoy the sweetness and variety in our range of salads such as the Roast Pumpkin and Couscous Salad or the Creamy Pumpkin soup, our traditional recipe. Plus the low fat Sweet Potato and Pumpkin soup is also available with less than 150 calories per serve.</p>
 <p>Figs and nuts are also in season so take advantage of them while they are at their best or look out for our fresh gourmet salad THE REAL Brown Rice, Quinoa and Fig.</p>
 <p>Also enjoy fresh vegetables such as new season potatoes, swiss chard and rainbow silverbeet. All at their very best right now. These ingredients form the basis for many of our best selling products including our famous Creamy Potato Salad.</p>
-                </div>
