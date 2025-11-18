@@ -8,9 +8,14 @@ ctatext: We bring the freshest and best quality Australian produce to our consum
 ctalink: /about/our-philosophy/
 ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
 
-description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
-section: about
+
+
 class: about
+description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
+
+
+section: about
 date: 2024-10-23
 permalink: /about/
 image: 

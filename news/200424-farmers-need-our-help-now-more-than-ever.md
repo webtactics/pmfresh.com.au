@@ -12,7 +12,7 @@ tags:
 
 
 
-image: https://ik.imagekit.io/webtactics/gtsc/img/news/241009-2025-australian-age-and-mc-age-championships-qualifying-times-released.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
 
 
 
