@@ -16,7 +16,7 @@ rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
 ctalink: /who-we-serve/
-ctaimage: /static/img/pages/who-we-serve/who-we-serve-image.png
+ctaimage: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
 
 
 eleventyNavigation:
