@@ -47,7 +47,7 @@
   --navbottomheight: 60px;
   --mobilenavheight: 60px;
 
-  --h3sum: 1.3rem;
+  --h3sum: 1.5rem;
 
   --h4sum: 1.2rem;
   --h3h4sumpadding: 0.25rem 0.75rem;
@@ -2302,16 +2302,62 @@ h3.news-title a {
 
 h3.news-title a:hover {
   color: var(--white);
-  background-color: var(--darkblue);
+  background-color: var(--darkgreen);
   transition: background-color .6s;
 }
 
+.postsumdate {
+  background-color: var(--primary);
+  padding: 0 .75rem;
+  min-height: 2rem;
+  line-height: 2rem;
+  color: var(--white);
+}
 
+.postsumdate p {
+  margin: 0;
+  line-height: 2rem;
+  color: var(--white);
+}
 
+h4.sum-title {
+  color: var(--white);
+  background-color: var(--primary);
+  font-size: var(--h4sum);
+  line-height: 2;
+  white-space: nowrap;
+  transition: background-color .6s;
+  width: 100%;
+  display: block;
+  margin: 0;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
 
+h4.sum-title a {
+  color: var(--white);
+  background-color: var(--primary);
+  font-size: var(--h4sum);
+  line-height: 2;
+  padding: var(--h3h4sumpadding);
+  white-space: nowrap;
+  transition: background-color .6s;
+  width: 100%;
+  display: block;
+  margin: 0;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+h4.sum-title a:hover {
+  color: var(--white);
+  background-color: var(--darkgreen);
+  transition: background-color .6s;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
 
-
-
+/* Grid
+------------------------------------------------- */
 
 [class*="grid-"] {
   display: grid;
