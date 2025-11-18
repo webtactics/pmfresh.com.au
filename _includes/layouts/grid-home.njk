@@ -24,12 +24,23 @@
         
 <div class="pad6rem"></div>
 
+<div class="two-colum-wrapper">	
+    <h2 class="heading-text">What's in Season.</h2>
+
+    <div class="newswrapper fade-in">
+	    {%- set postslist = collections['Freshly Prepared Vegetables'] | reverse | limit(4) -%} 
+	    {% include "components/postslist-news-2-wide.njk" %}
+    </div>
+</div>
+
 
 <div class="two-colum-wrapper">	
-<div class="newswrapper fade-in">
-	{%- set postslist = collections['News'] | reverse -%} 
-	{% include "components/postslist-news-3-wide.njk" %}
-</div>
+    <h2 class="heading-text">News</h2>
+
+    <div class="newswrapper fade-in">
+	    {%- set postslist = collections['News'] | reverse -%} 
+	    {% include "components/postslist-news-3-wide.njk" %}
+    </div>
 </div>
 
 

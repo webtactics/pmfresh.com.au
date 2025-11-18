@@ -20,10 +20,5 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/Green-Leaves_FhKdvj3EY
 
 
 
-<h3>We specialise in creating and producing fresh ingredients and ready to eat salads, delicious warming soups and a variety of convenient, tasty heat and eat meals.</h3>
-
-
-
-
 
 
