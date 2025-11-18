@@ -1914,10 +1914,16 @@ min-height: 10px;
 }
  }
 
-.content-image-right, .content-image-rightwrapper, .content-image-right img {
+.content-image-right, .content-image-right img {
   display: flex;
   align-items:center;
   justify-content: center;
+}
+ .content-image-rightwrapper {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  min-height:500px;
 }
 
 
