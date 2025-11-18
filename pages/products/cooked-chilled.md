@@ -7,7 +7,7 @@ description: Discover our wide range of delicious, fresh, conveniently prepared 
 
 date: 2025-10-01
 permalink: /products/cooked-chilled/
-image: /static/img/pages/products/our-products-cta-banner-1920x896.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
 
 
 rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
