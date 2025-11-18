@@ -2466,7 +2466,9 @@ background-color: rgba(0,0,0,0.30);
     row-gap: 0;
   }
 
-  .grid-7x4, .grid-2, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2 { 
+
+
+  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2 { 
     grid-template-columns: repeat(1, 1fr); 
     gap: 1rem;
   }
