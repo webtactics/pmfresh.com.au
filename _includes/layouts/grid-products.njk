@@ -1,0 +1,69 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+
+{% block bodyclass %}<body class="about {{ class }}" >{% endblock %}
+
+
+
+
+
+{% block content %}
+<div class="container">
+	<main class="content">
+
+
+<div class="grid-2x3">
+
+	<div class="content-left">
+		{{ content | safe }}
+	</div>
+
+	<div class="content-right">
+ 		<div class="right-image slide-in from-right">
+			<img src="https://ik.imagekit.io/webtactics/pmfresh/pages/about/about-us-right-1-900x600_JJhQmeXWdv.jpg?updatedAt=1763083400209" alt=" {{ title }} " title=" {{ subtitle }} ">
+		</div>
+	</div>          
+
+</div>
+<div class="pad8rem"></div>
+<div class="grid-3x2">
+
+	<div class="content-left">
+		<div class="left-image slide-in from-left">
+			<img src="https://ik.imagekit.io/webtactics/pmfresh/pages/about/about-us-left-1-900x600_eB0FTDsxv.jpg?updatedAt=1763084236306" alt=" {{ title }} " title=" {{ subtitle }} ">
+		</div>
+	</div>
+
+	<div class="content-right">
+
+		<div class="text">
+			<div class="titlebox fade-in">
+				<h2 class="heading-text">Message from our CEO.</h2>
+			</div>
+
+			<div class="indent">
+				<p>Our people, customers and suppliers are key in our success as we continually strive to be Australia’s #1 Fresh Salad manufacturer. We are focused on delivering consistent growth in today’s fast-paced, ever-changing market environment.</p>
+				<p>To achieve our vision, we must meet the demands from our customers that best serve theirs.</p>
+				<p>We continually focus our strengths to deliver high quality, efficient service with safe food that meets the taste and convenience demanded by today’s consumers whilst leading in product development and innovation.</p>
+				<p><strong>Mike Fielden</strong>, PMFresh CEO</p>
+			</div>
+		</div>
+
+	</div>          
+
+</div>
+
+
+	</main>
+</div>
+
+
+
+{% endblock %}
+
+
+
+
