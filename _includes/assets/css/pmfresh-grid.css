@@ -552,7 +552,7 @@ color: var(--black);
 
 .headerwrapper {
   display: grid;
-  grid-template-columns: 60px 1fr 1px;
+  grid-template-columns: 60px 1fr 1rem;
   grid-template-areas:
   "hamburger navwrapper pad100";
     grid-template-rows: var(--mobilenavheight);
