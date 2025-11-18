@@ -18,7 +18,6 @@ image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRi
 section: about
 date: 2024-10-23
 permalink: /about/
-image: 
 metadata:
   title: About PMFresh Who We Are.
 eleventyNavigation:
