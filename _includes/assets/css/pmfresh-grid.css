@@ -2478,6 +2478,7 @@ h4.sum-title a:hover {
 }
 .grid-3-columns {
   grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }
 
 
