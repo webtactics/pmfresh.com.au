@@ -1,15 +1,15 @@
 ---
 layout: layouts/grid-products.njk
-title: Freshly Prepared Vegetables
+title: What's in Season
 subtitle: Freshly Prepared Vegetables
-class: products  freshly-prepared-vegetables
+class: products  whats-in-season
 description: Enjoy the goodness of fresh vegetables without the hassle of preparation!
 
 sidebar:
 
 date: 2025-10-01
 permalink: /products/whats-in-season/
-image: https://ik.imagekit.io/webtactics/pmfresh/pages/freshly-prepared-vegetables_GK5YSDVAH.jpg
+image: /static/img/pages/products/our-products-cta-banner-1920x896
 
 rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
 
@@ -20,7 +20,7 @@ ctaimage: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
 
 
 eleventyNavigation:
-  key: Whats in Season
+  key: What's in Season
   parent: Products
   order: 3
 ---
