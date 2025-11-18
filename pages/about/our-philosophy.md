@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-default.njk
+layout: layouts/grid-about-philosophy.njk
 title: Our Philosophy
 subtitle: Welcome to fresh thinking.
 
@@ -21,7 +21,7 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="grid-2">
+
 
 
 <div class="text">
@@ -37,15 +37,13 @@ eleventyNavigation:
         <p><strong>Solution Focused</strong><br>
           We develop pragmatic, commercially-viable solutions. We do not focus on the issues, rather, we put our energy into how we can move forward and make great things happen.</p>
       </div>
-    </div>
+    
 </div>
 
 
-<div class="content-image-right">
-  <img src="/static/img/pages/about/our-philosophy-image.png" alt="{{ subtitle }}" title="{{ subtitle }}">
-</div>
 
-</div>
+
+
 
 
 
