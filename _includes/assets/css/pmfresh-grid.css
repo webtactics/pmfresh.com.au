@@ -2378,7 +2378,7 @@ h4.sum-title a:hover {
   gap: 5rem;
   min-height:500px;
 }
-.grid-3x2 {
+.grid-3x2, .grid-3x2-products {
   grid-template-columns: 3fr 2fr;
 
   column-gap: 5rem;
@@ -2530,7 +2530,7 @@ h4.sum-title a:hover {
 
 
 
-  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2, .grid-2-products { 
+  .grid-7x4, .grid-2, .grid-2-mobilenav, .grid-2-detail-default, .grid-2-thanks, .grid-2-news,  .grid-2-sponsor, .grid-2x1, .grid-2x3, .grid-3x2, .grid-2-products, .grid-3x2-products { 
     grid-template-columns: repeat(1, 1fr); 
     gap: 1rem;
   }
