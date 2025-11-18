@@ -12,9 +12,7 @@
 	<main class="content">
 
 
-<div class="grid-2x3">
-
-	<div class="content-left">
+	<div class="content-left-news">
 
 		<div class="text">
     		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
@@ -25,20 +23,12 @@
 
 	</div>
 
-	<div class="content-right">
- 		<div class="right-image slide-in from-right">
-			<img src="https://ik.imagekit.io/webtactics/pmfresh/pages/about/about-us-right-1-900x600_JJhQmeXWdv.jpg?updatedAt=1763083400209" alt=" {{ title }} " title=" {{ subtitle }} ">
-		</div>
-	</div>          
-
-</div>
+        
 <div class="pad8rem"></div>
 
 
-
-
 <div class="two-colum-wrapper">	
-<div class="resultswrapper">
+<div class="newswrapper">
 	{%- set postslist = collections['News'] | reverse -%} 
 	{% include "components/postslist-news-2-wide.njk" %}
 </div>
