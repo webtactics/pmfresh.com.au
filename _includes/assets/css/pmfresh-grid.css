@@ -1775,7 +1775,7 @@ white-space: wrap;
   transition: all var(--animation-delay);
 }
 
-span.title-bar-title {display:block;text-indent:34px;padding:0;color: var(--white);}
+
 
  @media screen and (max-width: 1025px) {
 
