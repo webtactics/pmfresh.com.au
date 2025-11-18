@@ -21,7 +21,7 @@ eleventyNavigation:
   parent: About
   order: 2
 ---
-<h2>Interested in learn ing more about PMFresh?</h2>
+<p>Interested in learn ing more about PMFresh?</p>
 
 <p>This is the place to do it.</p>
 
