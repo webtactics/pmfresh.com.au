@@ -20,7 +20,7 @@ date: 2024-10-23
 permalink: /about/
 image: 
 metadata:
-  title: About PMFresh - Who We Are.
+  title: About PMFresh Who We Are.
 eleventyNavigation:
   key: About
   order: 1
