@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-default.njk
+layout: layouts/grid-news.njk
 title: News
 subtitle: The Latest News
 
@@ -12,7 +12,7 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_Qj
 class: about news
 description: The Latest News - Primo Moraitis Fresh
 image: https://ik.imagekit.io/webtactics/pmfresh/pages/careers-cta-banner-1920x879_UIecPUJsz.jpg
-eventssidebar: true
+eventssidebar:
 
 date: 2025-07-16
 permalink: /about/news/
@@ -21,7 +21,9 @@ eleventyNavigation:
   parent: About
   order: 2
 ---
+<h2>Interested in learn ing more about PMFresh?</h2>
 
+<p>This is the place to do it.</p>
 
 
 

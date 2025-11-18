@@ -12,19 +12,42 @@
 	<main class="content">
 
 
-<div class="grid-2">
+<div class="grid-2x3">
 
 	<div class="content-left">
-		{{ content | safe }}
+
+		<div class="text">
+    		<div class="titlebox fade-in"><h2 class="heading-text">{{ subtitle }}</h2></div>
+      			<div class="indent">
+					{{ content | safe }}
+				</div>
+		</div>
+
 	</div>
 
 	<div class="content-right">
- 		<div class="content-image-right">
-  <img src="/static/img/pages/about/our-philosophy-image.png" alt="{{ subtitle }}" title="{{ subtitle }}">
-        </div>
+ 		<div class="right-image slide-in from-right">
+			<img src="https://ik.imagekit.io/webtactics/pmfresh/pages/about/about-us-right-1-900x600_JJhQmeXWdv.jpg?updatedAt=1763083400209" alt=" {{ title }} " title=" {{ subtitle }} ">
+		</div>
 	</div>          
 
 </div>
+<div class="pad8rem"></div>
+
+
+
+
+<div class="two-colum-wrapper">	
+   <h2 class="heading-text">2025 Winter Events</h2>
+<div class="resultswrapper">
+	{%- set postslist = collections['2024-25-Season-Events'] | reverse -%} 
+	{% include "components/postslist-events.njk" %}
+</div>
+</div>
+
+
+
+
 
 
 	</main>
