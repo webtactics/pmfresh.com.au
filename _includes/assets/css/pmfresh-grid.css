@@ -1781,13 +1781,8 @@ span.title-bar-title {display:block;text-indent:34px;padding:0;color: var(--whit
 
 
 .hamburger:hover .hamburger-icon::before {
-  background: var(--primary);
-  box-shadow: 0 12px 0 0 var(--white),0 24px 0 0 var(--primary);
-  -webkit-transition: all var(--animation-delay);
-  -moz-transition: all var(--animation-delay);
-  -ms-transition: all var(--animation-delay);
-  -o-transition: all var(--animation-delay);
-  transition: all var(--animation-delay);
+  background: var(--black);
+  box-shadow: 0 12px 0 0 var(--black),0 24px 0 0 var(--black);
 }
  }
 
