@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-7x4.njk
+layout: layouts/grid-products.njk
 title: Cooked Chilled
 subtitle: We supply daily, freshly prepared and cooked chilled food ready to go from the deli counter at your local supermarket.
 class: products  cooked-chilled
