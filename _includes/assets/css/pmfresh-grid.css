@@ -573,11 +573,11 @@ display: grid;
   grid-template-areas:
 "hamburger navwrapper pad100";
 grid-template-rows: var(--headerheight);
--webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+-webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   background-color:var(--white);
  } 
 
@@ -587,11 +587,11 @@ grid-template-rows: var(--headerheight);
   grid-template-areas:
 "hamburger navwrapper pad100";
   grid-template-rows: var(--navbottomheight); 
-  -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+  -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
     background-color:var(--white);
    } 
   }
@@ -606,11 +606,11 @@ grid-template-rows: var(--headerheight);
     padding: 0;
     top: 0px;
     z-index: 3;
-    -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   height: var(--headerheight);
   }
   
@@ -618,11 +618,11 @@ grid-template-rows: var(--headerheight);
   
   .topbar.scrolled {
     background-color: var(--white);
-    -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   height: var(--navbottomheight); 
   }
 
@@ -658,7 +658,7 @@ grid-template-rows: var(--headerheight);
 
 .navwrapper {
   display: grid;
-  grid-template-columns:280px  1fr;
+  grid-template-columns:250px  1fr;
   grid-template-areas:
     "logo navrightside";
     grid-template-rows: var(--headerheight);
@@ -666,40 +666,39 @@ grid-template-rows: var(--headerheight);
     z-index: 2;
     width: calc(100vw - 1.25rem);
     max-width: 1440px;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
    } 
 
 .scrolled  .navwrapper {
       display: grid;
-      grid-template-columns:280px  1fr;
+      grid-template-columns:250px  1fr;
       grid-template-areas:
         "logo navrightside";
         grid-template-rows: var(--navbottomheight); 
           margin: 0 auto;
-        -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+        -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
    } 
-   @media (max-width: 1600px) { 
+   
+@media (max-width: 1600px) { 
 .navwrapper {
-          margin: 0 auto;
-     width: 100%;
-        max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
     }
   }
 
 
-
-
    @media (max-width: 1024px) { 
 
-    .navwrapper {
+    .navwrapper, .scrolled  .navwrapper {
       display: grid;
       grid-template-columns:1fr;
       grid-template-areas:
@@ -708,26 +707,10 @@ grid-template-rows: var(--headerheight);
         margin: 0;
         z-index: 2;
         width: 100%;
-         max-width: 100%;
-        margin: 0;
-   
        } 
     
-    .scrolled  .navwrapper {
-          display: grid;
-      grid-template-columns:1fr;
-      grid-template-areas:
-        "logo";
-      grid-template-rows: var(--mobilenavheight);
-        margin: 0;
-        z-index: 2;
-        width: 100%;
-         max-width: 100%;
-   
-       } 
 
-
-   .hamburger {
+   .hamburger,  .scrolled .hamburger  {
     display: flex;
       justify-content: flex-start;
     align-items: center;
@@ -740,21 +723,8 @@ grid-template-rows: var(--headerheight);
     background-color: var(--white);
   }
 
-  .scrolled .hamburger  {
-    display: flex;
-       justify-content: flex-start;
-    align-items: center;
-    height: var(--mobilenavheight);
-    -webkit-transition: all var(--animation-delay);
-    -moz-transition: all var(--animation-delay);
-    -ms-transition: all var(--animation-delay);
-    -o-transition: all var(--animation-delay);
-    transition: all var(--animation-delay);
-  
-  }
 
-
-      }
+   }
 
 
 
@@ -764,11 +734,11 @@ grid-template-rows: var(--headerheight);
   height: var(--headerheight);
   justify-content:flex-start;
   align-items: center;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   padding:10px 0;
 }
 
@@ -776,29 +746,29 @@ grid-template-rows: var(--headerheight);
     height: var(--navbottomheight); 
     justify-content:flex-start;
     align-items: center;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
      padding:10px 0;
  }
 
 
   .logo img {max-width:236px;aspect-ratio: 466 / 158;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
     height:auto;
   }
 .scrolled .logo img {max-width:148px;aspect-ratio: 466 / 158;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   height:auto;
   }
 
@@ -817,11 +787,11 @@ grid-template-rows: var(--headerheight);
     height: var(--mobilenavheight);
     width:221px;
   text-align: right;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
   }
   
    .scrolled .logo {
@@ -831,11 +801,11 @@ grid-template-rows: var(--headerheight);
     height: var(--mobilenavheight);
     width:221px;
   text-align: right;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all var( --transitionquick);
+    -moz-transition: all var( --transitionquick);
+    -ms-transition: all var( --transitionquick);
+    -o-transition: all var( --transitionquick);
+    transition: all var( --transitionquick);
    }
 
   .logo img, .scrolled .logo img  {
@@ -903,11 +873,11 @@ grid-row-gap: 0px;
     justify-content:flex-end;
   align-items: center;
   height: var(--navtopheight);
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   padding:8px 0;
  }
 
@@ -915,11 +885,11 @@ grid-row-gap: 0px;
   display: flex;
     justify-content:flex-end;
   align-items: center;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
   padding:0;
   z-index: -10;
     background: var(--white);
@@ -1811,7 +1781,7 @@ button.success, .button.success {
   padding: 0.4rem 3rem;
   margin: 0;
   text-decoration: none;
-  -webkit-transition: all 0.6s;
+  -webkit-transition: all var( --transitionquick);
   -moz-transition: all 0.8s;
   -ms-transition: all 0.8s;
   -o-transition: all 0.8s;
