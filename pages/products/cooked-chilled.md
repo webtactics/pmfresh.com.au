@@ -30,7 +30,7 @@ eleventyNavigation:
 <div class="padtop3rem">
 <h2>Cooked Chilled Products</h2>
 {% set postslist = collections['Cooked-Chilled'] | reverse  %} 
-{% include "components/postslist-news-4-wide.njk" %}
+{% include "components/postslist-products-4-wide.njk" %}
 </div>
 
 
