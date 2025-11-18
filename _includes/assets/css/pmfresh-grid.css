@@ -2626,6 +2626,7 @@ grid-template-columns: 2fr 1fr;gap: 3rem;}
 .pad8rem {padding-top:8rem;}
 
   @media (max-width: 1024px) {
+.pad4rembothwhitebg {padding: 1rem 0;  background-color:var(--white);}
 .pad8rem {padding-top:1rem;}
   }
 
