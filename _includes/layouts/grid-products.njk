@@ -36,11 +36,9 @@
 
 </div>
 
-<div class="pad8rem"></div>
-
 
 {% if products %}
-
+<div class="pad8rem"></div>
 <div class="grid-2-products">
 
 	<div class="content-left">
@@ -64,8 +62,8 @@
 	</div>          
 
 </div>
-<div class="pad8rem"></div>
 
+<div class="pad8rem"></div>
 
 <div class="grid-2-products">
 
@@ -90,20 +88,26 @@
 
 
 {% elif whatsinseason %}
-<div class="whats-in-season content">
+<div class="productcatagory content">
 <h2>Freshly Prepared Vegetables</h2>
 {% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
-		{% include "components/postslist-products-4-wide.njk" %}
-
+{% include "components/postslist-products-4-wide.njk" %}
 </div>
 
 
 {% elif cookedchilled %}
-<div class="whats-in-season content">
+<div class="productcatagory content">
 <h2>Cooked & Chilled</h2>
 {% set postslist = collections['Cooked & Chilled'] | reverse  %} 
-		{% include "components/postslist-products-4-wide.njk" %}
+{% include "components/postslist-products-4-wide.njk" %}
+</div>
 
+
+{% elif freshlypreparedvegetables %}
+<div class="productcatagory content">
+<h2>Freshly Prepared Vegetables</h2>
+{% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
+{% include "components/postslist-products-4-wide.njk" %}
 </div>
 {% endif %}
 
