@@ -9,6 +9,7 @@ newsdate:
   year: 2020
 
 tags:
+  - Sustainability
  
 
 

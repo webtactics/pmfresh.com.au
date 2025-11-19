@@ -9,7 +9,7 @@ newsdate:
   year: 2020
 
 tags:
-
+  - Suppliers
 
 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/home-slide-2-1920x953_GWTL5bPQz.jpg

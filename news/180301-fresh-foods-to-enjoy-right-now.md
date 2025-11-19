@@ -9,7 +9,7 @@ newsdate:
   year: 2018
 
 tags:
-
+  - Fresh Foods
 
 
 image: https://ik.imagekit.io/webtactics/pmfresh/news/news-image-1-1281x522_cW-XmXER9.jpg
