@@ -552,7 +552,7 @@ color: var(--black);
 
 .headerwrapper {
   display: grid;
-  grid-template-columns: 60px 1fr 100px;
+  grid-template-columns: 60px 1fr 60px;
   grid-template-areas:
   "hamburger navwrapper pad100";
     grid-template-rows: var(--mobilenavheight);
@@ -664,7 +664,7 @@ grid-template-rows: var(--headerheight);
     grid-template-rows: var(--headerheight);
     margin: 0 auto;
     z-index: 2;
-    width: calc(100vw - 1.25rem);
+    width: calc(100vw - 1rem);
     max-width: 1440px;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
@@ -2143,7 +2143,7 @@ a.resultspdf:hover {
 .content.emailbgcontainer {
   margin: 0 auto;
   padding: 4rem 0;
-  width: calc(100vw - 2rem);
+  width: calc(100vw - 1rem);
   max-width: 1440px;
   background-color: transparent;
   min-height: 300px;
