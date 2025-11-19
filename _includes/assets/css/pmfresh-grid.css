@@ -1531,7 +1531,9 @@ color : var(--white);
   background-color: transparent;
 }
 
-
+.productcatagory.content {
+  padding: 0;
+}
 
 @media (max-width: 1025px) {
   .content {
