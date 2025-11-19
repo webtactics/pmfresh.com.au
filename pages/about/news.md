@@ -10,10 +10,10 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/careers
 rightimage:
 
 
-ctatitle: Our Philosophy.
-ctatext: We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.
-ctalink: /about/our-philosophy/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
+ctatitle: Our Suppliers.
+ctatext: Fresh Food Direct from the Farm.
+ctalink: /suppliers/
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/suppliers-1920x953_IiNnTCAew.jpg?updatedAt=1763519461940
 
 date: 2025-07-16
 permalink: /about/news/
