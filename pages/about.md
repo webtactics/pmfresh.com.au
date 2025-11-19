@@ -3,16 +3,17 @@ layout: layouts/grid-default.njk
 title: About Us.
 subtitle: Who We Are.
 
+class: about
+description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
+image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/green-leaves-on-black-1920x953_akBBPwJ0yn.jpg
+
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/leafy-salads-image-1920x953_yMflNBQSx.jpg
+
 ctatitle: Our Philosophy.
 ctatext: We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.
 ctalink: /about/our-philosophy/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-banner-1920x953_ztYJNIMRb.jpg
 
-
-
-class: about
-description: Proudly Australian and privately-owned, at PMFresh, we pride ourselves in our extensive experience and expertise in the fresh food industry.
-image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
 
 
 section: about

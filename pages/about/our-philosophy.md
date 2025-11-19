@@ -3,15 +3,16 @@ layout: layouts/grid-about-philosophy.njk
 title: Our Philosophy
 subtitle: Welcome to fresh thinking.
 
+class: about our-philosophy
+description: At PMFresh, our philosophy is built on the four pillars of People First, Globally Aware, Excellence and being Solution Focused.
+image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-banner-1920x953_ztYJNIMRb.jpg
+
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/our-suppliers-bg-1920x953_HtBteOzpb8.jpg
+
 ctatitle: News.
 ctatext: Keep up to date with the latest news.
 ctalink: /about/news/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/careers-cta-banner-1920x879_UIecPUJsz.jpg?tr=w-1920,h-950
-
-class: about our-philosophy
-description: At PMFresh, our philosophy is built on the four pillars of People First, Globally Aware, Excellence and being Solution Focused.
-image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
-eventssidebar: 
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/careers-cta-banner-1920x953_7xAvKwm34.jpg
 
 date: 2025-07-16
 permalink: /about/our-philosophy/
