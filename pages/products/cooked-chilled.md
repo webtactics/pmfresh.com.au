@@ -6,7 +6,6 @@ class: products  cooked-chilled
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 
 date: 2025-10-01
-permalink: /products/cooked-chilled/
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
 
 
@@ -17,7 +16,7 @@ ctatext: All our products are freshly prepared with a focus on quality and conve
 ctalink: /who-we-serve/
 ctaimage: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
 
-
+permalink: /products/cooked-chilled/
 eleventyNavigation:
   key: Cooked Chilled
   parent: Products
