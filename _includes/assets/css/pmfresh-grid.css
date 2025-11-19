@@ -2364,6 +2364,7 @@ margin:0 auto;
 
 .content.who-we-serve {
   padding: 2rem 0;
+  min-height: auto;
 }
 
 .container .content .indent.has-title::before {
