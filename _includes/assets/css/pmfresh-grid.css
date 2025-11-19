@@ -2342,12 +2342,21 @@ h4.sum-title a:hover {
   float: left;
   width: 33.3333%;
   background-color: #f2f2f2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .clients .client:nth-child(2n) {
   background-color: #d8d8d8;
 }
+.clients .client img {
+margin:0 auto;
+}
 
-.content.who-we-serve {}
+.content.who-we-serve {
+  padding: 4rem 0;
+}
 
 .container .content .indent.has-title::before {
   top: 18px;
