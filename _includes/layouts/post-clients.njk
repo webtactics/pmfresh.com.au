@@ -3,16 +3,15 @@ layout: layouts/grid-default.njk
 section: post
 ---
 
+<article class="clients-detail">
+    <h2>{{ title }}</h2>
+		
+<div class="client fade-in">
+    <a href="{{ website }}" class="loaded" target="_blank"><img src="{{ image }}" alt="{{ title }}" title="{{ title }}"></a>
+</div> 
 
- <div class="grid-2-columns-3x1">
- <div class="detailwrapper">
-<article>
 
-
-<div class="item blogdetail">
-<div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-800" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
-
-<div class="detailcontent">{{ content | safe }}</div>
+		
 
 
 
@@ -31,9 +30,7 @@ section: post
 
 
    
-</div>
-</article>
-</div>
 
-</div>
+</article>
+
 
