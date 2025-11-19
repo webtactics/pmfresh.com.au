@@ -9,7 +9,7 @@ date: 2025-10-01
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
 
 
-rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
 
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
