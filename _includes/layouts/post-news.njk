@@ -9,32 +9,24 @@ section: post
   <article>
     <div class="grid-2-news">
 
-<div class="item postdetail">
+      <div class="item postdetail">
 
-<div class="detailcontent">{{ content | safe }}</div>
+        <div class="detailcontent">
 
-{% if club %}<p><strong>Hosting Club :</strong> <a href="{{ clubURL }}" title="Hosting Club : {{ title }}" alt="Hosting Club : {{ title }}" target="_blank">{{ club }}</a></p>{% endif %}
+          <div class="postsumdate">
+            <p>{{ newsdate.day }} {{ newsdate.month }}, {{ newsdate.year }}</p>
+          </div>
+            {{ content | safe }}
+        </div>
+      </div>
+        
+        <div class="sidebarwrapper">
+          <div class="postnewsimage">
+            <img src="{{ image }}/tr:w-600,h-400" alt="{{ title }}" title="{{ title }}" width="600px" height="auto" class="postlistimg">
+          </div>
+        </div>
 
-{% if meetflyerpdf %}<p><strong>Event Flyer: </strong><a href="{{ meetflyerpdf }}" title="{{ title }} Flyer" alt="{{ title }} Flyer" target="_blank">{{ subtitle }} Flyer</a></p>{% endif %}
+    </div>
 
-{% if entrylink %}<p><strong>Entry: </strong><a href="{{ entrylink }}" title="{{ title }} entry" alt="{{ title }} entry" target="_blank">{{ subtitle }} entry</a></p>{% endif %}
-
-
-{% if articlePDF %}<p><strong>{% if articlePDFtitle %}{{ articlePDFtitle }}{% else %}Related Pdf:{% endif %} </strong><a href="{{ articlePDF }}" title="{{ articlePDFtitle }}" alt="{{ articlePDFtitle }}" target="_blank">{{ articlePDFtitle }} Pdf</a></p>{% endif %}
-
-{% if articlePDF2 %}<p><strong>{% if articlePDFtitle2 %}{{ articlePDFtitle2 }}{% else %}Related Pdf:{% endif %} </strong><a href="{{ articlePDF2 }}" title="{{ articlePDFtitle2 }}" alt="{{ articlePDFtitle2 }}" target="_blank">{{ articlePDFtitle2 }} Pdf</a></p>{% endif %}
-
-{% if articlelink %}<p><strong>{% if articlelinktitle %}{{ articlelinktitle }}{% else %}Full Story:{% endif %} </strong><a href="{{ articlelink }}" title="{{ title }} entry" alt="{{ title }} entry" target="_blank">{{ title }}</a></p>{% endif %}
-
-</div>
-
-<div class="sidebarwrapper">
-<div class="postnewsimage">
-<img src="{{ image }}/tr:w-600,h-400" alt="{{ title }}" title="{{ title }}" width="600px" height="auto" class="postlistimg">
-</div>
-</div>
-
-</div>
-
-</article>
+  </article>
 </div>
