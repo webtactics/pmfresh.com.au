@@ -9,7 +9,7 @@ date: 2025-10-01
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cooked-Chilled-1920x953_kBiGC8eJM.jpg
 
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cooked-Chilled-1920x953_kBiGC8eJM.jpg
 
 cookedchilled: cooked-chilled
 
@@ -28,11 +28,7 @@ eleventyNavigation:
 
 <p>If you have any specific dietary requirements or questions, for the most accurate information please either call our Customer Service Team on 1800 725 237 or refer to the nutritional information on pack in store.</p>
 
-<div class="padtop3rem">
-<h2>Cooked Chilled Products</h2>
-{% set postslist = collections['Cooked-Chilled'] | reverse  %} 
-{% include "components/postslist-products-4-wide.njk" %}
-</div>
+
 
 
 
