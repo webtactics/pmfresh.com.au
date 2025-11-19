@@ -9,7 +9,7 @@ date: 2025-10-01
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cooked-Chilled-1920x953_kBiGC8eJM.jpg
 
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cooked-Chilled-1920x953_kBiGC8eJM.jpg/tr:w-700,h-348
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cooked-Chilled-1920x953_kBiGC8eJM.jpg
 
 cookedchilled: cooked-chilled
 

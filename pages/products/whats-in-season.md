@@ -9,7 +9,7 @@ date: 2025-10-01
 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg/tr:w-700,h-348
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg
 
 whatsinseason: whats-in-season
 

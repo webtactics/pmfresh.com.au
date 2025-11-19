@@ -9,7 +9,7 @@ date: 2025-10-01
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_aayf2FQpSh.jpg
 
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_aayf2FQpSh.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Green-leaves-1920x953_-D7aA-dRS.jpg
 
 freshlypreparedvegetables: freshly-prepared-vegetables
 
