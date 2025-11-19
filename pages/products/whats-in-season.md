@@ -7,9 +7,9 @@ description: Enjoy the goodness of fresh vegetables without the hassle of prepar
 
 date: 2025-10-01
 
-image: /static/img/pages/products/our-products-cta-banner-1920x896.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg
 
-rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg/tr:w-700,h-348
 
 whatsinseason: whats-in-season
 
