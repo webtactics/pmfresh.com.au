@@ -6,10 +6,10 @@ class: products  freshly-prepared-vegetables
 description: Enjoy the goodness of fresh vegetables without the hassle of preparation!
 
 date: 2025-10-01
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_daMNGp4L_.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_aayf2FQpSh.jpg
 
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_daMNGp4L_.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_aayf2FQpSh.jpg
 
 freshlypreparedvegetables: freshly-prepared-vegetables
 
@@ -26,13 +26,6 @@ eleventyNavigation:
   order: 2
 ---
 <p>Our range of freshly prepared PMFresh vegetables are ready to prepare and available in both, our bulk range for catering and food service, or individually sealed bags in our pre-packaged range.</p>
-
-
-<div class="padtop3rem">
-
-{% set postslist = collections['Freshly-Prepared-Vegetables'] | reverse  %} 
-		{% include "components/postslist-news-4-wide.njk" %}
-</div>
 
 
 

@@ -29,9 +29,3 @@ eleventyNavigation:
 <p>If you have any specific dietary requirements or questions, for the most accurate information please either call our Customer Service Team on 1800 725 237 or refer to the nutritional information on pack in store.</p>
 
 
-
-
-
-
-
-

@@ -4,7 +4,7 @@ title: Range of Products.
 subtitle: Supplying to the catering and food service industries.
 
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
-image: https://ik.imagekit.io/webtactics/pmfresh/pages/our-products_sNno-UQxs.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/our-products-banner-1920x953_oQgv8skOq.jpg
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/assets/our-products-right-image_SSk7Cz-wn.png
 
@@ -13,7 +13,7 @@ products: products
 ctatitle: What’s in Season.
 ctatext: We have long standing relationships with many of our growers. We bring the best in freshest quality Australian produce.
 ctalink: /products/whats-in-season/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/green-leaves-on-black-1920x953_24XsCLUFf.jpg
 
 section: products
 class: products
