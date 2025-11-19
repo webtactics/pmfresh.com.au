@@ -6,10 +6,13 @@ class: products  freshly-prepared-vegetables
 description: Enjoy the goodness of fresh vegetables without the hassle of preparation!
 
 date: 2025-10-01
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/pages/freshly-prepared-vegetables_7cy7ImYCpZ.jpg
 
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/pages/freshly-prepared-vegetables_7cy7ImYCpZ.jpg
+
+freshlypreparedvegetables: freshly-prepared-vegetables
+
 
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 

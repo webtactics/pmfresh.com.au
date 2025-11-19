@@ -37,6 +37,10 @@
 </div>
 
 <div class="pad8rem"></div>
+
+
+{% if products %}
+
 <div class="grid-2-products">
 
 	<div class="content-left">
@@ -78,26 +82,30 @@
 
 	<div class="content-right">
  		<div class="right-image slide-in from-right">
-			<a href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables"><img src="https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg" alt="Freshly Prepared Vegetables" title="{Freshly Prepared Vegetables"></a>
+			<a href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables"><img src="https://ik.imagekit.io/webtactics/pmfresh/img/pages/freshly-prepared-vegetables_7cy7ImYCpZ.jpg" alt="Freshly Prepared Vegetables" title="{Freshly Prepared Vegetables"></a>
 		</div>
 	</div>          
 
 </div>
 
-<div class="pad8rem"></div>
+
+{% elif whatsinseason %}
+<div class="whats-in-season content">
+<h2>Freshly Prepared Vegetables</h2>
+{% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
+		{% include "components/postslist-products-4-wide.njk" %}
+
+</div>
 
 
+{% elif cookedchilled %}
+<div class="whats-in-season content">
+<h2>Cooked & Chilled</h2>
+{% set postslist = collections['Cooked & Chilled'] | reverse  %} 
+		{% include "components/postslist-products-4-wide.njk" %}
 
-
-
-
-
-
-
-
-
-
-
+</div>
+{% endif %}
 
 
 

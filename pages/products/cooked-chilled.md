@@ -11,6 +11,8 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
 
+cookedchilled: cooked-chilled
+
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
 ctalink: /who-we-serve/

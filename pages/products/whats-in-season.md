@@ -5,20 +5,20 @@ subtitle: Freshly Prepared Vegetables
 class: products  whats-in-season
 description: Enjoy the goodness of fresh vegetables without the hassle of preparation!
 
-sidebar:
-
 date: 2025-10-01
-permalink: /products/whats-in-season/
+
 image: /static/img/pages/products/our-products-cta-banner-1920x896.jpg
 
 rightimage: /static/img/pages/who-we-serve/who-we-serve-image.png
+
+whatsinseason: whats-in-season
 
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
 ctalink: /who-we-serve/
 ctaimage: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
 
-
+permalink: /products/whats-in-season/
 eleventyNavigation:
   key: What's in Season
   parent: Products
