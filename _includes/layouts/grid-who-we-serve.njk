@@ -31,6 +31,20 @@
 
 <div class="container">
 <div class="content-who-we-serve">
+
+<div class="content who-we-serve">
+    <div class="indent has-title">
+        <h2>Retail </h2>
+    </div>
+</div>'
+
+{% set postslist = collections['Retail']  %} 
+{% include "components/postslist-who-we-serve-3-wide.njk" %}
+<div class="clear"><!-- --></div>
+<div class="pad4rem"><!-- --></div>
+
+
+
 {% include "components/global/who-we-serve-retail.html" %}
 <div class="clear"><!-- --></div>
 {% include "components/global/who-we-serve-food-service.html" %}
@@ -38,6 +52,8 @@
 {% include "components/global/who-we-serve-quick-serve.html" %}
 <div class="clear"><!-- --></div>
 <div class="pad4rem"><!-- --></div>
+
+
 </div>
 </div>
 
