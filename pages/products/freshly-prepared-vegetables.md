@@ -6,10 +6,10 @@ class: products  freshly-prepared-vegetables
 description: Enjoy the goodness of fresh vegetables without the hassle of preparation!
 
 date: 2025-10-01
-image: https://ik.imagekit.io/webtactics/pmfresh/img/pages/freshly-prepared-vegetables_7cy7ImYCpZ.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_daMNGp4L_.jpg
 
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/pages/freshly-prepared-vegetables_7cy7ImYCpZ.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cut-Vegetables-1920x953_daMNGp4L_.jpg
 
 freshlypreparedvegetables: freshly-prepared-vegetables
 
