@@ -6,7 +6,7 @@ class: products  cooked-chilled
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 
 date: 2025-10-01
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Cooked-Chilled-1920x953_kBiGC8eJM.jpg
 
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/cooked-chilled-image_Phe2NGWEX.jpg
