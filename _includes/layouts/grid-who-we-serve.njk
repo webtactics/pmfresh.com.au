@@ -53,8 +53,13 @@
 <div class="pad4rem"><!-- --></div>
 
 
-
-{% include "components/global/who-we-serve-quick-serve.html" %}
+<div class="content who-we-serve">
+    <div class="indent has-title">
+        <h2>Quick Serve Restaurants</h2>
+    </div>
+</div>'
+{% set postslist = collections['Quick Serve Restaurants']  %} 
+{% include "components/postslist-who-we-serve-3-wide.njk" %}
 <div class="clear"><!-- --></div>
 <div class="pad4rem"><!-- --></div>
 
