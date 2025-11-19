@@ -1,11 +1,15 @@
 ---
-layout: layouts/grid-about.njk
+layout: layouts/grid-products.njk
 title: Who We Serve.
 subtitle: Supplying to the catering and food service industries.
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 
 date: 2025-10-01
-image: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/who-we-serve-1920x953_YPg8pZEhe.jpg
+
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/about-us-1920x953_kULfkrgVH.jpg
+
+whoweserve: who-we-serve
 
 ctatitle: 
 ctatext:
