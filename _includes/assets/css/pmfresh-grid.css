@@ -2338,6 +2338,12 @@ h4.sum-title a:hover {
 
 /* Who we serve
 ------------------------------------------------- */
+.content-who-we-serve {
+  padding: 6rem 0 12rem 0;
+  background-color: var(--white);
+  min-height: auto;
+}
+
 .clients .client {
   float: left;
   width: 33.3333%;
@@ -2740,6 +2746,8 @@ grid-template-columns: 2fr 1fr;gap: 3rem;}
 .pad5rembothwhitebg {padding: 5rem 0;  background-color:var(--white);}
 .pad6rem {padding-top:6rem;}
 .pad8rem {padding-top:8rem;}
+.pad12rem {padding-top:12rem;}
+
 
   @media (max-width: 1024px) {
 .pad4rembothwhitebg {padding: 1rem 0;  background-color:var(--white);}
