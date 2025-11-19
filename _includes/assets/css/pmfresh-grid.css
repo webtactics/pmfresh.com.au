@@ -1880,8 +1880,12 @@ z-index: 0;
 min-height: 500px;
 }
 
+.grid-2-products .content-left, .grid-2-products .content-right {
+  min-height: 300px;
+}
+
  @media screen and (max-width: 1025px) {
-.content-left, .content-right {
+.content-left, .content-right, .grid-2-products .content-left, .grid-2-products .content-right {
 min-height: 10px;
 }
  }
