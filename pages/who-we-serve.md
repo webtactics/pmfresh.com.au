@@ -14,7 +14,7 @@ whoweserve: who-we-serve
 ctatitle: 
 ctatext:
 ctalink:
-ctaimage:
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/about-us-1920x953_kULfkrgVH.jpg?updatedAt=1763520592411
 
 
 section: who-we-serve
