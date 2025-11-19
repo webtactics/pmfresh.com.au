@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-about.njk
+layout: layouts/grid-products.njk
 title: Our Suppliers.
 subtitle: Fresh Food Direct from the Farm.
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
