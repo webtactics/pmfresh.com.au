@@ -12,7 +12,7 @@ tags:
 
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/pages/about-us-cta-banner_QjxRiCe1f.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-banner-1920x953_ztYJNIMRb.jpg
 
 
 
