@@ -25,7 +25,7 @@ eleventyNavigation:
   parent: Products
   order: 2
 ---
-<p>Our range of freshly prepared PMFresh vegetables are ready to prepare and available in both, our bulk range for catering and food service, or individually sealed bags in our pre-packaged range.</p>
+<p>We do the prepping so you can do the serving. Cut down on time and resources by letting us do the cutting, slicing and chopping.</p>
 
 
 
