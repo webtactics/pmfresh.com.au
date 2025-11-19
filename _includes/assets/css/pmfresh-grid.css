@@ -2336,6 +2336,17 @@ h4.sum-title a:hover {
   border-bottom-right-radius: .5rem;
 }
 
+/* Who we serve
+------------------------------------------------- */
+.clients .client {
+  float: left;
+  width: 33.3333%;
+  background-color: #f2f2f2;
+}
+.clients .client:nth-child(2n) {
+  background-color: #d8d8d8;
+}
+
 /* Grid
 ------------------------------------------------- */
 
