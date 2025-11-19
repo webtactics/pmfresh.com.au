@@ -2347,6 +2347,12 @@ h4.sum-title a:hover {
   background-color: #d8d8d8;
 }
 
+.container .content .indent.has-title::before {
+  top: 18px;
+}
+
+
+
 .clear {
   display: block;
   clear: both;
