@@ -43,7 +43,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 536mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+  - Cooked-Chilled
   
 
 image: https://ik.imagekit.io/webtactics/pmfresh/products/Coleslaw_wmYGvax09.jpg
