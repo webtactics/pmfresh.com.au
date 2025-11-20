@@ -46,7 +46,7 @@ tags:
   - Cooked-Chilled
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Vegtable-Mash_EEVFIL8Ny.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Vegtable-Mash_tScQjCvKPp.jpg
 
 
 

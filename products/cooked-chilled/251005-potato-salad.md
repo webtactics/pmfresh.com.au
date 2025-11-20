@@ -44,10 +44,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 239mg
 
 tags:
-  - Cooked-Chilled
+  - In Season
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Potato-Salad_sBKYu81Xa.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potato-Salad_SxVnP9vNP.jpg
 
 
 

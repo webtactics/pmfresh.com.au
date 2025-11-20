@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 288mg
 
 tags:
-  - Cooked-Chilled
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Potato-Mash_heg9B617H.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potato-Mash__V1uXRezVJ.jpg
 
 
 

@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 536mg
 
 tags:
-  - Cooked-Chilled
+  - In Season
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Coleslaw_wmYGvax09.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Coleslaw_cKYs0kA66.jpg
 
 
 

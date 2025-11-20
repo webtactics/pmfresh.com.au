@@ -44,10 +44,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 268mg
 
 tags:
-  - Cooked-Chilled
+  - In Season
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Pasta-Salad_f0R_vEC5I.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pasta-Salad_7tqPM0qMrm.jpg
 
 
 

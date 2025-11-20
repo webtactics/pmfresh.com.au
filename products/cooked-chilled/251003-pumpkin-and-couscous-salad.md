@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 258mg
 
 tags:
-  - Cooked-Chilled
+  - In Season
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Pumpkin-CousCous-Salad_bKMObziIv.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin-CousCous-Salad_Jzc375hAzS.jpg
 
 
 

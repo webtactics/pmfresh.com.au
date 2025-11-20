@@ -42,7 +42,7 @@ tags:
   - Freshly-Prepared-Vegetables
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Mixed-Vegetables-for-Roasting_PC0S6KWlA.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mixed-Vegetables-for-Roasting_qn04jC65Bl.jpg
 
 
 
