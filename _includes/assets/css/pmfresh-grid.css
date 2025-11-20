@@ -2947,7 +2947,7 @@ textarea
   display: grid;
   grid-template-rows: 0fr;
   overflow: hidden;
-  transition: grid-template-rows 0.4s 0.6s;
+  transition: grid-template-rows 0.1s var(--animation-delay-fast);
 }
 
 .accordion-trigger-input:checked ~ .accordion-animation-wrapper {
@@ -2961,13 +2961,13 @@ textarea
 .accordion-transform-wrapper {
   transform: translateY(-100%);
   visibility: hidden;
-  transition: transform 0.4s 0.6s, visibility 0s 0.4s 0.6s;
+  transition: transform var(--animation-delay-fast) 0.6s, visibility 0s var(--animation-delay-fast) 0.6s;
 }
 
 .accordion-trigger-input:checked ~ .accordion-animation-wrapper .accordion-transform-wrapper {
   transform: translateY(0);
   visibility: visible;
-  transition: transform 0.4s 0.6s, visibility 0s linear;
+  transition: transform var(--animation-delay-fast) 0.6s, visibility 0s linear;
 }
 
 /* Margins inside the container will throw animation height calculations off, better use paddings */
@@ -3004,7 +3004,7 @@ textarea
   display: block;
   position: relative;
   padding: 1rem 0;
-  transition: box-shadow 0.4s 0.6s;
+  transition: box-shadow var(--animation-delay-fast) 0.6s;
   z-index: 1;
   cursor: pointer;
   background-color: var(--white);
@@ -3025,7 +3025,7 @@ textarea
  .accordion-trigger:hover, .accordion-trigger:active, .accordion-trigger:focus {
   background-color: var(--primary);
   color:var(--white);
-  transition: box-shadow 0.4s 0.6s;
+  transition: box-shadow var(--animation-delay-fast) 0.6s;
   -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -3050,7 +3050,7 @@ textarea
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
-  transition: transform 0.4s 0.6s;
+  transition: transform var(--animation-delay-fast) 0.6s;
 }
 
 .accordion-trigger:hover::after {  border: 2px solid var(--white);
@@ -3065,7 +3065,7 @@ textarea
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
-  transition: transform 0.4s 0.6s;
+  transition: transform var(--animation-delay-fast) 0.6s;
 }
 
 
@@ -3075,18 +3075,18 @@ textarea
 
 .accordion-trigger-input:checked ~ .accordion-trigger {
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  transition: box-shadow calc(0.4s / 4) 0.6s;
+  transition: box-shadow calc(var(--animation-delay-fast) / 4) var(--animation-delay-fast);
 }
 
 .accordion-content {
   padding: 1rem;
-  background-color: var(--lightpink);
+  background-color: var(--white);
   font-size: 0.9rem;
 }
 
 .products-details .accordion-content {
   padding: 0.75rem;
-  background-color: var(--lightpink);
+  background-color: var(--white);
 }
 
 .accordion-content h2 {
