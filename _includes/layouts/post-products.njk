@@ -183,3 +183,30 @@ section: post
 {% include "components/global/tagged.html" %}
 
 
+{% if cookedchilled %}
+<div class="pad8rem"></div>
+<div class="productcatagory content">
+<h3>Related Cooked & Chilled Products</h3>
+{% set postslist = collections['Cooked & Chilled'] | reverse  %} 
+{% include "components/postslist-products-4-wide.njk" %}
+</div>
+
+{% elif freshlypreparedvegetables %}
+<div class="productcatagory content">
+<h3>Related Freshly Prepared Vegetables</h3>
+{% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
+{% include "components/postslist-products-3-wide.njk" %}
+</div>
+
+
+{% elif leafysalads %}
+<div class="pad8rem"></div>
+<div class="productcatagory content">
+<h3>Related Leafy Salads</h3>
+{% set postslist = collections['Leafy Salads'] | reverse  %} 
+{% include "components/postslist-products-3-wide.njk" %}
+</div>
+
+
+
+{% endif %}
