@@ -98,14 +98,7 @@ section: post
             {% endif %}
 
 
-           {% if nutrition.EnergyAvgQuantityPerServing %}   
-            <div class="grid-4-prod-detail">
-            <div class="nutritiontitle">Gluten</div>
-            <div class="nutritiontitle text-center">{$entry->fields.glutenserving->value}</div>
-            <div class="nutritiontitle text-right">{if !empty($entry->fields.gluten100g->value)}
-            {$entry->fields.gluten100g->value}{else}{if $gluten100g == "0"}0{% endif %}{% endif %}</div>
-            </div>    
-            {% endif %}
+  
          
         {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
