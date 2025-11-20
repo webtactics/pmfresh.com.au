@@ -62,30 +62,43 @@ section: post
             <div class="nutritionservetitle">Product name: {{ title }} </div>
             </div>
             {% if Servingsperpackage or Servingsize %}
-              <div class="grid-5-7-prod-detail">
+            <div class="grid-5-7-prod-detail">
             <div class="nutritiontitle">Serves per pack: {{ Servingsperpackage }}</div>
             <div class="nutritiontitle">  {% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
             </div>
             {% endif %}
             <div class="grid-4-prod-detail">
             <div class="nutritionquantity"></div>
-            <div class="nutritionquantity text-center">Quantity<br/>per Serving</div>
-            <div class="nutritionquantity text-right">Quantity<br/>per 100g</div>
+            <div class="nutritionquantity text-left">Avg Quantity Per Serving</div>
+            <div class="nutritionquantity text-center">% Daily Intake</div>
+            <div class="nutritionquantity text-right">Avg Quantity per 100g</div>
             </div>
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Energy</div>
-            <div class="nutritiontitle text-center">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPerServing }}{% endif %}</div>
-            <div class="nutritiontitle text-center">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.Energy%DailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-left">{% if nutrition. EnergyAvgQuantityPerServing %}{{ nutrition. EnergyAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.Energy%DailyIntakes %}{{ nutrition.Energy%DailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
             </div>
-            {if !empty($entry->fields.proteinserving->value)}    
+         {% if nutrition.ProteinAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Protein</div>
-            <div class="nutritiontitle text-center">{$entry->fields.proteinserving->value}</div>
-            <div class="nutritiontitle text-right">{if !empty($entry->fields.protein100g->value)}{$entry->fields.protein100g->value}{else}{% endif %}</div>
+            <div class="nutritiontitle text-left">{% if nutrition.ProteinAvgQuantityPerServing %}{{ nutrition.ProteinAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.Protein%DailyIntakes %}{{ nutrition.Protein%DailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
             </div>    
             {% endif %}
-            {if !empty($entry->fields.glutenserving->value)}    
+
+ {% if nutrition.FatAvgQuantityPerServing %} 
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Fat, total</div>
+            <div class="nutritiontitle text-left">{% if nutrition.FatAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.Fat%DailyIntakes %}{{ nutrition.Fat%DailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition. FatAvgQuantityPer100g %}{{ nutrition. FatAvgQuantityPer100g }}{% endif %}</div>
+            </div>    
+            {% endif %}
+
+
+           {% if nutrition.EnergyAvgQuantityPerServing %}   
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Gluten</div>
             <div class="nutritiontitle text-center">{$entry->fields.glutenserving->value}</div>
@@ -93,63 +106,57 @@ section: post
             {$entry->fields.gluten100g->value}{else}{if $gluten100g == "0"}0{% endif %}{% endif %}</div>
             </div>    
             {% endif %}
-             {if !empty($entry->fields.fatserving->value)}    
-            <div class="grid-4-prod-detail">
-            <div class="nutritiontitle">Fat, total</div>
-            <div class="nutritiontitle text-center">{$entry->fields.fatserving->value}</div>
-            <div class="nutritiontitle text-right">{if !empty($entry->fields.fat100g->value)}{$entry->fields.fat100g->value}{else}{% endif %}</div>
-            </div>    
-            {% endif %}
-             {if !empty($entry->fields.satserving->value)}    
+         
+        {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Saturated</div>
             <div class="nutritiontitle text-center">{$entry->fields.satserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.sat100g->value)}{$entry->fields.sat100g->value}{else}{% endif %}</div>
             </div>    
             {% endif %}     
-            {if !empty($entry->fields.transserving->value)}    
+         {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Trans</div>
             <div class="nutritiontitle text-center">{$entry->fields.transserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.trans100g->value)}{$entry->fields.trans100g->value}{else}{% endif %}</div>
             </div>     
             {% endif %}   
-            {if !empty($entry->fields.polyserving->value)}    
+        {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Polyunsaturated</div>
             <div class="nutritiontitle text-center">{$entry->fields.polyserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.poly100g->value)}{$entry->fields.poly100g->value}{else}{% endif %}</div>
             </div>     
             {% endif %}    
-            {if !empty($entry->fields.monoserving->value)}    
+       {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Mono</div>
             <div class="nutritiontitle text-center">{$entry->fields.monoserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.mono100g->value)}{$entry->fields.mono100g->value}{else}{% endif %}</div>
             </div>     
             {% endif %}      
-            {if !empty($entry->fields.cholserving->value)}    
+     {% if nutrition.EnergyAvgQuantityPerServing %} 
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Cholesterol</div>
             <div class="nutritiontitle text-center">{$entry->fields.cholserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.chol100g->value)}{$entry->fields.chol100g->value}{else}{% endif %}</div>
             </div>     
             {% endif %}   
-            {if !empty($entry->fields.carbserving->value)}    
+     {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Carbohydrate</div>
             <div class="nutritiontitle text-center">{$entry->fields.carbserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.carb100g->value)}{$entry->fields.carb100g->value}{else}{% endif %}</div>
             </div>     
             {% endif %}
-            {if !empty($entry->fields.sugarserving->value)}    
+      {% if nutrition.EnergyAvgQuantityPerServing %} 
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Sugars</div>
             <div class="nutritiontitle text-center">{$entry->fields.sugarserving->value}</div>
             <div class="nutritiontitle text-right">{if !empty($entry->fields.sugar100g->value)}{$entry->fields.sugar100g->value}{else}{% endif %}</div>
             </div>     
             {% endif %}
-            {if !empty($entry->fields.sodserving->value)}    
+     {% if nutrition.EnergyAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Sodium</div>
             <div class="nutritiontitle text-center">{$entry->fields.sodserving->value}</div>
@@ -161,11 +168,11 @@ section: post
             <div class="row">
             <div class="nutritiontitle">{$entry->fields.nutrition->value}</div>
             </div>     
-            {% endif %} 
+            {/if}
             
             {if $entry->fields.nuts->value == "false"}   
             <div class="nuts pad1remtopbottom">This product is nut free</div>     
-            {% endif %}        
+             {/if}     
                   
               </div>
               <!-- end accordion above -->
