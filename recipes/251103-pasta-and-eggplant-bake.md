@@ -26,7 +26,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <ul>
 <li>2 eggplant (750g), trimmed, thinly sliced lengthways</li>
 <li>Olive oil cooking spray</li>
-<li>2x 300gm tubs From Good Roots Creamy Pasta Salad</li>
+<li>2x 300gm tubs Creamy Pasta Salad</li>
 <li>2 eggs, whisked</li>
 <li>1 red capsicum, deseeded, finely diced</li>
 <li>1 cup basil leaves, roughly chopped</li>

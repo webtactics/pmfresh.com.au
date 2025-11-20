@@ -4,6 +4,7 @@ date: 2025-10-05
 description: Potato Salad - Our all time favourite. Potatoes in a creamy mayonnaise with dijon mustard, shallots and parsley
 permalink: "/products/potato-salad/"
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potato-Salad_SxVnP9vNP.jpg
 
 ingredients: Cooked Potato (71%), Mayonnaise (12%) (Vegetable Oil, Sugar, Water, Vinegar, Stabiliser [Milk Protein, Vegetable Gum (412), Acidity Regulator (500)], Salt, Whey Powder, Food Acids (270, 260, 330), Mustard Flour, Dextrose, Flavour), Sour Cream (6%) (pasteurised cream, culture), Sugar, Cream Powder (1.4%), Parsley, Mustard, Salt, Onion, Food Acids (270,260), Herbs & Spices, Vegetable Gums (412,415), Garlic, Colour (100).
 
@@ -45,14 +46,10 @@ nutrition:
 
 tags:
   - In Season
-  
-
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potato-Salad_SxVnP9vNP.jpg
-
-
+  - Potato Salad
 
 
 
 
 ---
-
+Our all time favourite. Potatoes in a creamy mayonnaise with dijon mustard, shallots and parsley

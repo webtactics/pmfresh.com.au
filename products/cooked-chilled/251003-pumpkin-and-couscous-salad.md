@@ -4,6 +4,8 @@ date: 2025-10-03
 description: Pumpkin and Couscous Salad - A salad of couscous, roasted pumpkin, chickpeas, tomatoes, coriander, red capsicum and shallots with a sweet, spiced Moroccan Sumac dressing.
 permalink: "/products/pumpkin-and-couscous-salad/"
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin-CousCous-Salad_Jzc375hAzS.jpg
+
 
 ingredients: Couscous (34%) [Wheat Semolina, Water], Moroccan Sumac Dressing (18%) [Water, Sugar, Garlic [Garlic, Water, Acidity Regulator (Acetic Acid)], Canola Oil, Lemon Juice, Spices [contains Sumac (min. 3%)], Salt, Maize Starch, Citrus Fibre, Emulsifier (322 (Soy)), Cultured Dextrose, Thickener (Xanthan Gum), Acidity Regulator (Citric Acid), Spice Extract (Paprika), Herb Extract (Rosemary)], Roasted Pumpkin (16%), Chick Peas (11%) [Chick Peas, Water, Salt], Tomato, Coriander(4%), Red Capsicum, Shallots, Sugar, Salt, Acidity Regulators (Lactic Acid, Acetic Acid).
 
@@ -43,15 +45,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 258mg
 
 tags:
+  - Pumpkin and Couscous Salad
   - In Season
   
-
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin-CousCous-Salad_Jzc375hAzS.jpg
-
-
-
 
 
 
 ---
-
+A salad of couscous, roasted pumpkin, chickpeas, tomatoes, coriander, red capsicum and shallots with a sweet, spiced Moroccan Sumac dressing

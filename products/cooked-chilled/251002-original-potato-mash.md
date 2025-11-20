@@ -4,6 +4,7 @@ date: 2025-10-02
 description: Original Potato Mash - Creamy, seasoned, delicious warming mashed potato
 permalink: "/products/original-potato-mash/"
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potato-Mash__V1uXRezVJ.jpg
 
 ingredients: Potato (72%), Water, Butter (4%) (Contains Milk, Water), Cream (2%) (Milk), Salt, Mash Extender (Fibre (Rice, Corn, Citrus), Potato Starch, Maize Starch, Milk Protein), Pepper (0.02%).
 
@@ -43,15 +44,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 288mg
 
 tags:
-
+- Original Potato Mash
   
-
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potato-Mash__V1uXRezVJ.jpg
-
-
-
 
 
 
 ---
 
+Creamy, seasoned, delicious warming mashed potato

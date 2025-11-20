@@ -1,7 +1,7 @@
 ---
 title: Bean Medley
 date: 2025-10-10
-description: Coleslaw - Made to our traditional recipe, a classic combination of grated carrot, cabbage, shallots and onion tossed with a mayonnaise dressing.
+description: Bean Medley - Discover the delicious and nutritious Bean Medley, a vibrant mix of beans perfect for salads, soups, and healthy meals. 
 permalink: "/products/bean-medley/"
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Bean_Medley-1024x797_oj-bTwDZY.jpg
 
@@ -46,16 +46,10 @@ nutrition:
   DietaryFibreperDailyIntakes: 70%
   DietaryFibreAvgQuantityPer100g: 8.4g
 
-  
+
 tags:
-
+ - Bean Medley
   
-
-
-
-
-
-
 
 
 ---

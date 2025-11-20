@@ -4,6 +4,7 @@ date: 2025-10-01
 description: Vegetable Mash - Creamy pumpkin, sweet potato and potato mash blended together with butter and seasoning.
 permalink: "/products/vegetable-mash/"
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Vegtable-Mash_tScQjCvKPp.jpg
 
 ingredients: Vegetables (94%) (Pumpkin (34%), Potato (32%), Sweet Potato (17%), Carrot (11%)), Butter (2%) (Contains Milk, Water), Potato Starch, Milk (1.5%) (Contains Milk), Salt, Pepper (0.02%), Nutmeg (0.01%), Garlic (0.01%). 
 
@@ -43,15 +44,12 @@ nutrition:
   SodiumAvgQuantityPer100g: 288mg
 
 tags:
+  - Vegetable Mash
   - Cooked-Chilled
   
-
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Vegtable-Mash_tScQjCvKPp.jpg
-
-
 
 
 
 
 ---
-
+Creamy pumpkin, sweet potato and potato mash blended together with butter and seasoning.

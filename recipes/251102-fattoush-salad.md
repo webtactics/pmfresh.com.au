@@ -9,7 +9,7 @@ cookingtime: 10 minutes
 serves: 4
 
 tags:
-
+- Tabbouleh
 
 image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fattoush-salad_bY8mtfqg2.jpg
 sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
@@ -24,7 +24,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <ul>
 <li>2 round Lebanese bread</li>
 <li>Olive oil cooking spray</li>
-<li>3x 200g tubs From Good Roots Tabbouleh</li>
+<li>3x 200g tubs Tabbouleh</li>
 <li>1 small red onion, finely diced</li>
 <li>250g punnet cherry tomatoes, halved</li>
 <li>1 Lebanese cucumber, diced</li>

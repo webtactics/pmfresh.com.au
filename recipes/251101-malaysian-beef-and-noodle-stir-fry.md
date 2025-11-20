@@ -11,7 +11,7 @@ cookingtime: 10 minutes
 serves: 4
 
 tags:
-- Leafy Salads
+- Crunchy Salad Kit
 
 image: https://ik.imagekit.io/webtactics/pmfresh/recipes/malaysian-beef-and-noodle-stir-fry_BwvK6IxMO.jpg
 sumimage:

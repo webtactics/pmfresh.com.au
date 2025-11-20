@@ -4,6 +4,7 @@ date: 2025-10-09
 description: Coleslaw - Made to our traditional recipe, a classic combination of grated carrot, cabbage, shallots and onion tossed with a mayonnaise dressing.
 permalink: "/products/coleslaw/"
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Coleslaw_cKYs0kA66.jpg
 
 ingredients: Cabbage (60%), Dressing [Canola Oil (Canola oil, Antioxidant (306, Soy)), Sugar, Water, Vinegar, Egg, Salt, Milk Solids, Lemon Juice (contains Preservative(223)), Vegetable Gum (415, 412), Acetic Acid, Spice Extracts, Colour (Lutein)(contains Antioxidant (307, 304))], Carrot, Onion, Spring Onion.
 
@@ -43,10 +44,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 536mg
 
 tags:
+  - Coleslaw
   - In Season
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Coleslaw_cKYs0kA66.jpg
+
 
 
 
