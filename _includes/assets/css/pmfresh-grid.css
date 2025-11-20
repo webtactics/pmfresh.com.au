@@ -2297,7 +2297,7 @@ h3.news-title a:hover {
 .postdetaildate p {
   margin: 0;
   line-height: 2rem;
- color: var(--primary);
+ color: var(--primarydark);
 }
 
 .postsumdate {
