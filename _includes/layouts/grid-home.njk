@@ -25,17 +25,21 @@
 <div class="pad6rem"></div>
 
 <div class="two-colum-wrapper">	
-    <h2 class="heading-text">What's in Season.</h2>
+
+<div class="content who-we-serve"><div class="indent has-title"><h2 class="heading-text"><a href="/products/whats-in-season/" title="What's in Season." alt="What's in Season.">What's in Season.</a></h2></div></div>
+
+
+
 
     <div class="newswrapper fade-in">
-	    {%- set postslist = collections['Freshly Prepared Vegetables'] | reverse | limit(4) -%} 
+	    {%- set postslist = collections['In Season'] | reverse | limit(4) -%} 
 	    {% include "components/postslist-products-4-wide.njk" %}
     </div>
 </div>
 
 
 <div class="two-colum-wrapper">	
-    <h2 class="heading-text">News</h2>
+  <div class="content who-we-serve"><div class="indent has-title"><h2 class="heading-text"><a href="/about/news/" title="Latest News." alt="Latest News.">News.</a></h2></div></div>
 
     <div class="newswrapper fade-in">
 	    {%- set postslist = collections['News'] | reverse -%} 
