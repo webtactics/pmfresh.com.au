@@ -2527,7 +2527,7 @@ margin:0 auto;
 
 }
 .grid-4-prod-detail {
-  grid-template-columns: 1fr 110px 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0;
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--primary);
