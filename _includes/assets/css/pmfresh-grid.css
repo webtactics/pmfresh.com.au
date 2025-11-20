@@ -3039,7 +3039,7 @@ textarea
   transition: box-shadow var(--transitionLength) var(--transitionTiming);
   z-index: 1;
   cursor: pointer;
-  background-color: var(--white);
+
   color: var(--black);
   font-size: 1.3rem;
 }
