@@ -15,31 +15,31 @@ Servingsize:
 
 nutrition:
   EnergyAvgQuantityPerServing: 138kj
-  Energy%DailyIntakes:
+  EnergyperDailyIntakes:
   EnergyAvgQuantityPer100g: 138kj
 
   ProteinAvgQuantityPerServing: 0.80g
-  Protein%DailyIntakes:
+  ProteinperDailyIntakes:
   ProteinAvgQuantityPer100g: 0.80g
 
   FatAvgQuantityPerServing: 0.1g
-  Fat%DailyIntakes:
+  FatperDailyIntakes:
   FatAvgQuantityPer100g: 0.1g
 
   FatSaturatedAvgQuantityPerServing:
-  FatSaturated%DailyIntakes:
+  FatSaturatedperDailyIntakes:
   FatSaturatedAvgQuantityPer100g:
 
   CarbohydratesAvgQuantityPerServing: 5g
-  Carbohydrates%DailyIntakes:
+  CarbohydratesperDailyIntakes:
   CarbohydratesAvgQuantityPer100g:
 
   SugarsAvgQuantityPerServing: 5g
-  Sugars%DailyIntakes:
+  SugarsperDailyIntakes:
   SugarsAvgQuantityPer100g:
 
   SodiumAvgQuantityPerServing: 40mg
-  Sodium%DailyIntakes:
+  SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g: 40mg
 
 tags:

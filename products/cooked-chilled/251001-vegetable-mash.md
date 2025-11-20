@@ -15,31 +15,31 @@ Servingsize: 118g
 
 nutrition:
   EnergyAvgQuantityPerServing: 452kj (Cal)
-  Energy%DailyIntakes:
+  EnergyperDailyIntakes:
   EnergyAvgQuantityPer100g: 383kj (Cal)
 
   ProteinAvgQuantityPerServing: 1.4g
-  Protein%DailyIntakes:
+  ProteinperDailyIntakes:
   ProteinAvgQuantityPer100g: 1.2g
 
   FatAvgQuantityPerServing: 6.0g
-  Fat%DailyIntakes:
+  FatperDailyIntakes:
   FatAvgQuantityPer100g: 5.1g
 
   FatSaturatedAvgQuantityPerServing: 4.4g
-  FatSaturated%DailyIntakes:
+  FatSaturatedperDailyIntakes:
   FatSaturatedAvgQuantityPer100g: 3.7g
 
   CarbohydratesAvgQuantityPerServing: 12g
-  Carbohydrates%DailyIntakes:
+  CarbohydratesperDailyIntakes:
   CarbohydratesAvgQuantityPer100g: 10.2g
 
   SugarsAvgQuantityPerServing: 1.3g
-  Sugars%DailyIntakes:
+  SugarsperDailyIntakes:
   SugarsAvgQuantityPer100g: 1.1g
 
   SodiumAvgQuantityPerServing: 340mg
-  Sodium%DailyIntakes:
+  SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g: 288mg
 
 tags:

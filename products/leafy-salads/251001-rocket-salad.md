@@ -12,31 +12,31 @@ Servingsize: 125g
 
 nutrition:
   EnergyAvgQuantityPerServing: 100kj
-  Energy%DailyIntakes: 5%
+  EnergyperDailyIntakes: 5%
   EnergyAvgQuantityPer100g: 100kj
 
   ProteinAvgQuantityPerServing:
-  Protein%DailyIntakes:
+  ProteinperDailyIntakes:
   ProteinAvgQuantityPer100g:
 
   FatAvgQuantityPerServing:
-  Fat%DailyIntakes:
+  FatperDailyIntakes:
   FatAvgQuantityPer100g:
 
   FatSaturatedAvgQuantityPerServing:
-  FatSaturated%DailyIntakes:
+  FatSaturatedperDailyIntakes:
   FatSaturatedAvgQuantityPer100g:
 
   CarbohydratesAvgQuantityPerServing:
-  Carbohydrates%DailyIntakes:
+  CarbohydratesperDailyIntakes:
   CarbohydratesAvgQuantityPer100g:
 
   SugarsAvgQuantityPerServing:
-  Sugars%DailyIntakes:
+  SugarsperDailyIntakes:
   SugarsAvgQuantityPer100g:
 
   SodiumAvgQuantityPerServing:
-  Sodium%DailyIntakes:
+  SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g:
 
 tags:

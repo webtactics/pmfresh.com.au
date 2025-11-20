@@ -16,31 +16,31 @@ Servingsize: 110g
 
 nutrition:
   EnergyAvgQuantityPerServing: 643kj
-  Energy%DailyIntakes: 7%
+  EnergyperDailyIntakes: 7%
   EnergyAvgQuantityPer100g: 643kj (151 cal)
 
   ProteinAvgQuantityPerServing: 2.0g
-  Protein%DailyIntakes: 4%
+  ProteinperDailyIntakes: 4%
   ProteinAvgQuantityPer100g: 2.0g
 
   FatAvgQuantityPerServing: 8.2g
-  Fat%DailyIntakes: 12%
+  FatperDailyIntakes: 12%
   FatAvgQuantityPer100g: 8.2g
 
   FatSaturatedAvgQuantityPerServing: 1.3g
-  FatSaturated%DailyIntakes: 5%
+  FatSaturatedperDailyIntakes: 5%
   FatSaturatedAvgQuantityPer100g: 1.3g
 
   CarbohydratesAvgQuantityPerServing: 17.5g
-  Carbohydrates%DailyIntakes: 6%
+  CarbohydratesperDailyIntakes: 6%
   CarbohydratesAvgQuantityPer100g: 17.5g
 
   SugarsAvgQuantityPerServing: 7g
-  Sugars%DailyIntakes:
+  SugarsperDailyIntakes:
   SugarsAvgQuantityPer100g: 7g
 
   SodiumAvgQuantityPerServing: 268mg
-  Sodium%DailyIntakes: 12%
+  SodiumperDailyIntakes: 12%
   SodiumAvgQuantityPer100g: 268mg
 
 tags:

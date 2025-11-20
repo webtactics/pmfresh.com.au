@@ -15,31 +15,31 @@ Servingsize: 200g
 
 nutrition:
   EnergyAvgQuantityPerServing: 1084kj
-  Energy%DailyIntakes: 6%
+  EnergyperDailyIntakes: 6%
   EnergyAvgQuantityPer100g: 542kj
 
   ProteinAvgQuantityPerServing: 1.3g
-  Protein%DailyIntakes: 3%
+  ProteinperDailyIntakes: 3%
   ProteinAvgQuantityPer100g: 2.6g
 
   FatAvgQuantityPerServing: 8.3g
-  Fat%DailyIntakes: 12%
+  FatperDailyIntakes: 12%
   FatAvgQuantityPer100g: 16.6g
 
   FatSaturatedAvgQuantityPerServing: <1g
-  FatSaturated%DailyIntakes: 6%
+  FatSaturatedperDailyIntakes: 6%
   FatSaturatedAvgQuantityPer100g: 1.4g
 
   CarbohydratesAvgQuantityPerServing: 11.3g
-  Carbohydrates%DailyIntakes: 7%
+  CarbohydratesperDailyIntakes: 7%
   CarbohydratesAvgQuantityPer100g: 22.6g
 
   SugarsAvgQuantityPerServing: 11.3g
-  Sugars%DailyIntakes:
+  SugarsperDailyIntakes:
   SugarsAvgQuantityPer100g: 22.6g
 
   SodiumAvgQuantityPerServing: 268mg
-  Sodium%DailyIntakes: 23%
+  SodiumperDailyIntakes: 23%
   SodiumAvgQuantityPer100g: 536mg
 
 tags:
