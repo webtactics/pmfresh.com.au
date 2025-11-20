@@ -37,7 +37,7 @@ section: post
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
-          {% ingredients %}
+          {{ ingredients }}
       </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ section: post
             {% if Servingsperpackage or Servingsize %}
               <div class="grid-5-7-prod-detail">
             <div class="nutritiontitle">Serves per pack: {{ Servingsperpackage }}</div>
-            <div class="nutritiontitle">  {% if Servingsize %}Serve size: {{Servingsize }}{% endif %}</div>
+            <div class="nutritiontitle">  {% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
             </div>
             {% endif %}
             <div class="grid-4-prod-detail">
