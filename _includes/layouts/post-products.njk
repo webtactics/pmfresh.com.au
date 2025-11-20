@@ -127,7 +127,14 @@ section: post
             </div>     
             {% endif %}
             
-         
+    {% if nutrition.DietaryFibreAvgQuantityPerServing or nutrition.DietaryFibreperDailyIntakes or nutrition.DietaryFibreAvgQuantityPer100g  %}  
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Dietary Fibre</div>
+            <div class="nutritiontitle text-center">{% if nutrition.DietaryFibreAvgQuantityPerServing %}{{ nutrition.DietaryFibreAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.DietaryFibreperDailyIntakes %}{{ nutrition.DietaryFibreperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.DietaryFibreAvgQuantityPer100g %}{{ nutrition.DietaryFibreAvgQuantityPer100g}}{% endif %}</div>
+            </div>     
+            {% endif %}
                   
           </div>
             </div>
