@@ -3086,7 +3086,7 @@ text-decoration: none;
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
 
-.accordion-trigger:hover::after {  border: 2px solid var(--white);
+.accordion-trigger:hover::after {  border: 2px solid var(--primary);
   display: block;
   position: absolute;
   right: 16px;
