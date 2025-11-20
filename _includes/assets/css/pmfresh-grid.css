@@ -561,7 +561,7 @@ color: var(--black);
   border-bottom: 6px dotted var(--lightgreen);
   width: calc(80vw - 6rem);
   max-width: 800px;
-  height: 80px;
+  height: 60px;
   background-color: var(--white);
 }
 
