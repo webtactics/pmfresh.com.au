@@ -13,7 +13,7 @@ tags:
  
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/news/Plant-image-2_3WXx5sGVg.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/news/Plant-image-1920x953_R8wUEi3W9.jpg
 
 
 

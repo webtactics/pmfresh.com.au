@@ -12,7 +12,7 @@ tags:
   - Fresh Foods
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/news/news-image-1-1281x522_cW-XmXER9.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/news/news-image-1-1920x953_k6lWRFHCJ.jpg
 
 
 

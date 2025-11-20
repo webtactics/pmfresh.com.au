@@ -12,7 +12,7 @@ tags:
   - Suppliers
 
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/home-slide-2-1920x953_GWTL5bPQz.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/news/home-slide-2-1920x953_1GrGgTPi_E.jpg
 
 
 
