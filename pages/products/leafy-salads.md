@@ -6,7 +6,7 @@ class: products  leafy-salads
 description: Discover our wide range of delicious, fresh, conveniently prepared foods - Primo Moraitis Fresh
 
 date: 2025-10-01
-image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/leafy-salads-image-1920x953_yMflNBQSx.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Green-leaves-1920x953_fWuaUMmLAT.jpg
 
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/leafy-salads-image-1920x953_yMflNBQSx.jpg
