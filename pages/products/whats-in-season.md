@@ -7,22 +7,22 @@ description: Enjoy the goodness of fresh vegetables without the hassle of prepar
 
 date: 2025-10-01
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/Dressed-Salads-1920x953_kAwpPAx7c.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
 
 whatsinseason: whats-in-season
 
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
 ctalink: /who-we-serve/
-ctaimage: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/who-we-serve-1920x953_SE8TgxRCT4.jpg
 
 permalink: /products/whats-in-season/
 eleventyNavigation:
   key: What's in Season
   parent: Products
-  order: 3
+  order: 4
 ---
 
 <p>Enjoy the goodness of fresh vegetables without the hassle of preparation!</p>

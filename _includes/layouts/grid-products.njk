@@ -120,8 +120,8 @@
 {% elif whatsinseason %}
 <div class="pad8rem"></div>
 <div class="productcatagory content">
-<h3>Freshly Prepared Vegetables</h3>
-{% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
+<h3>In Season</h3>
+{% set postslist = collections['In Season'] | reverse  %} 
 {% include "components/postslist-products-4-wide.njk" %}
 </div>
 
@@ -146,7 +146,13 @@
 {% include "components/global/who-we-serve-retail.html" %}
 
 
-
+{% elif leafysalads %}
+<div class="pad8rem"></div>
+<div class="productcatagory content">
+<h3>Leafy Salads</h3>
+{% set postslist = collections['Leafy Salads'] | reverse  %} 
+{% include "components/postslist-products-4-wide.njk" %}
+</div>
 
 
 
