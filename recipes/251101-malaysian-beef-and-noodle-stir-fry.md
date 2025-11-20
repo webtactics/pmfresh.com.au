@@ -4,17 +4,17 @@ eleventyExcludeFromCollections: false
 title: Malaysian Beef and Noodle Stir Fry
 description: Malaysian Beef and Noodle Stir Fry
 subtitle: Malaysian Beef and Noodle Stir Fry
-date: 2025-04-27
+date: 2025-11-01
 
 preptime: 10 minutes
 cookingtime: 10 minutes
 serves: 4
 
 tags:
-
+- Leafy Salads
 
 image: https://ik.imagekit.io/webtactics/pmfresh/recipes/malaysian-beef-and-noodle-stir-fry_BwvK6IxMO.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
+sumimage:
 
 
 
@@ -27,7 +27,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <li>½ cup crunchy peanut butter</li>
 <li>½ cup hot water</li>
 <li>2 tbs hoisin sauce</li>
-<li>From Good Roots Crunchy Salad Kit 520gm</li>
+<li>Crunchy Salad Kit 520gm</li>
 <li>200g rice stick noodles</li>
 <li>1 tbs vegetable oil</li>
 <li>500g beef fillet, thinly sliced diagonally</li>
