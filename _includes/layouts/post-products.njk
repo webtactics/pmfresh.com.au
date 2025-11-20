@@ -64,20 +64,20 @@ section: post
             {% endif %}
             <div class="grid-4-prod-detail">
             <div class="nutritionquantity"></div>
-            <div class="nutritionquantity text-left">Avg Quantity Per Serving</div>
+            <div class="nutritionquantity text-center">Avg Quantity Per Serving</div>
             <div class="nutritionquantity text-center">% Daily Intake</div>
             <div class="nutritionquantity text-right">Avg Quantity per 100g</div>
             </div>
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Energy</div>
-            <div class="nutritiontitle text-left">{% if nutrition. EnergyAvgQuantityPerServing %}{{ nutrition. EnergyAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition. EnergyAvgQuantityPerServing %}{{ nutrition. EnergyAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.EnergyperDailyIntakes %}{{ nutrition.EnergyperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
             </div>
              {% if nutrition.ProteinAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Protein</div>
-            <div class="nutritiontitle text-left">{% if nutrition.ProteinAvgQuantityPerServing %}{{ nutrition.ProteinAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.ProteinAvgQuantityPerServing %}{{ nutrition.ProteinAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.ProteinperDailyIntakes %}{{ nutrition.ProteinperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
             </div>    
@@ -86,7 +86,7 @@ section: post
             {% if nutrition.FatAvgQuantityPerServing %} 
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Fat, total</div>
-            <div class="nutritiontitle text-left">{% if nutrition.FatAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.FatAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.FatperDailyIntakes %}{{ nutrition.FatperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.FatAvgQuantityPer100g %}{{ nutrition.FatAvgQuantityPer100g }}{% endif %}</div>
             </div>    
@@ -95,7 +95,7 @@ section: post
            {% if nutrition.FatSaturatedAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Saturated</div>
-            <div class="nutritiontitle text-left">{% if nutrition.FatSaturatedAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.FatSaturatedAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.FatSaturatedperDailyIntakes %}{{ nutrition.FatSaturatedperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.FatSaturatedAvgQuantityPer100g %}{{ nutrition.FatSaturatedAvgQuantityPer100g }}{% endif %}</div>
             </div>    
@@ -105,7 +105,7 @@ section: post
             {% if nutrition.CarbohydratesAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Carbohydrate</div>
-            <div class="nutritiontitle text-left">{% if nutrition.CarbohydratesAvgQuantityPerServing %}{{ nutrition.CarbohydratesAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.CarbohydratesAvgQuantityPerServing %}{{ nutrition.CarbohydratesAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.CarbohydratesperDailyIntakes %}{{ nutrition.CarbohydratesperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.CarbohydratesAvgQuantityPer100g %}{{ nutrition.CarbohydratesAvgQuantityPer100g }}{% endif %}</div>
             </div>     
@@ -113,7 +113,7 @@ section: post
              {% if nutrition.SugarsAvgQuantityPerServing %} 
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Sugars</div>
-            <div class="nutritiontitle text-left">{% if nutrition.SugarsAvgQuantityPerServing %}{{ nutrition.SugarsAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.SugarsAvgQuantityPerServing %}{{ nutrition.SugarsAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.SugarsperDailyIntakes %}{{ nutrition.SugarsperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.SugarsAvgQuantityPer100g %}{{ nutrition.SugarsAvgQuantityPer100g }}{% endif %}</div>
             </div>     
@@ -121,7 +121,7 @@ section: post
              {% if nutrition.SodiumAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Sodium</div>
-            <div class="nutritiontitle text-left">{% if nutrition.SodiumAvgQuantityPerServing %}{{ nutrition.SodiumAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.SodiumAvgQuantityPerServing %}{{ nutrition.SodiumAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.SodiumperDailyIntakes %}{{ nutrition.SodiumperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.SodiumAvgQuantityPer100g %}{{ nutrition.SodiumAvgQuantityPer100g}}{% endif %}</div>
             </div>     
