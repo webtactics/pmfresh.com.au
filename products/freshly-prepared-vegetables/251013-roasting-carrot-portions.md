@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 648mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Carrot-Portions_tYpRe6oso.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Portions_9u7IsffC_I.jpg
 
 
 

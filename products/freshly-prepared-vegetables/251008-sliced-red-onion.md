@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 11mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Red-Onion-Sliced_lTeGK5FoK.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Red-Onion-Sliced_5p7Xredh6-.jpg
 
 
 

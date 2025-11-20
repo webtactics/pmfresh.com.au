@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 2mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Green-Capsicum_qQWJBb-1b.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Green-Capsicum_UWO_ZC81xS.jpg
 
 
 

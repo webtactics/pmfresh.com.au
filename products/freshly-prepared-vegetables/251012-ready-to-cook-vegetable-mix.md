@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 65mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Ready-to-Cook-Vegetable-Mix_Qot3spjAi.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Ready-to-Cook-Vegetable-Mix_IWdAIo9m0m.jpg
 
 
 

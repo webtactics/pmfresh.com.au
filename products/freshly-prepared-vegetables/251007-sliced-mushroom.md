@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 8g
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Mushrooms-Sliced_o9vc_JFfQ.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mushrooms-Sliced_KlJ0WSpIVP.jpg
 
 
 

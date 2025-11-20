@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 2mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Pumpkin_MfzkN2f2T.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin_Oo290lajor.jpg
 
 
 

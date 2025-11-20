@@ -40,10 +40,10 @@ nutrition:
   SodiumAvgQuantityPer100g:
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/White-Onion-Diced_aO7J7qxVn.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion-Diced_ybxSPQcdnV.jpg
 
 
 

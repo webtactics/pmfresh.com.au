@@ -39,7 +39,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 19mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mixed-Vegetables-for-Roasting_qn04jC65Bl.jpg

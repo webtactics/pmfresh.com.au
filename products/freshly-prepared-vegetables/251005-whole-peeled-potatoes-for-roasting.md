@@ -43,10 +43,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 3mg
 
 tags:
-  - Freshly-Prepared-Vegetables
+
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/products/Potatoe-Peeled_3bnkw4EtC.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potatoe-Peeled_SvILHGVm0.jpg
 
 
 
