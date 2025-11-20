@@ -48,17 +48,15 @@ section: post
  {% if nutrition.EnergyAvgQuantityPerServing %}
   <div class="accordion-item">
     <input id="accordion-trigger-3" class="accordion-trigger-input" type="checkbox"></input>
-  <label class="accordion-trigger" for="accordion-trigger-3">Nutritional Information
-    </label>
+      <label class="accordion-trigger" for="accordion-trigger-3">Nutritional Information</label>
     <section class="accordion-animation-wrapper">
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
             <!-- start accordion below -->
-            <div class="CGBlogDetailNutrition">
-            <div class="row">
+           
+    
             <div class="nutritionservetitle">Product name: {{ title }} </div>
-            </div>
             {% if Servingsperpackage or Servingsize %}
             <div class="grid-5-7-prod-detail">
             <div class="nutritiontitle">Serves per pack: {{ Servingsperpackage }}</div>
@@ -77,7 +75,7 @@ section: post
             <div class="nutritiontitle text-center">{% if nutrition.Energy%DailyIntakes %}{{ nutrition.Energy%DailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
             </div>
-         {% if nutrition.ProteinAvgQuantityPerServing %}  
+             {% if nutrition.ProteinAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Protein</div>
             <div class="nutritiontitle text-left">{% if nutrition.ProteinAvgQuantityPerServing %}{{ nutrition.ProteinAvgQuantityPerServing }}{% endif %}</div>
@@ -86,7 +84,7 @@ section: post
             </div>    
             {% endif %}
 
- {% if nutrition.FatAvgQuantityPerServing %} 
+            {% if nutrition.FatAvgQuantityPerServing %} 
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Fat, total</div>
             <div class="nutritiontitle text-left">{% if nutrition.FatAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
@@ -95,7 +93,7 @@ section: post
             </div>    
             {% endif %}
          
-        {% if nutrition.FatSaturatedAvgQuantityPerServing %}  
+           {% if nutrition.FatSaturatedAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Saturated</div>
             <div class="nutritiontitle text-left">{% if nutrition.FatSaturatedAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
@@ -105,26 +103,26 @@ section: post
             {% endif %}     
         
  
-     {% if nutrition.CarbohydratesAvgQuantityPerServing %}  
+            {% if nutrition.CarbohydratesAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Carbohydrate</div>
-           <div class="nutritiontitle text-left">{% if nutrition.CarbohydratesAvgQuantityPerServing %}{{ nutrition.CarbohydratesAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-left">{% if nutrition.CarbohydratesAvgQuantityPerServing %}{{ nutrition.CarbohydratesAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.Carbohydrates%DailyIntakes %}{{ nutrition.Carbohydrates%DailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.CarbohydratesAvgQuantityPer100g %}{{ nutrition.CarbohydratesAvgQuantityPer100g }}{% endif %}</div>
             </div>     
             {% endif %}
-      {% if nutrition.SugarsAvgQuantityPerServing %} 
+             {% if nutrition.SugarsAvgQuantityPerServing %} 
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">- Sugars</div>
-           <div class="nutritiontitle text-left">{% if nutrition.SugarsAvgQuantityPerServing %}{{ nutrition.SugarsAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-left">{% if nutrition.SugarsAvgQuantityPerServing %}{{ nutrition.SugarsAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.Sugars%DailyIntakes %}{{ nutrition.Sugars%DailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.SugarsAvgQuantityPer100g %}{{ nutrition.SugarsAvgQuantityPer100g }}{% endif %}</div>
             </div>     
             {% endif %}
-     {% if nutrition.SodiumAvgQuantityPerServing %}  
+             {% if nutrition.SodiumAvgQuantityPerServing %}  
             <div class="grid-4-prod-detail">
             <div class="nutritiontitle">Sodium</div>
-           <div class="nutritiontitle text-left">{% if nutrition.SodiumAvgQuantityPerServing %}{{ nutrition.SodiumAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-left">{% if nutrition.SodiumAvgQuantityPerServing %}{{ nutrition.SodiumAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.Sodium%DailyIntakes %}{{ nutrition.Sodium%DailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.SodiumAvgQuantityPer100g %}{{ nutrition.SodiumAvgQuantityPer100g}}{% endif %}</div>
             </div>     
@@ -132,7 +130,7 @@ section: post
             
          
                   
-              </div>
+          </div>
               <!-- end accordion above -->
 </div>
         </div>
