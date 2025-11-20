@@ -55,4 +55,4 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Coleslaw_cKYs0kA66
 
 ---
 
-Made to our traditional recipe, a classic combination of grated carrot, cabbage, shallots and onion tossed with a mayonnaise dressing
+Made to our traditional recipe, a classic combination of grated carrot, cabbage, shallots and onion tossed with a mayonnaise dressing.
