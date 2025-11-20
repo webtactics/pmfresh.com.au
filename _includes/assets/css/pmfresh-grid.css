@@ -557,11 +557,11 @@ color: var(--black);
 
 
 .eightypercentborder {
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 4rem auto;
   border-bottom: 6px dotted var(--lightgreen);
   width: calc(80vw - 6rem);
   max-width: 800px;
-  height: 60px;
+  height: 80px;
   background-color: var(--white);
 }
 
