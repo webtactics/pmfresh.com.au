@@ -2526,7 +2526,13 @@ margin:0 auto;
   grid-template-columns: repeat(auto-fill, minmax(min(var(--grid-auto-fill-4-min-col-size), 100%), 1fr));
 
 }
-
+.grid-4-prod-detail {
+  grid-template-columns: 1fr 110px 1fr 1fr;
+  gap: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--primary);
+  font-weight: normal;
+}
 
 
 .grid-4-footer {
@@ -2680,7 +2686,7 @@ margin:0 auto;
     grid-template-columns: 3fr 110px 2fr;
     gap: 0;
     padding: 0.5rem 0;
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--primary);
     font-weight: normal;
   }
 
