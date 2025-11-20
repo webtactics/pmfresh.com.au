@@ -1,295 +1,183 @@
 ---
-layout: layouts/grid-default.njk
+layout: layouts/grid-detail.njk
 section: post
 ---
 
+
+
 <div class="detailwrapper">
-    <article>
-        <div class="grid-2">
-            <div class="item postdetail">
+  <article>
+    <div class="grid-2-news">
 
- {% if results %}
-                    <div class="eventresultspdf">
-                        <a class="resultspdf"
-                           href="{{ results }}"
-                           title="{{ title }}"
-                           alt="{{ title }}"
-                           target="_blank">Event Results Pdf &gt;</a>
-                    </div>
-                    {% endif %}
+      <div class="item postdetail">
 
- {% if rain %}
-        <div class="cancelled">
-<h4 class="sum-title-cancelled-no-radius">Event cancelled due to rain</h4>
+        <div class="detailcontent">
+
+          <h2>PMFresh's {{ title }}</h2>
+
+       
+            {{ content | safe }}
+
+
+
+
+
+ <!-- start accordion below -->
+  <div class="accordion">
+
+ {% if ingredients %}
+
+  <div class="accordion-item">
+    <input id="accordion-trigger-1" class="accordion-trigger-input" type="checkbox"></input>
+      <label class="accordion-trigger" for="accordion-trigger-1">Product Ingredients</label>
+        <section class="accordion-animation-wrapper">
+          <div class="accordion-animation">
+            <div class="accordion-transform-wrapper">
+              <div class="accordion-content">
+                {{ ingredients }}
+              </div>
+            </div>
+          </div>
+        </section>
+  </div>
+  {% endif %}
+  
+
+
+ {% if nutrition.EnergyAvgQuantityPerServing %}
+  <div class="accordion-item">
+    <input id="accordion-trigger-3" class="accordion-trigger-input" type="checkbox"></input>
+      <label class="accordion-trigger" for="accordion-trigger-3">Nutritional Information</label>
+        <section class="accordion-animation-wrapper">
+          <div class="accordion-animation">
+            <div class="accordion-transform-wrapper">
+              <div class="accordion-content">
+            <!-- start accordion below -->
+           
+    
+            <div class="nutritionservetitle">Product name: {{ title }} </div>
+            {% if Servingsperpackage or Servingsize %}
+            <div class="grid-5-7-prod-detail">
+            <div class="nutritiontitle">Serves per pack: {{ Servingsperpackage }}</div>
+            <div class="nutritiontitle">{% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
+            </div>
+            {% endif %}
+            <div class="grid-4-prod-detail">
+            <div class="nutritionquantity"></div>
+            <div class="nutritionquantity text-center">Avg Quantity Per Serving</div>
+            <div class="nutritionquantity text-center">% Daily Intake</div>
+            <div class="nutritionquantity text-right">Avg Quantity per 100g</div>
+            </div>
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Energy</div>
+            <div class="nutritiontitle text-center">{% if nutrition. EnergyAvgQuantityPerServing %}{{ nutrition. EnergyAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.EnergyperDailyIntakes %}{{ nutrition.EnergyperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
+            </div>
+             {% if nutrition.ProteinAvgQuantityPerServing %}  
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Protein</div>
+            <div class="nutritiontitle text-center">{% if nutrition.ProteinAvgQuantityPerServing %}{{ nutrition.ProteinAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.ProteinperDailyIntakes %}{{ nutrition.ProteinperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.EnergyAvgQuantityPer100g %}{{ nutrition.EnergyAvgQuantityPer100g }}{% endif %}</div>
+            </div>    
+            {% endif %}
+
+            {% if nutrition.FatAvgQuantityPerServing %} 
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Fat, total</div>
+            <div class="nutritiontitle text-center">{% if nutrition.FatAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.FatperDailyIntakes %}{{ nutrition.FatperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.FatAvgQuantityPer100g %}{{ nutrition.FatAvgQuantityPer100g }}{% endif %}</div>
+            </div>    
+            {% endif %}
+         
+           {% if nutrition.FatSaturatedAvgQuantityPerServing %}  
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">- Saturated</div>
+            <div class="nutritiontitle text-center">{% if nutrition.FatSaturatedAvgQuantityPerServing %}{{ nutrition.FatAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.FatSaturatedperDailyIntakes %}{{ nutrition.FatSaturatedperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.FatSaturatedAvgQuantityPer100g %}{{ nutrition.FatSaturatedAvgQuantityPer100g }}{% endif %}</div>
+            </div>    
+            {% endif %}     
+        
+ 
+            {% if nutrition.CarbohydratesAvgQuantityPerServing %}  
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Carbohydrate</div>
+            <div class="nutritiontitle text-center">{% if nutrition.CarbohydratesAvgQuantityPerServing %}{{ nutrition.CarbohydratesAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.CarbohydratesperDailyIntakes %}{{ nutrition.CarbohydratesperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.CarbohydratesAvgQuantityPer100g %}{{ nutrition.CarbohydratesAvgQuantityPer100g }}{% endif %}</div>
+            </div>     
+            {% endif %}
+             {% if nutrition.SugarsAvgQuantityPerServing %} 
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">- Sugars</div>
+            <div class="nutritiontitle text-center">{% if nutrition.SugarsAvgQuantityPerServing %}{{ nutrition.SugarsAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.SugarsperDailyIntakes %}{{ nutrition.SugarsperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.SugarsAvgQuantityPer100g %}{{ nutrition.SugarsAvgQuantityPer100g }}{% endif %}</div>
+            </div>     
+            {% endif %}
+             {% if nutrition.SodiumAvgQuantityPerServing %}  
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Sodium</div>
+            <div class="nutritiontitle text-center">{% if nutrition.SodiumAvgQuantityPerServing %}{{ nutrition.SodiumAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.SodiumperDailyIntakes %}{{ nutrition.SodiumperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.SodiumAvgQuantityPer100g %}{{ nutrition.SodiumAvgQuantityPer100g}}{% endif %}</div>
+            </div>     
+            {% endif %}
+            
+    {% if nutrition.DietaryFibreAvgQuantityPerServing or nutrition.DietaryFibreperDailyIntakes or nutrition.DietaryFibreAvgQuantityPer100g  %}  
+            <div class="grid-4-prod-detail">
+            <div class="nutritiontitle">Dietary Fibre</div>
+            <div class="nutritiontitle text-center">{% if nutrition.DietaryFibreAvgQuantityPerServing %}{{ nutrition.DietaryFibreAvgQuantityPerServing }}{% endif %}</div>
+            <div class="nutritiontitle text-center">{% if nutrition.DietaryFibreperDailyIntakes %}{{ nutrition.DietaryFibreperDailyIntakes }}{% endif %}</div>
+            <div class="nutritiontitle text-right">{% if nutrition.DietaryFibreAvgQuantityPer100g %}{{ nutrition.DietaryFibreAvgQuantityPer100g}}{% endif %}</div>
+            </div>     
+            {% endif %}
+                  
+          </div>
+            </div>
+          </div>
+        </section>
+  </div>
+  {% endif %}
+
+
+  {% if Contains or Maycontain %}  
+ <div class="accordion-item">
+    <input id="accordion-trigger-5" class="accordion-trigger-input" type="checkbox"></input>
+  <label class="accordion-trigger" for="accordion-trigger-5">Allergen Information
+    </label>
+    <section class="accordion-animation-wrapper">
+      <div class="accordion-animation">
+        <div class="accordion-transform-wrapper">
+          <div class="accordion-content">
+       {% if Contains %}{{ Contains }}{% endif %}
+       {% if Maycontain %}{{ Maycontain }}{% endif %}
+            
+      </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  {% endif %}
+
 </div>
-                    {% endif %}
 
+</div>
+      </div>
+        
+        <div class="sidebarwrapper">
+          <div class="postnewsimage">
+            <img src="{{ image }}/tr:w-600,h-400" alt="{{ title }}" title="{{ title }}" width="600px" height="auto" class="postlistimg">
+          </div>
+        </div>
 
-                <div class="detailcontent">{{ content | safe }}</div>
-                <div class="eventdate">
-                    <p>
-                        <strong>Event Date :</strong>
-                        {{ eventdate.day }}
-                        {{ eventdate.month }}, {{ eventdate.year }}
-                    </p>
-                </div>
-                <div class="time">
-                    <p>
-                        <strong>Time :</strong>
-                        {{ time }}
-                    </p>
-                </div>
-                <div class="where">
-                    <p>
-                        <strong>Where :</strong>
-                        {{ where }}
-                    </p>
-                </div>
-                <div class="map">
-                    <p>
-                        <strong>Map Shortcode :</strong>
-                        <a href="{{ map }}" title="{{ title }}">{{ map }}</a>
-                    </p>
-                </div>
-                {% if club %}
-                    <p>
-                        <strong>Hosting Club :</strong>
-                        <a href="{{ clubURL }}"
-                           title="Hosting Club : {{ title }}"
-                           alt="Hosting Club : {{ title }}"
-                           target="_blank">{{ club }}</a>
-                    </p>
-                {% endif %}
-                {% if meetflyerpdf %}
-                    <p>
-                        <strong>Event Flyer:</strong>
-                        <a href="{{ meetflyerpdf }}"
-                           title="{{ title }} Flyer"
-                           alt="{{ title }} Flyer"
-                           target="_blank">{{ subtitle }} Pdf</a>
-                    </p>
-                {% endif %}
-                {% if entrylink %}
-                    <p>
-                        <strong>Entry:</strong>
-                        <a href="{{ entrylink }}"
-                           title="{{ title }} entry"
-                           alt="{{ title }} entry"
-                           target="_blank">{{ subtitle }} entry</a>
-                    </p>
-                {% endif %}
-                {% if events %}
-                    <div class="eventsheld">
-                        <p>Events to be held</p>
-                    </div>
-                {% endif %}
-                <div class="grid-1x3">
-                    {% if freestyle %}
-                        <div class="strokeleft">
-                            <p>
-                                <span class="stroketitle">Freestyle:</span>
-                            </p>
-                        </div>
-                        <div class="strokeright">
-                            <p>
-                                {% if freestyle.length25 %}<span class="eventlength">25 metres</span>{% endif %}
-                                {% if freestyle.length50 %}<span class="eventlength">50 metres</span>{% endif %}
-                                {% if freestyle.length100 %}<span class="eventlength">100 metres</span>{% endif %}
-                                {% if freestyle.length200 %}<span class="eventlength">200 metres</span>{% endif %}
-                                {% if freestyle.length400 %}<span class="eventlength">400 metres</span>{% endif %}
-                                {% if freestyle.length800 %}<span class="eventlength">800 metres</span>{% endif %}
-                                {% if freestyle.length1500 %}<span class="eventlength">1500 metres</span>{% endif %}
-                            </p>
-                        </div>
-                    {% endif %}
-                    {% if backstroke %}
-                        <div class="strokeleft">
-                            <p>
-                                <span class="stroketitle">Backstroke:</span>
-                            </p>
-                        </div>
-                        <div class="strokeright">
-                            <p>
-                                {% if backstroke.length25 %}<span class="eventlength">25 metres</span>{% endif %}
-                                {% if backstroke.length50 %}<span class="eventlength">50 metres</span>{% endif %}
-                                {% if backstroke.length100 %}<span class="eventlength">100 metres</span>{% endif %}
-                                {% if backstroke.length200 %}<span class="eventlength">200 metres</span>{% endif %}
-                                {% if backstroke.length400 %}<span class="eventlength">400 metres</span>{% endif %}
-                                {% if backstroke.length800 %}<span class="eventlength">800 metres</span>{% endif %}
-                                {% if backstroke.length1500 %}<span class="eventlength">1500 metres</span>{% endif %}
-                            </p>
-                        </div>
-                    {% endif %}
-                    {% if breaststroke %}
-                        <div class="strokeleft">
-                            <p>
-                                <span class="stroketitle">Breaststroke:</span>
-                            </p>
-                        </div>
-                        <div class="strokeright">
-                            <p>
-                                {% if breaststroke.length25 %}<span class="eventlength">25 metres</span>{% endif %}
-                                {% if breaststroke.length50 %}<span class="eventlength">50 metres</span>{% endif %}
-                                {% if breaststroke.length100 %}<span class="eventlength">100 metres</span>{% endif %}
-                                {% if breaststroke.length200 %}<span class="eventlength">200 metres</span>{% endif %}
-                                {% if breaststroke.length400 %}<span class="eventlength">400 metres</span>{% endif %}
-                                {% if breaststroke.length800 %}<span class="eventlength">800 metres</span>{% endif %}
-                            </p>
-                        </div>
-                    {% endif %}
-                    {% if butterfly %}
-                        <div class="strokeleft">
-                            <p>
-                                <span class="stroketitle">Butterfly:</span>
-                            </p>
-                        </div>
-                        <div class="strokeright">
-                            <p>
-                                {% if butterfly.length25 %}<span class="eventlength">25 metres</span>{% endif %}
-                                {% if butterfly.length50 %}<span class="eventlength">50 metres</span>{% endif %}
-                                {% if butterfly.length100 %}<span class="eventlength">100 metres</span>{% endif %}
-                                {% if butterfly.length200 %}<span class="eventlength">200 metres</span>{% endif %}
-                                {% if butterfly.length400 %}<span class="eventlength">400 metres</span>{% endif %}
-                                {% if butterfly.length800 %}<span class="eventlength">800 metres</span>{% endif %}
-                            </p>
-                        </div>
-                    {% endif %}
-                    {% if medley %}
-                        <div class="strokeleft">
-                            <p>
-                                <span class="stroketitle">IM:</span>
-                            </p>
-                        </div>
-                        <div class="strokeright">
-                            <p>
-                                {% if medley.length100 %}<span class="eventlength">100 metres</span>{% endif %}
-                                {% if medley.length200 %}<span class="eventlength">200 metres</span>{% endif %}
-                                {% if medley.length400 %}<span class="eventlength">400 metres</span>{% endif %}
-                                {% if medley.length800 %}<span class="eventlength">800 metres</span>{% endif %}
-                            </p>
-                        </div>
-                    {% endif %}
-                    {% if relay %}
-                        <div class="strokeleft">
-                            <p>
-                                <span class="stroketitle">Relay:</span>
-                            </p>
-                        </div>
-                        <div class="strokeright">
-                            <p>
-                                {% if relay.length4x50 %}<span class="eventlength">4 x 50 metres</span>{% endif %}
-                                {% if relay.length4x100 %}<span class="eventlength">4 x 100 metres</span>{% endif %}
-                            </p>
-                        </div>
-                    {% endif %}
-                    {% if distance %}
-                        <p>
-                            <strong>Distance</strong>
-                        </p>
-                    {% endif %}
-                    {% if sprint %}
-                        <p>
-                            <strong>Sprint</strong>
-                        </p>
-                    {% endif %}
-                    {% if team %}
-                        <p>
-                            <strong>Team</strong>
-                        </p>
-                    {% endif %}
-                    {% if individual %}
-                        <p>
-                            <strong>Individual</strong>
-                        </p>
-                    {% endif %}
-                    {% if mixed %}
-                        <p>
-                            <strong>Mixed</strong>
-                        </p>
-                    {% endif %}
-                    {% if interclub %}
-                        <p>
-                            <strong>Interclub</strong>
-                        </p>
-                    {% endif %}
-                    {% if invitational %}
-                        <p>
-                            <strong>Invitational</strong>
-                        </p>
-                    {% endif %}
-                    {% if championship %}
-                        <p>
-                            <strong>Championship</strong>
-                        </p>
-                    {% endif %}
+    </div>
 
-                    </div>
-
-       {% if results %}
-                    <div class="eventresultspdf">
-                        <a class="resultspdf"
-                           href="{{ results }}"
-                           title="{{ title }}"
-                           alt="{{ title }}"
-                           target="_blank">Event Results Pdf &gt;</a>
-                    </div>
-                    {% endif %}
-
+  </article>
+</div>
 
 
 {% include "components/global/tagged.html" %}
-
-
-
-                
-            </div>
-            <div class="sidebarwrapper">
-                {% if mapgtsc %}
-                    <div class="map">{% include "components/maps/map-gtsc.html" %}</div>
-                {% endif %}
-                {% if maptaree %}
-                    <div class="map">{% include "components/maps/map-taree.html" %}</div>
-                {% endif %}
-                {% if mapforster %}
-                    <div class="map">{% include "components/maps/map-forster.html" %}</div>
-                {% endif %}
-                {% if mapportmac %}
-                    <div class="map">
-                        {% include "components/maps/map-portmac.html" %}
-                    {% endif %}
-                    {% if mapcresenthead %}
-                        <div class="map">
-                            {% include "components/maps/map-cresenthead.html" %}
-                        {% endif %}
-                        {% if maplismore %}
-                            <div class="map">
-                                {% include "components/maps/map-lismore.html" %}
-                            {% endif %}
-                            {% if mapcoffs %}
-                                <div class="map">
-                                    {% include "components/maps/map-coffs.html" %}
-                                {% endif %}
-                                {% if maplaurieton %}
-                                    <div class="map">
-                                        {% include "components/maps/map-laurieton.html" %}
-                                    {% endif %}
-                                    {% if mapberesfield %}
-                                        <div class="map">
-                                            {% include "components/maps/map-beresfield.html" %}
-                                        {% endif %}
-                                        {% if mapnelsonbay %}
-                                            <div class="map">
-                                                {% include "components/maps/map-nelsonbay.html" %}
-                                            {% endif %}
-                                            {% if mapsydneyolympic %}
-                                                <div class="map">
-                                                    {% include "components/maps/map-sydney-olympic.html" %}
-                                                {% endif %}
-                                                {% if mapnewcastleforum %}
-                                                    <div class="map">
-                                                        {% include "components/maps/map-newcastle-forum.html" %}
-                                                    {% endif %}
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
