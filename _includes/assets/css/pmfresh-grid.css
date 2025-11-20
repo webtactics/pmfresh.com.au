@@ -2550,7 +2550,9 @@ margin:0 auto;
   border-bottom: 1px solid var(--primary);
   font-weight: normal;
 }
-
+.grid-4-prod-detail:last-child {
+  border-bottom: none;
+}
 
 .grid-4-footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
