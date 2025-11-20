@@ -49,7 +49,7 @@ tags:
   - In Season
   
 
-
+cookedchilled: true
 
 ---
 A salad of couscous, roasted pumpkin, chickpeas, tomatoes, coriander, red capsicum and shallots with a sweet, spiced Moroccan Sumac dressing

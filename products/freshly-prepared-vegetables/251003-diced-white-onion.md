@@ -4,6 +4,7 @@ date: 2025-10-03
 description: Diced White Onion - Freshly Prepared Vegetables from PMFresh.
 permalink: "/products/diced-white-onion/"
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion-Diced_ybxSPQcdnV.jpg
 
 ingredients: 100% Onion
 
@@ -40,13 +41,13 @@ nutrition:
   SodiumAvgQuantityPer100g:
 
 tags:
-
+- Diced White Onion
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion-Diced_ybxSPQcdnV.jpg
 
 
 
+freshlypreparedvegetables: true
 
 
 

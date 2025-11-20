@@ -45,9 +45,9 @@ nutrition:
 
 tags:
   - Vegetable Mash
-  - Cooked-Chilled
-  
 
+  
+cookedchilled: true
 
 
 

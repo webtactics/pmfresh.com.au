@@ -43,7 +43,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 40mg
 
 tags:
-
+- Shredded Carrot
   
 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Shredded-Carrot_lCP1MqFj-a.jpg

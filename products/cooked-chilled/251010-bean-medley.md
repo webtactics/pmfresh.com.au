@@ -50,7 +50,7 @@ nutrition:
 tags:
  - Bean Medley
   
-
+cookedchilled: true
 
 ---
 

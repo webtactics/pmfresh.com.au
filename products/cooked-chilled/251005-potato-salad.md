@@ -49,7 +49,7 @@ tags:
   - Potato Salad
 
 
-
+cookedchilled: true
 
 ---
 Our all time favourite. Potatoes in a creamy mayonnaise with dijon mustard, shallots and parsley
