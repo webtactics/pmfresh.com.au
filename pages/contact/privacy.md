@@ -1,8 +1,8 @@
 ---
-title: Thank you for contacting us!
-description: Thank you for contacting us! We will get back to you as soon as we can.
+title: Privacy privacy privacy.
+description: Privacy privacy privacy.
 date: 2017-01-01T00:00:00.000Z
-permalink: contact/thank-you/
+permalink: /privacy/
 parent: Contact
 eleventyNavigation:
   hide: true
@@ -10,4 +10,4 @@ eleventyNavigation:
 eleventyExcludeFromCollections: true
 ---
 
-We will get back to you as soon as we can.
+Privacy privacy privacy.
