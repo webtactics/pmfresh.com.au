@@ -2805,6 +2805,7 @@ grid-template-columns: 2fr 1fr;gap: 3rem;}
 .pad5remboth  {padding: 5rem 0;}
 .pad5rembothwhitebg {padding: 5rem 0;  background-color:var(--white);}
 .pad6rem {padding-top:6rem;}
+.pad6remborderbottom {padding-top:6rem;border-bottom: 0.5rem dotted var(--primary);}
 .pad8rem {padding-top:8rem;}
 .pad12rem {padding-top:12rem;}
 
