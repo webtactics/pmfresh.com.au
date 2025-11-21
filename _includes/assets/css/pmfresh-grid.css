@@ -2452,8 +2452,24 @@ margin:0 auto;
   margin-bottom: 4rem;
 }
 .recipedetailserveprepdifficultbox {
-padding-bottom:4rem;
+padding:0 0 4rem 7rem;
+  position: relative;
 }
+.recipedetailserveprepdifficultbox::before {
+  content: "";
+  width: 5.5rem;
+  height: .5rem;
+  display: block;
+  background: transparent url(https://ik.imagekit.io/webtactics/pmfresh/assets/rectangle_IuEasM-q3.svg?updatedAt=1763079970435) no-repeat left top;
+    background-size: auto;
+  background-size: auto;
+  background-size: 5.5rem .5rem;
+  position: absolute;
+  left: 0;
+  top: .4rem;
+}
+
+
 
 .reddetail {
   color: var(--primary);
