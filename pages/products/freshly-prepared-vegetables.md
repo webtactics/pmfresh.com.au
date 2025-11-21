@@ -17,7 +17,7 @@ freshlypreparedvegetables: freshly-prepared-vegetables
 ctatitle: Who We Serve
 ctatext: All our products are freshly prepared with a focus on quality and convenience. 
 ctalink: /who-we-serve/
-ctaimage: /static/img/pages/who-we-serve/who-we-serve-banner-1920x994.jpg
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg
 
 permalink: /products/freshly-prepared-vegetables/
 eleventyNavigation:
