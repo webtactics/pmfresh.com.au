@@ -1945,19 +1945,6 @@ padding-top:4rem;
 }
 
 
-.left-image-side {
-  position: absolute;
-  left: 0;
-  transform: translateY(-40%);
-  max-width: 100%;
-  height: auto;
-  max-height: 500px;
-  z-index: 1;
-  overflow: hidden;
-  display:flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
 
 .left-image {
   position: relative;
