@@ -136,14 +136,13 @@
 
 
 {% elif freshlypreparedvegetables %}
+<div class="pad8rem"></div>
 <div class="productcatagory content">
 <h3>Freshly Prepared Vegetables</h3>
 {% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
 {% include "components/postslist-products-3-wide.njk" %}
 </div>
 
-{% elif whoweserve %}
-{% include "components/global/who-we-serve-retail.html" %}
 
 
 {% elif leafysalads %}
@@ -153,11 +152,6 @@
 {% set postslist = collections['Leafy Salads'] | reverse  %} 
 {% include "components/postslist-products-3-wide.njk" %}
 </div>
-
-
-
-
-
 
 
 
