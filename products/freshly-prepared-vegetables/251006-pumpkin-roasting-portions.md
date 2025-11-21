@@ -2,6 +2,8 @@
 title: Pumpkin Roasting Portions
 date: 2025-10-06
 description: Pumpkin Roasting Portions - Perfectly portioned fresh pumpkin pieces, ready for roasting to bring out their natural sweetness and flavor.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin_Oo290lajor.jpg
 permalink: "/products/pumpkin-roasting-portions/"
 
 
@@ -43,10 +45,12 @@ nutrition:
   SodiumAvgQuantityPer100g: 2mg
 
 tags:
+- Pumpkin Roasting Portions
 
+freshlypreparedvegetables: true
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin_Oo290lajor.jpg
+
 
 
 

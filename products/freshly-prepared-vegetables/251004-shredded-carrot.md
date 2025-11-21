@@ -1,7 +1,9 @@
 ---
 title: Shredded Carrot
 date: 2025-10-04
-description: Shredded Carrot - Creamy, seasoned, delicious warming mashed potato
+description: Shredded Carrot - Creamy, seasoned, delicious warming mashed potato.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Shredded-Carrot_lCP1MqFj-a.jpg
 permalink: "/products/shredded-carrot/"
 
 
@@ -46,7 +48,7 @@ tags:
 - Shredded Carrot
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Shredded-Carrot_lCP1MqFj-a.jpg
+freshlypreparedvegetables: true
 
 
 

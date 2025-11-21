@@ -2,6 +2,8 @@
 title: Sliced Red Onion
 date: 2025-10-08
 description: Sliced Red Onion - Freshly prepared sliced red onions, perfect for adding flavor and color to your dishes.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Red-Onion-Sliced_5p7Xredh6-.jpg
 permalink: "/products/sliced-red-onion/"
 
 
@@ -43,10 +45,12 @@ nutrition:
   SodiumAvgQuantityPer100g: 11mg
 
 tags:
+- Sliced Red Onion
 
+freshlypreparedvegetables: true
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Red-Onion-Sliced_5p7Xredh6-.jpg
+
 
 
 

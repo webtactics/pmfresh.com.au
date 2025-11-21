@@ -2,6 +2,7 @@
 title: Ready to Cook Vegetable Mix
 date: 2025-10-12
 description: Ready to Cook Vegetable Mix - A selection of diced vegetables suitable for soups and casseroles. Carrot, celery, leek, broccoli, cauliflower, parsnip and turnip. Toss in heated pan or wok with a little oil for 3 mins
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Ready-to-Cook-Vegetable-Mix_IWdAIo9m0m.jpg
 permalink: "/products/ready-to-cook-vegetable-mix/"
 
 
@@ -43,10 +44,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 65mg
 
 tags:
+- Ready to Cook Vegetable Mix
 
-  
+freshlypreparedvegetables: true
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Ready-to-Cook-Vegetable-Mix_IWdAIo9m0m.jpg
+
 
 
 

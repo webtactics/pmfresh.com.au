@@ -2,6 +2,8 @@
 title: Sliced Brown Onion
 date: 2025-10-10
 description: Sliced Brown Onion - Freshly prepared sliced brown onion, perfect for salads, cooking and more.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion_RVNguCMqag.jpg
 permalink: "/products/sliced-brown-onion/"
 
 
@@ -43,10 +45,11 @@ nutrition:
   SodiumAvgQuantityPer100g:
 
 tags:
+- Sliced Brown Onion
 
-  
+freshlypreparedvegetables: true
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion_RVNguCMqag.jpg
+
 
 
 

@@ -2,6 +2,8 @@
 title: Sliced Capsicum
 date: 2025-10-15
 description: Sliced Capsicum - Freshly prepared sliced capsicum, perfect for salads, stir-fries, and fajitas. Ready to use straight from the pack.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Green-Capsicum_UWO_ZC81xS.jpg
 permalink: "/products/sliced-capsicum/"
 
 
@@ -43,10 +45,9 @@ nutrition:
   SodiumAvgQuantityPer100g: 2mg
 
 tags:
-
+- Sliced Capsicum
   
-
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Green-Capsicum_UWO_ZC81xS.jpg
+freshlypreparedvegetables: true
 
 
 

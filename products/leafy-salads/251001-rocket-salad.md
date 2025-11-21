@@ -2,6 +2,8 @@
 title: Rocket Salad
 date: 2025-10-01
 description: Rocket Salad - A delicious medley of fresh vegetables, prepped and ready for roasting to perfection.
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Baby-Rocket_6YT0ZM8JU.jpg
+
 permalink: "/products/rocket-salad/"
 
 
@@ -41,11 +43,11 @@ nutrition:
 
 tags:
   - In Season
-  
-
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Baby-Rocket_6YT0ZM8JU.jpg
+  - Rocket Salad
 
 
+
+leafysalads: true
 
 
 

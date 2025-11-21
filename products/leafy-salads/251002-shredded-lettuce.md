@@ -2,6 +2,8 @@
 title: Shredded Lettuce
 date: 2025-10-02
 description: Shredded Lettuce - Crisp, shredded, refreshing iceberg lettuce
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Iceberg-Lettuce-Shredded_r_pJi-zTO.jpg
+
 permalink: "/products/shredded-lettuce/"
 
 
@@ -43,10 +45,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 26mg
 
 tags:
+- Shredded Lettuce
 
-  
+leafysalads: true
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Iceberg-Lettuce-Shredded_r_pJi-zTO.jpg
+
 
 
 

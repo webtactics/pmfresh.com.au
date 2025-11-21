@@ -2,6 +2,8 @@
 title: Carrot Batons
 date: 2025-10-11
 description: Carrot Batons - Crunchy, sweet and delicious. Great as a snack with dips or use in casseroles, soups and other dishes.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Batons_6wzIeU-Sn.jpg
 permalink: "/products/carrot-batons/"
 
 
@@ -43,10 +45,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 40mg
 
 tags:
+- Carrot Batons
 
-  
+freshlypreparedvegetables: true
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Batons_6wzIeU-Sn.jpg
+
 
 
 

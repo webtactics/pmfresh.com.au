@@ -2,6 +2,8 @@
 title: Sliced Mushroom
 date: 2025-10-07
 description: Sliced Mushroom - Freshly prepared sliced mushrooms, perfect for cooking and adding to your favorite dishes.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mushrooms-Sliced_KlJ0WSpIVP.jpg
 permalink: "/products/sliced-mushroom/"
 
 
@@ -43,10 +45,11 @@ nutrition:
   SodiumAvgQuantityPer100g: 8g
 
 tags:
+- Sliced Mushroom
 
+freshlypreparedvegetables: true
   
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mushrooms-Sliced_KlJ0WSpIVP.jpg
 
 
 

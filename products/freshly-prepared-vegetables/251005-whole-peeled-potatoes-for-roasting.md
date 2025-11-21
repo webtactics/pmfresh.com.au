@@ -2,6 +2,9 @@
 title: Whole Peeled Potatoes - for roasting
 date: 2025-10-05
 description: Whole Peeled Potatoes - for roasting - Creamy, seasoned, delicious warming mashed potato
+
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potatoe-Peeled_SvILHGVm0.jpg
 permalink: "/products/whole-peeled-potatoes-for-roasting/"
 
 
@@ -43,10 +46,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 3mg
 
 tags:
-
+- Whole Peeled Potatoes
   
+freshlypreparedvegetables: true
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potatoe-Peeled_SvILHGVm0.jpg
 
 
 

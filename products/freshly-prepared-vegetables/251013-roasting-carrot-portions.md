@@ -2,6 +2,8 @@
 title: Roasting Carrot Portions
 date: 2025-10-13
 description: Roasting Carrot Portions - A medley of freshly prepared vegetables perfect for roasting. Simply toss with olive oil, season and roast for a delicious side dish.
+
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Portions_9u7IsffC_I.jpg
 permalink: "/products/roasting-carrot-portions/"
 
 
@@ -43,10 +45,10 @@ nutrition:
   SodiumAvgQuantityPer100g: 648mg
 
 tags:
+- Roasting Carrot Portions
 
-  
+freshlypreparedvegetables: true
 
-image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Portions_9u7IsffC_I.jpg
 
 
 
