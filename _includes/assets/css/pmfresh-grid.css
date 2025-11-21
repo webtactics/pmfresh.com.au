@@ -2306,7 +2306,7 @@ h3.news-title {
   transition: background-color .6s;
   width: 100%;
   margin: 0;
-  min-height: 88px;
+padding:0;
 }
 
 h3.news-title a {
