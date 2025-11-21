@@ -2447,6 +2447,12 @@ margin:0 auto;
   height: 0;
 }
 
+/* Recipes detail */
+.recipes .column {
+  margin-bottom: 4rem;
+}
+
+
 /* Grid
 ------------------------------------------------- */
 
