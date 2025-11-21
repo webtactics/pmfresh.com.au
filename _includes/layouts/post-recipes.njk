@@ -15,6 +15,16 @@ section: post
 
           <h2>PMFresh's {{ title }}</h2>
 
+
+          <div class="recipedetailserveprepdifficultbox">
+             {% if preptime %}<div class="recipedetailserveprepdifficult"><span class="reddetail">Preparation time:</span>{{ preptime }}</div>{% endif %}
+                {% if cookingtime %}<div class="recipedetailserveprepdifficult"><span class="reddetail">Cooking time:</span>{{ cookingtime }}</div>{% endif %}
+                  {% if serves %}<div class="recipedetailserveprepdifficult"><span class="reddetail">Serves:</span>{{ serves }}</div>{% endif %}
+                  </div>
+             
+
+
+
        
             {{ content | safe }}
 
