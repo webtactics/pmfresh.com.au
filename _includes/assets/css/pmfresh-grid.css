@@ -2451,7 +2451,10 @@ margin:0 auto;
 .recipes .column {
   margin-bottom: 4rem;
 }
-
+.reddetail {
+  color: var(--primary);
+  padding: 0 0.8rem 0 0;
+}
 
 /* Grid
 ------------------------------------------------- */
