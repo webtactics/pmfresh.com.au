@@ -3,7 +3,7 @@ layout: layouts/grid-basic.njk
 title: Contact Primo Moraitis Fresh
 subtitle: Say Hello
 
-class: about
+class: contact
 description: How to contact Primo Moraitis Fresh
 image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
 
@@ -14,7 +14,7 @@ ctatext: We bring the freshest and best quality Australian produce to our consum
 ctalink: /about/our-philosophy/
 ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-banner-1920x953_ztYJNIMRb.jpg
 
-class: contact
+
 
 contactpage: contactpage
 
