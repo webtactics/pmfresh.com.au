@@ -11,10 +11,9 @@ cookingtime: 30 minutes
 serves: 4
 
 tags:
+- Spinach Leaves
 
-
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/spinach-ricotta-and-lemon-pasta-shells_pL7gvBeowr.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/spinach-ricotta-and-lemon-pasta-shells_bhOGsERNdm.jpg
 
 
 
@@ -25,7 +24,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
                 <h3>Ingredients:</h3>
 <ul>
 <li>200g large dried shell pasta (Conchiglioni)</li>
-<li>2x 120g bags From Good Roots Spinach Leaves</li>
+<li>2x 120g bags Spinach Leaves</li>
 <li>250g fresh ricotta</li>
 <li>½ cup milk</li>
 <li>1 ½ cups finely grated parmesan</li>

@@ -11,10 +11,10 @@ cookingtime: 40 minutes
 serves: 4
 
 tags:
+- Potato Salad
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/potato-cauliflower-and-broccoli-bake_qlvJXpRTov.jpg
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/potato-cauliflower-and-broccoli-bake_J0QC-Virwn.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 
 
@@ -26,7 +26,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <ul>
 <li>2 cups cauliflower florets</li>
 <li>2 cups broccoli florets</li>
-<li>2x 300g tubs From Good Roots Fresh Potato Salad</li>
+<li>2x 300g tubs Fresh Potato Salad</li>
 <li>1 bunch chives, finely sliced</li>
 <li>Sea salt flakes and ground white pepper</li>
 <li>30g butter</li>

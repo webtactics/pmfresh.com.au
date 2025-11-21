@@ -13,8 +13,8 @@ serves: 4
 tags:
 - Crunchy Salad Kit
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/malaysian-beef-and-noodle-stir-fry_BwvK6IxMO.jpg
-sumimage:
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/malaysian-beef-and-noodle-stir-fry_GiTF-aJsq7.jpg
+
 
 
 

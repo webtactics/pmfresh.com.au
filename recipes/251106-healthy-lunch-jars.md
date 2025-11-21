@@ -11,10 +11,10 @@ cookingtime: 25 minutes
 serves: 4
 
 tags:
+- Kaleslaw
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/healthy-lunch-jars_CUWLoZrchQ.jpg
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/healthy-lunch-jars_Lqf5SaTKLY.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 
 
@@ -24,7 +24,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <div class="column">
                 <h3>Ingredients:</h3>
 <ul>
-<li>1 bag From Good Roots Kaleslaw</li>
+<li>1 bag Kaleslaw</li>
 <li>1 cup brown rice</li>
 <li>1 cob of corn</li>
 <li>1 small avocado</li>

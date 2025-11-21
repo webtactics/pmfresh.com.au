@@ -11,10 +11,10 @@ cookingtime: 50 minutes
 serves: 6
 
 tags:
+- Creamy Pasta Salad
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/pasta-and-eggplant-bake_CksCrJzEd4.jpg
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/pasta-and-eggplant-bake-slice_ypDTMOSoiR.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 
 

@@ -11,10 +11,10 @@ cookingtime: 35 minutes
 serves: 6
 
 tags:
+- Pasta Salad
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/pasta-frittatas_YOdkVnpcZ.jpg
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/pasta-frittatas_unA8AoEKQ.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 
 
@@ -24,7 +24,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <div class="column">
 <h3>Ingredients:</h3>
 <ul>
-<li>2x 300g From Good Roots Pasta Salad</li>
+<li>2x 300g Pasta Salad</li>
 <li>100g finely diced ham</li>
 <li>2 eggs, whisked</li>
 <li>1 cup grated tasty cheese</li>

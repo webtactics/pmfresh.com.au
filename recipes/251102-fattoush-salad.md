@@ -11,8 +11,8 @@ serves: 4
 tags:
 - Tabbouleh
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fattoush-salad_bY8mtfqg2.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/fattoush-salad_lJ5ZMUW61y.jpg
+
 
 
 

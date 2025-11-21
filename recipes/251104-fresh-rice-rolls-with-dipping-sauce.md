@@ -12,10 +12,10 @@ serves: 4
 makes: 12 
 
 tags:
+- Coleslaw
 
+image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/fresh-rice-rolls-with-dipping-sauce_e3LsjPhLn.jpg
 
-image: https://ik.imagekit.io/webtactics/pmfresh/recipes/fresh-rice-rolls-with-dipping-sauce_GAuoIMz_a.jpg
-sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x600-sq.jpg
 
 
 
@@ -31,7 +31,7 @@ sumimage: https://ik.imagekit.io/webtactics/gtsc/img/events/forster-aquatic-400x
 <li>2 tbs finely chopped roasted peanuts</li>
 <li>1 small red chilli, thinly sliced</li>
 <li>70g thin vermicelli rice noodles</li>
-<li>300g tub From Good Roots Classic Coleslaw</li>
+<li>300g tub Classic Coleslaw</li>
 <li>12 (22cm) rice paper sheets</li>
 <li>250g peeled cooked prawns, halved lengthways</li>
 <li>24 mint leaves</li>
