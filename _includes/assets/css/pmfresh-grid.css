@@ -487,9 +487,16 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, p 
   font-weight: 700;
   color: var(--black);
   padding: 0 0 1.5rem 0;
+   -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
 }
 
 .content-left-news .content h2 {padding: 0;margin:0;}
+
+
 
 
 
@@ -503,6 +510,11 @@ h2.heading-text a:hover {
     background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+   -webkit-transition: all var(--animation-delay);
+  -moz-transition: all var(--animation-delay);
+  -ms-transition: all var(--animation-delay);
+  -o-transition: all var(--animation-delay);
+  transition: all var(--animation-delay);
 }
 
 
