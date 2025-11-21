@@ -1603,27 +1603,30 @@ color : var(--white);
 
 
 .container p a {
-  line-height: inherit;
-  color: var(--primarydark);
-  border-bottom: 2px dotted var(--primary);
-  background-color: var(--white);
-  text-transform: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  padding:0 0.25rem;
-white-space: wrap;
+
+color: var(--black);
+  border: none;
+  padding: 0 .2rem;
+  white-space: nowrap;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--primary);
+  text-underline-offset: 0.3rem;
+  transition: color .5s,text-decoration-color .6s;
 }
+
+
 
 .container p a:hover {
+  background: var(--primarydark);
   color: var(--white);
-  border-bottom: 2px solid var(--black);
-
-  text-decoration: none;
-  background-color: var(--primarydark);
-  transition: all 0.2s ease-in-out;
+  border: none;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-style: solid;
+  text-decoration-color: var(--black);
+  text-underline-offset: 0.3rem;
+  transition: color .5s,text-decoration-color .6s;
 }
-
-
 
 .text-center {text-align: center;}
 .text-left {text-align: left;}
