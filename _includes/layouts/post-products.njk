@@ -103,7 +103,7 @@ section: post
 
      {% if nutrition.TransSaturatedAvgQuantityPerServing or TransSaturatedperDailyIntakes or TransSaturatedAvgQuantityPer100g %}  
             <div class="grid-4-prod-detail">
-            <div class="nutritiontitle">- Saturated</div>
+            <div class="nutritiontitle">Trans</div>
             <div class="nutritiontitle text-center">{% if nutrition.TransSaturatedAvgQuantityPerServing %}{{ nutrition.TransAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.TransSaturatedperDailyIntakes %}{{ nutrition.TransSaturatedperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.TransSaturatedAvgQuantityPer100g %}{{ nutrition.TransSaturatedAvgQuantityPer100g }}{% endif %}</div>
@@ -112,7 +112,7 @@ section: post
 
          {% if nutrition.PolySaturatedAvgQuantityPerServing or PolySaturatedperDailyIntakes or PolySaturatedAvgQuantityPer100g %}  
             <div class="grid-4-prod-detail">
-            <div class="nutritiontitle">- Saturated</div>
+            <div class="nutritiontitle">-Polyunsaturated</div>
             <div class="nutritiontitle text-center">{% if nutrition.PolySaturatedAvgQuantityPerServing %}{{ nutrition.PolyAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.PolySaturatedperDailyIntakes %}{{ nutrition.PolySaturatedperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.PolySaturatedAvgQuantityPer100g %}{{ nutrition.PolySaturatedAvgQuantityPer100g }}{% endif %}</div>
@@ -121,7 +121,7 @@ section: post
 
       {% if nutrition.MonoSaturatedAvgQuantityPerServing or MonoSaturatedperDailyIntakes or MonoSaturatedAvgQuantityPer100g %}  
             <div class="grid-4-prod-detail">
-            <div class="nutritiontitle">- Saturated</div>
+            <div class="nutritiontitle">-Monounsaturated</div>
             <div class="nutritiontitle text-center">{% if nutrition.MonoSaturatedAvgQuantityPerServing %}{{ nutrition.MonoAvgQuantityPerServing }}{% endif %}</div>
             <div class="nutritiontitle text-center">{% if nutrition.MonoSaturatedperDailyIntakes %}{{ nutrition.MonoSaturatedperDailyIntakes }}{% endif %}</div>
             <div class="nutritiontitle text-right">{% if nutrition.MonoSaturatedAvgQuantityPer100g %}{{ nutrition.MonoSaturatedAvgQuantityPer100g }}{% endif %}</div>
