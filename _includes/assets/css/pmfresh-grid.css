@@ -1605,8 +1605,8 @@ color : var(--white);
 .container p a {
   line-height: inherit;
   color: var(--primarydark);
-  border-bottom: 2px dotted var(--darkblue);
-  background-color: var(--lightgrey);
+  border-bottom: 2px dotted var(--primary);
+  background-color: var(--white);
   text-transform: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -1616,7 +1616,7 @@ white-space: wrap;
 
 .container p a:hover {
   color: var(--white);
-  border-bottom: 2px solid var(--darkblue);
+  border-bottom: 2px solid var(--black);
 
   text-decoration: none;
   background-color: var(--primarydark);
