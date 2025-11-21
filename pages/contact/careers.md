@@ -2,10 +2,10 @@
 layout: layouts/grid-contact.njk
 title: Careers.
 subtitle: Say Hello
-description: Careers. Careers. Careers.
+date: 2025-11-20
 
 class: contact careers
-description: How to contact Primo Moraitis Fresh
+description: Careers. Careers. Careers.
 image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg
@@ -22,7 +22,7 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-ba
 
 
 
-date: 2025-11-20
+
 permalink: /careers/
 parent: Contact
 eleventyNavigation:

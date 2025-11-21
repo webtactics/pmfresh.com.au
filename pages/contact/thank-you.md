@@ -2,12 +2,11 @@
 layout: layouts/grid-contact.njk
 title: Say Hello
 subtitle: Thank you for contacting us!
+date: 2025-11-20
+
+
+class: contact thank-you
 description: Thank you for contacting us! We will get back to you as soon as we can.
-date: 2017-01-01T00:00:00.000Z
-
-
-class: contact
-description: How to contact Primo Moraitis Fresh
 image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg
