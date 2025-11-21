@@ -187,7 +187,7 @@ section: post
 <div class="pad4rem"></div>
 <div class="productcatagory content">
 <h3>Related Cooked & Chilled Products</h3>
-{% set postslist = collections['Cooked & Chilled'] | reverse  %} 
+{% set postslist = collections['Cooked & Chilled']  | limit(4)  %} 
 {% include "components/postslist-products-4-wide.njk" %}
 </div>
 
@@ -195,8 +195,8 @@ section: post
 <div class="pad4rem"></div>
 <div class="productcatagory content">
 <h3>Related Freshly Prepared Vegetables</h3>
-{% set postslist = collections['Freshly Prepared Vegetables'] | reverse  %} 
-{% include "components/postslist-products-3-wide.njk" %}
+{% set postslist = collections['Freshly Prepared Vegetables'] | limit(4)  %} 
+{% include "components/postslist-products-4-wide.njk" %}
 </div>
 
 
@@ -204,8 +204,8 @@ section: post
 <div class="pad4rem"></div>
 <div class="productcatagory content">
 <h3>Related Leafy Salads</h3>
-{% set postslist = collections['Leafy Salads'] | reverse  %} 
-{% include "components/postslist-products-3-wide.njk" %}
+{% set postslist = collections['Leafy Salads']  | limit(4)  %} 
+{% include "components/postslist-products-4-wide.njk" %}
 </div>
 
 
