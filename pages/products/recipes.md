@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-tagged.njk
+layout: layouts/grid-products.njk
 title: PMFresh Recipes.
 subtitle: Freshly Prepared Recipes
 class: products  recipes
@@ -9,7 +9,7 @@ date: 2025-10-04
 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/spinach-ricotta-and-lemon-pasta-shells_bhOGsERNdm.jpg?updatedAt=1763506720801
 
-rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
+rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/pasta-and-eggplant-bake-slice_2hpNoi6a0R.jpg
 
 recipespage: recipespage
 
@@ -24,12 +24,10 @@ eleventyNavigation:
   parent: Products
   order: 5
 ---
-<div class="productcatagory content">
-<h3>Recipes</h3>
-{% set postslist = collections['Recipes']  %} 
-{% include "components/postslist-recipes-4-wide.njk" %}
-</div>
 
+<p>Fresh recipes and fresh thinking.</p>
+
+<p>Discover a variety of delicious recipes crafted to make the most of our freshly prepared PMFresh vegetables. Whether you're looking for quick meal ideas or gourmet dishes, our recipes are designed to inspire your culinary creativity.</p>
 
 
 
