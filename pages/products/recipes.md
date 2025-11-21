@@ -1,5 +1,5 @@
 ---
-layout: layouts/grid-products.njk
+layout: layouts/grid-tagged.njk
 title: PMFresh Recipes.
 subtitle: Freshly Prepared Recipes
 class: products  recipes
