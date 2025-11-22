@@ -3178,7 +3178,7 @@ text-decoration: none;
 .from-left.appear,.from-right.appear {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}
 
 
-@media (max-width: 2400px) {
+@media (max-width: 1500px) {
   .from-left, .from-right {
     -webkit-transform: translateX(0);
     transform: translateX(0);
