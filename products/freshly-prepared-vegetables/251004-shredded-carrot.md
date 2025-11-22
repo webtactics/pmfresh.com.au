@@ -6,6 +6,13 @@ description: Shredded Carrot - Creamy, seasoned, delicious warming mashed potato
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Shredded-Carrot_lCP1MqFj-a.jpg
 permalink: "/products/shredded-carrot/"
 
+tags:
+- Shredded Carrot
+  
+
+freshlypreparedvegetables: true
+shreddedcarrot: true
+
 
 ingredients: 100% Carrot.
 
@@ -44,11 +51,7 @@ nutrition:
   SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g: 40mg
 
-tags:
-- Shredded Carrot
-  
 
-freshlypreparedvegetables: true
 
 
 

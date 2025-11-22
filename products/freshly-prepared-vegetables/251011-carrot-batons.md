@@ -6,6 +6,12 @@ description: Carrot Batons - Crunchy, sweet and delicious. Great as a snack with
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Batons_6wzIeU-Sn.jpg
 permalink: "/products/carrot-batons/"
 
+tags:
+- Carrot Batons
+
+freshlypreparedvegetables: true
+
+
 
 ingredients: 100% Carrots.
 
@@ -44,10 +50,7 @@ nutrition:
   SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g: 40mg
 
-tags:
-- Carrot Batons
 
-freshlypreparedvegetables: true
 
 
 

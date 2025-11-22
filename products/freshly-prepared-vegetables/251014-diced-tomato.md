@@ -6,6 +6,13 @@ permalink: "/products/diced-tomato/"
 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Diced_Tomato-1024x651_EATEjXO55.jpg
 
+
+tags:
+- Diced Tomato
+  
+freshlypreparedvegetables: true
+dicedtomato: true
+
 ingredients: 100% common tomato
 
 Contains:
@@ -43,11 +50,7 @@ nutrition:
   SodiumperDailyIntakes: 2%
   SodiumAvgQuantityPer100g: 17mg
 
-tags:
-- Diced Tomato
-  
 
-freshlypreparedvegetables: true
 
 
 

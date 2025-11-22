@@ -4,6 +4,12 @@ date: 2025-10-01
 description: Mixed Vegetables for Roasting - A delicious medley of fresh vegetables, prepped and ready for roasting to perfection.
 permalink: "/products/mixed-vegetables-for-roasting/"
 
+tags:
+- Mixed Vegetables for Roasting
+
+freshlypreparedvegetables: true
+mixedvegetablesforroasting: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mixed-Vegetables-for-Roasting_qn04jC65Bl.jpg
 
 ingredients: Carrot (31%), Sweet Potato (30%), Red Onion (25%), Zucchini (12%), Garlic (1.0%), Rosemary (0.5%)
@@ -40,12 +46,7 @@ nutrition:
   SodiumperDailyIntakes: 1%
   SodiumAvgQuantityPer100g: 19mg
 
-tags:
-- Mixed Vegetables for Roasting
 
-
-
-freshlypreparedvegetables: true
 
 
 

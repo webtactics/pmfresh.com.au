@@ -6,6 +6,12 @@ description: Sliced Capsicum - Freshly prepared sliced capsicum, perfect for sal
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Green-Capsicum_UWO_ZC81xS.jpg
 permalink: "/products/sliced-capsicum/"
 
+tags:
+- Sliced Capsicum
+  
+freshlypreparedvegetables: true
+slicedcapsicum: true
+
 
 ingredients: 100% Green Capsicum.
 
@@ -44,10 +50,7 @@ nutrition:
   SodiumperDailyIntakes: 0%
   SodiumAvgQuantityPer100g: 2mg
 
-tags:
-- Sliced Capsicum
-  
-freshlypreparedvegetables: true
+
 
 
 

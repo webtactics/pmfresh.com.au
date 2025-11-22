@@ -7,6 +7,12 @@ description: Whole Peeled Potatoes - for roasting - Creamy, seasoned, delicious 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potatoe-Peeled_SvILHGVm0.jpg
 permalink: "/products/whole-peeled-potatoes-for-roasting/"
 
+tags:
+- Whole Peeled Potatoes
+  
+freshlypreparedvegetables: true
+wholepeeledpotatoesforroasting: true
+
 
 ingredients: 100% Potatoes.
 
@@ -45,10 +51,7 @@ nutrition:
   SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g: 3mg
 
-tags:
-- Whole Peeled Potatoes
-  
-freshlypreparedvegetables: true
+
 
 
 

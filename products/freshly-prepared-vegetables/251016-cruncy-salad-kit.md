@@ -6,6 +6,12 @@ description: Crunchy Salad Kit - An Asian inspired salad blend of wombok, tatsoi
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Crunchy-Salad-Option1-1200x842_fXZAgyqaK.jpg
 permalink: "/products/cruncy-salad-kit/"
 
+tags:
+- Crunchy Salad Kit
+  
+freshlypreparedvegetables: true
+crunchysaladkit: true
+
 
 ingredients: Salad Mix (min. 76%) [Wombok (50%), Carrot, Tatsoi (8%), Rocket, Red Onion], Asian Chilli and Lime Dressing (16%) [Water, Vegetable Oil, Vinegar, Sugar, Soy Sauce (7%) (Water, Soybean, Wheat, Salt), Brown Sugar, Chilli Puree (5.0%) (Chilli (99%), Food Acid (260)), Coriander (3.5%), Garlic Puree (Food Acid (330)), Lime Juice Concentrate (2.2%), Salt, Vegetable Gum (415)], Crunchy Noodles (8%) [Wheat Flour, Vegetable Oil, Water, Salt, Raising Agents (450, 500) Colour (160b)]. Ingredient percentages may vary due to processing variability.
 
@@ -57,11 +63,7 @@ nutrition:
   SodiumperDailyIntakes: 13%
   SodiumAvgQuantityPer100g: 245mg
 
-tags:
-- Crunchy Salad Kit
-  
-freshlypreparedvegetables: true
-crunchysaladkit: true
+
 
 
 

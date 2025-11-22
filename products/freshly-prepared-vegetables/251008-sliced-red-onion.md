@@ -6,6 +6,12 @@ description: Sliced Red Onion - Freshly prepared sliced red onions, perfect for 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Red-Onion-Sliced_5p7Xredh6-.jpg
 permalink: "/products/sliced-red-onion/"
 
+tags:
+- Sliced Red Onion
+
+freshlypreparedvegetables: true
+slicedredonion: true
+
 
 ingredients: 100% Spanish Onion.
 
@@ -44,10 +50,7 @@ nutrition:
   SodiumperDailyIntakes: 11%
   SodiumAvgQuantityPer100g: 11mg
 
-tags:
-- Sliced Red Onion
 
-freshlypreparedvegetables: true
   
 
 

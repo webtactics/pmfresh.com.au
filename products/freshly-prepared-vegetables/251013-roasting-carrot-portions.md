@@ -6,6 +6,12 @@ description: Roasting Carrot Portions - A medley of freshly prepared vegetables 
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Portions_9u7IsffC_I.jpg
 permalink: "/products/roasting-carrot-portions/"
 
+tags:
+- Roasting Carrot Portions
+
+freshlypreparedvegetables: true
+roastingcarrotportions: true
+
 
 ingredients: 100% Carrot.
 
@@ -44,10 +50,7 @@ nutrition:
   SodiumperDailyIntakes: 5%
   SodiumAvgQuantityPer100g: 648mg
 
-tags:
-- Roasting Carrot Portions
 
-freshlypreparedvegetables: true
 
 
 

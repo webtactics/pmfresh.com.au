@@ -6,6 +6,12 @@ description: Sliced Mushroom - Freshly prepared sliced mushrooms, perfect for co
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mushrooms-Sliced_KlJ0WSpIVP.jpg
 permalink: "/products/sliced-mushroom/"
 
+tags:
+- Sliced Mushroom
+
+freshlypreparedvegetables: true
+slicedmushroom: true
+
 
 ingredients: 100% Button Mushrooms.
 
@@ -44,10 +50,7 @@ nutrition:
   SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g: 8g
 
-tags:
-- Sliced Mushroom
 
-freshlypreparedvegetables: true
   
 
 

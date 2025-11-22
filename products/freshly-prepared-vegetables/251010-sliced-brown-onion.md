@@ -6,6 +6,12 @@ description: Sliced Brown Onion - Freshly prepared sliced brown onion, perfect f
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion_RVNguCMqag.jpg
 permalink: "/products/sliced-brown-onion/"
 
+tags:
+- Sliced Brown Onion
+
+freshlypreparedvegetables: true
+slicedbrownonion: true
+
 
 ingredients: 100% Brown Onion.
 
@@ -44,10 +50,7 @@ nutrition:
   SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g:
 
-tags:
-- Sliced Brown Onion
 
-freshlypreparedvegetables: true
 
 
 

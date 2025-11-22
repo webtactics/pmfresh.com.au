@@ -5,6 +5,11 @@ description: Ready to Cook Vegetable Mix - A selection of diced vegetables suita
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Ready-to-Cook-Vegetable-Mix_IWdAIo9m0m.jpg
 permalink: "/products/ready-to-cook-vegetable-mix/"
 
+tags:
+- Ready to Cook Vegetable Mix
+
+freshlypreparedvegetables: true
+readytocookvegetablemix: true
 
 ingredients: Carrot, Celery, Leek, Parsnip, Turnip, Broccoli stem, cauliflower stem, parsley.
 
@@ -43,10 +48,7 @@ nutrition:
   SodiumperDailyIntakes: 3%
   SodiumAvgQuantityPer100g: 65mg
 
-tags:
-- Ready to Cook Vegetable Mix
 
-freshlypreparedvegetables: true
 
 
 
