@@ -1918,18 +1918,17 @@ padding-top:4rem;
 
 
 .left-image, .right-image {
- max-width: 100%;
- aspect-ratio: 1920/953;
+
 }
 
 
 
 
 .left-image img, .right-image img {
-  max-width: 100%;
 
-  z-index: 1;
-  aspect-ratio: 1920/953;
+aspect-ratio: 1920/953;
+width: 100%;
+height: auto;
 
 }
 
