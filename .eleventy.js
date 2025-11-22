@@ -7,7 +7,7 @@ import markdownItAnchor from "markdown-it-anchor";
 export default function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
+
 
   // Shortcodes / Filters
   eleventyConfig.addFilter("readableDate", (dateObj, format = "yyyy LLL dd") => {
