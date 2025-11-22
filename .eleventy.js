@@ -49,6 +49,16 @@ export default function (eleventyConfig) {
     }
   });
 
+    // Minify JS
+    eleventyConfig.addFilter("jsmin", function (code) {
+      let minified = UglifyJS.minify(code);
+      if (minified.error) {
+        console.log("UglifyJS error: ", minified.error);
+        return code;
+      }
+      return minified.code;
+    });
+
         // limit filter for arrays
 eleventyConfig.addFilter("limit", function (arr, limit) {
   if (!Array.isArray(arr)) {
