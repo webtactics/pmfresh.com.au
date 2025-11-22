@@ -3133,6 +3133,11 @@ text-decoration: none;
 .from-left,.from-right {transition: opacity 250ms ease-in, -webkit-transform 800ms ease-in;transition: opacity 250ms ease-in, transform 800ms ease-in;transition: opacity 250ms ease-in, transform 800ms ease-in,-webkit-transform 800ms ease-in;opacity: 0;}
 .from-left.appear,.from-right.appear {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}
 
+.from-left.appear a:hover img,.from-right.appear a:hover img {
+  filter: brightness(110%);
+  transition: all 0.2s ease-in-out;
+}
+
 
 @media (max-width: 1600px) {
 .from-left {-webkit-transform: translateX(-4rem);transform: translateX(-4rem);}
