@@ -1906,8 +1906,8 @@ padding-top:4rem;
 
 
 .left-image, .right-image {
-  width: 700px;
-  height: 348px;
+ max-width: 100%;
+ aspect-ratio: 1920/953;
 }
 
 
@@ -1915,8 +1915,7 @@ padding-top:4rem;
 
 .left-image img, .right-image img {
   max-width: 100%;
-  width: 700px;
-  height: 348px;
+
   z-index: 1;
   aspect-ratio: 1920/953;
 
