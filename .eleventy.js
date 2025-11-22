@@ -6,7 +6,6 @@ import markdownItAnchor from "markdown-it-anchor";
 
 export default function (eleventyConfig) {
   // Plugins
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
