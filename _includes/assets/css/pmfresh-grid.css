@@ -1527,7 +1527,7 @@ color : var(--white);
 .content {
   margin: 0 auto;
   padding: 8rem 0;
-  width: calc(100vw - 1rem);
+  width: calc(100vw - 2rem);
   max-width: 1440px;
   background-color: var(--white);
   min-height: 300px;
