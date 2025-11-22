@@ -715,9 +715,7 @@ grid-template-rows: var(--headerheight);
    
 @media (max-width: 1600px) { 
 .navwrapper {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
+ 
     }
   }
 
