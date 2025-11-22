@@ -2139,7 +2139,7 @@ a.resultspdf:hover {
 .content.emailbgcontainer {
   margin: 0 auto;
   padding: 4rem 0;
-  width: calc(100vw - 1rem);
+  width: calc(100vw - 4rem);
   max-width: 1440px;
   background-color: transparent;
   min-height: 300px;
