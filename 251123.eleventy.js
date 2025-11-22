@@ -54,9 +54,13 @@ module.exports = function (eleventyConfig) {
 
 
   // Redirects
-  eleventyConfig.addPlugin(redirectsPlugin, {
-    template: 'netlify', // netlify, vercel or clientSide
-  });
+  module.exports = function(eleventyConfig) {
+    config.addPlugin(redirectsPlugin, {
+      template: 'netlify', // netlify, vercel or clientSide
+    })
+  }
+
+
 
       // limit filter for arrays
 eleventyConfig.addFilter("limit", function (arr, limit) {
@@ -113,8 +117,8 @@ eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== ex
 
 
   // Copy any .pdf file to `_site`, via Glob pattern
-  // Keeps the same directory structure.
-  eleventyConfig.addPassthroughCopy("**/*.pdf");
+	// Keeps the same directory structure.
+	eleventyConfig.addPassthroughCopy("**/*.pdf");
 
   // Markdown plugins
   let markdownIt = require("markdown-it");
