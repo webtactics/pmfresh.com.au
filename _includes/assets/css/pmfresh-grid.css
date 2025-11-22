@@ -3145,17 +3145,15 @@ text-decoration: none;
 
 
 @media (max-width: 1600px) {
-.from-left {-webkit-transform: translateX(4rem);transform: translateX(4rem);}
+.from-left {-webkit-transform: translateX(-4rem);transform: translateX(-4rem);}
 .from-right {-webkit-transform: translateX(4rem);transform: translateX(4rem);}
 }
 
 
 
 @media (max-width: 1200px) {
-  .from-left, .from-right {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
+.from-left {-webkit-transform: translateX(-1rem);transform: translateX(-1rem);}
+.from-right {-webkit-transform: translateX(1rem);transform: translateX(1rem);}
 }
 
 /* Bottom */
