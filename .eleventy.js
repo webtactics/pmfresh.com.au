@@ -49,6 +49,17 @@ export default function (eleventyConfig) {
     }
   });
 
+        // limit filter for arrays
+eleventyConfig.addFilter("limit", function (arr, limit) {
+  if (!Array.isArray(arr)) {
+    return [];
+  }
+  return arr.slice(0, limit);
+});
+
+
+eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== exclude));
+
   // Collections
   eleventyConfig.addCollection("posts", function (collectionApi) {
     return collectionApi.getFilteredByGlob("./src/posts/**/*.md").sort((a, b) => b.date - a.date);
