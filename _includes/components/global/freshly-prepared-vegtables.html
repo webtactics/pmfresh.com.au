@@ -120,7 +120,7 @@
 <div class="pad4rem"></div>
 <div class="productcatagory content">
 <h3>Related Freshly Prepared Vegetable Products</h3>
-{% set postslist = collections['Freshly Prepared Vegetables'] | exclude("Mixed Vegetables for Roasting") | limit(4)  %} 
+{% set postslist = collections['Freshly Prepared Vegetables'] | exclude("['Mixed Vegetables for Roasting']") | limit(4)  %} 
 {% include "components/postslist-products-4-wide.njk" %}
 <div class="linkwrapper"><a class="resultspdf" href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables">More Freshly Prepared Vegetables &gt;</a></div>
 </div>
