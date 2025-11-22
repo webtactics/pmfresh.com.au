@@ -1906,7 +1906,7 @@ padding-top:4rem;
 
 
 .left-image {
-
+text-align: right;
 
 
 }
@@ -3125,7 +3125,7 @@ text-decoration: none;
 .from-left.appear,.from-right.appear {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .from-left, .from-right {
     -webkit-transform: translateX(0);
     transform: translateX(0);
