@@ -1906,8 +1906,6 @@ padding-top:4rem;
 
 
 .left-image {
-text-align: right;
-
 
 }
 
@@ -1915,31 +1913,14 @@ text-align: right;
 
 }
 
-.right-image appear {
-    animation-name: slideInFromLeft;
-    animation-duration: 1s;
-    animation-timing-function: 
-ease-out;
-    animation-fill-mode: forwards;
-    height: 100vh;
-    width: 40vw;
-    min-width: 500px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-}
-
-
 
 
 
 .left-image img, .right-image img {
   max-width: 100%;
-  height: auto;
-  max-height: 500px;
   z-index: 1;
   aspect-ratio: 1920/953;
-  overflow: hidden;
+
 }
 
 .content .indent {
