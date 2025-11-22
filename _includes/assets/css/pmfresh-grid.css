@@ -1914,6 +1914,25 @@ text-align: right;
 .right-image {
 
 }
+
+.right-image appear {
+    animation-name: slideInFromLeft;
+    animation-duration: 1s;
+    animation-timing-function: 
+ease-out;
+    animation-fill-mode: forwards;
+    height: 100vh;
+    width: 40vw;
+    min-width: 500px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+
 .left-image img, .right-image img {
   max-width: 100%;
   height: auto;
@@ -3125,9 +3144,9 @@ text-decoration: none;
 .from-left.appear,.from-right.appear {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}
 
 
-@media (max-width: 1500px) {
-.from-left {-webkit-transform: translateX(-10%);transform: translateX(-10%);}
-.from-right {-webkit-transform: translateX(10%);transform: translateX(10%);}
+@media (max-width: 1600px) {
+.from-left {-webkit-transform: translateX(4rem);transform: translateX(4rem);}
+.from-right {-webkit-transform: translateX(4rem);transform: translateX(4rem);}
 }
 
 
