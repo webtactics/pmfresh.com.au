@@ -1,6 +1,5 @@
 import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
-import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import markdownIt from "markdown-it";
@@ -71,7 +70,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
   // Watch targets (does not compile Sass — see note)
-  eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addWatchTarget("./src/js/");
 
   // Markdown configuration
