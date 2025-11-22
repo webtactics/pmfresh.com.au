@@ -1,6 +1,7 @@
 import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
 import pluginNavigation from "@11ty/eleventy-navigation";
+import UglifyJS from "uglify-js";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 
