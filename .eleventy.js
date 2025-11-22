@@ -1,7 +1,6 @@
 import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
 import pluginNavigation from "@11ty/eleventy-navigation";
-import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 
