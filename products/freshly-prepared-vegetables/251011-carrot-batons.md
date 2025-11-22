@@ -10,7 +10,7 @@ tags:
 - Carrot Batons
 
 freshlypreparedvegetables: true
-
+carrotbatons: true
 
 
 ingredients: 100% Carrots.

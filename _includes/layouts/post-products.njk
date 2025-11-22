@@ -210,6 +210,9 @@ section: post
 {% include "components/global/tagged.html" %}
 
 
+{% include "components/global/tagged.html" %}
+
+
 {% if cookedchilled %}
 <div class="pad4rem"></div>
 <div class="productcatagory content">
@@ -217,18 +220,9 @@ section: post
 {% set postslist = collections['Cooked & Chilled']  | limit(4)  %} 
 {% include "components/postslist-products-4-wide.njk" %}
 <div class="linkwrapper"><a class="resultspdf" href="/products/cooked-chilled/" title="Cooked Chilled" alt="Cooked Chilled">More Cooked & Chilled Products &gt;</a></div>
-
-
 </div>
 
-{% elif freshlypreparedvegetables and crunchysaladkit %}
-<div class="pad4rem"></div>
-<div class="productcatagory content">
-<h3>Related Freshly Prepared Vegetable Products</h3>
-{% set postslist = collections['Freshly Prepared Vegetables'] | exclude("Crunchy Salad Kit") | limit(4)  %} 
-{% include "components/postslist-products-4-wide.njk" %}
-<div class="linkwrapper"><a class="resultspdf" href="/products/freshly-prepared-vegetables/" title="Freshly Prepared Vegetables" alt="Freshly Prepared Vegetables">More Freshly Prepared Vegetables &gt;</a></div>
-</div>
+
 
 
 {% elif leafysalads %}
