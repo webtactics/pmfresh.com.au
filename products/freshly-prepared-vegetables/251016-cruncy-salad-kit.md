@@ -1,5 +1,4 @@
 ---
-eleventyExcludeFromCollections: ["Products"]
 title: Crunchy Salad Kit
 date: 2025-10-16
 description: Crunchy Salad Kit - An Asian inspired salad blend of wombok, tatsoi, carrot, rocket, red onion with crispy fried noodles and an Asian chilli and lime dressing. Ready to enjoy.
