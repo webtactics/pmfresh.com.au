@@ -3149,6 +3149,11 @@ text-decoration: none;
 .from-right {-webkit-transform: translateX(2rem);transform: translateX(2rem);}
 }
 
+@media (max-width: 800px) {
+.from-left {-webkit-transform: translateX(-1rem);transform: translateX(-1rem);}
+.from-right {-webkit-transform: translateX(1rem);transform: translateX(1rem);}
+}
+
 /* Bottom */
 
 
