@@ -90,7 +90,7 @@ export default function (eleventyConfig) {
   // Return config
   return {
     dir: {
-      input: "src",
+      input: ".",
       includes: "_includes",
       data: "_data",
       output: "_site",
