@@ -2276,7 +2276,7 @@ h3.news-title a {
 
 h3.news-title a:hover {
   color: var(--white);
-  background-color: var(--primarydark);
+  background-color: var(--darkgreen);
   transition: background-color .6s;
 }
 
