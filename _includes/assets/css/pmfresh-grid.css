@@ -2276,7 +2276,10 @@ h3.news-title a {
 
 h3.news-title a:hover {
   color: var(--white);
-  background-color: var(--darkgreen);
+   background-color: -webkit-linear-gradient(left, #73B72B , #00B2C2);
+  background-color: -o-linear-gradient(right, #73B72B, #00B2C2);
+  background-color: -moz-linear-gradient(right, #73B72B, #00B2C2);
+  background-color: linear-gradient(to right, #73B72B , #00B2C2);
   transition: background-color .6s;
 }
 
