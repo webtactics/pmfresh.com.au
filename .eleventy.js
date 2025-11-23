@@ -86,7 +86,7 @@ eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== ex
     });
 
   // Shuffle / randomize array 
-  config.addFilter("shuffle", function(array) {
+  eleventyConfig.addFilter("shuffle", function(array) {
       // Create a copy of the array to avoid modifying the original
       let shuffledArray = array.slice();
 
