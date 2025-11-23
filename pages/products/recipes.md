@@ -25,9 +25,9 @@ eleventyNavigation:
   order: 5
 ---
 
-<p>Fresh recipes and fresh thinking.</p>
 
-<p>Discover a variety of delicious recipes crafted to make the most of our freshly prepared PMFresh vegetables.</p>
+
+<p>Discover delicious recipes crafted to make the most of our freshly prepared PMFresh vegetables and salads.</p>
 
 <p>Whether you're looking for quick meal ideas or gourmet dishes, our recipes are designed to inspire your culinary creativity.</p>
 
