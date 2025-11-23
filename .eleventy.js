@@ -54,7 +54,7 @@ module.exports = function (eleventyConfig) {
 
 
   // Inside your module.exports = config => { ... } block
-eleventyconfig.addFilter("intersection", (arr1, arr2) => {
+config.addFilter("intersection", (arr1, arr2) => {
     // 1. Get the URLs/IDs from the second array
     const arr2_ids = arr2.map(item => item.url);
 
