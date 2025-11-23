@@ -12,6 +12,22 @@ module.exports = function (eleventyConfig) {
   // Merge data instead of overriding
   eleventyConfig.setDataDeepMerge(true);
 
+
+// 👇 The custom filter goes here 👇
+    eleventyConfig.addFilter("intersection", (arr1, arr2) => {
+        // Check if both arrays exist and are non-empty before trying to map/filter
+        if (!arr1 || !arr2 || arr1.length === 0 || arr2.length === 0) {
+            return [];
+        }
+        
+        // 1. Get the URLs/IDs from the second array
+        const arr2_ids = arr2.map(item => item.url);
+
+        // 2. Filter the first array
+        return arr1.filter(item => arr2_ids.includes(item.url));
+    });
+
+
   // Add support for maintenance-free post authors
   eleventyConfig.addCollection("authors", (collection) => {
     const blogs = collection.getFilteredByGlob("posts/*.md");
@@ -53,14 +69,7 @@ module.exports = function (eleventyConfig) {
   });
 
 
-  // Inside your module.exports = config => { ... } block
-config.addFilter("intersection", (arr1, arr2) => {
-    // 1. Get the URLs/IDs from the second array
-    const arr2_ids = arr2.map(item => item.url);
 
-    // 2. Filter the first array to only keep items whose URL/ID exists in the arr2_ids list
-    return arr1.filter(item => arr2_ids.includes(item.url));
-});
 
   // Redirects
   eleventyConfig.addPlugin(redirectsPlugin, {
