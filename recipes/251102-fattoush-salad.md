@@ -11,6 +11,8 @@ serves: 4
 tags:
 - Tabbouleh
 
+Tabbouleh: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/fattoush-salad_lJ5ZMUW61y.jpg
 
 

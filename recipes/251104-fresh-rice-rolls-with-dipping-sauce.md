@@ -14,6 +14,8 @@ makes: 12
 tags:
 - Coleslaw
 
+Coleslaw: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/fresh-rice-rolls-with-dipping-sauce_e3LsjPhLn.jpg
 
 
