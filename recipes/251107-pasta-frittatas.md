@@ -13,6 +13,8 @@ serves: 6
 tags:
 - Pasta Salad
 
+PastaSalad: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/pasta-frittatas_YOdkVnpcZ.jpg
 
 

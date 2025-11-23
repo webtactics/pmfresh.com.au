@@ -13,6 +13,8 @@ serves: 4
 tags:
 - Spinach Leaves
 
+SpinachLeaves: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/spinach-ricotta-and-lemon-pasta-shells_bhOGsERNdm.jpg
 
 

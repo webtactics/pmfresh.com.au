@@ -13,6 +13,8 @@ serves: 4
 tags:
 - Kaleslaw
 
+Kaleslaw: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/recipes/healthy-lunch-jars_CUWLoZrchQ.jpg
 
 
