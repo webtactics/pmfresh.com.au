@@ -53,6 +53,15 @@ module.exports = function (eleventyConfig) {
   });
 
 
+  // Inside your module.exports = config => { ... } block
+eleventyconfig.addFilter("intersection", (arr1, arr2) => {
+    // 1. Get the URLs/IDs from the second array
+    const arr2_ids = arr2.map(item => item.url);
+
+    // 2. Filter the first array to only keep items whose URL/ID exists in the arr2_ids list
+    return arr1.filter(item => arr2_ids.includes(item.url));
+});
+
   // Redirects
   eleventyConfig.addPlugin(redirectsPlugin, {
     template: 'netlify', // netlify, vercel or clientSide

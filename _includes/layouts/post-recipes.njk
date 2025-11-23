@@ -61,22 +61,10 @@ section: post
 <div class="pad4rem"></div>
 <div class="productcatagory content">
 <h3>Related Products:</h3>
-{# 1. Initialize an empty array to store the shared recipes #}
-{% set intersection_recipes = [] %}
+{# Use the custom filter to find the items that exist in BOTH collections #}
+{% set intersection_recipes = collections.Products | intersection(collections['Pasta Salad']) %}
 
-{# 2. Get a list of URLs from the second collection for comparison #}
-{% set pasta_salad_urls = collections['Pasta Salad'] | map(attribute='url') %}
-
-{# 3. Loop through the first collection (Products) #}
-{% for item in collections.Products %}
-    {# 4. Check if the current item's URL is in the pasta_salad_urls array #}
-    {% if pasta_salad_urls | includes(item.url) %}
-        {# 5. If it is, add the item to the intersection array #}
-        {% set intersection_recipes = intersection_recipes.push(item) or intersection_recipes %}
-    {% endif %}
-{% endfor %}
-
-{# 6. Apply your random limit filter to the intersection #}
+{# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
 
 {% include "components/postslist-recipes-4-wide.njk" %}
