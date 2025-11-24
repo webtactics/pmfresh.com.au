@@ -50,16 +50,12 @@ section: post
 {% include "components/global/tagged.html" %}
 
  {% if CrunchySaladKit %}
-<div class="pad4rem"></div>
-<div class="productcatagory content">
-<h3>Related Products:</h3>
 {# Use the custom filter to find the items that exist in BOTH collections #}
 {% set intersection_recipes = collections.Products | intersection(collections['Crunchy Salad Kit']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide.njk" %}
-<div class="linkwrapper"><a class="resultspdf" href="/products/" title="More Products" alt="More Products">More Products &gt;</a></div>
-</div>
+{% include "components/postslist-products-4-wide-intersection.njk" %}
+
 
  {% elif PastaSalad %}
 {# Use the custom filter to find the items that exist in BOTH collections #}
@@ -70,31 +66,23 @@ section: post
 
 
  {% elif Coleslaw %}
-<div class="pad4rem"></div>
-<div class="productcatagory content">
-<h3>Related Products:</h3>
 {# Use the custom filter to find the items that exist in BOTH collections #}
 {% set intersection_recipes = collections.Products | intersection(collections['Coleslaw']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide.njk" %}
-<div class="linkwrapper"><a class="resultspdf" href="/products/" title="More Products" alt="More Products">More Products &gt;</a></div>
-</div>
+{% include "components/postslist-products-4-wide-intersection.njk" %}
+
+
 
  {% elif PotatoSalad %}
-<div class="pad4rem"></div>
-<div class="productcatagory content">
-<h3>Related Products:</h3>
 {# Use the custom filter to find the items that exist in BOTH collections #}
 {% set intersection_recipes = collections.Products | intersection(collections['Potato Salad']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide.njk" %}
-<div class="linkwrapper"><a class="resultspdf" href="/products/" title="More Products" alt="More Products">More Products &gt;</a></div>
-</div>
+{% include "components/postslist-products-4-wide-intersection.njk" %}
+
 
  {% elif Tabbouleh %}
-
 {# Use the custom filter to find the items that exist in BOTH collections #}
 {% set intersection_recipes = collections.Products | intersection(collections['Tabbouleh']) %}
 {# Apply your random limit filter to the resulting list #}
@@ -103,28 +91,20 @@ section: post
 
 
  {% elif SpinachLeaves %}
-<div class="pad4rem"></div>
-<div class="productcatagory content">
-<h3>Related Products:</h3>
 {# Use the custom filter to find the items that exist in BOTH collections #}
 {% set intersection_recipes = collections.Products | intersection(collections['Spinach Leaves']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide.njk" %}
-<div class="linkwrapper"><a class="resultspdf" href="/products/" title="More Products" alt="More Products">More Products &gt;</a></div>
-</div>
+{% include "components/postslist-products-4-wide-intersection.njk" %}
+
 
  {% elif Kaleslaw %}
-<div class="pad4rem"></div>
-<div class="productcatagory content">
-<h3>Related Products:</h3>
 {# Use the custom filter to find the items that exist in BOTH collections #}
 {% set intersection_recipes = collections.Products | intersection(collections['Kaleslaw']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide.njk" %}
-<div class="linkwrapper"><a class="resultspdf" href="/products/" title="More Products" alt="More Products">More Products &gt;</a></div>
-</div>
+{% include "components/postslist-products-4-wide-intersection.njk" %}
+
 {% endif %}
 
 
