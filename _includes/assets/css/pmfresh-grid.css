@@ -669,7 +669,7 @@ grid-template-rows: var(--headerheight);
 
 .navwrapper {
   display: grid;
-  grid-template-columns:250px  1fr;
+  grid-template-columns:300px  1fr;
   grid-template-areas:
     "logo navrightside";
     grid-template-rows: var(--headerheight);
@@ -686,7 +686,7 @@ grid-template-rows: var(--headerheight);
 
 .scrolled  .navwrapper {
       display: grid;
-      grid-template-columns:250px  1fr;
+      grid-template-columns:300px  1fr;
       grid-template-areas:
         "logo navrightside";
         grid-template-rows: var(--navbottomheight); 
