@@ -1,9 +1,9 @@
 {
     "layout": "layouts/post-products.njk",
-    "permalink": "products/{{ title | slug }}/index.html",
+    "permalink": "locations/{{ title | slug }}/index.html",
     "author": "Anonymous",
     "tags": [
-     "Clients"
+     "Locations"
     ]
   }
   
