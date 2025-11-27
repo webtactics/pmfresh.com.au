@@ -516,13 +516,13 @@ color: var(--primary);
 
 
 p {
-font-family: 'Open Sans' , sans-serif;
+ font-family: ProximaNova, sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 color: var(--text);
 text-rendering: optimizeLegibility;
-font-size: 1rem;
-font-size: clamp(16px, 2vw + 1rem, 1.1rem);
+font-size: 1.2rem;
+font-size: clamp(18px, 2vw + 1rem, 1.1rem);
 line-height: 1.7rem;
 margin: 0 0 1rem 0;
 padding:0;}
