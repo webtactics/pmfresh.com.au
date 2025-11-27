@@ -78,11 +78,30 @@
 }
 
 
-
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/static/fonts/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/static/fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  
+  /* montserrat-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/static/fonts/montserrat-v26-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/static/fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  
 
 
 @font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'ProximaNova';
     font-weight: 300;
     src: url('/static/fonts/proxima_nova_light_0-webfont.eot');
@@ -95,7 +114,7 @@
 }
 
 @font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'ProximaNova';
     font-weight: 400;
     src: url('/static/fonts/proxima_nova_reg_0-webfont.eot');
@@ -108,7 +127,7 @@
 }
 
 @font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'ProximaNova';
     font-weight: 600;    
     src: url('/static/fonts/proxima_nova_sbold-webfont.eot');
@@ -121,7 +140,7 @@
 }
 
 @font-face {
-      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'ProximaNova';
     font-weight: 700;
     src: url('/static/fonts/proxima_nova_bold_0-webfont.eot');
@@ -516,14 +535,14 @@ color: var(--primary);
 
 
 p {
-font-family: 'Open Sans' , sans-serif;
+  font-family: 'ProximaNova', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 color: var(--text);
 text-rendering: optimizeLegibility;
 font-size: 1rem;
-font-size: clamp(16px, 2vw + 1rem, 1.1rem);
-line-height: 1.7rem;
+font-size: clamp(18px, 2vw + 1rem, 1.1rem);
+line-height: 1.8rem;
 margin: 0 0 1rem 0;
 padding:0;}
 
@@ -1550,7 +1569,6 @@ color : var(--white);
 }
 .content.home h3 {
   font-size: 3rem;
- font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   color: var(--primary);
   text-align: center;
   padding: 2rem 0 3rem 0;
