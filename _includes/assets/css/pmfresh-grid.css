@@ -1933,8 +1933,8 @@ height: auto;
   top: 0.4rem;
 }
 
-.content .indent p {
-  font-weight:400;
+.content.ctabgcontainer .right-cta.fade-in .indent p {
+  font-weight: 400;
 }
 
 @media (max-width: 1024px) { 
