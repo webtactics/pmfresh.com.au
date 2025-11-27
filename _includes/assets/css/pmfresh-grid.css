@@ -2915,7 +2915,7 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 
   position: relative;
 
-  padding-bottom: 100%; /* This is the aspect ratio */
+  padding-bottom: 75%; /* This is the aspect ratio */
 
   height: 0;
 
