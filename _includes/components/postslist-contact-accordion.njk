@@ -4,8 +4,8 @@
 
 
  <div class="accordion-item">
-    <input id="accordion-trigger-1" class="accordion-trigger-input" type="checkbox"></input>
-      <label class="accordion-trigger" for="accordion-trigger-1">{{ post.data.title }}</label>
+    <input id="accordion-trigger-{{ post.data.order }}" class="accordion-trigger-input" type="checkbox"></input>
+      <label class="accordion-trigger" for="accordion-trigger-{{ post.data.order }}">{{ post.data.title }}</label>
         <section class="accordion-animation-wrapper">
           <div class="accordion-animation">
             <div class="accordion-transform-wrapper">
