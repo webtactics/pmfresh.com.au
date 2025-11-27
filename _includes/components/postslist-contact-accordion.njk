@@ -16,7 +16,12 @@
                 <div class="description">Tel: {{ post.data.Address }}</div>
                  <div class="description">Tel: {{ post.data.Address2 }}</div>
 
-                 <div class="google-maps">{{ post.data.map }}</div>
+           
+                 {% if post.data.mapnsw %}
+<div class="map">{% include "components/contact-maps/nsw.html" %}</div>
+                    {% endif %}
+    
+            
 
               </div>
             </div>
