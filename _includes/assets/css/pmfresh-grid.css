@@ -773,7 +773,7 @@ grid-template-rows: var(--headerheight);
     height:auto;
   
   }
-.scrolled .logo img {max-width:180px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-width:160px;aspect-ratio: 466 / 158;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
