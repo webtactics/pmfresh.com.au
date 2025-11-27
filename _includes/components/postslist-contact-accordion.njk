@@ -11,17 +11,20 @@
             <div class="accordion-transform-wrapper">
               <div class="accordion-content">
                 
-
+<div class="grid-2-products">
+    <div class="content-left">
                 <div class="description">Tel: {{ post.data.Tel }}</div>
                 <div class="description">Tel: {{ post.data.Address }}</div>
                  <div class="description">Tel: {{ post.data.Address2 }}</div>
 
-           
+           </div>
+           <div class="content-right">
                  {% if post.data.mapnsw %}
 <div class="map">{% include "components/contact-maps/nsw.html" %}</div>
                     {% endif %}
     
-            
+            </div>
+            </div>
 
               </div>
             </div>
