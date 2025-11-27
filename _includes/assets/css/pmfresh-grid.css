@@ -1935,6 +1935,7 @@ height: auto;
 
 .content.ctabgcontainer .right-cta.fade-in .indent p {
   font-weight: 400;
+  color:var(--black);
 }
 
 @media (max-width: 1024px) { 
