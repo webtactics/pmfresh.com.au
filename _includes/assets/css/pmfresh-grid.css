@@ -2897,7 +2897,11 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 
 /* Useful links */
 
-
+.map {
+  margin: 2rem 0;
+  width: 100%;
+  max-height: 600px;
+}
 
 
 .google-maps {
