@@ -3021,12 +3021,14 @@ textarea
   transition: box-shadow var(--transitionLength) var(--transitionTiming);
   z-index: 1;
   cursor: pointer;
-
   color: var(--black);
   font-size: 1.3rem;
 }
 
-
+.contactpage .accordion-trigger {
+  font-size: 3rem;
+    color: var(--primary);
+}
 
  .accordion-trigger:hover, .accordion-trigger:active, .accordion-trigger:focus {
 
