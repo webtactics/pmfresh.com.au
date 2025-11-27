@@ -3033,8 +3033,10 @@ textarea
 }
 
 .contactpage .accordion-trigger {
-  font-size: 3rem;
+  font-size: 2rem;
     color: var(--primary);
+    font-weight:700;
+    text-indent: 2rem;
 }
 
  .accordion-trigger:hover, .accordion-trigger:active, .accordion-trigger:focus {
@@ -3091,6 +3093,37 @@ text-decoration: none;
   transform: rotate(135deg);
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
+
+.contactpage .accordion-trigger::after {
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 1.4rem;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  border: 0.5rem solid var(--black);
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: rotate(135deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+}
+
+.contactpage .accordion-trigger:hover::after {  border: 2px solid var(--primary);
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  content: '';
+  width: 8px;
+  height: 8px;
+
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: rotate(135deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+}
+
 
 
 .accordion-trigger-input:checked ~ .accordion-trigger::after {
