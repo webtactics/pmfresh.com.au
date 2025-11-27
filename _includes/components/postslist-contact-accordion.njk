@@ -1,0 +1,30 @@
+ <div class="accordion">
+	{% for post in postslist  %}
+
+
+
+ <div class="accordion-item">
+    <input id="accordion-trigger-1" class="accordion-trigger-input" type="checkbox"></input>
+      <label class="accordion-trigger" for="accordion-trigger-1">{{ post.data.title }}</label>
+        <section class="accordion-animation-wrapper">
+          <div class="accordion-animation">
+            <div class="accordion-transform-wrapper">
+              <div class="accordion-content">
+                
+
+                <div class="description">Tel: {{ post.data.Tel }}</div>
+                <div class="description">Tel: {{ post.data.Address }}</div>
+                 <div class="description">Tel: {{ post.data.Address2 }}</div>
+
+                 {{ post.data.content }}
+
+              </div>
+            </div>
+          </div>
+        </section>
+  </div>
+
+
+
+	{% endfor %}
+</div>
