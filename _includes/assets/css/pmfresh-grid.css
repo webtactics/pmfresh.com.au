@@ -669,7 +669,7 @@ grid-template-rows: var(--headerheight);
 
 .navwrapper {
   display: grid;
-  grid-template-columns:300px  1fr;
+  grid-template-columns:250px  1fr;
   grid-template-areas:
     "logo navrightside";
     grid-template-rows: var(--headerheight);
@@ -686,7 +686,7 @@ grid-template-rows: var(--headerheight);
 
 .scrolled  .navwrapper {
       display: grid;
-      grid-template-columns:300px  1fr;
+      grid-template-columns:250px  1fr;
       grid-template-areas:
         "logo navrightside";
         grid-template-rows: var(--navbottomheight); 
@@ -764,7 +764,7 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:266px;aspect-ratio: 466 / 158;
+  .logo img {max-width:250px;aspect-ratio: 466 / 158;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
@@ -773,7 +773,7 @@ grid-template-rows: var(--headerheight);
     height:auto;
   
   }
-.scrolled .logo img {max-width:200px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-width:180px;aspect-ratio: 466 / 158;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
