@@ -764,15 +764,16 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:236px;aspect-ratio: 466 / 158;
+  .logo img {max-width:266px;aspect-ratio: 466 / 158;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
     -o-transition: all var( --transitionquick);
     transition: all var( --transitionquick);
     height:auto;
+  
   }
-.scrolled .logo img {max-width:148px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-width:200px;aspect-ratio: 466 / 158;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
