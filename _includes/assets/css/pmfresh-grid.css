@@ -522,7 +522,7 @@ font-weight: 300;
 color: var(--text);
 text-rendering: optimizeLegibility;
 font-size: 1.2rem;
-font-size: clamp(18px, 2vw + 1rem, 1.1rem);
+font-size: clamp(18px, 2vw + 1rem, 1.4rem);
 line-height: 1.7rem;
 margin: 0 0 1rem 0;
 padding:0;}
