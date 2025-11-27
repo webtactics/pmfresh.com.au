@@ -3079,7 +3079,7 @@ text-decoration: none;
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
 
-.accordion-trigger:hover::after {  border: 2px solid var(--primary);
+.accordion-trigger:hover::after {  
   display: block;
   position: absolute;
   right: 16px;
@@ -3087,7 +3087,7 @@ text-decoration: none;
   content: '';
   width: 8px;
   height: 8px;
-
+  border: 2px solid var(--primary);
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
@@ -3097,27 +3097,27 @@ text-decoration: none;
 .contactpage .accordion-trigger::after {
   display: block;
   position: absolute;
-  right: 16px;
+  right: 2rem;
   top: 1.4rem;
   content: '';
   width: 1rem;
   height: 1rem;
-  border: 0.5rem solid var(--black);
+  border: 0.4rem solid var(--black);
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
 
-.contactpage .accordion-trigger:hover::after {  border: 2px solid var(--primary);
+.contactpage .accordion-trigger:hover::after { 
   display: block;
   position: absolute;
-  right: 16px;
-  top: 18px;
+  right: 2rem;
+  top: 1.4rem;
   content: '';
-  width: 8px;
-  height: 8px;
-
+  width: 1rem;
+  height: 1rem;
+  border: 0.4rem solid var(--primarydark);
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
