@@ -3244,7 +3244,7 @@ text-decoration: none;
 .description {padding:0 0 1rem 0;}
 .description:first-child {padding:1rem 0;}
 span.contacttext {padding: 0 0.4rem;}
-
+.description.map span.contacttext {padding: 0;}
 
 /* Fade-in from-left */
 
