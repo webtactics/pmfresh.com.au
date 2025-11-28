@@ -13,10 +13,9 @@
                 
 <div class="grid-1x3-maps">
     <div class="content-left">
-                <div class="description tel">Tel: {{ post.data.Tel }}</div>
-                <div class="description address">Address: {{ post.data.Address }}</div>
-                 <div class="description address2">{{ post.data.Address2 }}</div>
-                  <div class="description map">Map Shortcode: {{ post.data.mapshortcode }}</div>
+                <div class="description tel">Tel:<span class="contacttext"><a href="tel:{{ post.data.Tel }}">{{ post.data.Tel }}</a></span></div>
+                <div class="description address">Address:<span class="contacttext">{{ post.data.Address }}</span></div>
+                  <div class="description map">Map Shortcode:<span class="contacttext"><a href="{{ post.data.mapshortcode }}" target="_blank">{{ post.data.mapshortcode }}</a></span></div>
 
            </div>
            <div class="content-right">
