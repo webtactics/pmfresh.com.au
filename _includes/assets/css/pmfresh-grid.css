@@ -3166,6 +3166,12 @@ text-decoration: none;
  transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
 }
 
+.contactpage .accordion-trigger-input:checked ~ .accordion-trigger {
+  box-shadow: 0 4px 12px var(--red);
+ transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
+}
+
+
 .accordion-content {
   padding: 1rem;
   background-color: var(--white);
