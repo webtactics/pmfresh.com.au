@@ -3167,7 +3167,7 @@ text-decoration: none;
 }
 
 .contactpage .accordion-trigger-input:checked ~ .accordion-trigger {
-  box-shadow: 0 4px 12px var(--red);
+ box-shadow: 0 1px 2px var(--primary);
  transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
 }
 
