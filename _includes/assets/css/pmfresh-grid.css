@@ -3148,7 +3148,7 @@ text-decoration: none;
   content: '';
   width: 1rem;
   height: 1rem;
-  border: 0.4rem solid var(--red);
+  border: 0.4rem solid var(--primarydark);
   border-bottom: transparent;
   border-left: transparent;
   transform: rotate(135deg);
@@ -3172,9 +3172,13 @@ text-decoration: none;
   font-size: 0.9rem;
 }
 
+.contactpage .accordion-content {
+  font-size: 1.2rem;
+}
+
+
 .products-details .accordion-content {
   padding: 0.75rem;
-  background-color: var(--white);
 }
 
 .accordion-content h2 {
