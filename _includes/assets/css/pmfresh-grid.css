@@ -3210,8 +3210,8 @@ text-decoration: none;
 }
 
 .accordion-content .contacttext a {
-   font-size: 1.4rem;
-  line-height: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
   color: var(--black);
   border-bottom: 2px dotted var(--primary);
   background-color: var(--white);
@@ -3223,8 +3223,7 @@ text-decoration: none;
   font-weight: 600;
 }
 .accordion-content .contacttext a:hover {
-    font-size: 1.4rem;
-  line-height: 2rem;
+
   color: var(--white);
   border-bottom: 2px solid var(--black);
   text-decoration: none;
