@@ -2374,6 +2374,11 @@ margin:0 auto;
   min-height: auto;
 }
 
+.content.contact {
+  padding: 6rem 0 0 0;
+  min-height: auto;
+}
+
 .container .content .indent.has-title::before {
   top: 18px;
 }
