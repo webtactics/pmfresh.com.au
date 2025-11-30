@@ -496,6 +496,14 @@ text-decoration: none;
   padding: 0 0 1rem 0;
 }
 
+.content.contact .content h3 {
+  line-height: 3rem;
+  font-weight: 700;
+  color: var(--black);
+  padding: 0;
+  margin: 0;
+}
+
 .h3 a, h3 a {
   font-size: 2rem;
   font-size: clamp(1.5rem, 2vw + 1.5rem, 1.75rem);
