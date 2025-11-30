@@ -1595,8 +1595,9 @@ white-space: wrap;
 .float-left {float: left;}
 .float-right {float: right;}
 
-
-
+@media screen and (max-width: 1025px) {
+.nutritiontitle.text-left {text-align: center;}
+}
 
       
 
