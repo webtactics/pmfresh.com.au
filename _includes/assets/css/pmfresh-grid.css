@@ -48,6 +48,7 @@
   --mobilenavheight: 60px;
 
   --h3sum: 1.5rem;
+  --h3summobile: 1.2rem;
 
   --h4sum: 1.2rem;
   --h3h4sumpadding: 0.25rem 0.75rem;
@@ -2125,6 +2126,23 @@ a.resultspdf {
   transition: background-color .6s,text-decoration-color .6s;
 }
 
+@media (max-width: 1024px) { 
+
+a.resultspdf {
+  color: var(--white);
+  background-color: var(--black);
+  font-size: var(--h3summobile);
+  border: none;
+  padding: .25rem 0.5rem;
+  white-space: wrap;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--primary);
+  text-underline-offset: 1rem;
+  transition: background-color .6s,text-decoration-color .6s;
+}
+}
+
 a.resultspdf:hover {
   background-color: var(--primary);
   color: var(--white);
@@ -2135,6 +2153,12 @@ a.resultspdf:hover {
   text-underline-offset: 1rem;
   transition: background-color .6s,text-decoration-color .6s;
 }
+
+
+
+
+
+
 
 /* Newsletter sign-up
 ------------------------------------------------- */
