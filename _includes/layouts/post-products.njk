@@ -57,10 +57,11 @@ section: post
     
             <div class="nutritionservetitle">Product name: {{ title }} </div>
             {% if Servingsperpackage or Servingsize %}
-            <div class="grid-5-7-prod-detail">
+                <div class="nutritiontitle">{% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
+          
             <div class="nutritiontitle">Serves per pack: {{ Servingsperpackage }}</div>
-            <div class="nutritiontitle">{% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
-            </div>
+        
+            
             {% endif %}
             <div class="grid-4-prod-detail">
             <div class="nutritionquantity"></div>
