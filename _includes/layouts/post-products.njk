@@ -55,11 +55,11 @@ section: post
             <!-- start accordion below -->
            
     
-            <div class="nutritionservetitle">Product name: {{ title }} </div>
+            <div class="nutritionservetitle product-title">Product name: {{ title }} </div>
             {% if Servingsperpackage or Servingsize %}
-                <div class="nutritiontitle">{% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
+                <div class="nutritionservetitle">{% if Servingsize %}Serve size: {{ Servingsize }}{% endif %}</div>
           
-            <div class="nutritiontitle">Serves per pack: {{ Servingsperpackage }}</div>
+            <div class="nutritionservetitle">Serves per pack: {{ Servingsperpackage }}</div>
         
             
             {% endif %}

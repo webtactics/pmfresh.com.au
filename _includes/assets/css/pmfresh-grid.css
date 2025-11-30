@@ -2970,9 +2970,10 @@ textarea
 
  /* accordion
 ------------------------------------------------- */
-.nutritionservetitle, .nutritiontitle {
+.nutritionservetitle, {
 border-bottom: 1px solid var(--primary);
     font-weight: 400;
+    padding:0.25rem 0;
 }
 
 .accordion-animation-wrapper {
