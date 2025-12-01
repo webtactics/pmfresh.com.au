@@ -300,19 +300,19 @@
 
     }
 
-  .Slide-in-left h2::before {
+  .Slide-in-left h2::before  {
   left: 1rem;
   top: 63vh;
   width: 3rem;
   height: 0.5rem;
 
   }
-.tagged .Slide-in-left h2 {
+.tagpage .Slide-in-left h2 {
   padding: 50vh 0 0 3rem;
 
     }
 
-  .tagged .Slide-in-left h2::before {
+ .tagpage .Slide-in-left h2::before {
   left: 0.5rem;
   top: 53vh;
   width: 2rem;
