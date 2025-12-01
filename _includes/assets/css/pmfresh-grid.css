@@ -217,6 +217,9 @@
 .Slide-in-left {
   width: 46vw;
     }
+.tagged .Slide-in-left {
+  width: 66vw;
+    }
   }
 
 
