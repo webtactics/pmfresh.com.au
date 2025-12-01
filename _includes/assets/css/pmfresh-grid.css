@@ -217,13 +217,13 @@
 .Slide-in-left {
   width: 46vw;
     }
-.tagged .Slide-in-left {
+.tagpage .Slide-in-left {
   width: 66vw;
     }
   }
 
 @media (max-width: 1024px) {
-    .tagged .Slide-in-left {
+    .tagpage .Slide-in-left {
         width: 86vw;
     }
 }
@@ -264,7 +264,7 @@
 }
 
 
-.tagged .Slide-in-left h2 {
+.tagpage .Slide-in-left h2 {
   color: var(--white);
   font-weight: 700;
   font-size: 3rem;
@@ -276,7 +276,7 @@
 }
 
 
-.tagged .Slide-in-left h2::before {
+.tagpage .Slide-in-left h2::before {
   content: "";
   display: block;
   position: absolute;
@@ -307,7 +307,18 @@
   height: 0.5rem;
 
   }
+.tagged .Slide-in-left h2 {
+  padding: 50vh 0 0 3rem;
 
+    }
+
+  .tagged .Slide-in-left h2::before {
+  left: 0.5rem;
+  top: 53vh;
+  width: 2rem;
+  height: 0.5rem;
+
+  }
 
 
 
