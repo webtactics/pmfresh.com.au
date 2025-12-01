@@ -222,7 +222,11 @@
     }
   }
 
-
+@media (max-width: 1024px) {
+    .tagged .Slide-in-left {
+        width: 86vw;
+    }
+}
 
 
 .hero .Slide-in-left img {
