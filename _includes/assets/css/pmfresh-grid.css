@@ -680,6 +680,8 @@ grid-template-rows: var(--headerheight);
   transition: all var( --transitionquick);
   height: var(--headerheight);
     background: var(--white);
+    box-shadow: 0 1px 2px var(--primary);
+  transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
 
   }
   
