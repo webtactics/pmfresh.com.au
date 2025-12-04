@@ -3371,7 +3371,7 @@ span.contacttext {padding: 0 0.4rem;}
 .contact.privacy ul > li {
 font-family: ProximaNova,sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   color: var(--text);
   text-rendering: optimizeLegibility;
   font-size: 1.2rem;
