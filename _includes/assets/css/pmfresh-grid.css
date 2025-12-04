@@ -881,8 +881,8 @@ a.logolink:hover {background-color: transparent;}
     align-content: end;
   height: 100%;
     width : 100%;
-    max-width:221px;
-    max-height:50px;
+    max-width:164px;
+    max-height:60px;
     aspect-ratio: 486 / 178;
     -webkit-transition: all 1s;
 -moz-transition: all 1s;
