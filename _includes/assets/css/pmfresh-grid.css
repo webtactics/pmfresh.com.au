@@ -1234,6 +1234,7 @@ ul.off-canvas-list > li.parent > a:hover {
   -ms-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
+   line-height: var(--navbottomheight);
 }
 
 
@@ -1252,6 +1253,9 @@ ul.navbar-menu li.active-class  a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  height: var(--navbottomheight);
+   margin: 0;
+  padding: 0;
 }
 
 .navbar-menu,
