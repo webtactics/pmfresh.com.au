@@ -624,11 +624,11 @@ color: var(--black);
   "hamburger navwrapper pad100";
     grid-template-rows: var(--mobilenavheight);
     z-index: 3;
+  background-color:var(--white);
 }  
 
 .topbar, .topbar.scrolled  {
   position: fixed;
-  background-color:var(--white);
   height:var(--mobilenavheight);
   width: 100%;
 z-index: 3;}
@@ -645,7 +645,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
-  background-color:var(--white);
+
  } 
 
  .headerwrapper.scrolled {
@@ -659,7 +659,7 @@ grid-template-rows: var(--headerheight);
     -ms-transition: all var( --transitionquick);
     -o-transition: all var( --transitionquick);
     transition: all var( --transitionquick);
-    background-color:var(--white);
+
    } 
   }
 
@@ -679,8 +679,7 @@ grid-template-rows: var(--headerheight);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--headerheight);
-  background: var(--white);
-border-bottom: 1px solid var(--primary);
+
 
 
   }
@@ -695,8 +694,7 @@ border-bottom: 1px solid var(--primary);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--navbottomheight); 
-    background: var(--white);
-border-bottom: 1px solid var(--primary);
+
  
   }
 
@@ -714,7 +712,7 @@ border-bottom: 1px solid var(--primary);
     -ms-transition: all var(--animation-delay);
     -o-transition: all var(--animation-delay);
     transition: all var(--animation-delay);
-    background-color: var(--white);
+   
   }
 
   .scrolled .hamburger  {
@@ -761,11 +759,7 @@ border-bottom: 1px solid var(--primary);
     transition: all var( --transitionquick);
    } 
    
-@media (max-width: 1600px) { 
-.navwrapper {
- 
-    }
-  }
+
 
 
    @media (max-width: 1024px) { 
@@ -792,7 +786,7 @@ border-bottom: 1px solid var(--primary);
     -ms-transition: all var(--animation-delay);
     -o-transition: all var(--animation-delay);
     transition: all var(--animation-delay);
-    background-color: var(--white);
+
   }
 
 
@@ -930,7 +924,7 @@ transition: all 1s;}
   -ms-transition: all var(--animation-delay);
   -o-transition: all var(--animation-delay);
   transition: all var(--animation-delay);
-  background-color: var(--white);
+
  }
 
 .navrightsidetopline {
@@ -958,7 +952,7 @@ transition: all 1s;}
   transition: all var( --transitionquick);
   padding:0;
   z-index: -10;
-    background: var(--white);
+
  }
 
 
@@ -971,7 +965,7 @@ transition: all 1s;}
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
-   background: var(--white);
+
   display: flex;
     justify-content:flex-end;
   align-items: center;
