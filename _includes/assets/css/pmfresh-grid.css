@@ -804,7 +804,7 @@ grid-template-rows: var(--headerheight);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
-  padding:10px 0;
+  padding:0;
 }
 
  .scrolled .logo {display: flex;
@@ -839,7 +839,7 @@ grid-template-rows: var(--headerheight);
   }
 
 
-
+a.logolink:hover {background-color: transparent;}
 
 
 
