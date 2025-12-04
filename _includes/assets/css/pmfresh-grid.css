@@ -820,7 +820,7 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:250px;aspect-ratio: 466 / 168;
+  .logo img {max-width:250px;aspect-ratio: 486 / 178;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
@@ -829,7 +829,7 @@ grid-template-rows: var(--headerheight);
     height:auto;
   
   }
-.scrolled .logo img {max-width:220px;aspect-ratio: 466 / 168;
+.scrolled .logo img {max-width:220px;aspect-ratio: 486 / 178;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
@@ -883,7 +883,7 @@ a.logolink:hover {background-color: transparent;}
     width : 100%;
     max-width:221px;
     max-height:50px;
-    aspect-ratio: 466 / 168;
+    aspect-ratio: 486 / 178;
     -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
