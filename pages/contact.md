@@ -1,6 +1,6 @@
 ---
 layout: layouts/grid-contact.njk
-title: Contact Primo Moraitis Fresh
+title: Contact PMFresh Pty. Ltd.
 subtitle: Say Hello
 
 class: contact
@@ -20,7 +20,7 @@ contactpage: contactpage
 section: contact
 date: 2024-10-31
 metadata:
-  title: Contact Primo Moraitis Fresh
+  title: Contact PMFresh Pty. Ltd.
 permalink: /contact/
 eleventyNavigation:
   key: Contact
