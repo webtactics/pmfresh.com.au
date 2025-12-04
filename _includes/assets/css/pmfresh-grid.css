@@ -829,7 +829,7 @@ grid-template-rows: var(--headerheight);
     height:auto;
   
   }
-.scrolled .logo img {max-width:220px;aspect-ratio: 486 / 178;
+.scrolled .logo img {max-width:164px;aspect-ratio: 486 / 178;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
