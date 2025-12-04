@@ -820,7 +820,7 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:280px;aspect-ratio: 486 / 178;
+  .logo img {max-width:273px;aspect-ratio: 486 / 178;
     -webkit-transition: all var( --transitionquick);
     -moz-transition: all var( --transitionquick);
     -ms-transition: all var( --transitionquick);
