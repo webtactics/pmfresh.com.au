@@ -798,7 +798,7 @@ grid-template-rows: var(--headerheight);
 .logo {display: flex;
   height: var(--headerheight);
   justify-content:flex-start;
- align-items: center;
+ align-items: start;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
