@@ -668,7 +668,7 @@ grid-template-rows: var(--headerheight);
   
 .topbar {
     position: fixed;
-    background-color: var(--white);
+   
     width: 100%;
     padding: 0;
     top: 0px;
@@ -679,18 +679,28 @@ grid-template-rows: var(--headerheight);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--headerheight);
+    background: var(--primary);
+  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
   }
   
   
   
   .topbar.scrolled {
-    background-color: var(--white);
+   
     -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--navbottomheight); 
+    background: var(--primary);
+  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
   }
 
 
