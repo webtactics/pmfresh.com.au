@@ -1,12 +1,12 @@
 ---
 layout: layouts/grid-contact.njk
-title: Privacy privacy privacy.
-subtitle: Say Hello
+title: Privacy Policy.
+subtitle: We take privacy seriously.
 date: 2025-11-20
 
 
 class: contact privacy
-description: Privacy privacy privacy.
+description: We use Google Analytics to collect visitor data and analyse traffic on our site, we do not collect any personal data.
 image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg
@@ -28,7 +28,6 @@ eleventyNavigation:
 eleventyExcludeFromCollections: true
 ---
 
-<h3>Privacy Policy</h3>
 <p>We use Google Analytics to collect visitor data and analyse traffic on our site, we do not collect any personal data. This information is collected for traffic analysis only that helps us understand visitor interests and helps us improve our website.</p>
 <p>PMFresh does not sell, give, or trade the statistics we store to anyone else for data-mining or marketing purposes.</p>
 <h3>Web Site</h3>
