@@ -960,6 +960,7 @@ transition: all 1s;}
 .navrightsidebottomline {
   text-align: right;
   height: var(--navbottomheight); 
+  line-height: var(--navbottomheight); 
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
