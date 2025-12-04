@@ -816,7 +816,7 @@ grid-template-rows: var(--headerheight);
     -ms-transition: all var( --transitionquick);
     -o-transition: all var( --transitionquick);
     transition: all var( --transitionquick);
-     padding:10px 0;
+     padding:5px 0;
  }
 
 
@@ -829,7 +829,7 @@ grid-template-rows: var(--headerheight);
     height:auto;
   
   }
-.scrolled .logo img {max-width:160px;aspect-ratio: 466 / 158;
+.scrolled .logo img {max-width:200px;aspect-ratio: 466 / 158;
   -webkit-transition: all var( --transitionquick);
   -moz-transition: all var( --transitionquick);
   -ms-transition: all var( --transitionquick);
