@@ -2330,11 +2330,14 @@ h3.news-title {
   color: var(--white);
   background-color: var(--primary);
   font-size: var(--h3sum);
+  padding: var(--h3h4sumpadding);
   white-space: normal;
   transition: background-color .6s;
   width: 100%;
   margin: 0;
-padding:0;
+  min-height: 80px;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
 }
 
 h3.news-title a {
