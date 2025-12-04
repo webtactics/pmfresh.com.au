@@ -2347,7 +2347,7 @@ h3.news-title {
   color: var(--white);
   background-color: var(--primary);
   font-size: var(--h3sum);
-  padding: var(--h3h4sumpadding);
+  padding: 0;
   white-space: normal;
   transition: background-color .6s;
   width: 100%;
