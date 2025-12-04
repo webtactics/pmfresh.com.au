@@ -679,9 +679,9 @@ grid-template-rows: var(--headerheight);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--headerheight);
-    background: var(--white);
-    box-shadow: 0 1px 2px var(--primary);
-  transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
+  background: var(--white);
+border-bottom: 1px solid var(--primary);
+
 
   }
   
@@ -696,8 +696,8 @@ grid-template-rows: var(--headerheight);
   transition: all var( --transitionquick);
   height: var(--navbottomheight); 
     background: var(--white);
-    box-shadow: 0 1px 2px var(--primary);
-  transition: box-shadow calc(var(--transitionLength) / 4) var(--transitionTiming);
+border-bottom: 1px solid var(--primary);
+ 
   }
 
 
