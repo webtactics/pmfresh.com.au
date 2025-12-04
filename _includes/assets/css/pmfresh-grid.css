@@ -41,7 +41,7 @@
   --transitionLength: 0.4s;
   --transitionTiming: ease;
   --transitionquick: 0.6s;
-
+  --transitionslow: 1s;
   --headerheight: 100px;
   --navtopheight: 40px;
   --navbottomheight: 60px;
@@ -799,11 +799,11 @@ grid-template-rows: var(--headerheight);
   height: var(--headerheight);
   justify-content:flex-start;
  align-items: start;
-  -webkit-transition: all var( --transitionquick);
-  -moz-transition: all var( --transitionquick);
-  -ms-transition: all var( --transitionquick);
-  -o-transition: all var( --transitionquick);
-  transition: all var( --transitionquick);
+  -webkit-transition: all var( --transitionslow);
+  -moz-transition: all var( --transitionslow);
+  -ms-transition: all var( --transitionslow);
+  -o-transition: all var( --transitionslow);
+  transition: all var( --transitionslow);
   padding:0;
 }
 
@@ -811,30 +811,30 @@ grid-template-rows: var(--headerheight);
     height: var(--navbottomheight); 
     justify-content:flex-start;
  align-items: start;
-    -webkit-transition: all var( --transitionquick);
-    -moz-transition: all var( --transitionquick);
-    -ms-transition: all var( --transitionquick);
-    -o-transition: all var( --transitionquick);
-    transition: all var( --transitionquick);
+    -webkit-transition: all var( --transitionslow);
+    -moz-transition: all var( --transitionslow);
+    -ms-transition: all var( --transitionslow);
+    -o-transition: all var( --transitionslow);
+    transition: all var( --transitionslow);
      padding:0;
  }
 
 
   .logo img {max-width:273px;aspect-ratio: 486 / 178;
-    -webkit-transition: all var( --transitionquick);
-    -moz-transition: all var( --transitionquick);
-    -ms-transition: all var( --transitionquick);
-    -o-transition: all var( --transitionquick);
-    transition: all var( --transitionquick);
+    -webkit-transition: all var( --transitionslow);
+    -moz-transition: all var( --transitionslow);
+    -ms-transition: all var( --transitionslow);
+    -o-transition: all var( --transitionslow);
+    transition: all var( --transitionslow);
     height:auto;
   
   }
 .scrolled .logo img {max-width:164px;aspect-ratio: 486 / 178;
-  -webkit-transition: all var( --transitionquick);
-  -moz-transition: all var( --transitionquick);
-  -ms-transition: all var( --transitionquick);
-  -o-transition: all var( --transitionquick);
-  transition: all var( --transitionquick);
+  -webkit-transition: all var( --transitionslow);
+  -moz-transition: all var( --transitionslow);
+  -ms-transition: all var( --transitionslow);
+  -o-transition: all var( --transitionslow);
+  transition: all var( --transitionslow);
   height:auto;
   }
 
@@ -853,11 +853,11 @@ a.logolink:hover {background-color: transparent;}
     height: var(--mobilenavheight);
     width:221px;
   text-align: right;
-    -webkit-transition: all var( --transitionquick);
-    -moz-transition: all var( --transitionquick);
-    -ms-transition: all var( --transitionquick);
-    -o-transition: all var( --transitionquick);
-    transition: all var( --transitionquick);
+    -webkit-transition: all var( --transitionslow);
+    -moz-transition: all var( --transitionslow);
+    -ms-transition: all var( --transitionslow);
+    -o-transition: all var( --transitionslow);
+    transition: all var( --transitionslow);
   }
   
    .scrolled .logo {
@@ -867,11 +867,11 @@ a.logolink:hover {background-color: transparent;}
     height: var(--mobilenavheight);
     width:221px;
   text-align: right;
-    -webkit-transition: all var( --transitionquick);
-    -moz-transition: all var( --transitionquick);
-    -ms-transition: all var( --transitionquick);
-    -o-transition: all var( --transitionquick);
-    transition: all var( --transitionquick);
+    -webkit-transition: all var( --transitionslow);
+    -moz-transition: all var( --transitionslow);
+    -ms-transition: all var( --transitionslow);
+    -o-transition: all var( --transitionslow);
+    transition: all var( --transitionslow);
    }
 
   .logo img, .scrolled .logo img  {
