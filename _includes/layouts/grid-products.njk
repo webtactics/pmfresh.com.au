@@ -146,11 +146,13 @@
 
 {% elif whatsinseason %}
 <div class="productcatagory content">
+<div class="pad8rem"></div>
 <h3>In Season</h3>
 {% set postslist = collections['In Season'] | reverse  %} 
 {% include "components/postslist-products-3-wide-no-link.njk" %}
 </div>
 <div class="productcatagory content">
+	<div class="pad8rem"></div>
 <h3>Recipes</h3>
 {% set postslist = collections['Recipes']  %} 
 {% include "components/postslist-recipes-4-wide.njk" %}
