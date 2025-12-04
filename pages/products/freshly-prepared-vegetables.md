@@ -21,9 +21,7 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-lea
 
 permalink: /products/freshly-prepared-vegetables/
 eleventyNavigation:
-  key: Freshly Prepared Vegetables
-  parent: Products
-  order: 2
+  hide: true
 ---
 <p>Enjoy the goodness of fresh vegetables without the hassle of preparation!</p>
 <p>Our range of freshly prepared PMFresh vegetables are ready to prepare and available in both, our bulk range for catering and food service, or individually sealed bags in our pre-packaged range.</p>
