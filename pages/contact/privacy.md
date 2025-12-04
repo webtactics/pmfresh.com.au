@@ -7,7 +7,7 @@ date: 2025-11-20
 
 class: contact privacy
 description: We use Google Analytics to collect visitor data and analyse traffic on our site, we do not collect any personal data.
-image: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/Dressed-Salads-1920x953_NQLl-PwTy9.jpg
+image: https://ik.imagekit.io/webtactics/pmfresh/img/products/categories/careers-cta-banner-1920x953_oxYCrn_Ih.jpg
 
 rightimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/salad-green-leaves-1920x953_a3O8dDt0j.jpg
 
@@ -16,7 +16,7 @@ privacypolicypage: true
 ctatitle: Our Philosophy.
 ctatext: We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.
 ctalink: /about/our-philosophy/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/about-us-cta-banner-1920x953_ztYJNIMRb.jpg
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/leafy-salads-image-1920x953.jpg
 
 
 
