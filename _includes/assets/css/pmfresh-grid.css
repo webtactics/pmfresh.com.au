@@ -679,11 +679,8 @@ grid-template-rows: var(--headerheight);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--headerheight);
-    background: var(--primary);
-  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
-  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
-  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
+    background: var(--white);
+
   }
   
   
@@ -696,11 +693,7 @@ grid-template-rows: var(--headerheight);
   -o-transition: all var( --transitionquick);
   transition: all var( --transitionquick);
   height: var(--navbottomheight); 
-    background: var(--primary);
-  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
-  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
-  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
+    background: var(--white);
   }
 
 
