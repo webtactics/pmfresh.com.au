@@ -16,7 +16,7 @@ privacypolicypage: true
 ctatitle: Our Philosophy.
 ctatext: We bring the freshest and best quality Australian produce to our consumers while delivering fresh thinking in the food industry.
 ctalink: /about/our-philosophy/
-ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/leafy-salads-image-1920x953.jpg
+ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/our-products-banner-salads-1920x953_IRpCU2SFs.jpg
 
 
 
