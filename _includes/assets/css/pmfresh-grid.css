@@ -3372,7 +3372,7 @@ span.contacttext {padding: 0 0.4rem;}
 font-family: ProximaNova,sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: var(--black);
+  color: var(--text);
   text-rendering: optimizeLegibility;
   font-size: 1.2rem;
   font-size: clamp(18px, 2vw + 1rem, 1.4rem);
@@ -3383,7 +3383,7 @@ font-family: ProximaNova,sans-serif;
 
 .contact.privacy li::marker {
   color: var(--primary);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .hide { display: none;}
