@@ -622,10 +622,30 @@ color: var(--black);
   grid-template-columns: 60px 1fr 60px;
   grid-template-areas:
   "hamburger navwrapper pad100";
+grid-template-rows: var(--headerheight);
+    z-index: 3;
+-webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
+}  
+
+
+.headerwrapper.scrolled {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  grid-template-areas:
+  "hamburger navwrapper pad100";
     grid-template-rows: var(--mobilenavheight);
     z-index: 3;
-  background-color:var(--white);
-}  
+    -webkit-transition: all var( --transitionquick);
+  -moz-transition: all var( --transitionquick);
+  -ms-transition: all var( --transitionquick);
+  -o-transition: all var( --transitionquick);
+  transition: all var( --transitionquick);
+
+} 
 
 .topbar, .topbar.scrolled  {
   position: fixed;
@@ -633,35 +653,7 @@ color: var(--black);
   width: 100%;
 z-index: 3;}
 
-@media (max-width: 1300px) {  
-.headerwrapper {
-display: grid;
- grid-template-columns: 100px 1fr 1rem;
-  grid-template-areas:
-"hamburger navwrapper pad100";
-grid-template-rows: var(--headerheight);
--webkit-transition: all var( --transitionquick);
-  -moz-transition: all var( --transitionquick);
-  -ms-transition: all var( --transitionquick);
-  -o-transition: all var( --transitionquick);
-  transition: all var( --transitionquick);
 
- } 
-
- .headerwrapper.scrolled {
-  display: grid;
- grid-template-columns: 100px 1fr 1rem;
-  grid-template-areas:
-"hamburger navwrapper pad100";
-  grid-template-rows: var(--navbottomheight); 
-  -webkit-transition: all var( --transitionquick);
-    -moz-transition: all var( --transitionquick);
-    -ms-transition: all var( --transitionquick);
-    -o-transition: all var( --transitionquick);
-    transition: all var( --transitionquick);
-
-   } 
-  }
 
 @media (min-width: 1025px) {  
 
