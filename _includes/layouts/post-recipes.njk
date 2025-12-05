@@ -54,7 +54,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Crunchy Salad Kit']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 
  {% elif PastaSalad %}
@@ -62,7 +62,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Pasta Salad']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 
  {% elif Coleslaw %}
@@ -70,7 +70,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Coleslaw']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 
 
@@ -79,7 +79,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Potato Salad']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 
  {% elif Tabbouleh %}
@@ -87,7 +87,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Tabbouleh']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 
  {% elif SpinachLeaves %}
@@ -95,7 +95,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Spinach Leaves']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 
  {% elif Kaleslaw %}
@@ -103,7 +103,7 @@ section: post
 {% set intersection_recipes = collections.Products | intersection(collections['Kaleslaw']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
-{% include "components/postslist-products-4-wide-intersection.njk" %}
+{% include "components/postslist-products-4-wide-intersection-no-link.njk" %}
 
 {% endif %}
 
