@@ -1005,6 +1005,7 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   align-items: center;
   cursor: pointer;
   margin: 0 2rem 0 0;
+  background-color: var(--white);
 }
 .infobox > li > a.newslettersign {
   margin: 0 3rem 0 0;
@@ -1018,6 +1019,7 @@ text-decoration: none;
   border-bottom: 3px solid var(--black);
   transition: all var(--transitionquick) ease-in-out;
   padding:0 0.5rem;
+  background-color: var(--white);
 }
 
 a.newslettersign:hover {
@@ -1036,6 +1038,7 @@ text-decoration: none;
   border-bottom: 4px solid var(--black);
   transition: all var(--transitionquick) ease-in-out;
   padding:0 0.5rem;
+  background-color: var(--white);
 }
 a.tradelogin:hover {
 color: var(--black);
