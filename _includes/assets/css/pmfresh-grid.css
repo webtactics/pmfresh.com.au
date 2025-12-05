@@ -1034,7 +1034,7 @@ text-decoration: none;
 }
 
 a.newslettersign:hover {
-color: var(--black);
+color: var(--white);
 text-decoration: none;
 border-bottom: 3px solid var(--primarydark);
 transition: all var(--transitionquick) ease-in-out;
