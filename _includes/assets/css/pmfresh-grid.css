@@ -1512,7 +1512,7 @@ color : var(--white);
 }
 
 .infoboxfooter > li > a.social-icon svg:hover, .infoboxfooter > li > a:hover {
-  color : var(--primarydark);
+  color : var(--black);
   background-color: transparent;
 }
 
