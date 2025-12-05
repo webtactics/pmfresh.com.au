@@ -651,8 +651,9 @@ grid-template-rows: var(--headerheight);
   position: fixed;
   height:var(--mobilenavheight);
   width: 100%;
-z-index: 3;}
-
+z-index: 3;
+background-color: var(--white);
+}
 
 
 @media (min-width: 1025px) {  
@@ -660,7 +661,6 @@ z-index: 3;}
   
 .topbar {
     position: fixed;
-   
     width: 100%;
     padding: 0;
     top: 0px;
@@ -675,7 +675,6 @@ z-index: 3;}
 
 
   }
-  
   
   
   .topbar.scrolled {
