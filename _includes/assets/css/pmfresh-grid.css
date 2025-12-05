@@ -2333,6 +2333,7 @@ h3.news-title-no-link {
   color: var(--white);
   background-color: var(--primary);
   font-size: var(--h3sum);
+  line-height:1rem;
   padding: var(--h3h4sumpadding);
   white-space: normal;
   transition: background-color .6s;
