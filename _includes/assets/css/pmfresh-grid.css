@@ -1533,14 +1533,14 @@ color : var(--white);
 
 .footerright {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
       flex-direction: column; /* This stacks the items vertically */
 }
   
      .footerrightbottomline p {
       color: var(--white);
-      text-align: left;
+      text-align: right;
       padding:0 0 0 2rem;
       font-size: 0.9rem;
      }
