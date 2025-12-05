@@ -647,6 +647,16 @@ grid-template-rows: var(--headerheight);
 
 } 
 
+
+@media (max-width: 1300px) {  
+.headerwrapper, .headerwrapper.scrolled {
+  grid-template-columns: 60px 1fr 1rem;
+}
+}
+
+
+
+
 .topbar, .topbar.scrolled  {
   position: fixed;
   height:var(--mobilenavheight);
