@@ -59,7 +59,7 @@ section: post
 
  {% elif PastaSalad %}
 {# Use the custom filter to find the items that exist in BOTH collections #}
-{% set intersection_recipes = collections.Products | intersection(collections['Pasta Salad']) %}
+{% set intersection_recipes = collections.Products | intersection(collections['pasta-salad']) %}
 {# Apply your random limit filter to the resulting list #}
 {% set postslist = intersection_recipes | randomLimit(4, page.url) %}
 {% include "components/postslist-products-4-wide-intersection-no-link.njk" %}

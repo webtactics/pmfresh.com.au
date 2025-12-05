@@ -4,6 +4,14 @@ date: 2025-10-04
 description: Pasta Salad - A classic salad of tender pasta, creamy mayo, diced vegetables.
 permalink: "/products/pasta-salad/"
 
+tags:
+  - pasta-salad
+  - In Season
+  
+
+cookedchilled: true
+pastasalad: true
+
 image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pasta-Salad_7tqPM0qMrm.jpg
 
 ingredients: Cooked Pasta (49%) (Durum Wheat Semolina, Water), Dressing (31%) (Vegetable Oil, Vinegar, Stabiliser Blend (Sugar, Salt, Vegetable Gums (460, 412, 415), Thickener (1422), Acidity Regulator (330), Colour (160a)), Water, Egg Yolk, Sugar, Stabiliser Blend (Inulin, Vegetable Gums (412, 415)), Mustard (Contains Acidity Regulator (260))), Carrot, Sour Cream (4%) (Cream (From Milk), Milk Solids, Thickener (Halal Gelatin), Culture), Capsicum, Celery, Onion, Cheese (Contains Milk), Shallots, Parsley, Acidity Regulator (270).
@@ -44,13 +52,7 @@ nutrition:
   SodiumperDailyIntakes: 12%
   SodiumAvgQuantityPer100g: 268mg
 
-tags:
-  - pasta-salad
-  - In Season
-  
 
-
-cookedchilled: true
 
 
 
