@@ -1035,7 +1035,7 @@ text-decoration: none;
 a.newslettersign:hover {
 color: var(--black);
 text-decoration: none;
-border-bottom: 3px dotted var(--darkgreen);
+border-bottom: 3px solid var(--primarydark);
 transition: all var(--transitionquick) ease-in-out;
 padding:0 0.5rem;
 }
