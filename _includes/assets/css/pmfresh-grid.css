@@ -3385,7 +3385,7 @@ span.contacttext {padding: 0 0.4rem;}
 
 
 /* Bottom */
-.contact.privacy ul > li {
+.contact.privacy .content-left .indent ul > li {
 font-family: ProximaNova,sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -3398,7 +3398,7 @@ font-family: ProximaNova,sans-serif;
   padding: 0;
 }
 
-.contact.privacy li::marker {
+.contact.privacy .content-left .indent li::marker {
   color: var(--primary);
   font-size: 1.5rem;
 }
