@@ -1521,13 +1521,7 @@ color : var(--white);
 
   @media (max-width: 1050px) {
 
-  
 
-    .footernavwrapper {
-      background-color: var(--primary);
-      border-top: none;
-    
-    }
 
     .footer {
       display: block;
