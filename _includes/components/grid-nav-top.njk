@@ -19,7 +19,7 @@
 
 
 <ul class='navbar-menu'>
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+{% if not entry.hide in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 
 
 </ul>
