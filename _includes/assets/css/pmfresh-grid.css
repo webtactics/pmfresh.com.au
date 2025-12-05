@@ -1005,7 +1005,7 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
   align-items: center;
   cursor: pointer;
   margin: 0 2rem 0 0;
-  background-color: var(--white);
+
 }
 .infobox > li > a.newslettersign {
   margin: 0 3rem 0 0;
