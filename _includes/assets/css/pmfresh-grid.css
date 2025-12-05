@@ -1017,7 +1017,6 @@ a.newslettersign  {
   color: var(--primary);
 text-decoration: none;
   border-bottom: 3px solid var(--black);
-  background-color: var(--white);
   transition: all var(--transitionquick) ease-in-out;
   padding:0 0.5rem;
 }
@@ -1026,7 +1025,6 @@ a.newslettersign:hover {
 color: var(--black);
 text-decoration: none;
 border-bottom: 3px dotted var(--darkgreen);
-background-color: var(--white);
 transition: all var(--transitionquick) ease-in-out;
 padding:0 0.5rem;
 }
@@ -1037,7 +1035,6 @@ padding:0 0.5rem;
   color: var(--black);
 text-decoration: none;
   border-bottom: 4px solid var(--black);
-  background-color: var(--white);
   transition: all var(--transitionquick) ease-in-out;
   padding:0 0.5rem;
 }
@@ -1221,7 +1218,7 @@ ul.off-canvas-list > li.parent > a:hover {
     letter-spacing: -1px;
     text-transform: none;
     color: var(--text);
-    background: var(--white);
+ 
     -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
