@@ -1217,7 +1217,7 @@ ul.off-canvas-list > li.parent > a:hover {
     letter-spacing: -1px;
     text-transform: none;
     color: var(--text);
- 
+  background: var(--white);
     -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
