@@ -1532,7 +1532,7 @@ color : var(--white);
 .footerright {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
       flex-direction: column; /* This stacks the items vertically */
 }
   
