@@ -1548,10 +1548,10 @@ color : var(--white);
  .footernav {
   display: grid;
    grid-template-columns: repeat(1, 1fr); 
-    gap: 1rem;
+    gap: 0;
     margin: 0 auto;
-    width: calc(100vw - 1rem);
-    max-width: 1440px;
+    width: 100%;
+    max-width: 670px;
   padding: 0;
    } 
 
