@@ -1546,8 +1546,17 @@ color : var(--white);
      }
   }
 
+  @media (max-width: 700px) {
+ .footernav {
+  display: grid;
+  grid-template-columns:1fr;
+    margin: 0;
+    width: calc(100vw - 1rem);
+    max-width: 1440px;
+  padding: 10px;
+   } 
 
-
+  }
 /* content layout */
 
 
