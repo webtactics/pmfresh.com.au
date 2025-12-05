@@ -1224,6 +1224,7 @@ ul.off-canvas-list > li.parent > a:hover {
   -o-transition: all .3s;
   transition: all .3s;
    line-height: var(--navbottomheight);
+  height: var(--navbottomheight);
 }
 
 
@@ -1233,6 +1234,8 @@ ul.off-canvas-list > li.parent > a:hover {
 ul.navbar-menu li.active-class  a {
   color: var(--primary);
   background: var(--white);
+     line-height: var(--navbottomheight);
+  height: var(--navbottomheight);
 }
 
 
