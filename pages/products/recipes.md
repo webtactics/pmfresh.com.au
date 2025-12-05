@@ -21,6 +21,8 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/who-we-serve-19
 permalink: /products/recipes/
 eleventyNavigation:
   hide: true
+
+eleventyExcludeFromCollections: true
 ---
 
 

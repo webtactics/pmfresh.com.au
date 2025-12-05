@@ -21,6 +21,8 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/leafy-salads-im
 permalink: /products/cooked-chilled/
 eleventyNavigation:
   hide: true
+
+eleventyExcludeFromCollections: true
 ---
 We supply daily, freshly prepared and cooked chilled food ready to go from the deli counter at your local supermarket.
 

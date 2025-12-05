@@ -6,6 +6,12 @@
 <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
 
 
+  {% if entry.url == "/products/cooked-chilled/" %}
+<li class="hide"><a href="/products/cooked-chilled/" title="cooked-chilled" alt="cooked-chilled" aria-current="page"></a></li>
+    {% endif %}
+
+
+
 
     {% if entry.children.length %}
        <ul class='second-level'>

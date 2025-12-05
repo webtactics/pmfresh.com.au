@@ -21,6 +21,8 @@ ctaimage: https://ik.imagekit.io/webtactics/pmfresh/img/1920x953/our-suppliers-b
 permalink: /products/leafy-salads/
 eleventyNavigation:
   hide: true
+
+eleventyExcludeFromCollections: true
 ---
 <p>We endeavour to have all the most up to date and accurate nutritional information on our website, however, please note that NIP and ingredients lists do change from time to time for a range of reasons.</p>
 
