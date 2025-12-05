@@ -44,7 +44,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 288mg
 
 tags:
-- Original Potato Mash
+- original-potato-mash
   
 cookedchilled: true
 

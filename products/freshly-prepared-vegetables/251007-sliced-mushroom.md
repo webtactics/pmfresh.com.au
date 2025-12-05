@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Mushrooms-Sliced_K
 permalink: "/products/sliced-mushroom/"
 
 tags:
-- Sliced Mushroom
+- sliced-mushroom
 
 freshlypreparedvegetables: true
 slicedmushroom: true

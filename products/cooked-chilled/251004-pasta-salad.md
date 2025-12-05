@@ -45,7 +45,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 268mg
 
 tags:
-  - Pasta Salad
+  - pasta-salad
   - In Season
   
 

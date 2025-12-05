@@ -48,7 +48,7 @@ nutrition:
 
 
 tags:
- - Bean Medley
+ - bean-medley
   
 cookedchilled: true
 

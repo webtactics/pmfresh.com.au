@@ -7,9 +7,8 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Shredded-Carrot_lC
 permalink: "/products/shredded-carrot/"
 
 tags:
-- Shredded Carrot
+- shredded-carrot
   
-
 freshlypreparedvegetables: true
 shreddedcarrot: true
 

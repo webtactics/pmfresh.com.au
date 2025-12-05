@@ -61,7 +61,7 @@ nutrition:
 
 
 tags:
- - Cajun Style Chicken Couscous
+ - cajun-style-chicken-couscous
   
 cookedchilled: true
 

@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Green-Capsicum_UWO
 permalink: "/products/sliced-capsicum/"
 
 tags:
-- Sliced Capsicum
+- sliced-capsicum
   
 freshlypreparedvegetables: true
 slicedcapsicum: true

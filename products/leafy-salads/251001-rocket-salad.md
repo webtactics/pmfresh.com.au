@@ -6,6 +6,12 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Baby-Rocket_6YT0ZM
 
 permalink: "/products/rocket-salad/"
 
+tags:
+  - In Season
+  - rocket-salad
+
+
+leafysalads: true
 
 ingredients: 100% Rocket
 
@@ -41,13 +47,7 @@ nutrition:
   SodiumperDailyIntakes:
   SodiumAvgQuantityPer100g:
 
-tags:
-  - In Season
-  - Rocket Salad
 
-
-
-leafysalads: true
 
 
 

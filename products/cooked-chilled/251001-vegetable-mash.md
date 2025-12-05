@@ -44,7 +44,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 288mg
 
 tags:
-  - Vegetable Mash
+  - vegetable-mash
 
   
 cookedchilled: true

@@ -5,7 +5,7 @@ description: Diced White Onion - Freshly Prepared Vegetables from PMFresh.
 permalink: "/products/diced-white-onion/"
 
 tags:
-- Diced White Onion
+- diced-white-onion
 
 freshlypreparedvegetables: true
 dicedwhiteonion: true

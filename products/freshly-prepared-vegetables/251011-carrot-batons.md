@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Batons_6wzI
 permalink: "/products/carrot-batons/"
 
 tags:
-- Carrot Batons
+- carrot-batons
 
 freshlypreparedvegetables: true
 carrotbatons: true

@@ -8,7 +8,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Potatoe-Peeled_SvI
 permalink: "/products/whole-peeled-potatoes-for-roasting/"
 
 tags:
-- Whole Peeled Potatoes
+- whole-peeled-potatoes-for-roasting
   
 freshlypreparedvegetables: true
 wholepeeledpotatoesforroasting: true

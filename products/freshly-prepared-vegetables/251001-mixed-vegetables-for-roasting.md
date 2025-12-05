@@ -5,7 +5,7 @@ description: Mixed Vegetables for Roasting - A delicious medley of fresh vegetab
 permalink: "/products/mixed-vegetables-for-roasting/"
 
 tags:
-- Mixed Vegetables for Roasting
+- mixed-vegetables-for-roasting
 
 freshlypreparedvegetables: true
 mixedvegetablesforroasting: true

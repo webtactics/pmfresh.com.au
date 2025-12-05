@@ -45,7 +45,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 258mg
 
 tags:
-  - Pumpkin and Couscous Salad
+  - pumpkin-and-couscous-salad
   - In Season
   
 

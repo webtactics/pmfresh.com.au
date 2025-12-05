@@ -8,7 +8,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Diced_Tomato-1024x
 
 
 tags:
-- Diced Tomato
+- diced-tomato
   
 freshlypreparedvegetables: true
 dicedtomato: true

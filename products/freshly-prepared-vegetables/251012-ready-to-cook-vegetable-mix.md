@@ -6,7 +6,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Ready-to-Cook-Vege
 permalink: "/products/ready-to-cook-vegetable-mix/"
 
 tags:
-- Ready to Cook Vegetable Mix
+- ready-to-cook-vegetable-mix
 
 freshlypreparedvegetables: true
 readytocookvegetablemix: true

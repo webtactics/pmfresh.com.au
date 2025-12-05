@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/White-Onion_RVNguC
 permalink: "/products/sliced-brown-onion/"
 
 tags:
-- Sliced Brown Onion
+- sliced-brown-onion
 
 freshlypreparedvegetables: true
 slicedbrownonion: true

@@ -46,7 +46,7 @@ nutrition:
 
 tags:
   - In Season
-  - Potato Salad
+  - potato-salad
 
 
 cookedchilled: true

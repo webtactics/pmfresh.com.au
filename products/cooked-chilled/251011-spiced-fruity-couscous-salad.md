@@ -49,7 +49,7 @@ nutrition:
 
 
 tags:
- - Spiced Fruity Couscous Salad
+ - spiced-fruity-couscous-salad
   
 cookedchilled: true
 

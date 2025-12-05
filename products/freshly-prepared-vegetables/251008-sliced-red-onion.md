@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Red-Onion-Sliced_5
 permalink: "/products/sliced-red-onion/"
 
 tags:
-- Sliced Red Onion
+- sliced-red-onion
 
 freshlypreparedvegetables: true
 slicedredonion: true

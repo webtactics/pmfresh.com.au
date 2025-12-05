@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Carrot-Portions_9u
 permalink: "/products/roasting-carrot-portions/"
 
 tags:
-- Roasting Carrot Portions
+- roasting-carrot-portions
 
 freshlypreparedvegetables: true
 roastingcarrotportions: true

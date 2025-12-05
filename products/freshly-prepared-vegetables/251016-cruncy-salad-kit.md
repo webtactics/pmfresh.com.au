@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Crunchy-Salad-Opti
 permalink: "/products/cruncy-salad-kit/"
 
 tags:
-- Crunchy Salad Kit
+- cruncy-salad-kit
   
 freshlypreparedvegetables: true
 crunchysaladkit: true

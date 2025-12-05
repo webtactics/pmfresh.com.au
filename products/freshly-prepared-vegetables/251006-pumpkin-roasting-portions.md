@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Pumpkin_Oo290lajor
 permalink: "/products/pumpkin-roasting-portions/"
 
 tags:
-- Pumpkin Roasting Portions
+- pumpkin-roasting-portions
 
 freshlypreparedvegetables: true
 pumpkinroastingportions: true

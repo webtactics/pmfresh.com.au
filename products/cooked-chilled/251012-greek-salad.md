@@ -61,7 +61,7 @@ nutrition:
 
 
 tags:
- - Greek Salad
+ - greek-salad
   
 cookedchilled: true
 

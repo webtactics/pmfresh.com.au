@@ -6,6 +6,10 @@ image: https://ik.imagekit.io/webtactics/pmfresh/img/products/Iceberg-Lettuce-Sh
 
 permalink: "/products/shredded-lettuce/"
 
+tags:
+- shredded-lettuce
+
+leafysalads: true
 
 ingredients: 100% Shredded Lettuce.
 
@@ -44,10 +48,7 @@ nutrition:
   SodiumperDailyIntakes: 3%
   SodiumAvgQuantityPer100g: 26mg
 
-tags:
-- Shredded Lettuce
 
-leafysalads: true
 
 
 

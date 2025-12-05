@@ -44,7 +44,7 @@ nutrition:
   SodiumAvgQuantityPer100g: 536mg
 
 tags:
-  - Coleslaw
+  - coleslaw
   - In Season
   
 
