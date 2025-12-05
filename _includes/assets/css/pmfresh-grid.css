@@ -1554,7 +1554,12 @@ color : var(--white);
     max-width: 670px;
   padding: 0;
    } 
-
+.footerright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      flex-direction: column; /* This stacks the items vertically */
+}
   }
 /* content layout */
 
