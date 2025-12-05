@@ -1416,7 +1416,7 @@ svg:hover {
 /* footer layout */
 
 .footernavwrapper {
-  padding: 0;
+  padding: 1rem;
   margin:0;
   }
 
@@ -1425,8 +1425,6 @@ svg:hover {
  .footernav {
   display: grid;
   grid-template-columns:1fr  1fr;
-  grid-template-areas:
-    "footerleft  footerright";
     margin: 0 auto;
     width: calc(100vw - 4rem);
     max-width: 1440px;
