@@ -1,5 +1,6 @@
 <nav class="childlist">
 {% set navPages = collections.all | eleventyNavigation %}
+{% if not entry.hide %}
 {% macro renderNavListItem(entry) -%}
 <li{% if entry.url == page.url %} class="active-class"{% endif %}>
 <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
@@ -16,10 +17,10 @@
   </li>
   {%- endmacro %}
 
-
+{% endif %}
 
 <ul class='navbar-menu'>
-{% if not entry.hide in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 
 
 </ul>
