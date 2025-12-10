@@ -1085,15 +1085,17 @@ align-items: center;
 
 }
 
-.offcanvas .smalltextwrapper h3 {padding-left: 0.5rem;font-size:1.3rem;
+.offcanvas .smalltextwrapper h3 {
+  padding-left: 0.5rem;
+  font-size:1.3rem;
   color: var(--primary);
   text-align: left;
   font-weight:400;
 font-style: normal;
   height: 4rem ;
   line-height: 4rem;
-  margin: 0 0 2px 0;
-  background: var(--white);
+  margin: 0;
+ 
  }
 
 
@@ -2789,7 +2791,18 @@ padding:0 2rem;
     padding: 0;
 }
 
-
+.offcanvas .smalltextwrapper h3 {
+  padding-left: 0.5rem;
+  font-size:1rem;
+  color: var(--primary);
+  text-align: left;
+  font-weight:400;
+font-style: normal;
+    height: 2rem;
+    line-height: 2rem;
+  margin: 0;
+ 
+ }
 
 
 .grid-4-1-gluten {
