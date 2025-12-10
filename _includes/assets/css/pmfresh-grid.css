@@ -1071,8 +1071,8 @@ padding:0 0.5rem;
   line-height: 4rem;
   color: var(--primary);
   font-weight:400;
-   background: var(--white);
-   z-index: 10;
+  
+
 }
 
 .mobilewrapper {
@@ -1081,8 +1081,6 @@ line-height:4rem;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-z-index: 10;
- background: var(--white);
  padding:0 1rem 0 0;
 
 }
