@@ -2618,9 +2618,8 @@ padding:0 2rem;
 .grid-2-mobilenav {
   grid-template-columns: 2fr 3fr;
   gap: 0;
-  border-top: 1px solid var(--red);
    border-bottom: 1px solid var(--primary);
-   margin-top:1rem;
+   margin-top:0.1rem;
 }
 
 
@@ -3376,7 +3375,7 @@ span.contacttext {padding: 0 0.4rem;}
   justify-content: flex-start;
   align-items: center;
   min-height:2rem;
-  margin-bottom:1rem;
+  margin-bottom:0.1rem;
 }
  a.tradeloginmobile {
   color: var(--white);
