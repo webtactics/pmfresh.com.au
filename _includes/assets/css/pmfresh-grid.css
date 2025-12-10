@@ -2620,7 +2620,7 @@ padding:0 2rem;
 .grid-2-mobilenav {
   grid-template-columns: 2fr 3fr;
   gap: 0;
-  background-color: var(--primary);
+  
 }
 
 
