@@ -3375,6 +3375,7 @@ span.contacttext {padding: 0 0.4rem;}
   justify-content: flex-start;
   align-items: center;
   min-height:2rem;
+  margin-bottom:1rem;
 }
  a.tradeloginmobile {
   color: var(--white);
