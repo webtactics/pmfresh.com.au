@@ -2781,7 +2781,7 @@ padding:0 2rem;
     gap: 1rem;
   }
 
-.grid-2-mobilenav {  gap: 0;}
+.grid-2-mobilenav {  gap: 0; border-bottom: 1px solid var(--white);}
 .smalltextwrapper, .mobilewrapper {
     height: 2rem;
     line-height: 2rem;
