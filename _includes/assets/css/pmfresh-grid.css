@@ -3370,6 +3370,38 @@ text-decoration: none;
 span.contacttext {padding: 0 0.4rem;}
 .description.map span.contacttext {padding: 0;}
 
+
+.tradeloginexternal {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height:2rem;
+}
+ a.tradeloginmobile {
+  color: var(--darkblue);
+  background-color: var(--white);
+  font-size: var(--h3sum);
+padding:.75rem .5rem;
+  transition: background .3s ease;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: wrap;
+border:none;
+width:100%;
+}
+
+ a.tradeloginmobile:hover {
+  color: var(--white);
+  background-color: var(--primary);
+  font-size: var(--h3sum);
+padding:.75rem .5rem;
+  transition: background .3s ease;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: wrap;
+border:none;
+}
+
 /* Fade-in from-left */
 
 .fade-in {transform: translateY(4rem);opacity: 0;transition-property: transform, opacity;transition-duration: 1s;transition-timing-function: linear;}
