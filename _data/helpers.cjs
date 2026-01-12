@@ -1,6 +1,5 @@
-module.exports = {
-  currentYear() {
-    const today = new Date();
-    return today.getFullYear();
-  }
-};
+var nunjucks = require('nunjucks');
+var env = nunjucks.configure('views');
+
+// Render the template, passing the currentYear in the context object
+env.render('index.njk', { currentYear: new Date().getFullYear() });
