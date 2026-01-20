@@ -2070,22 +2070,17 @@ padding: 3rem 1rem;}
     font-weight: 500;
   }
 
-  .content2 ul li {
-    float:left;
-    text-align: left;
-    width: 100%;
-  }
-  .content2 ul li::marker {color: var(--black);
-    font-size: 1.5rem;
-  }
 
-.detailwrapper li::marker {
+
+.detailwrapper ul li::marker {
   color: var(--primary);
   font-size: 1.5em;
 }
 .detailwrapper ol li::marker {
-  color: var(--primary);
+  color: var(--white);
   font-size: 1.2em;
+  background-color: var(--primary);
+  border-radius: 50px;
 }
 
 /* Select box 
