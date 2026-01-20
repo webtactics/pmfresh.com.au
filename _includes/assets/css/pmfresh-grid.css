@@ -2077,10 +2077,10 @@ padding: 3rem 1rem;}
   font-size: 1.5em;
 }
 .detailwrapper ol li::marker {
-  color: var(--white);
+  color: var(--primary);
   font-size: 1.2em;
   padding: 0.5rem;
-  background-color: var(--primary);
+  background-color: var(--black);
   border-radius: 5px;
 }
 
