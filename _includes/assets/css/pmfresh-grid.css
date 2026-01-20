@@ -2079,8 +2079,9 @@ padding: 3rem 1rem;}
 .detailwrapper ol li::marker {
   color: var(--white);
   font-size: 1.2em;
+  padding: 0.5rem;
   background-color: var(--primary);
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 /* Select box 
