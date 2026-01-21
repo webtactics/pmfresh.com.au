@@ -1033,6 +1033,8 @@ text-decoration: none;
   background-color: var(--white);
 }
 
+
+
 a.newslettersign:hover, a.tradelogin:hover {
 color: var(--black);
 text-decoration: none;
@@ -1042,11 +1044,8 @@ transition: all var(--transitionquick) ease-in-out;
 padding:0 0.5rem;
 }
 
-
-a.tradelogin:hover {
-background-color: var(--primarydark30);
-
-} 
+a.tradelogin  {font-weight:600;}
+a.tradelogin:hover {background-color: var(--primarydark30);} 
 
 .mobilemenu {padding:0;}
 
