@@ -1024,10 +1024,10 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
 
 a.newslettersign  {
   font-size:1.1rem;
-  font-weight:400;
-  color: var(--primary);
+  font-weight:600;
+  color: var(--black);
 text-decoration: none;
-  border-bottom: 3px dotted var(--black);
+  border-bottom: 3px solid var(--black);
   transition: all var(--transitionquick) ease-in-out;
   padding:0 0.5rem;
   background-color: var(--white);
@@ -1037,9 +1037,9 @@ a.newslettersign:hover {
 color: var(--black);
 text-decoration: none;
 border-bottom: 3px solid var(--black);
+background-color: var(--lightgreen);
 transition: all var(--transitionquick) ease-in-out;
 padding:0 0.5rem;
-  background-color: var(--primarydark30);
 }
 
  a.tradelogin  {
@@ -1056,7 +1056,7 @@ a.tradelogin:hover {
 color: var(--black);
 text-decoration: none;
 border-bottom: 3px solid var(--black);
-background-color: var(--lightgreen);
+background-color: var(--primarydark30);
 transition: all var(--transitionquick) ease-in-out;
 padding:0 0.5rem;
 } 
