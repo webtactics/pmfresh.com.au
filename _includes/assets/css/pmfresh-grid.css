@@ -3077,7 +3077,7 @@ ul  li.taggs a:hover, ul  li.taggs  a:focus {
 /* Contact Form */
 form {
   display: grid;
-	padding: 2em 0;
+	padding: 2em 0 0 0;
 }
 
 form label {
