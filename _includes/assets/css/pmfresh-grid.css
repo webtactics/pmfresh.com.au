@@ -1024,7 +1024,7 @@ ul.infobox li, ul.infoboxmobile li, ul.infoboxfooter li {
 
 a.newslettersign  {
   font-size:1.1rem;
-  font-weight:600;
+  font-weight:400;
   color: var(--black);
 text-decoration: none;
   border-bottom: 3px solid var(--black);
