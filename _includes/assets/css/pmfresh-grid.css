@@ -1660,7 +1660,7 @@ white-space: wrap;
 .padtop3rem {padding-top: 3rem;}
 
 .linkwrapper  {padding: 2rem 0;}
-.home .linkwrapper  {padding: 5rem 0 2rem 0;}
+.home .linkwrapper  {padding: 4rem 0 2rem 0;}
 
 .white {color: var(--white);}
 .red {color: var(--red);}
