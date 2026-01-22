@@ -1,6 +1,6 @@
 ---
 layout: layouts/grid-contact.njk
-title: Say Hello
+title: Thanks for joining us!
 subtitle: Thank you for contacting us!
 date: 2025-11-20
 
