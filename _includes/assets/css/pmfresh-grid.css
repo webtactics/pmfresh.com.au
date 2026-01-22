@@ -1667,8 +1667,6 @@ white-space: wrap;
 .black {color: var(--black);}
 .lightgrey {color: var(--lightgrey);}
 
-
-
 .close, .closed {
         text-align: right;
         text-decoration: none;
