@@ -2175,7 +2175,7 @@ a.resultspdf {
   text-decoration-style: dotted;
   text-decoration-color: var(--primary);
   text-underline-offset: 1.6rem;
-  transition: background-color .6s,text-decoration-color .6s;
+  transition: background-color .6s,text-decoration-color .6s, text-decoration-offset .6s;
 }
 
 @media (max-width: 1024px) { 
@@ -2191,7 +2191,7 @@ a.resultspdf {
   text-decoration-style: dotted;
   text-decoration-color: var(--primary);
   text-underline-offset: 2rem;
-  transition: background-color .6s,text-decoration-color .6s;
+ transition: background-color .6s,text-decoration-color .6s, text-decoration-offset .6s;
 }
 }
 
@@ -2202,8 +2202,8 @@ a.resultspdf:hover {
   text-decoration-thickness: 0.4rem;
   text-decoration-style: solid;
   text-decoration-color: var(--black);
-  text-underline-offset: 1rem;
-  transition: background-color .6s,text-decoration-color .6s;
+  text-underline-offset: 2rem;
+  transition: background-color .6s,text-decoration-color .6s, text-decoration-offset .6s;
 }
 
 
