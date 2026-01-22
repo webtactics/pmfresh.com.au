@@ -2182,7 +2182,7 @@ a.resultspdf {
 
 a.resultspdf {
   color: var(--white);
-  background: var(--black);
+  background-color: var(--black);
   font-size: var(--h3summobile);
   border: none;
   padding: .25rem 0.5rem;
@@ -2196,10 +2196,10 @@ a.resultspdf {
 }
 
 a.resultspdf:hover {
-background: var(--primary);
-  background: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
-  background: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
-  background: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
+background-color: var(--primary);
+ background-color: -moz-linear-gradient(left, var(--primary) 0%, var(--primaryright) 100%);
+  background-color: -webkit-linear-gradient(left, var(--primary) 0%,var(--primaryright) 100%);
+ background-color: linear-gradient(to right, var(--primary) 0%,var(--primaryright) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--primary)', endColorstr='var(--primaryright)',GradientType=1 );
   color: var(--white);
   border: none;
