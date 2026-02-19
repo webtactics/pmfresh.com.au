@@ -1368,7 +1368,7 @@ ul.navbar-menu li ul.second-level li a {
 }
 
 
-  .navbar ul.navbar-menu li  ul.second-level li.active-class a {
+  .navbar ul.navbar-menu li  ul.second-level li.active-class a, .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1386,16 +1386,7 @@ ul.navbar-menu li ul.second-level li a {
   background: var(--white);
   }
 
-  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
-    display: block;
-    border-bottom: 1px solid var(--lightgrey);
-    color: var(--white);
-    background-color: var(--primary);
-    text-align: left;
-    text-decoration: none;
-    text-transform:uppercase;
-    transition: background 300ms ease;
-  }
+
 
   @media (max-width: 1300px) {
 ul.second-level {
