@@ -1,13 +1,18 @@
 <nav class="childlist">
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
-<li{% if entry.url == page.url %} class="active-class"{% endif %}>
-<a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
+{% set hasActiveChild = false %}
+{% for child in entry.children %}
+  {% if child.url == page.url %}{% set hasActiveChild = true %}{% endif %}
+{% endfor %}
+<li{% if entry.url == page.url %} class="active-class"{% elif hasActiveChild %} class="active-class"{% endif %}>
+<a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
+
 
 
 
     {% if entry.children.length %}
-      <ul class="second-level">
+       <ul class='second-level'>
         {% for child in entry.children %}
           {{ renderNavListItem(child) }}
         {% endfor %}
@@ -15,7 +20,12 @@
     {% endif %}
   </li>
   {%- endmacro %}
+
+
+
 <ul class='navbar-menu'>
 {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+
+
 </ul>
 </nav>
